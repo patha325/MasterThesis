@@ -9,6 +9,7 @@ https://cds.cern.ch/record/1483523/files/ATL-COM-UPGRADE-2012-032.pdf
 Performance inputs to the 2012 European Strategy studies.7/10-12
 Motivation to why smearing is used. Smearing due to detector effects,(energy resolution) expected results for electron, tauon.
 
+VALIDATION::
 http://cds.cern.ch/record/1604420/
 Performance assumptions based on full simulation of an upgraded ATLAS detector at a High-Luminosity LHC. 30/9-13
 Some explination of how Emiss is calculated, where pile-up comes from.
@@ -21,9 +22,25 @@ Some explination of how Emiss is calculated, where pile-up comes from.
       month         = "Sep",
       year          = "2013",
 }
+Some comments to the muons, else the same as above. 
+http://cds.cern.ch/record/1604420/files/ATL-PHYS-PUB-2013-009.pdf
+@techreport{ATL-PHYS-PUB-2013-009,
+      title         = "{Performance assumptions based on full simulation for an
+                       upgraded ATLAS detector at a High-Luminosity LHC}",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-PHYS-PUB-2013-009",
+      month         = "Sep",
+      year          = "2013",
+}
+
+
+
+
+
 
 https://cds.cern.ch/record/1633407
-Intressting since it explaines where the data comes from.
+Intresting since it explaines where the data comes from.
 @techreport{Amoroso:1633407,
       author        = "Amoroso, S and Caron, S and Herten, G",
       title         = "{A general search for new phenomena with the ATLAS
