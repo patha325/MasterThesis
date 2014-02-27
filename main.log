@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  26 FEB 2014 16:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  27 FEB 2014 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2019,16 +2019,24 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 \newpage
-              [2] [3] [4]) [5]
+              [2] [3] [4]
+<figures/created/particle_collider.jpg, id=344, 1244.65pt x 643.40375pt>
+File: figures/created/particle_collider.jpg Graphic file (type jpg)
+
+<use figures/created/particle_collider.jpg>
+Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
+ne 105.
+(pdftex.def)             Requested size: 311.16173pt x 160.85054pt.
+ [5 <./figures/created/particle_collider.jpg>]) [6]
 \openout2 = `method.aux'.
 
- (./method.tex [6
-
-
-
-]
+ (./method.tex
 Chapter 2.
-[7] [8]) [9]
+[7
+
+
+
+] [8]) [9]
 \openout2 = `results.aux'.
 
  (./results.tex [10
@@ -2037,116 +2045,43 @@ Chapter 2.
 
 ]
 Chapter 3.
-[11] <figures/default/clocks.pdf, id=379, page=1, 128.0374pt x 128.0374pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 1>
-Package pdftex.def Info: figures/default/clocks.pdf, page1 used on input line 1
-5.
-(pdftex.def)             Requested size: 128.03706pt x 128.03706pt.
-
-<figures/default/clocks.pdf, id=380, page=2, 128.0374pt x 128.0374pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 2>
-Package pdftex.def Info: figures/default/clocks.pdf, page2 used on input line 1
-7.
-(pdftex.def)             Requested size: 128.03706pt x 128.03706pt.
-
-Underfull \hbox (badness 4479) in paragraph at lines 17--17
-[]\T1/jkpk/b/sl/9 (b) |[][]\T1/jkpk/m/sl/9 Kiosken stänger snart,
- []
-
-<figures/default/clocks.pdf, id=381, page=3, 128.0374pt x 128.0374pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 3>
-Package pdftex.def Info: figures/default/clocks.pdf, page3 used on input line 1
-9.
-(pdftex.def)             Requested size: 128.03706pt x 128.03706pt.
-
-<figures/default/clocks.pdf, id=382, page=4, 128.0374pt x 128.0374pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 4>
-Package pdftex.def Info: figures/default/clocks.pdf, page4 used on input line 2
-1.
-(pdftex.def)             Requested size: 128.03706pt x 128.03706pt.
-
-<figures/default/clocks.pdf, id=385, page=5, 105.80467pt x 89.37326pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 5>
-Package pdftex.def Info: figures/default/clocks.pdf, page5 used on input line 2
-8.
-(pdftex.def)             Requested size: 105.8044pt x 89.37303pt.
-
-<figures/default/clocks.pdf, id=386, page=6, 89.37326pt x 103.47682pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 6>
-Package pdftex.def Info: figures/default/clocks.pdf, page6 used on input line 3
-0.
-(pdftex.def)             Requested size: 89.37303pt x 103.47656pt.
-
-<figures/default/clocks.pdf, id=387, page=7, 89.37326pt x 108.70534pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 7>
-Package pdftex.def Info: figures/default/clocks.pdf, page7 used on input line 3
-2.
-(pdftex.def)             Requested size: 89.37303pt x 108.70506pt.
-
-<figures/default/clocks.pdf, id=388, page=8, 89.37326pt x 107.46289pt>
-File: figures/default/clocks.pdf Graphic file (type pdf)
-
-<use figures/default/clocks.pdf, page 8>
-Package pdftex.def Info: figures/default/clocks.pdf, page8 used on input line 3
-4.
-(pdftex.def)             Requested size: 89.37303pt x 107.46262pt.
- [12] [13 <./figures/default/clocks.pdf> <./figures/default/clocks.pdf> <./figu
-res/default/clocks.pdf> <./figures/default/clocks.pdf>] [14 <./figures/default/
-clocks.pdf> <./figures/default/clocks.pdf> <./figures/default/clocks.pdf> <./fi
-gures/default/clocks.pdf>]) [15
-
-]
+) [11]
 \openout2 = `discussion.aux'.
 
-
-(./discussion.tex [16
+ (./discussion.tex [12
 
 
 
 ]
 Chapter 4.
-) [17]
+) [13]
 \openout2 = `conclusions.aux'.
 
- (./conclusions.tex [18
+ (./conclusions.tex [14
 
 
 
 ]
 Chapter 5.
-) [19] [20
+) [15] [16
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 52.
- [21] [22] (./main.bbl (./main.brf)
+ [17] [18] (./main.bbl (./main.brf)
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
 )
 No file main.ind.
-[23
+[19
 
 
-] [24
+] [20
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=464, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=436, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2159,7 +2094,7 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 63--63
 doc-u-ment in-tegrity, please
  []
 
-[25 <./figures/default/LinkUniv_staende_pms.pdf>]
+[21 <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (./main.aux (./tack.aux)
@@ -2167,43 +2102,60 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
 (./discussion.aux) (./conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF02E050EC9D5172C1F95EF78D3BD4BB;3397.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 8C802C65926885E2D3181EE41CB1AB58;3398
+(rerunfilecheck)             After:  6FC855FCA21F8E21FA38CDC0A5D52A2C;3262.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 45B48935A48E4A3AD9400D520D4C6EA9;210.
+(rerunfilecheck)             Checksum: 76B91A60B4BB814C2081AF55CE484031;320.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13759 strings out of 495031
- 198445 string characters out of 6181531
- 316384 words of memory out of 5000000
- 16400 multiletter control sequences out of 15000+600000
- 234365 words of font info for 177 fonts, out of 8000000 for 9000
+ 13741 strings out of 495031
+ 197832 string characters out of 6181531
+ 316721 words of memory out of 5000000
+ 16387 multiletter control sequences out of 15000+600000
+ 223956 words of font info for 175 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,12n,87p,683b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfont
-s/kpfonts-large-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/kpfont
-s/jkpbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/kpfonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/kpfonts/jkpmit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kp
-fonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
-mn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/helvetic/uhvb8a.pfb>
-Output written on main.pdf (39 pages, 224438 bytes).
+ 45i,12n,77p,678b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{
+appendix*.10} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.3.A} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/kpfonts/kpfonts-large-sc.enc}</usr/share/texlive/texmf-di
+st/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/kpfonts/jkpbne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfont
+s/jkpbsc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpex.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpkmsc.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kp
+fonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsy
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (35 pages, 704932 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
- 102 named destinations out of 1000 (max. 500000)
- 18880 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 18845 words of extra memory for PDF output out of 20736 (max. 10000000)
 

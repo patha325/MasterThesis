@@ -1,5 +1,5 @@
 \chapter{Introduction}\label{cha:intro}
-Discrepancies in measurements of the rotations of galaxies indicate the presence of a large amount of matter which interacts through gravity, though not electromagnetically making it invisible. This matter is commonly referred to as dark matter. Since no known or hypothesised particle in the standard model of particle physics can be used as a candidate for dark matter, this has opened the door for new physics. Aside form this there are other phenomena that can not be explained today. The proposed model to correct these discrepancies is known as Supersymmetry (SUSY).  
+Discrepancies in measurements of the rotations of galaxies indicate the presence of a large amount of matter which interacts through gravity, though not electromagnetically making it invisible. This matter is commonly referred to as dark matter. Since no known or hypothesised particle in the standard model of particle physics can be used as a candidate for dark matter, this has opened the door for new physics. Aside form this there are other phenomena that can not be explained today. One of the proposed models to correct these discrepancies is known as Supersymmetry (SUSY).  
 
 
 In this chapter an introduction to both the theoretical and experimental details are given. 
@@ -57,7 +57,28 @@ Minimal Supersymmetric Standard Model
 Supersymmetry: Every boson has a supersymmetrical fermion, and the reverse.
 \subsection{Dark matter: Concept}
 \subsection{Dark matter: Candidates}
-Wimps are a candidate for Dark matter.
+Weakly interacting massive particles (Wimps) are a candidate to explain Dark matter, it is this candidate which is considered in this thesis.
+In addition the condition that the WIMPS are Dirac fermions (fermions which are not their own antiparticle) is implied.
+
+In \ref{tab:operators} the operators which are integrated out via the effective field theory and are of interest itn theis thesis are given.
+\renewcommand{\arraystretch}{1.5} %Change height of tabel
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ | l | l | l | l |}
+    \hline
+    Name & Initial state & Type & Operator \\ \hline
+  	D1 & qq & scalar & $\frac{m_q}{M^3_*} \bar{\chi} \chi \bar{q} q$ \\ \hline
+  	D5 & qq & vector & $\frac{1}{M^2_*} \bar{\chi} \gamma^\mu \chi \bar{q} \gamma_\mu q$ \\ \hline
+  	D8 & qq & axial-vector & $\frac{1}{M^2_*}\bar{\chi}\gamma^\mu \gamma^5 \chi \bar{q} \gamma_\mu \gamma^5 q $ \\ \hline
+  	D9 & qq & tensor & $\frac{1}{M^2_*} \bar{\chi}\sigma^{\mu \nu} \chi \bar{q} \sigma_{\mu \nu} q  $\\ \hline
+  	D11 & gg & scalar & $\frac{1}{4M^3_*}\bar{\chi}\chi \alpha_s (G^a_{\mu \nu})^2 $\\ \hline
+  	\end{tabular}
+
+  	\caption{From \citep{CERN-PH-EP-2012-210}}
+  	\label{tab:operators}
+  	  	\end{center}
+    \end{table}
+\renewcommand{\arraystretch}{1.0}  %Back to default
 \subsection{Search for WIMPS}
 Since the search for WIMPS at the LHC is based on looking at $E_T^{Miss}$ it will be canonical though the experiment can no establish if a WIMP is stable on a cosmological time scale and thus if it is a Dark matter candidate \citep{CERN-PH-EP-2012-210}
 
@@ -77,6 +98,18 @@ Somewhere here explain how the radial coordinate system is defined.
 \subsection{LHC}
 \subsection{ATLAS}
 \subsection{Coordinate system}
+Something something
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.25]{particle_collider.jpg}
+\label{fig:coordinatesystem}
+\caption{Figure showing the ATLAS detector and the definition of the coordinate system. Image altered from original taken from\citep{coordimage}}
+\end{center}
+\end{figure}
+
+
+
 \subsection{Commonly used four-vectors}
 \subsection{Calorimeter}
 \subsection{Jet and missing energy}
@@ -92,8 +125,10 @@ I am looking at the upgrade which will be done at CERN and will be completed aro
   	Pile-up & $\obs{\mu}=200$ & $\obs{\mu}=20.7$ \\ \hline
   	Center of mass energy & $\sqrt{s}=14$ TeV &  $\sqrt{s}=8$ TeV \\ \hline
   	\end{tabular}
-  	\end{center}
+  	
   	\caption{Expected running values for the Phase II HL-upgraded LHC with older values for comparison. REFERENCE?}
+  	\label{tab:expectvalues}
+  	\end{center}
     \end{table}
 Taken from "a short explanation of different terminology by me" Find a cern source.
 Assumed effects, timespan when will it be done?

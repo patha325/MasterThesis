@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,9 @@ ATLAS Collaboration.
 \newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
   CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
 \newblock URL \url{http://cds.cern.ch/record/1485031}.
+
+\bibitem[coo()]{coordimage}
+URL \url{http://cds.cern.ch/record/1095924}.
 
 \bibitem[{ATLAS Collaboration}(2013)]{ATL-PHYS-PUB-2013-004}
 {ATLAS Collaboration}.
