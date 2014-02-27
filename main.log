@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  27 FEB 2014 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  27 FEB 2014 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 17 languages loaded.
 (./rtthesis.cls
 Document Class: rtthesis 2011/12/05 rtthesis Class v. 0.51
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -98,7 +98,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1112,13 +1112,13 @@ is class
    defining Unicode char U+C5A1 (decimal 50593)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+Package: babel 2013/12/03 3.9h The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count140
 \U@D=\dimen136
 )
@@ -1195,7 +1195,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \backup@length=\skip112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
-Package: ctable 2013/06/15 v1.26 ctable package for \ flexible typesetting of t
+Package: ctable 2013/12/19 v1.27 ctable package for \ flexible typesetting of t
 able and figure floats using key/value directives
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -1952,7 +1952,13 @@ l.35 \end{abstract}
 ]
 \openout2 = `tack.aux'.
 
- (./tack.tex [5
+ (./tack.tex
+Overfull \hbox (2.47145pt too wide) in paragraph at lines 2--8
+\T1/jkpk/m/n/10 A big thank you to my fam-ily, fi-ancée and friends who have su
+p-ported me through-
+ []
+
+[5
 
 
 ] [6
@@ -1971,13 +1977,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [8]
 \openout2 = `notation.aux'.
 
-
-(./notation.tex
+ (./notation.tex
 LaTeX Font Info:    Try loading font information for T1+jkp on input line 10.
- (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkp.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
-)
-[9
+) [9
 
 
 
@@ -1986,7 +1991,8 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ])
 \openout2 = `introduction.aux'.
 
- (./introduction.tex
+
+(./introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 40.54503pt on input line 1.
@@ -2110,12 +2116,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13730 strings out of 495031
- 197587 string characters out of 6181531
- 315280 words of memory out of 5000000
- 16377 multiletter control sequences out of 15000+600000
+ 13742 strings out of 494655
+ 197794 string characters out of 6172492
+ 316620 words of memory out of 5000000
+ 16533 multiletter control sequences out of 15000+600000
  223956 words of font info for 175 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 135 hyphenation exceptions out of 8191
  45i,12n,77p,616b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
@@ -2134,7 +2140,7 @@ mn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><
 texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (35 pages, 706658 bytes).
+Output written on main.pdf (35 pages, 706660 bytes).
 PDF statistics:
  516 PDF objects out of 1000 (max. 8388607)
  453 compressed objects within 5 object streams
