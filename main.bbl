@@ -1,0 +1,29 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Collaboration(2012)]{CERN-PH-EP-2012-210}
+ATLAS Collaboration.
+\newblock Search for dark matter candidates and large extra dimensions in
+  events with a jet and missing transverse momentum with the atlas detector.
+\newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
+  CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
+\newblock URL \url{http://cds.cern.ch/record/1485031}.
+
+\bibitem[{ATLAS Collaboration}(2013)]{ATL-PHYS-PUB-2013-004}
+{ATLAS Collaboration}.
+\newblock {Performance assumptions for an upgraded ATLAS detector at a
+  High-Luminosity LHC}.
+\newblock Mar 2013.
+\newblock URL \url{https://cds.cern.ch/record/1527529/}.
+
+\bibitem[Duck(2005)]{Duck:2005}
+Donald Duck.
+\newblock The history of automatic control.
+\newblock \emph{Duckburg Journal of Science}, 106\penalty0 (3):\penalty0
+  345--401, 2005.
+
+\end{thebibliography}

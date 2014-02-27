@@ -1,0 +1,78 @@
+\setupThesis{
+  author={Sven-Patrik Hallsjö},
+  title={Search for Dark Matter in the Upgraded High Luminosity LHC at CERN},
+  subtitle={Impact of ATLAS phase II performance on a mono-jet analysis},
+  swetitle={Sökandet efter mörk materia i den uppgraderade hög luminositets LHC i CERN},
+  swesubtitle={Påverkan av ATLAS fas II prestanda på en mono-jet analys},
+  year=2014,
+  month=5,
+  day=27,
+  type=msc,
+  subject={Ditten},
+  site={Stockholms universitet},
+  division={Theoretical physics group},
+  department=ifm,
+  examiner={Professor Magnus Johansson \AT \textsc{ifm}, Linköpings universitet},
+  supervisor={Docent Christophe Clément \AT \textsc{fysikum} Stockholms universitet \AND Professor Magnus Johansson \AT \textsc{ifm}, Linköpings universitet},
+  keywords={ATLAS,  Beyond standard model physics, CERN, Dark matter, SUSY, something, this is in mythesis.sty},
+  isrn=LiTH-IFM-EX-{}-YY/NNNN-{}-SE,
+  url={http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-XXXXX},
+  dedication={}
+}
+
+%%% Define the abstract that goes on the library page here.  This makes it easy to get the same text in two places.
+\newcommand{\myabstract}{%
+}
+
+%%% Since macros that define notation may be useful also to produce figures, these macros are kept in a separate file.
+\RequirePackage{mynotation}
+
+
+%%% Setup for natbib (natbib is loaded by rtthesis).
+\AtBeginDocument{%
+  %\bibliographystyle{plainnat}%
+  \bibliographystyle{unsrtnat}%
+ }
+
+
+%%% Tell \includegraphics where to search for files.
+\graphicspath{{fig/}}
+
+
+%%% For consistent formatting of lengths and other physical quantities.
+%\RequirePackage[squaren]{SIunits}
+
+
+%%% Define command for playing around with margin paragraphs.
+\definecolor{Warning}{rgb}{1.0,0.5,0.0}
+\newcommand{\Warning}[2][Warning]{\marginpar{\fcolorbox{Warning}{white}{\begin{minipage}{\linewidth}\textbf{\textcolor{Warning}{\emph{#1:}}}\par \tiny \sf #2\end{minipage}}}}
+
+
+%%% Customize captions.
+\captionsetup[table]{position=bottom}% Some say that this should be 'top'.  This overrides the default of rtthesis.cls!
+
+
+%%% Define font size command to use for all verbatim environments.
+\newcommand{\verbatimsize}{\small}
+
+
+%%% Define some convenient referencing commands.
+\newcommand{\chapterref}[1]{\hyperref[#1]{kapitel~\ref*{#1}}}
+\newcommand{\Chapterref}[1]{\hyperref[#1]{Kapitel~\ref*{#1}}}
+
+\newcommand{\sectionref}[1]{\hyperref[#1]{avsnitt~\ref*{#1}}}
+\newcommand{\Sectionref}[1]{\hyperref[#1]{Avsnitt~\ref*{#1}}}
+
+\newcommand{\theoremref}[1]{\hyperref[#1]{teorem~\ref*{#1}}}
+\newcommand{\Theoremref}[1]{\hyperref[#1]{Teorem~\ref*{#1}}}
+
+\newcommand{\exampleref}[1]{\hyperref[#1]{exempel~\ref*{#1}}}
+\newcommand{\Exampleref}[1]{\hyperref[#1]{Exempel~\ref*{#1}}}
+
+\newcommand{\figureref}[1]{\hyperref[#1]{figur~\ref*{#1}}}
+\newcommand{\Figureref}[1]{\hyperref[#1]{Figur~\ref*{#1}}}
+
+\newcommand{\tableref}[1]{\hyperref[#1]{tabell~\ref*{#1}}}
+\newcommand{\Tableref}[1]{\hyperref[#1]{Tabell~\ref*{#1}}}
+
+\newcommand{\pagepageref}[1]{\hyperref[#1]{sida~\pageref*{#1}}}
