@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,8 +13,19 @@ ATLAS Collaboration.
   CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
 \newblock URL \url{http://cds.cern.ch/record/1485031}.
 
-\bibitem[coo()]{coordimage}
-URL \url{http://cds.cern.ch/record/1095924}.
+\bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
+  {Tait}, and {Yu}]{82.116010}
+J.~{Goodman}, M.~{Ibe}, A.~{Rajaraman}, W.~{Shepherd}, T.~M.~P. {Tait}, and
+  H.-B. {Yu}.
+\newblock {Constraints on dark matter from colliders}.
+\newblock \emph{Phys.Rev.D82:116010,2010}, 82\penalty0 (11):\penalty0 116010,
+  December 2010.
+\newblock \doi{10.1103/PhysRevD.82.116010}.
+
+\bibitem[Pequenao(2008)]{coordimage}
+Joao Pequenao.
+\newblock {Computer generated image of the whole ATLAS detector}, Mar 2008.
+\newblock URL \url{http://cds.cern.ch/record/1095924}.
 
 \bibitem[{ATLAS Collaboration}(2013)]{ATL-PHYS-PUB-2013-004}
 {ATLAS Collaboration}.
