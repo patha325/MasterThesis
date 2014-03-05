@@ -1,17 +1,26 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Collaboration(2012)]{CERN-PH-EP-2012-210}
-ATLAS Collaboration.
-\newblock Search for dark matter candidates and large extra dimensions in
-  events with a jet and missing transverse momentum with the atlas detector.
-\newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
-  CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
-\newblock URL \url{http://cds.cern.ch/record/1485031}.
+\bibitem[Goldstein et~al.(2001)Goldstein, Poole, and Safko]{Goldstein:2001}
+Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
+\newblock \emph{{Classical Mechanics (3rd Edition)}}.
+\newblock Addison-Wesley, 3 edition, June 2001.
+\newblock ISBN 0201657023.
+
+\bibitem[Bransden and Joachain(2000)]{Bransden:2000}
+B.H. Bransden and C.J. Joachain.
+\newblock \emph{Quantum mechanics}.
+\newblock Pearson Education, second edition, 2000.
+
+\bibitem[Zee(2003)]{Zee:2003}
+A.~Zee.
+\newblock \emph{{Quantum Field Theory in a Nutshell}}.
+\newblock Princeton University Press, illustrated edition edition, March 2003.
+\newblock ISBN 0691010196.
 
 \bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
   {Tait}, and {Yu}]{82.116010}
@@ -21,6 +30,20 @@ J.~{Goodman}, M.~{Ibe}, A.~{Rajaraman}, W.~{Shepherd}, T.~M.~P. {Tait}, and
 \newblock \emph{Phys.Rev.D82:116010,2010}, 82\penalty0 (11):\penalty0 116010,
   December 2010.
 \newblock \doi{10.1103/PhysRevD.82.116010}.
+
+\bibitem[{Martin}(1998)]{Martin:1998}
+S.~P. {Martin}.
+\newblock {A Supersymmetry Primer}.
+\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry},
+  page~1, 1998.
+
+\bibitem[Collaboration(2012)]{CERN-PH-EP-2012-210}
+ATLAS Collaboration.
+\newblock Search for dark matter candidates and large extra dimensions in
+  events with a jet and missing transverse momentum with the atlas detector.
+\newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
+  CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
+\newblock URL \url{http://cds.cern.ch/record/1485031}.
 
 \bibitem[Pequenao(2008)]{coordimage}
 Joao Pequenao.
