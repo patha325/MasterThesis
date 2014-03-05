@@ -1,15 +1,9 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Goldstein et~al.(2001)Goldstein, Poole, and Safko]{Goldstein:2001}
-Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
-\newblock \emph{{Classical Mechanics (3rd Edition)}}.
-\newblock Addison-Wesley, 3 edition, June 2001.
-\newblock ISBN 0201657023.
 
 \bibitem[Bransden and Joachain(2000)]{Bransden:2000}
 B.H. Bransden and C.J. Joachain.
@@ -21,6 +15,12 @@ A.~Zee.
 \newblock \emph{{Quantum Field Theory in a Nutshell}}.
 \newblock Princeton University Press, illustrated edition edition, March 2003.
 \newblock ISBN 0691010196.
+
+\bibitem[Goldstein et~al.(2001)Goldstein, Poole, and Safko]{Goldstein:2001}
+Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
+\newblock \emph{{Classical Mechanics (3rd Edition)}}.
+\newblock Addison-Wesley, 3 edition, June 2001.
+\newblock ISBN 0201657023.
 
 \bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
   {Tait}, and {Yu}]{82.116010}
@@ -34,8 +34,8 @@ J.~{Goodman}, M.~{Ibe}, A.~{Rajaraman}, W.~{Shepherd}, T.~M.~P. {Tait}, and
 \bibitem[{Martin}(1998)]{Martin:1998}
 S.~P. {Martin}.
 \newblock {A Supersymmetry Primer}.
-\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry},
-  page~1, 1998.
+\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry}, number
+  arXiv:hep-ph/9709356v6, page~1, 1998.
 
 \bibitem[Collaboration(2012)]{CERN-PH-EP-2012-210}
 ATLAS Collaboration.
@@ -44,6 +44,11 @@ ATLAS Collaboration.
 \newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
   CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
 \newblock URL \url{http://cds.cern.ch/record/1485031}.
+
+\bibitem[Team(1999)]{lhcimage}
+AC~Team.
+\newblock {The four main LHC experiments}, Jun 1999.
+\newblock URL \url{http://cds.cern.ch/record/40525}.
 
 \bibitem[Pequenao(2008)]{coordimage}
 Joao Pequenao.

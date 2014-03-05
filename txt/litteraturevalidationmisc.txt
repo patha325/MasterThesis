@@ -115,87 +115,9 @@ https://cds.cern.ch/record/1527529?ln=en
       year          = "2013",
 }
 
-very interesting: http://cds.cern.ch/record/1548310/
-@phdthesis{Khoo:1548310,
-      author        = "Khoo, Teng Jian and Lester, C G",
-      title         = "{The hunting of the squark: Experimental strategies in the
-                       search for supersymmetry at the Large Hadron Collider}",
-      school        = "Cambridge U., Cambridge, UK",
-      month         = "Jan",
-      year          = "2013",
-      note          = "Presented 07 Mar 2013",
-}
 
-valerios thesis: https://cds.cern.ch/record/1566121
-@phdthesis{Rossetti:1566121,
-      author        = "Rossetti, Valerio and Martinez Perez, Mario",
-      title         = "{Search for new phenomena in events with one energetic jet
-                       and large missing transverse momentum in proton-proton
-                       collisions at $\sqrt{s}$=7 TeV and 8 TeV with the ATLAS
-                       detector}",
-      school        = "Barcelona, Autonoma U.",
-      month         = "May",
-      year          = "2013",
-      note          = "Presented 05 Jul 2013",
-}
 
-Describes all about dark matter, and why we are looking at atlas after it.
-EFFECTIVE FIELD THEORY!
-http://cds.cern.ch/record/1602586
-@article{Pearce:1602586,
-      author        = "Pearce, JD",
-      title         = "{“Dark matter searches” with a focus on new techniques
-                       (Mono-X)}",
-      month         = "Sep",
-      year          = "2013",
-}
 
-As above: 
-http://cds.cern.ch/record/1628960/
-@article{Martinez:1628960,
-      author        = "Martinez, M",
-      title         = "{Mono-X Searches at CMS and ATLAS}",
-      month         = "Nov",
-      year          = "2013",
-}
-
-http://cds.cern.ch/record/1632451/
-@article{McKee:1632451,
-      author        = "McKee, S",
-      title         = "{Searches for dark matter and extra dimensions with the
-                       ATLAS detector}",
-      month         = "Dec",
-      year          = "2013",
-}
-
-http://cds.cern.ch/record/1604865/
-@techreport{Diehl:1604865,
-      author        = "Diehl, E",
-      title         = "{The Search for Dark Matter with the ATLAS Detector}",
-      institution   = "CERN",
-      address       = "Geneva",
-      number        = "ATL-PHYS-PROC-2013-251",
-      month         = "Oct",
-      year          = "2013",
-}
-
-http://cds.cern.ch/record/1602452/
-@article{Zhuang:1602452,
-      author        = "Zhuang, X",
-      title         = "{DM searches at LHC with a focus on conventional
-                       candidates and techniques (e.g. SUSY). (ATLAS+CMS)}",
-      month         = "Sep",
-      year          = "2013",
-}
-
-http://cds.cern.ch/record/1641422/
-@article{Mueller:1641422,
-      author        = "Mueller, T",
-      title         = "{Searches for dark matter and extra dimensions with the
-                       ATLAS detector}",
-      month         = "Jan",
-      year          = "2014",
-}
 
 Lite om HL-Up
 http://cds.cern.ch/record/1643467/

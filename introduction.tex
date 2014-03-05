@@ -1,9 +1,9 @@
 \chapter{Introduction}\label{cha:intro}
 Discrepancies in measurements of the rotations of galaxies indicate the presence of a large amount of matter which interacts through gravity, though not electromagnetically making it invisible to our telescopes. This matter is commonly referred to as dark matter. Since no known or hypothesised particle in the standard model of particle physics can be used as a candidate for dark matter, this has opened the door for new physics. Aside from dark matter there are other phenomena, such as the neutrino mass and the hierarchy problem, that can not be explained today. One of the proposed models to correct these discrepancies is known as Supersymmetry (\abbrSUSY).  
 
-At CERN the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called \abbrWIMPS (Weakly interacting massive particles) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed \textbf{decay products} and inconsistencies in momentum conservation it is hoped that signs will be found. Tough as of \today\ none have been found. 
+At the Organisation européene pour la recherche nucléaire (\abbrCERN) the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called weakly interacting massive particles (\abbrWIMPS) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed \textbf{decay products} and inconsistencies in momentum conservation it is hoped that signs will be found. Tough as of \today\ none have been found. 
 
-When things can not be found one excludes them from an energy level? To be able to find signs CERN wishes to upgrade the \abbrLHC. 
+When things can not be found one excludes them from an energy level? To be able to find signs \abbrCERN wishes to upgrade the \abbrLHC. 
 
 I have been looking at \abbrATLAS.
 
@@ -38,6 +38,9 @@ Combining \abbrQM with classical electromagnetism proved harder than expected, c
 Also, trying to incorporate special relativity into \abbrQM suggested a field description. (Metric description and bending of gravitational fields).
 The culmination of both of these problems is Quantum electrodynamics (\abbrQED)which with incredible precision explains electromagnetic phenomena including effects from special relativity.\citep{Zee:2003}
 
+
+Something something Lagrangian of these processes something something can be simply viewed through Feynman diagrams.
+Explain four-vectors quickly.
 Somehow end up with Feynman diagrams.
 
 Also mention special rel + qm expects and now proven antimatter.
@@ -48,9 +51,16 @@ Theoretical Particle physics comes from Feynman diagrams!
 Dont forget to explain cross-sections from qft.
 
 Find more information in \citep{Goldstein:2001,Bransden:2000, Zee:2003}.
-\subsection{Four-vectors}
 \subsection{Effective field theory}
+In general:
+Feynman diagram with a big circle.
+
+From article:
+
+
 Which one do we use? What parameters have we joined?
+
+
 How does this pertain to the rest?
 info in \citep{82.116010}
 \subsection{Nuclear, particle and subatomic particle physics}
@@ -62,6 +72,8 @@ The discovery of the quark diving of bosons/fermions different generations. Fund
 Something so that a description of particles are in here, end with standard model.
 Content should be enough for the rest of the thesis regarding collisions etc.
 Luminosity!
+
+Explain hadrons...
 
 \subsection{The standard model of particle physics} 
 How and why is there a standard model? give the Lagrangian and refer to all the different interactions that are included. Which then combines \abbrQM with subatomic particle physics.
@@ -127,8 +139,17 @@ How is this detectable at \abbrATLAS? Finish with this. Refer next chapter and t
 \section{Experimental overview}
 What was used in this research and what needs to be explained? Upgrade, pileup etc.
 Somewhere here explain how the radial coordinate system is defined.
-\subsection{\abbrCERN}
 \subsection{\abbrLHC}
+The Large hadron collider (\abbrLHC) is the a particle accelerator located at \abbrCERN near Geneva in Switzerland, see \ref{fig:lhc}. The accelerator was build to explore physics beyond the standard model and to make more accurate measurements measurements of standard model physics. Before it was shut down for an upgrade in 2012 it was able to accelerate two protons to such a velocity that they had an energy of 6 TeV which give s a center of mass energy of 12 TeV. \textbf{Check facts}. This first upgrade which is scheduled to be completed in 2015 will \textbf{reference!}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{lhc.jpeg}
+\caption{Figure showing the \abbrLHC and the different detectors\citep{lhcimage}}
+\label{fig:lhc}
+\end{center}
+\end{figure}
+Beside the energy of the protons, the  instantaneous Luminosity is an important beam property. \textbf{Continue here}
+
 \subsection{\abbrATLAS}
 \subsection{Coordinate system}
 Something something
@@ -136,14 +157,25 @@ Something something
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.25]{particle_collider.jpg}
+\caption{Figure showing the \abbrATLAS detector and the definition of the coordinate system. Image altered from\citep{coordimage}}
 \label{fig:coordinatesystem}
-\caption{Figure showing the ATLAS detector and the definition of the coordinate system. Image altered from original taken from\citep{coordimage}}
 \end{center}
 \end{figure}
 
+The coordinate system of ATLAS is a right-handed coordinate system with the x-axis pointing towards the centre of the LHC tunnel, and the z-axis along the tunnel/beam (counter clockwise) seen from above. The y-axis points upward.
+The origin is define as the interaction point.
+A cylindrical coordinate system is also used for the transversal plane. (R,$\phi$,Z).
+For simplicity the pseudorapidity of particles from the primary vertex is defined as:
+\begin{equation}
+\eta = - \ln( \tan\frac{\theta}{2})
+\end{equation}
+where $\theta$ is the polar angle (xz-plane) of the particle direction measured from the positive z-axis. 
+$\eta$ is through this definition invariant under boosts in the z-direction.
 
 
-\subsection{Commonly used four-vectors}
+It is quite common to calculate the distance between particles and jets in the $(\eta,\phi$) plane, $d=\sqrt{\Delta \eta - \Delta \phi}$  
+Found at \url{http://www.hep.lu.se/atlas/thesis/egede/thesis-node39.html}
+
 \subsection{Calorimeter}
 \subsection{Truth and reconstructed data}
 Give a general description.

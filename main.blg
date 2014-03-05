@@ -10,46 +10,47 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: discussion.aux
 A level-1 auxiliary file: conclusions.aux
 Database file #1: myrefs.bib
+Warning--there's a number but no series in Martin:1998
 Warning--empty journal in ATL-PHYS-PUB-2013-004
-You've used 9 entries,
+You've used 10 entries,
             2481 wiz_defined-function locations,
-            627 strings with 5910 characters,
-and the built_in function-call counts, 2997 in all, are:
-= -- 246
-> -- 121
-< -- 8
-+ -- 53
-- -- 35
-* -- 211
-:= -- 489
-add.period$ -- 32
-call.type$ -- 9
-change.case$ -- 18
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 171
-empty$ -- 298
-format.name$ -- 46
-if$ -- 634
+            634 strings with 6016 characters,
+and the built_in function-call counts, 3270 in all, are:
+= -- 270
+> -- 128
+< -- 10
++ -- 57
+- -- 37
+* -- 228
+:= -- 529
+add.period$ -- 35
+call.type$ -- 10
+change.case$ -- 20
+chr.to.int$ -- 10
+cite$ -- 12
+duplicate$ -- 185
+empty$ -- 328
+format.name$ -- 49
+if$ -- 694
 int.to.chr$ -- 1
-int.to.str$ -- 10
+int.to.str$ -- 11
 missing$ -- 11
-newline$ -- 58
-num.names$ -- 29
-pop$ -- 85
+newline$ -- 63
+num.names$ -- 32
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 10
 quote$ -- 0
-skip$ -- 94
+skip$ -- 105
 stack$ -- 0
-substring$ -- 72
-swap$ -- 27
-text.length$ -- 1
+substring$ -- 74
+swap$ -- 31
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
-warning$ -- 1
-while$ -- 23
+type$ -- 61
+warning$ -- 2
+while$ -- 25
 width$ -- 0
-write$ -- 131
-(There was 1 warning)
+write$ -- 144
+(There were 2 warnings)

@@ -1,0 +1,54 @@
+Avoid using the BibTeX entry provided by CDS as it is: CDS presently treats all ATLAS Notes as "Technical Report", this would add an ugly "Tech. Rep." to your bibliographic entry. You use user the BibTeX "Article" class for an ATLAS Note entry, following this example: 
+@Article{ATLAS-CONF-2010-999,
+ author  = "{ATLAS Collaboration}",
+ title   = "{Place your title here}",
+ report  = "ATLAS-CONF-2010-999",
+ url     = "https://cdsweb.cern.ch/record/12345"
+
+CHECK IF THEY ARE PUBLIC!
+
+Similar to what I am doing, 20,3 fb-1. Great signal region.
+
+https://cds.cern.ch/record/1600816?ln=sv
+@article{Aad:1600816,
+      author        = "ATLAS Collaboration"
+      title         = "{Search for dark matter in events with a hadronically
+                       decaying W or Z boson and missing transverse momentum in pp
+                       collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector}",
+      journal       = "Phys. Rev. Lett.",
+      collaboration = "ATLAS Collaboration",
+      number        = "arXiv:1309.4017. CERN-PH-EP-2013-158",
+      volume        = "112",
+      pages         = "041802. 6 p",
+      month         = "Sep",
+      year          = "2013",
+      note          = "Comments: 6 pages plus author list (19 pages total), 6
+                       figures, 1 tables, submitted to Physical Review Letters.
+                       Revision matches published version. All figures including
+                       auxiliary figures are available
+                       http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2012-27/",
+}
+
+very interesting: http://cds.cern.ch/record/1548310/
+@phdthesis{Khoo:1548310,
+      author        = "Khoo, Teng Jian and Lester, C G",
+      title         = "{The hunting of the squark: Experimental strategies in the
+                       search for supersymmetry at the Large Hadron Collider}",
+      school        = "Cambridge U., Cambridge, UK",
+      month         = "Jan",
+      year          = "2013",
+      note          = "Presented 07 Mar 2013",
+}
+
+valerios thesis: https://cds.cern.ch/record/1566121
+@phdthesis{Rossetti:1566121,
+      author        = "Rossetti, Valerio and Martinez Perez, Mario",
+      title         = "{Search for new phenomena in events with one energetic jet
+                       and large missing transverse momentum in proton-proton
+                       collisions at $\sqrt{s}$=7 TeV and 8 TeV with the ATLAS
+                       detector}",
+      school        = "Barcelona, Autonoma U.",
+      month         = "May",
+      year          = "2013",
+      note          = "Presented 05 Jul 2013",
+}

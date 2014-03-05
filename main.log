@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  5 MAR 2014 08:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  5 MAR 2014 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1887,7 +1887,7 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 23.
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-<figures/default/LiTH_staende_eng_sv.pdf, id=192, 260.975pt x 190.7125pt>
+<figures/default/LiTH_staende_eng_sv.pdf, id=180, 260.975pt x 190.7125pt>
 File: figures/default/LiTH_staende_eng_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_staende_eng_sv.pdf>
@@ -1915,7 +1915,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 25--25
 
 ] [2
 
-] <figures/default/LiTH_sigill_sv.pdf, id=216, 124.465pt x 124.465pt>
+] <figures/default/LiTH_sigill_sv.pdf, id=204, 124.465pt x 124.465pt>
 File: figures/default/LiTH_sigill_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_sigill_sv.pdf>
@@ -2025,30 +2025,40 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \newpage
-              [2] [3]
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
- [4]
+              [2] [3] [4]
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 115.
+(Font)              scaled to size 11.39996pt on input line 127.
+ [5]
+<figures/lhc.jpeg, id=337, 781.92125pt x 563.10374pt>
+File: figures/lhc.jpeg Graphic file (type jpg)
+ <use figures/lhc.jpeg>
+Package pdftex.def Info: figures/lhc.jpeg used on input line 146.
+(pdftex.def)             Requested size: 312.76295pt x 225.2375pt.
 
-[5] <figures/created/particle_collider.jpg, id=351, 1244.65pt x 643.40375pt>
+<figures/created/particle_collider.jpg, id=340, 1244.65pt x 643.40375pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
-ne 138.
+ne 159.
 (pdftex.def)             Requested size: 311.16173pt x 160.85054pt.
- [6 <./figures/created/particle_collider.jpg>]) [7]
+ [6 <./figures/lhc.jpeg>]
+Overfull \hbox (11.07867pt too wide) in paragraph at lines 176--178
+\OT1/jkp/m/n/10 (\OML/jkpw/m/it/10 ^^Q; ^^^$\T1/jkpk/m/n/10 ) plane, $\OML/jkpw
+/m/it/10 d \OT1/jkp/m/n/10 = []$ \T1/jkpk/m/n/10 Found at []$\T1/pcr/m/n/10 htt
+p : / / www . hep . lu . se / atlas / thesis /
+ []
+
+[7 <./figures/created/particle_collider.jpg>]) [8]
 \openout2 = `method.aux'.
 
- (./method.tex [8
-
-
-
-]
+ (./method.tex
 Chapter 2.
-[9] [10]) [11]
+[9
+
+
+
+] [10]) [11]
 \openout2 = `results.aux'.
 
  (./results.tex [12
@@ -2085,13 +2095,11 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
-) (./main.ind) [21
+ [21
 
 
-] [22
-
-]
-<figures/default/LinkUniv_staende_pms.pdf, id=452, 260.975pt x 172.645pt>
+]) (./main.ind) [22]
+<figures/default/LinkUniv_staende_pms.pdf, id=451, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2104,7 +2112,9 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 62--62
 doc-u-ment in-tegrity, please
  []
 
-[23 <./figures/default/LinkUniv_staende_pms.pdf>]
+[23
+
+ <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (./main.aux (./tack.aux)
@@ -2113,20 +2123,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F1D4EE3E3BBAE8C67C05587F619D1562;3259.
+(rerunfilecheck)             Checksum: 513200C503A68F286D8015250318D662;3037.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 9B2913C1473B1A31A2E39113E4E63DBE;693.
+(rerunfilecheck)             Checksum: BFD49EC75B3E4B0EED940BDD1C4CEC1A;747.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13801 strings out of 495031
- 198581 string characters out of 6181531
- 315620 words of memory out of 5000000
- 16431 multiletter control sequences out of 15000+600000
- 250831 words of font info for 196 fonts, out of 8000000 for 9000
+ 13817 strings out of 495031
+ 198782 string characters out of 6181531
+ 315808 words of memory out of 5000000
+ 16443 multiletter control sequences out of 15000+600000
+ 251210 words of font info for 197 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,13n,77p,884b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,77p,884b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
 nts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/share/texlive/texmf-dist/fonts
@@ -2138,17 +2148,19 @@ exlive/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/kpfonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpf
-onts/jkpmit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
-mn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (37 pages, 719259 bytes).
+onts/jkpmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmi
+t8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/kpfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
+ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
+fb>
+Output written on main.pdf (37 pages, 904581 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
+ 546 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
  96 named destinations out of 1000 (max. 500000)
- 18829 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 18810 words of extra memory for PDF output out of 20736 (max. 10000000)
 

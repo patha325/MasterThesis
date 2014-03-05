@@ -1,4 +1,0 @@
-ATLAS detector which Joakim is working on.
-
-http://cds.cern.ch/record/1095924
-

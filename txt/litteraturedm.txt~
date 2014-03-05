@@ -1,0 +1,22 @@
+Avoid using the BibTeX entry provided by CDS as it is: CDS presently treats all ATLAS Notes as "Technical Report", this would add an ugly "Tech. Rep." to your bibliographic entry. You use user the BibTeX "Article" class for an ATLAS Note entry, following this example: 
+@Article{ATLAS-CONF-2010-999,
+ author  = "{ATLAS Collaboration}",
+ title   = "{Place your title here}",
+ report  = "ATLAS-CONF-2010-999",
+ url     = "https://cdsweb.cern.ch/record/12345"
+
+CHECK IF THEY ARE PUBLIC!
+
+Explains effective field theory
+
+https://cds.cern.ch/record/1604865?ln=sv
+
+@techreport{Diehl:1604865,
+      author        = "Diehl, E",
+      title         = "{The Search for Dark Matter with the ATLAS Detector}",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-PHYS-PROC-2013-251",
+      month         = "Oct",
+      year          = "2013",
+}
