@@ -21,24 +21,25 @@
 \BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 Coordinate system}{section.1.3}% 21
 \BOOKMARK [2][-]{subsection.1.3.4}{1.3.4 Calorimeter}{section.1.3}% 22
 \BOOKMARK [2][-]{subsection.1.3.5}{1.3.5 Truth and reconstructed data}{section.1.3}% 23
-\BOOKMARK [2][-]{subsection.1.3.6}{1.3.6 Jet and missing energy}{section.1.3}% 24
-\BOOKMARK [2][-]{subsection.1.3.7}{1.3.7 Phase II high luminosity upgrade}{section.1.3}% 25
-\BOOKMARK [0][]{chapter.2}{2 Method}{}% 26
-\BOOKMARK [1][-]{section.2.1}{2.1 Monte Carlo simulation, truth data}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.2}{2.2 ROOT}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.3}{2.3 Validation of smearing functions}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Smearing}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Validation}{section.2.3}% 31
-\BOOKMARK [1][-]{section.2.4}{2.4 Signal to background ratio}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Selection criteria}{section.2.4}% 33
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Figures of merit}{section.2.4}% 34
-\BOOKMARK [1][-]{section.2.5}{2.5 Other selection criteria and observables}{chapter.2}% 35
-\BOOKMARK [1][-]{section.2.6}{2.6 Mitigating the effect}{chapter.2}% 36
-\BOOKMARK [0][]{chapter.3}{3 Results}{}% 37
-\BOOKMARK [1][-]{section.3.1}{3.1 Validation of smearing functions}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.2}{3.2 Signal to background ratio}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.3}{3.3 Mitigating the effect}{chapter.3}% 40
-\BOOKMARK [0][]{chapter.4}{4 Discussion}{}% 41
-\BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 42
-\BOOKMARK [0][]{appendix*.9}{Bibliography}{}% 43
-\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 44
+\BOOKMARK [2][-]{subsection.1.3.6}{1.3.6 Pile-up}{section.1.3}% 24
+\BOOKMARK [2][-]{subsection.1.3.7}{1.3.7 Jet and missing energy}{section.1.3}% 25
+\BOOKMARK [2][-]{subsection.1.3.8}{1.3.8 Phase II high luminosity upgrade}{section.1.3}% 26
+\BOOKMARK [0][]{chapter.2}{2 Method}{}% 27
+\BOOKMARK [1][-]{section.2.1}{2.1 Monte Carlo simulation, truth data}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.2}{2.2 ROOT}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.3}{2.3 Validation of smearing functions}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Smearing}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Validation}{section.2.3}% 32
+\BOOKMARK [1][-]{section.2.4}{2.4 Signal to background ratio}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Selection criteria}{section.2.4}% 34
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Figures of merit}{section.2.4}% 35
+\BOOKMARK [1][-]{section.2.5}{2.5 Other selection criteria and observables}{chapter.2}% 36
+\BOOKMARK [1][-]{section.2.6}{2.6 Mitigating the effect}{chapter.2}% 37
+\BOOKMARK [0][]{chapter.3}{3 Results}{}% 38
+\BOOKMARK [1][-]{section.3.1}{3.1 Validation of smearing functions}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.2}{3.2 Signal to background ratio}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.3}{3.3 Mitigating the effect}{chapter.3}% 41
+\BOOKMARK [0][]{chapter.4}{4 Discussion}{}% 42
+\BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 43
+\BOOKMARK [0][]{appendix*.9}{Bibliography}{}% 44
+\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 45

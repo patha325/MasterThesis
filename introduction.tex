@@ -1,15 +1,12 @@
 \chapter{Introduction}\label{cha:intro}
 Discrepancies in measurements of the rotations of galaxies indicate the presence of a large amount of matter which interacts through gravity, though not electromagnetically making it invisible to our telescopes. This matter is commonly referred to as dark matter. Since no known or hypothesised particle in the standard model of particle physics can be used as a candidate for dark matter, this has opened the door for new physics. Aside from dark matter there are other phenomena, such as the neutrino mass and the hierarchy problem, that can not be explained today. One of the proposed models to correct these discrepancies is known as Supersymmetry (\abbrSUSY).  
 
-At the Organisation européene pour la recherche nucléaire (\abbrCERN) the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called weakly interacting massive particles (\abbrWIMPS) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed \textbf{decay products} and inconsistencies in momentum conservation it is hoped that signs will be found. Tough as of \today\ none have been found. 
+At the Organisation européene pour la recherche nucléaire (\abbrCERN) the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called weakly interacting massive particles (\abbrWIMPS) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed decay channels and inconsistencies in momentum conservation it is hoped that signs will be found. Tough as of \today\ none have been found. 
 
-When things can not be found one excludes them from an energy level? To be able to find signs \abbrCERN wishes to upgrade the \abbrLHC. 
+Both these experiments and current theories now show that higher energies are required at the \abbrLHC to be able to see any signs. This is why the \abbrLHC and all detectors are undergoing a vast upgrading program \textbf{reference!}.
+In this thesis, focus will be on the last part of the upgrade due for completion 2023 known as the high luminosity-\abbrLHC phase II upgrade. Also focus lies only with the \abbrATLAS detector.
 
-I have been looking at \abbrATLAS.
-
-In this chapter an introduction to both the theoretical and experimental details are given. 
-Explain the phase 2 high luminosity upgrade? Or atleast refer to where more is written.
-Why was this topic chosen? What is the purpose of the introduction?
+In this chapter an introduction to both the theoretical and experimental details required to understand the method and results is given. 
 
 \newpage
 \section{Research goals}\label{sec:goals}
@@ -101,7 +98,7 @@ After this the big question arises, what could this dark matter consist of?
 Weakly interacting massive particles (\abbrWIMPS) are a candidate to explain Dark matter, it is this candidate which is considered in this thesis.
 In addition the condition that the WIMPS are Dirac fermions (fermions which are not their own antiparticle) is implied.
 
-In \ref{tab:operators} the operators which are integrated out via the effective field theory and are of interest itn theis thesis are given.
+In \tableref{tab:operators} the operators which are integrated out via the effective field theory and are of interest in this thesis are given.
 \renewcommand{\arraystretch}{1.5} %Change height of tabel
 \begin{table}[H]
 \begin{center}
@@ -127,6 +124,7 @@ Alot here taken from \citep{82.116010}
 \subsection{Search for \abbrWIMPS}
 Since the search for \abbrWIMPS at the \abbrLHC is based on looking at $E_T^{Miss}$ it will be canonical though the experiment can no establish if a \abbrWIMP is stable on a cosmological time scale and thus if it is a Dark matter candidate \citep{CERN-PH-EP-2012-210}
 
+Include SUSY-feynman?
 
 What is it? Why at \abbrCERN/\abbrATLAS? Candidates?
 Dark matter is something which does not interact electromagnetically however it does have a gravitational effect on nearby bodies.
@@ -136,11 +134,11 @@ Non-barionic dark matter. Why not barionic?
 How is this detectable at \abbrATLAS? Finish with this. Refer next chapter and that neutralinos are a candidate.
 
 \newpage
-\section{Experimental overview}
+\section{Experimental overview}\label{sec:experiment}
 What was used in this research and what needs to be explained? Upgrade, pileup etc.
 Somewhere here explain how the radial coordinate system is defined.
 \subsection{\abbrLHC}
-The Large hadron collider (\abbrLHC) is the a particle accelerator located at \abbrCERN near Geneva in Switzerland, see \ref{fig:lhc}. The accelerator was build to explore physics beyond the standard model and to make more accurate measurements measurements of standard model physics. Before it was shut down for an upgrade in 2012 it was able to accelerate two protons to such a velocity that they had an energy of 6 TeV which give s a center of mass energy of 12 TeV. \textbf{Check facts}. This first upgrade which is scheduled to be completed in 2015 will \textbf{reference!}
+The Large hadron collider (\abbrLHC) is the a particle accelerator located at \abbrCERN near Geneva in Switzerland, see \figureref{fig:lhc}. The accelerator was build to explore physics beyond the standard model and to make more accurate measurements measurements of standard model physics. Before it was shut down for an upgrade in 2012 it was able to accelerate two proton beams to such a velocity that they had an energy of 4 TeV which gives a center of mass energy, $\sqrt{s}=8$ TeV. Apart from the energy, the ability for an accelerator to produce interactions can be calculated through the instantaneous luminosity of the \abbrLHC was $10^{34}$ cm$^{-2}$s$^{-1}$ or $10$nb$^{-1}$s$^{-1}$ where 1 barn(b)$=10^{-24}$ cm$^2$. All values taken from \citep{lumires}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.4]{lhc.jpeg}
@@ -148,21 +146,32 @@ The Large hadron collider (\abbrLHC) is the a particle accelerator located at \a
 \label{fig:lhc}
 \end{center}
 \end{figure}
-Beside the energy of the protons, the  instantaneous Luminosity is an important beam property. \textbf{Continue here}
+The instantaneous luminosity can be defined in different ways depending on how the collision takes place. For two collinear intersecting particle beams it is defined as:
+\textbf{Bunches!}
+\begin{equation}
+\mathscr{L} = \frac{fkN_1 N_2}{4\pi \sigma_x \sigma_y}
+\end{equation}
+where $N_i$ are the number of particles in each of the bunches, f is the frequency at which the bunches collide , k the number of colliding bunches in each beam, and $\sigma_x$ ($\sigma_y$) is the horizontal (vertical) beam size at the interaction point. Since the luminosity increases quadratically with more particles in each bunch this would be a good strategy. However aside from the difficulties to create and maintain a beam with more particles, a large $N_i$ increases the probability for multiple collisions per bunch crossing, referred to as pile-up. Pile up will be a key aspect which is described more in \subsectionref{sec:experiment:subsec:pileup}. 
+
+The expected number of events can be calculated by using the instantaneous luminosity through the following:
+\begin{equation}
+N=\sigma \int \mathscr{L} dt := \sigma \Lagr
+\end{equation}
+where $\sigma$ is the cross section which is often measured in barn.
+The cross section is defined as:
+\begin{equation}
+\sigma = \oint d\Omega \frac{d\sigma}{d\Omega}
+\end{equation}
+The cross section is therefore a measure of the effective surface area seen by the impinging particles, and as such is expressed in units of area. The cross section is proportional to the probability that an interaction will occur. It also provides a measure of the strength of the interaction between the scattered particle and the scattering center.
+Further details can be found in reference~\citep{Herr:2006}
 
 \subsection{\abbrATLAS}
+As seen in \figureref{fig:lhc}, there are several detectors at \abbrCERN. One of these is a large torodial \abbrLHC apparatus (\abbrATLAS) which is a general purpose detector. Its goal is to observe several different production and decay channels. The detector is composed of three concentric subdetectors, the Inner detector, the Calorimeters and the Muon spectrometer.
+
+
+Most and more in \citep{1129811}
 \subsection{Coordinate system}
-Something something
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.25]{particle_collider.jpg}
-\caption{Figure showing the \abbrATLAS detector and the definition of the coordinate system. Image altered from\citep{coordimage}}
-\label{fig:coordinatesystem}
-\end{center}
-\end{figure}
-
-The coordinate system of ATLAS is a right-handed coordinate system with the x-axis pointing towards the centre of the LHC tunnel, and the z-axis along the tunnel/beam (counter clockwise) seen from above. The y-axis points upward.
+The coordinate system of ATLAS, seen in \figureref{fig:coordinatesystem} is a right-handed coordinate system with the x-axis pointing towards the centre of the LHC tunnel, and the z-axis along the tunnel/beam (counter clockwise) seen from above. The y-axis points upward.
 The origin is define as the interaction point.
 A cylindrical coordinate system is also used for the transversal plane. (R,$\phi$,Z).
 For simplicity the pseudorapidity of particles from the primary vertex is defined as:
@@ -172,9 +181,15 @@ For simplicity the pseudorapidity of particles from the primary vertex is define
 where $\theta$ is the polar angle (xz-plane) of the particle direction measured from the positive z-axis. 
 $\eta$ is through this definition invariant under boosts in the z-direction.
 
+It is quite common to calculate the distance between particles and jets in the $(\eta,\phi$) plane, $d=\sqrt{\Delta \eta + \Delta \phi}$  
 
-It is quite common to calculate the distance between particles and jets in the $(\eta,\phi$) plane, $d=\sqrt{\Delta \eta - \Delta \phi}$  
-Found at \url{http://www.hep.lu.se/atlas/thesis/egede/thesis-node39.html}
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=0.25]{particle_collider.jpg}
+\caption{Figure showing the \abbrATLAS detector and the definition of the coordinate system. Image altered from\citep{coordimage}}
+\label{fig:coordinatesystem}
+\end{center}
+\end{figure}
 
 \subsection{Calorimeter}
 \subsection{Truth and reconstructed data}
@@ -182,17 +197,19 @@ Give a general description.
 
 In this thesis, truth = Montecarlo. 
 Reconstructed data = that which is seen in the detectors, which is the smeared data.
+\subsection{Pile-up}\label{sec:experiment:subsec:pileup}
 \subsection{Jet and missing energy}
 What is a jet? why are we only looking at transverse missing energy? 
 
 \subsection{Phase II high luminosity upgrade}
+Talk about the upgrade schedule.
 I am looking at the upgrade which will be done at \abbrCERN and will be completed around 2022-2023 and is denoted High Luminosity-\abbrLHC Phase 2 upgrade. When this is running the following is expected:
 \begin{table}[H]
 \begin{center}
     \begin{tabular}{ | l | l | l |}
     \hline
     Entity & Expected & Last run (2012) \\ \hline
-  	Luminosity & 1000-3000 $fb^{-1}$ & 20.8 $fb^{-1}$ \\ \hline
+  	Luminosity & 1000-3000 fb$^{-1}$ & 20.8 fb$^{-1}$ \\ \hline
   	Pile-up & $\obs{\mu}=200$ & $\obs{\mu}=20.7$ \\ \hline
   	Center of mass energy & $\sqrt{s}=14$ TeV &  $\sqrt{s}=8$ TeV \\ \hline
   	\end{tabular}

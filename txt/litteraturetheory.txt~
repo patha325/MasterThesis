@@ -7,24 +7,8 @@ Avoid using the BibTeX entry provided by CDS as it is: CDS presently treats all 
 
 CHECK IF THEY ARE PUBLIC!
 
-Similar to what I am doing, 20,3 fb-1. Great signal region.
-
-https://cds.cern.ch/record/1600816?ln=sv
-@article{Aad:1600816,
-      author        = "ATLAS Collaboration"
-      title         = "{Search for dark matter in events with a hadronically
-                       decaying W or Z boson and missing transverse momentum in pp
-                       collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector}",
-      journal       = "Phys. Rev. Lett.",
-      collaboration = "ATLAS Collaboration",
-      number        = "arXiv:1309.4017. CERN-PH-EP-2013-158",
-      volume        = "112",
-      pages         = "041802. 6 p",
-      month         = "Sep",
-      year          = "2013",
-      note          = "Comments: 6 pages plus author list (19 pages total), 6
-                       figures, 1 tables, submitted to Physical Review Letters.
-                       Revision matches published version. All figures including
-                       auxiliary figures are available
-                       http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2012-27/",
+@article{Herr:941318,
+      author        = "Herr, Werner and Muratori, B",
+      title         = "{Concept of luminosity}",
+      year          = "2006",
 }

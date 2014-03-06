@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,10 +45,31 @@ ATLAS Collaboration.
   CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012.
 \newblock URL \url{http://cds.cern.ch/record/1485031}.
 
+\bibitem[ATLAS(2013)]{lumires}
+ATLAS.
+\newblock Atlas luminosity public results.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults},
+  2013.
+\newblock Accessed: 2014-03-06.
+
 \bibitem[Team(1999)]{lhcimage}
 AC~Team.
 \newblock {The four main LHC experiments}, Jun 1999.
 \newblock URL \url{http://cds.cern.ch/record/40525}.
+
+\bibitem[Herr and Muratori(2006)]{Herr:2006}
+Werner Herr and B~Muratori.
+\newblock {Concept of luminosity}.
+\newblock 2006.
+\newblock URL \url{http://cds.cern.ch/record/941318/}.
+
+\bibitem[Collaboration(2008)]{1129811}
+The~ATLAS Collaboration.
+\newblock The atlas experiment at the cern large hadron collider.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08003.
+  437 p, 2008.
+\newblock URL \url{https://cdsweb.cern.ch/record/1129811/}.
 
 \bibitem[Pequenao(2008)]{coordimage}
 Joao Pequenao.

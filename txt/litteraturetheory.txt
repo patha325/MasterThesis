@@ -7,4 +7,3 @@ Avoid using the BibTeX entry provided by CDS as it is: CDS presently treats all 
 
 CHECK IF THEY ARE PUBLIC!
 
-
