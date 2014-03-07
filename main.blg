@@ -13,45 +13,45 @@ Database file #1: myrefs.bib
 Warning--there's a number but no series in Martin:1998
 Warning--empty journal in Herr:2006
 Warning--empty journal in ATL-PHYS-PUB-2013-004
-You've used 13 entries,
+You've used 14 entries,
             2481 wiz_defined-function locations,
-            652 strings with 6426 characters,
-and the built_in function-call counts, 4251 in all, are:
-= -- 360
-> -- 157
-< -- 13
-+ -- 71
-- -- 45
-* -- 288
-:= -- 682
-add.period$ -- 47
-call.type$ -- 13
-change.case$ -- 26
-chr.to.int$ -- 13
-cite$ -- 16
-duplicate$ -- 236
-empty$ -- 430
-format.name$ -- 62
-if$ -- 907
+            660 strings with 6693 characters,
+and the built_in function-call counts, 4499 in all, are:
+= -- 386
+> -- 164
+< -- 14
++ -- 75
+- -- 47
+* -- 300
+:= -- 729
+add.period$ -- 51
+call.type$ -- 14
+change.case$ -- 28
+chr.to.int$ -- 14
+cite$ -- 17
+duplicate$ -- 250
+empty$ -- 450
+format.name$ -- 65
+if$ -- 957
 int.to.chr$ -- 1
-int.to.str$ -- 14
+int.to.str$ -- 15
 missing$ -- 13
-newline$ -- 81
-num.names$ -- 41
-pop$ -- 123
+newline$ -- 87
+num.names$ -- 44
+pop$ -- 128
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 14
 quote$ -- 0
-skip$ -- 138
+skip$ -- 148
 stack$ -- 0
-substring$ -- 119
-swap$ -- 36
+substring$ -- 121
+swap$ -- 37
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
+type$ -- 89
 warning$ -- 3
-while$ -- 32
+while$ -- 34
 width$ -- 0
-write$ -- 186
+write$ -- 201
 (There were 3 warnings)

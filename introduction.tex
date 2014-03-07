@@ -25,11 +25,9 @@ During the research period the following tasks were set up and performed/answere
 \newpage
 \section{Theoretical Background}\label{sec:tb}
 The following is a short description of the theory which is required to understand this thesis. 
-\subsection{Quantum mechanics and quantum field theory}\label{sec:qm}
-\textbf{From my BSc.}
-
+\subsection{Quantum mechanics and quantum field theory}\label{sec:tb:subsec:qm}
 In the beginning of the 20th century, some physical phenomena could not be explained by classical physics, for example the ultra-violet disaster of any classical model of of black-body radiation, and the photoelectric effect.\citep{Bransden:2000}
-It was these phenomena that led to the formulation of quantum mechanics (\abbrQM), where energy transfer is quantized and particles can act as both waves and particles at the same time. 
+It was these phenomena that led to the formulation of quantum mechanics (\abbrQM), where energy transfer is quantized and particles can act as both waves and particles at the same time. \citep{Hallsjo:2013}
 
 Combining \abbrQM with classical electromagnetism proved harder than expected, colliding a photon(em-field) and an electron (particle/wave) is quite tricky. (Refer to scattering) One idea that came from this was to explain them both in the same framework, field theory.
 Also, trying to incorporate special relativity into \abbrQM suggested a field description. (Metric description and bending of gravitational fields).
@@ -48,6 +46,7 @@ Theoretical Particle physics comes from Feynman diagrams!
 Dont forget to explain cross-sections from qft.
 
 Find more information in \citep{Goldstein:2001,Bransden:2000, Zee:2003}.
+
 \subsection{Effective field theory}
 In general:
 Feynman diagram with a big circle.
@@ -77,6 +76,13 @@ How and why is there a standard model? give the Lagrangian and refer to all the 
  
 Mention Antimatter!
 Is it proved? What problems exist? 
+\begin{itemize}
+\item No QFT for general relativity! Thus there is no link between gravity and the SM.
+\item Experimentally it has been shown that neutrinos have mass, though in SM they do not!
+\item Asymmetry between matter and antimatter can not fully be described.
+\item No dark matter candidate!
+\item Dark energy?
+\end{itemize} 
 
 \subsection{Beyond the standard model: Supersymmetry}
 In the early 1970:s similar as \abbrQED expansion with antimatter due to (integral which one diverged?). Similarly to this, an expansion with a similar symmetry having bosons instead of fermions and the reverse. These symmetrical particles are known as supersymmetrical partners. The \abbrSUSY partner of a boson is denoted as sfermion (squarks and sleptons) whereas the \abbrSUSY partner of a fermion is denoted as bosinos (gauginos)
@@ -138,7 +144,7 @@ How is this detectable at \abbrATLAS? Finish with this. Refer next chapter and t
 What was used in this research and what needs to be explained? Upgrade, pileup etc.
 Somewhere here explain how the radial coordinate system is defined.
 \subsection{\abbrLHC}
-The Large hadron collider (\abbrLHC) is a particle accelerator located at \abbrCERN near Geneva in Switzerland, see \figureref{fig:lhc}. The accelerator was built to explore physics beyond the standard model and to make more accurate measurements of standard model physics. Before it was shut down for an upgrade in 2012 it was able to accelerate two proton beams to such a velocity that they had an energy of 4 TeV which gives a center of mass energy, $\sqrt{s}=8$ TeV. Apart from the energy, the ability for an accelerator to produce interactions can be calculated through the instantaneous luminosity of the \abbrLHC was $10^{34}$ cm$^{-2}$s$^{-1}$ or $10$nb$^{-1}$s$^{-1}$ where 1 barn(b)$=10^{-24}$ cm$^2$. All values taken from \citep{lumires}.
+The Large hadron collider (\abbrLHC) is a particle accelerator located at \abbrCERN near Geneva in Switzerland, see \figureref{fig:lhc}. The accelerator was built to explore physics beyond the standard model and to make more accurate measurements of standard model physics. Before it was shut down for an upgrade in 2012 it was able to accelerate two proton beams to such a velocity that they had an energy of 4 TeV which gives a center of mass energy, $\sqrt{s}=8$ TeV. It should be noted that the proton beam is not homogeneous, it is comprised of bunches of protons with enough spacing that bunch collisions can happen independent of each other.Apart from the energy, the ability for an accelerator to produce interactions can be calculated through the instantaneous luminosity of the \abbrLHC was $10^{34}$ cm$^{-2}$s$^{-1}$ or $10$nb$^{-1}$s$^{-1}$ where 1 barn(b)$=10^{-24}$ cm$^2$. All values taken from \citep{lumires}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.4]{lhc.jpeg}
@@ -147,18 +153,19 @@ The Large hadron collider (\abbrLHC) is a particle accelerator located at \abbrC
 \end{center}
 \end{figure}
 The instantaneous luminosity can be defined in different ways depending on how the collision takes place. For two collinear intersecting particle beams it is defined as:
-\textbf{Bunches!}
 \begin{equation}
 \mathscr{L} = \frac{fkN_1 N_2}{4\pi \sigma_x \sigma_y}
 \end{equation}
-where $N_i$ are the number of particles in each of the bunches, f is the frequency at which the bunches collide , k the number of colliding bunches in each beam, and $\sigma_x$ ($\sigma_y$) is the horizontal (vertical) beam size at the interaction point. Since the luminosity increases quadratically with more particles in each bunch this would be a good strategy. However aside from the difficulties to create and maintain a beam with more particles, a large $N_i$ increases the probability for multiple collisions per bunch crossing, referred to as pile-up. Pile up will be a key aspect which is described more in \subsectionref{sec:experiment:subsec:pileup}. 
+where $N_i$ are the number of particles in each of the bunches, f is the frequency at which the bunches collide , k the number of colliding bunches in each beam, and $\sigma_x$ ($\sigma_y$) is the horizontal (vertical) beam size at the interaction point. Since the instantaneous luminosity increases quadratically with more particles in each bunch this would be a good strategy. However aside from the difficulties to create and maintain a beam with more particles, a large $N_i$ increases the probability for multiple collisions per bunch crossing, referred to as pile-up. Pile up will be a key aspect which is described more in \subsectionref{sec:experiment:subsec:pileup}. 
 
 The expected number of events can be calculated by using the instantaneous luminosity through the following:
 \begin{equation}
 N=\sigma \int \mathscr{L} dt := \sigma \Lagr
 \end{equation}
-where $\sigma$ is the cross section which is often measured in barn.
-The cross section is defined as:
+where $\Lagr$ is the luminosity and $\sigma$ is the cross section which is often measured in barn.
+The luminosity is a measurement of total number of interactions that have occurred over time. Before the \abbrLHC was shut down this values was 20.8 fb$^{-1}$.
+
+The cross section is defined through the integral of the differential cross section, as explained in \subsectionref{sec:tb:subsec:qm}, over the whole solid angle:
 \begin{equation}
 \sigma = \oint d\Omega \frac{d\sigma}{d\Omega}
 \end{equation}
@@ -166,8 +173,7 @@ The cross section is therefore a measure of the effective surface area seen by t
 Further details can be found in reference~\citep{Herr:2006}
 
 \subsection{\abbrATLAS}
-As seen in \figureref{fig:lhc}, there are several detectors at \abbrCERN. One of these is a large torodial \abbrLHC apparatus (\abbrATLAS) which is a general purpose detector. Its goal is to observe several different production and decay channels. The detector is composed of three concentric subdetectors, the Inner detector, the Calorimeters and the Muon spectrometer.
-
+As seen in \figureref{fig:lhc}, there are several detectors at \abbrCERN. One of these is a large toroidal \abbrLHC apparatus (\abbrATLAS) which is a general purpose detector that uses a toroid magnet. Its goal is to observe several different production and decay channels. The detector is composed of three concentric subdetectors, the Inner detector, the Calorimeters and the Muon spectrometer.
 
 Most and more in \citep{1129811}
 \subsection{Coordinate system}
