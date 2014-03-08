@@ -15,8 +15,8 @@ Warning--empty journal in Herr:2006
 Warning--empty journal in ATL-PHYS-PUB-2013-004
 You've used 14 entries,
             2481 wiz_defined-function locations,
-            660 strings with 6693 characters,
-and the built_in function-call counts, 4499 in all, are:
+            661 strings with 6712 characters,
+and the built_in function-call counts, 4500 in all, are:
 = -- 386
 > -- 164
 < -- 14
@@ -26,7 +26,7 @@ and the built_in function-call counts, 4499 in all, are:
 := -- 729
 add.period$ -- 51
 call.type$ -- 14
-change.case$ -- 28
+change.case$ -- 29
 chr.to.int$ -- 14
 cite$ -- 17
 duplicate$ -- 250
@@ -38,11 +38,11 @@ int.to.str$ -- 15
 missing$ -- 13
 newline$ -- 87
 num.names$ -- 44
-pop$ -- 128
+pop$ -- 129
 preamble$ -- 1
 purify$ -- 14
 quote$ -- 0
-skip$ -- 148
+skip$ -- 147
 stack$ -- 0
 substring$ -- 121
 swap$ -- 37

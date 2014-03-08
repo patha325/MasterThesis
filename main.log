@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  7 MAR 2014 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  8 MAR 2014 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./rtthesis.cls
 Document Class: rtthesis 2011/12/05 rtthesis Class v. 0.51
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -98,7 +98,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1112,18 +1112,16 @@ is class
    defining Unicode char U+C5A1 (decimal 50593)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+Package: babel 2013/12/03 3.9h The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count140
 \U@D=\dimen136
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1195,7 +1193,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \backup@length=\skip112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
-Package: ctable 2013/06/15 v1.26 ctable package for \ flexible typesetting of t
+Package: ctable 2013/12/19 v1.27 ctable package for \ flexible typesetting of t
 able and figure floats using key/value directives
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -2143,12 +2141,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13896 strings out of 495031
- 200114 string characters out of 6181531
- 316771 words of memory out of 5000000
- 16501 multiletter control sequences out of 15000+600000
+ 13906 strings out of 493304
+ 200301 string characters out of 6139871
+ 321626 words of memory out of 5000000
+ 16763 multiletter control sequences out of 15000+600000
  251870 words of font info for 201 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  45i,13n,77p,1147b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
@@ -2170,7 +2168,7 @@ texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist
 1/public/kpfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/r
 sfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (39 pages, 916179 bytes).
+Output written on main.pdf (39 pages, 916183 bytes).
 PDF statistics:
  597 PDF objects out of 1000 (max. 8388607)
  523 compressed objects within 6 object streams
