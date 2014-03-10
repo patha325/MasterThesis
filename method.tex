@@ -1,28 +1,23 @@
 \chapter{Method}\label{cha:meth}
-In this chapter the methodology used to perform the tasks given above in ~\sectionref{sec:goals}.
+In this chapter the methodology used to perform the tasks given above in \sectionref{sec:goals}.
 \newpage
-\section{Monte Carlo simulation, truth data}
-What it is in short detail. How it is set-up and what it produces for us in this context. 
-Where does it come from? Perhaps quick explanation of different programs?
-\section{ROOT}
-A wonderful tool for processing data by programming in C++ and so on... Reference to root homepage?
 \section{Validation of smearing functions}
 Find more information in my presentation. also mention no pile-up dependence of leptons.
 For the proposed upgrade of the LHC.
 
-
 \subsection{Smearing}
-By using the simulation given above one might assume that it would be easy to model and simulate the whole process, from collision to detection in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. The programming code used was the \textbf{official something that can be found somewhere}. 
-Several histogram are given regarding this here. Some minor detail about them though most of it should be given in results and discussion also refer perhaps to my presentation? Does one self refer?
+One might assume that using a Monte Carlo simulation it would be easy to model and simulate the whole process, from collision to detection and reconstruction in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. 
 
+This was done by using a Monte Carlo simulation of a proton-proton collision, then applying code, that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004} , to simulate the effect that pile-up would have on the signals that come from the detectors and the reconstruction of these. \textbf{Code from where?}
 
-Why did we use this, what does it produce for us? A "simple" simulated effect of what can be detected in the detectors without having to run a full simulation. 
-
-The functions smear both the energy and the momenta of the four vector. However not the angles. Explain four vector somewhere?
-
-Explain why leptons were not affected by pile-up. Presentation 2?
+The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
 
 \subsection{Validation}
+To validate the code comparisons were made with \citep{ATL-PHYS-PUB-2013-004}. 
+
+
+
+
 Parametrization used according to the paper \citep{ATL-PHYS-PUB-2013-004}. What results and what did I get/say in my presentation? Use that in results Perhaps even write something better than the original that can be used to explain this again.
 
 Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults.

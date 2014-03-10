@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,6 +29,12 @@ Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
 \newblock Addison-Wesley, 3 edition, June 2001.
 \newblock ISBN 0201657023.
 
+\bibitem[{Martin}(1998)]{Martin:1998}
+S.~P. {Martin}.
+\newblock {A Supersymmetry Primer}.
+\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry}, number
+  arXiv:hep-ph/9709356v6, page~1, 1998.
+
 \bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
   {Tait}, and {Yu}]{82.116010}
 J.~{Goodman}, M.~{Ibe}, A.~{Rajaraman}, W.~{Shepherd}, T.~M.~P. {Tait}, and
@@ -38,11 +44,13 @@ J.~{Goodman}, M.~{Ibe}, A.~{Rajaraman}, W.~{Shepherd}, T.~M.~P. {Tait}, and
   December 2010.
 \newblock \doi{10.1103/PhysRevD.82.116010}.
 
-\bibitem[{Martin}(1998)]{Martin:1998}
-S.~P. {Martin}.
-\newblock {A Supersymmetry Primer}.
-\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry}, number
-  arXiv:hep-ph/9709356v6, page~1, 1998.
+\bibitem[Goodman et~al.(2011)Goodman, Ibe, Rajaraman, Shepherd, Tait,
+  et~al.]{Goodman:2010}
+Jessica Goodman, Masahiro Ibe, Arvind Rajaraman, William Shepherd, Tim~M.P.
+  Tait, et~al.
+\newblock {Constraints on Light Majorana dark Matter from Colliders}.
+\newblock \emph{Phys.Lett.}, B695:\penalty0 185--188, 2011.
+\newblock \doi{10.1016/j.physletb.2010.11.009}.
 
 \bibitem[Collaboration(2012)]{CERN-PH-EP-2012-210}
 ATLAS Collaboration.

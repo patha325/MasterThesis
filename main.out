@@ -9,11 +9,11 @@
 \BOOKMARK [1][-]{section.1.1}{1.1 Research goals}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.2}{1.2 Theoretical Background}{chapter.1}% 10
 \BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Quantum mechanics and quantum field theory}{section.1.2}% 11
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Effective field theory}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Nuclear, particle and subatomic particle physics}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 The standard model of particle physics}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Nuclear, particle and subatomic particle physics}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 The standard model of particle physics}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Dark matter}{section.1.2}% 14
 \BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Beyond the standard model: Supersymmetry}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.1.2.6}{1.2.6 Dark matter}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.6}{1.2.6 Effective field theory}{section.1.2}% 16
 \BOOKMARK [2][-]{subsection.1.2.7}{1.2.7 Search for WIMPS}{section.1.2}% 17
 \BOOKMARK [1][-]{section.1.3}{1.3 Experimental overview}{chapter.1}% 18
 \BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 LHC}{section.1.3}% 19
@@ -22,25 +22,25 @@
 \BOOKMARK [2][-]{subsection.1.3.4}{1.3.4 Calorimeter}{section.1.3}% 22
 \BOOKMARK [2][-]{subsection.1.3.5}{1.3.5 Truth and reconstructed data}{section.1.3}% 23
 \BOOKMARK [2][-]{subsection.1.3.6}{1.3.6 Pile-up}{section.1.3}% 24
-\BOOKMARK [2][-]{subsection.1.3.7}{1.3.7 Jet and missing energy}{section.1.3}% 25
+\BOOKMARK [2][-]{subsection.1.3.7}{1.3.7 Mono-jet analysis}{section.1.3}% 25
 \BOOKMARK [2][-]{subsection.1.3.8}{1.3.8 Phase II high luminosity upgrade}{section.1.3}% 26
-\BOOKMARK [0][]{chapter.2}{2 Method}{}% 27
-\BOOKMARK [1][-]{section.2.1}{2.1 Monte Carlo simulation, truth data}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.2}{2.2 ROOT}{chapter.2}% 29
-\BOOKMARK [1][-]{section.2.3}{2.3 Validation of smearing functions}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Smearing}{section.2.3}% 31
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Validation}{section.2.3}% 32
-\BOOKMARK [1][-]{section.2.4}{2.4 Signal to background ratio}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Selection criteria}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Comparing with published papers}{section.2.4}% 35
-\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Figures of merit}{section.2.4}% 36
-\BOOKMARK [1][-]{section.2.5}{2.5 Other selection criteria and observables}{chapter.2}% 37
-\BOOKMARK [1][-]{section.2.6}{2.6 Mitigating the effect}{chapter.2}% 38
+\BOOKMARK [1][-]{section.1.4}{1.4 Monte Carlo simulation, truth data}{chapter.1}% 27
+\BOOKMARK [1][-]{section.1.5}{1.5 ROOT}{chapter.1}% 28
+\BOOKMARK [0][]{chapter.2}{2 Method}{}% 29
+\BOOKMARK [1][-]{section.2.1}{2.1 Validation of smearing functions}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Smearing}{section.2.1}% 31
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Validation}{section.2.1}% 32
+\BOOKMARK [1][-]{section.2.2}{2.2 Signal to background ratio}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Selection criteria}{section.2.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Comparing with published papers}{section.2.2}% 35
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Figures of merit}{section.2.2}% 36
+\BOOKMARK [1][-]{section.2.3}{2.3 Other selection criteria and observables}{chapter.2}% 37
+\BOOKMARK [1][-]{section.2.4}{2.4 Mitigating the effect}{chapter.2}% 38
 \BOOKMARK [0][]{chapter.3}{3 Results}{}% 39
 \BOOKMARK [1][-]{section.3.1}{3.1 Validation of smearing functions}{chapter.3}% 40
 \BOOKMARK [1][-]{section.3.2}{3.2 Signal to background ratio}{chapter.3}% 41
 \BOOKMARK [1][-]{section.3.3}{3.3 Mitigating the effect}{chapter.3}% 42
 \BOOKMARK [0][]{chapter.4}{4 Discussion}{}% 43
 \BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 44
-\BOOKMARK [0][]{appendix*.9}{Bibliography}{}% 45
+\BOOKMARK [0][]{appendix*.10}{Bibliography}{}% 45
 \BOOKMARK [0][]{Copyright.0}{Copyright}{}% 46
