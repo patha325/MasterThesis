@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -97,6 +97,14 @@ Joao Pequenao.
   High-Luminosity LHC}.
 \newblock Mar 2013.
 \newblock URL \url{https://cds.cern.ch/record/1527529/}.
+
+\bibitem[{ATLAS Collaboration}(2012)]{ATLAS-CONF-2012-147}
+{ATLAS Collaboration}.
+\newblock {Search for New Phenomena in Monojet plus Missing Transverse Momentum
+  Final States using 10fb-1 of pp Collisions at sqrt{s}=8 TeV with the ATLAS
+  detector at the LHC}.
+\newblock \penalty0 (ATLAS-CONF-2012-147), Nov 2012.
+\newblock URL \url{http://cds.cern.ch/record/1493486/}.
 
 \bibitem[Duck(2005)]{Duck:2005}
 Donald Duck.
