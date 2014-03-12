@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,11 +29,29 @@ Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
 \newblock Addison-Wesley, 3 edition, June 2001.
 \newblock ISBN 0201657023.
 
+\bibitem[Burcham and Jobes(1995)]{Burchan:1995}
+W.~E. Burcham and M.~Jobes.
+\newblock \emph{{Nuclear and Particle Physics}}.
+\newblock Pearson education, second edition, 1995.
+
 \bibitem[{Martin}(1998)]{Martin:1998}
 S.~P. {Martin}.
 \newblock {A Supersymmetry Primer}.
 \newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry}, number
   arXiv:hep-ph/9709356v6, page~1, 1998.
+
+\bibitem[Dine and Fischler(1982)]{Dine:1981}
+Michael Dine and Willy Fischler.
+\newblock {A Phenomenological Model of Particle Physics Based on
+  Supersymmetry}.
+\newblock \emph{Phys.Lett.}, B110:\penalty0 227, 1982.
+\newblock \doi{10.1016/0370-2693(82)91241-2}.
+
+\bibitem[Klimek(2014)]{Pavel:2014}
+Pawel Klimek.
+\newblock \emph{Search for Charginos and Sleptons in ATLAS and Identification
+  of Pile-up with the Tile Calorimeter}.
+\newblock Licentiate thesis, Stockholm University, Jan. 2014.
 
 \bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
   {Tait}, and {Yu}]{82.116010}
