@@ -1,9 +1,15 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[ATLAS(2012)]{ATLAS:LOI2}
+Collaboration ATLAS.
+\newblock {Letter of Intent for the Phase-II Upgrade of the ATLAS Experiment}.
+\newblock Dec 2012.
+\newblock URL \url{https://cds.cern.ch/record/1502664/}.
 
 \bibitem[Bransden and Joachain(2000)]{Bransden:2000}
 B.H. Bransden and C.J. Joachain.
@@ -37,8 +43,8 @@ W.~E. Burcham and M.~Jobes.
 \bibitem[{Martin}(1998)]{Martin:1998}
 S.~P. {Martin}.
 \newblock {A Supersymmetry Primer}.
-\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry}, number
-  arXiv:hep-ph/9709356v6, page~1, 1998.
+\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry},
+  page~1, 1998.
 
 \bibitem[Dine and Fischler(1982)]{Dine:1981}
 Michael Dine and Willy Fischler.
@@ -121,7 +127,7 @@ Joao Pequenao.
 \newblock {Search for New Phenomena in Monojet plus Missing Transverse Momentum
   Final States using 10fb-1 of pp Collisions at sqrt{s}=8 TeV with the ATLAS
   detector at the LHC}.
-\newblock \penalty0 (ATLAS-CONF-2012-147), Nov 2012.
+\newblock Nov 2012.
 \newblock URL \url{http://cds.cern.ch/record/1493486/}.
 
 \bibitem[Duck(2005)]{Duck:2005}

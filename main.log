@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  12 MAR 2014 17:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  13 MAR 2014 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2039,7 +2039,7 @@ been already used, duplicate ignored
                    \relax 
 l.25 \newpage
               [2] [3] [4]
-<figures/myfeynman.pdf, id=345, 597.50829pt x 845.0471pt>
+<figures/myfeynman.pdf, id=347, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
@@ -2052,14 +2052,14 @@ Package pdftex.def Info: figures/myfeynman.pdf used on input line 110.
  [5 <./figures/myfeynman.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 11.39996pt on input line 155.
- [6] <figures/lhc.jpeg, id=418, 781.92125pt x 563.10374pt>
+ [6] <figures/lhc.jpeg, id=420, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
 
 <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 177.
 (pdftex.def)             Requested size: 312.76295pt x 225.2375pt.
  [7 <./figures/lhc.jpeg>] [8]
-<figures/created/particle_collider.jpg, id=447, 998.73125pt x 538.01pt>
+<figures/created/particle_collider.jpg, id=449, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
@@ -2076,7 +2076,7 @@ Chapter 2.
 
 
 ] [12]
-Overfull \hbox (14.82985pt too wide) in paragraph at lines 50--51
+Overfull \hbox (14.82985pt too wide) in paragraph at lines 56--57
 []\T1/jkpk/m/n/10 Lepton veto, no elec-tron or muon, lead-ing jet with $\OMS/jk
 pw/m/n/10 j\OML/jkpw/m/it/10 ^^Q\OMS/jkpw/m/n/10 j \OML/jkpw/m/it/10 < \OT1/jkp
 /m/n/10 2\OML/jkpw/m/it/10 :\OT1/jkp/m/n/10 0$ \T1/jkpk/m/n/10 and $\U/jkpmiaw/
@@ -2085,7 +2085,7 @@ m/it/10 ^^A\OML/jkpw/m/it/10 ^^^\OT1/jkp/m/n/10 (\OML/jkpw/m/it/10 jet; E[]\OT1
  []
 
 
-Overfull \hbox (1.78554pt too wide) in paragraph at lines 56--65
+Overfull \hbox (1.78554pt too wide) in paragraph at lines 62--71
  [] 
  []
 
@@ -2130,13 +2130,13 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 ]
-Underfull \hbox (badness 2205) in paragraph at lines 88--88
+Underfull \hbox (badness 2205) in paragraph at lines 94--94
 \T1/pcr/m/n/10 twiki / bin / view / AtlasPublic / LuminosityPublicResults$[]\T1
 /jkpk/m/n/10 , 2013.
  []
 
 ) (./main.ind) [24]
-<figures/default/LinkUniv_staende_pms.pdf, id=573, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=583, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2162,15 +2162,15 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BB574DCB68E262866F661430B4BC9728;3272.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: CBAAFFEFADF37F3208BC0133FB22E0A0;1947.
+(rerunfilecheck)             Checksum: 4A0F19F927E46B425C85D8B38133DDAA;2040.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13983 strings out of 495031
- 201738 string characters out of 6181531
- 318690 words of memory out of 5000000
- 16567 multiletter control sequences out of 15000+600000
+ 13994 strings out of 495031
+ 201907 string characters out of 6181531
+ 318811 words of memory out of 5000000
+ 16576 multiletter control sequences out of 15000+600000
  263931 words of font info for 207 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  45i,13n,87p,1147b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2197,10 +2197,10 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (39 pages, 793484 bytes).
+Output written on main.pdf (39 pages, 795240 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 121 named destinations out of 1000 (max. 500000)
  18851 words of extra memory for PDF output out of 20736 (max. 10000000)
 

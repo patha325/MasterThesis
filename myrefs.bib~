@@ -50,7 +50,6 @@ number = {arXiv:hep-ph/9709356v6},
       title         = "{Performance assumptions for an upgraded ATLAS detector at
                        a High-Luminosity LHC}",
       report        = "ATL-PHYS-PUB-2013-004",
-      journal       = {},
       month         = "Mar",
       year          = "2013",
       url           = "https://cds.cern.ch/record/1527529/"
@@ -64,7 +63,7 @@ number = {arXiv:hep-ph/9709356v6},
       institution   = "CERN",
       collaboration = "ATLAS Collaboration",
       address       = "Geneva",
-      number        = "ATLAS-CONF-2012-147",
+      report        = "ATLAS-CONF-2012-147",
       month         = "Nov",
       year          = "2012",
 url = "http://cds.cern.ch/record/1493486/"
@@ -137,6 +136,20 @@ url = "http://cds.cern.ch/record/941318/"
   year={2008},
 }
 
+
+@article{ATLAS:LOI2,
+      author        = "ATLAS,  Collaboration",
+      title         = "{Letter of Intent for the Phase-II Upgrade of the ATLAS
+                       Experiment}",
+      institution   = "CERN",
+      address       = "Geneva",
+      report        = "CERN-LHCC-2012-022. LHCC-I-023",
+      month         = "Dec",
+      year          = "2012",
+url={https://cds.cern.ch/record/1502664/}	
+}
+
+
 @book{Bransden:2000,
     author    = {B.H. Bransden and C.J. Joachain},
     title     = {Quantum mechanics},
@@ -190,7 +203,7 @@ year = {2013},
 url ="http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-103663"
 }
 @PhdThesis{Pavel:2014,
-  author =      {David A. Anisi},
+  author =      {Pawel Klimek},
   title =      {Search for Charginos and Sleptons in ATLAS and Identification of Pile-up with the Tile Calorimeter},
   school =      {Stockholm University},
   year =      {2014},
