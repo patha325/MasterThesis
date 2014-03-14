@@ -16,10 +16,10 @@
 \backcite {82.116010}{{5}{1.2.6}{figure.caption.5}}
 \backcite {Goodman:2010}{{5}{1.2.6}{figure.caption.5}}
 \backcite {Goodman:2010}{{5}{1.2.6}{figure.caption.5}}
-\backcite {Zee:2003}{{5}{1.2.6}{equation.1.2.1}}
-\backcite {82.116010}{{5}{1.2.6}{equation.1.2.1}}
-\backcite {Goodman:2010}{{5}{1.2.6}{equation.1.2.1}}
-\backcite {Goodman:2010}{{5}{1.2.6}{equation.1.2.1}}
+\backcite {Zee:2003}{{6}{1.2.6}{equation.1.2.1}}
+\backcite {82.116010}{{6}{1.2.6}{equation.1.2.1}}
+\backcite {Goodman:2010}{{6}{1.2.6}{equation.1.2.1}}
+\backcite {Goodman:2010}{{6}{1.2.6}{equation.1.2.1}}
 \backcite {82.116010}{{6}{1.2.6}{equation.1.2.1}}
 \backcite {CERN-PH-EP-2012-210}{{6}{1.1}{table.caption.6}}
 \backcite {CERN-PH-EP-2012-210}{{6}{1.2.7}{subsection.1.2.7}}
@@ -28,7 +28,7 @@
 \backcite {Herr:2006}{{8}{1.3.1}{equation.1.3.5}}
 \backcite {1129811}{{8}{1.3.2}{subsection.1.3.2}}
 \backcite {coordimage}{{9}{1.3}{figure.caption.8}}
-\backcite {ATLAS:LOI2}{{9}{1.3.8}{subsection.1.3.8}}
+\backcite {ATLAS:LOI2}{{10}{1.3.8}{subsection.1.3.8}}
 \backcite {ATL-PHYS-PUB-2013-004}{{12}{2.1.1}{subsection.2.1.1}}
 \backcite {ATL-PHYS-PUB-2013-004}{{12}{2.1.2}{subsection.2.1.2}}
 \backcite {ATL-PHYS-PUB-2013-004}{{12}{2.1.2}{equation.2.1.1}}

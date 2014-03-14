@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  13 MAR 2014 15:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  14 MAR 2014 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1966,7 +1966,7 @@ l.42 \end{abstract}
 \openout2 = `tack.aux'.
 
  (./tack.tex
-Overfull \hbox (2.47145pt too wide) in paragraph at lines 4--6
+Overfull \hbox (2.47145pt too wide) in paragraph at lines 4--5
 []\T1/jkpk/m/n/10 A big thank you to my fam-ily, fi-ancée and friends who have 
 sup-ported me through-
  []
@@ -1991,7 +1991,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \openout2 = `notation.aux'.
 
  (./notation.tex
-LaTeX Font Info:    Try loading font information for T1+jkp on input line 10.
+LaTeX Font Info:    Try loading font information for T1+jkp on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
@@ -2039,33 +2039,42 @@ been already used, duplicate ignored
                    \relax 
 l.25 \newpage
               [2] [3] [4]
-<figures/myfeynman.pdf, id=347, 597.50829pt x 845.0471pt>
+<figures/myfeynman.pdf, id=349, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
 Package pdftex.def Info: figures/myfeynman.pdf used on input line 106.
-(pdftex.def)             Requested size: 160.04565pt x 118.44426pt.
+(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
 File: figures/myfeynman.pdf Graphic file (type pdf)
  <use figures/myfeynman.pdf>
 Package pdftex.def Info: figures/myfeynman.pdf used on input line 110.
-(pdftex.def)             Requested size: 160.04565pt x 118.44426pt.
- [5 <./figures/myfeynman.pdf>]
+(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 106--111
+[][] [][] 
+ []
+
+[5 <./figures/myfeynman.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 11.39996pt on input line 155.
- [6] <figures/lhc.jpeg, id=420, 781.92125pt x 563.10374pt>
+ [6]
+<figures/lhc.jpeg, id=420, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
-
-<use figures/lhc.jpeg>
+ <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 177.
-(pdftex.def)             Requested size: 312.76295pt x 225.2375pt.
- [7 <./figures/lhc.jpeg>] [8]
-<figures/created/particle_collider.jpg, id=449, 998.73125pt x 538.01pt>
+(pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
+
+[7 <./figures/lhc.jpeg>] [8]
+<figures/created/particle_collider.jpg, id=448, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
 ne 221.
-(pdftex.def)             Requested size: 349.56117pt x 188.30632pt.
+(pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
  [9 <./figures/created/particle_collider.jpg>]) [10]
 \openout2 = `method.aux'.
 
@@ -2136,7 +2145,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 94--94
  []
 
 ) (./main.ind) [24]
-<figures/default/LinkUniv_staende_pms.pdf, id=583, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=585, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2162,14 +2171,14 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BB574DCB68E262866F661430B4BC9728;3272.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4A0F19F927E46B425C85D8B38133DDAA;2040.
+(rerunfilecheck)             Checksum: 4263807A33CD968E0E77B21F30DAAFFD;2041.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
  13994 strings out of 495031
  201907 string characters out of 6181531
- 318811 words of memory out of 5000000
+ 318837 words of memory out of 5000000
  16576 multiletter control sequences out of 15000+600000
  263931 words of font info for 207 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2197,10 +2206,10 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (39 pages, 795240 bytes).
+Output written on main.pdf (39 pages, 795995 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 605 compressed objects within 7 object streams
+ 692 PDF objects out of 1000 (max. 8388607)
+ 607 compressed objects within 7 object streams
  121 named destinations out of 1000 (max. 500000)
  18851 words of extra memory for PDF output out of 20736 (max. 10000000)
 
