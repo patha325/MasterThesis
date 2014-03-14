@@ -1,0 +1,4 @@
+metx1 Sigma: 45201.3
+metx1 Error in sigma: 1354.26
+metx1 Real sigma: 48448.3
+metx1 Significance: 2.39762

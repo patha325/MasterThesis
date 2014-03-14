@@ -1,0 +1,4 @@
+mueta21 Sigma: 1706.94
+mueta21 Error in sigma: 88.2606
+mueta21 Real sigma: 2183.18
+mueta21 Significance: 5.39575
