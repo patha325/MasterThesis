@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  18 MAR 2014 09:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  18 MAR 2014 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
 (./rtthesis.cls
 Document Class: rtthesis 2011/12/05 rtthesis Class v. 0.51
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -98,7 +98,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1112,16 +1112,18 @@ is class
    defining Unicode char U+C5A1 (decimal 50593)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+Package: babel 2013/05/16 v3.9f The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count140
 \U@D=\dimen136
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1193,7 +1195,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \backup@length=\skip112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
-Package: ctable 2013/12/19 v1.27 ctable package for \ flexible typesetting of t
+Package: ctable 2013/06/15 v1.26 ctable package for \ flexible typesetting of t
 able and figure floats using key/value directives
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -2052,23 +2054,25 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 116--121
 [][] [][] 
  []
 
-[5] [6 <./figures/myfeynman.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 165.
- [7]
-<figures/lhc.jpeg, id=425, 781.92125pt x 563.10374pt>
-File: figures/lhc.jpeg Graphic file (type jpg)
- <use figures/lhc.jpeg>
-Package pdftex.def Info: figures/lhc.jpeg used on input line 187.
-(pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[8 <./figures/lhc.jpeg>] [9]
+ [6 <./figures/myfeynman.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 11.39996pt on input line 169.
+ [7] <figures/lhc.jpeg, id=425, 781.92125pt x 563.10374pt>
+File: figures/lhc.jpeg Graphic file (type jpg)
+
+<use figures/lhc.jpeg>
+Package pdftex.def Info: figures/lhc.jpeg used on input line 191.
+(pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
+ [8 <./figures/lhc.jpeg>] [9]
 <figures/created/particle_collider.jpg, id=453, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
-ne 231.
+ne 235.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
 
 Underfull \vbox (badness 1117) has occurred while \output is active []
@@ -2174,25 +2178,22 @@ Package rerunfilecheck Warning: File `main.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 4263807A33CD968E0E77B21F30DAAFFD;2041
-(rerunfilecheck)             After:  5D385FAC10ECE1E377FD3E1EB0125DBB;2042.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: 241D45865362B3FD0AE3A58709A9E2DA;2042
+(rerunfilecheck)             After:  06B89476AF8E6BEEA1F8DC2BB6BFC2EF;2042.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 14006 strings out of 493304
- 202108 string characters out of 6139871
- 323688 words of memory out of 5000000
- 16838 multiletter control sequences out of 15000+600000
+ 13997 strings out of 495031
+ 201935 string characters out of 6181531
+ 318840 words of memory out of 5000000
+ 16576 multiletter control sequences out of 15000+600000
  263931 words of font info for 207 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  45i,13n,87p,1147b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fonts
+st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/share/texlive/texmf-dist/fonts
 /enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
@@ -2213,10 +2214,10 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (41 pages, 797421 bytes).
+Output written on main.pdf (41 pages, 797569 bytes).
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  613 compressed objects within 7 object streams
- 123 named destinations out of 1000 (max. 500000)
+ 124 named destinations out of 1000 (max. 500000)
  18851 words of extra memory for PDF output out of 20736 (max. 10000000)
 
