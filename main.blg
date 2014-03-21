@@ -14,45 +14,45 @@ Warning--empty journal in ATLAS:LOI2
 Warning--empty journal in Herr:2006
 Warning--empty journal in ATL-PHYS-PUB-2013-004
 Warning--empty journal in ATLAS-CONF-2012-147
-You've used 20 entries,
+You've used 24 entries,
             2481 wiz_defined-function locations,
-            704 strings with 7767 characters,
-and the built_in function-call counts, 6418 in all, are:
-= -- 548
-> -- 254
-< -- 18
-+ -- 113
-- -- 73
-* -- 429
-:= -- 1053
-add.period$ -- 73
-call.type$ -- 20
-change.case$ -- 41
-chr.to.int$ -- 20
-cite$ -- 24
-duplicate$ -- 358
-empty$ -- 626
-format.name$ -- 101
-if$ -- 1358
+            738 strings with 8589 characters,
+and the built_in function-call counts, 7994 in all, are:
+= -- 688
+> -- 330
+< -- 19
++ -- 143
+- -- 95
+* -- 559
+:= -- 1309
+add.period$ -- 91
+call.type$ -- 24
+change.case$ -- 49
+chr.to.int$ -- 24
+cite$ -- 28
+duplicate$ -- 429
+empty$ -- 770
+format.name$ -- 127
+if$ -- 1696
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 19
-newline$ -- 121
-num.names$ -- 62
-pop$ -- 181
+int.to.str$ -- 25
+missing$ -- 22
+newline$ -- 147
+num.names$ -- 74
+pop$ -- 209
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 24
 quote$ -- 0
-skip$ -- 208
+skip$ -- 246
 stack$ -- 0
-substring$ -- 163
-swap$ -- 49
+substring$ -- 240
+swap$ -- 59
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 156
 warning$ -- 4
-while$ -- 48
+while$ -- 59
 width$ -- 0
-write$ -- 282
+write$ -- 345
 (There were 4 warnings)

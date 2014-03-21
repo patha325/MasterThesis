@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  20 MAR 2014 13:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  21 MAR 2014 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1900,7 +1900,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<figures/default/LiTH_staende_eng_sv.pdf, id=192, 260.975pt x 190.7125pt>
+<figures/default/LiTH_staende_eng_sv.pdf, id=217, 260.975pt x 190.7125pt>
 File: figures/default/LiTH_staende_eng_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_staende_eng_sv.pdf>
@@ -1928,7 +1928,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 33--33
 
 ] [2
 
-] <figures/default/LiTH_sigill_sv.pdf, id=216, 124.465pt x 124.465pt>
+] <figures/default/LiTH_sigill_sv.pdf, id=240, 124.465pt x 124.465pt>
 File: figures/default/LiTH_sigill_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_sigill_sv.pdf>
@@ -2039,56 +2039,76 @@ been already used, duplicate ignored
                    \relax 
 l.25 \newpage
               [2] [3] [4]
-<figures/myfeynman.pdf, id=349, 597.50829pt x 845.0471pt>
-File: figures/myfeynman.pdf Graphic file (type pdf)
+<figures/created/solarsystemrotation.jpg, id=381, 491.8375pt x 481.8pt>
+File: figures/created/solarsystemrotation.jpg Graphic file (type jpg)
 
-<use figures/myfeynman.pdf>
-Package pdftex.def Info: figures/myfeynman.pdf used on input line 116.
-(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
-File: figures/myfeynman.pdf Graphic file (type pdf)
- <use figures/myfeynman.pdf>
-Package pdftex.def Info: figures/myfeynman.pdf used on input line 120.
-(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
+<use figures/created/solarsystemrotation.jpg>
+Package pdftex.def Info: figures/created/solarsystemrotation.jpg used on input 
+line 101.
+(pdftex.def)             Requested size: 177.82971pt x 174.19772pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 116--121
+<figures/rotationNGC3198.png, id=384, 500.87125pt x 368.37625pt>
+File: figures/rotationNGC3198.png Graphic file (type png)
+
+<use figures/rotationNGC3198.png>
+Package pdftex.def Info: figures/rotationNGC3198.png used on input line 105.
+(pdftex.def)             Requested size: 177.82971pt x 130.78853pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 101--106
 [][] [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6 <./figures/myfeynman.pdf>]
+ [5 <./figures/created/solarsystemrotation.jpg> <./figures/rotationNGC3198.png>
+]
+<figures/myfeynman.pdf, id=418, 597.50829pt x 845.0471pt>
+File: figures/myfeynman.pdf Graphic file (type pdf)
+
+<use figures/myfeynman.pdf>
+Package pdftex.def Info: figures/myfeynman.pdf used on input line 141.
+(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
+File: figures/myfeynman.pdf Graphic file (type pdf)
+ <use figures/myfeynman.pdf>
+Package pdftex.def Info: figures/myfeynman.pdf used on input line 145.
+(pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 141--146
+[][] [][] 
+ []
+
+[6] [7 <./figures/myfeynman.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 169.
- [7]
-<figures/lhc.jpeg, id=426, 781.92125pt x 563.10374pt>
+(Font)              scaled to size 11.39996pt on input line 194.
+ [8]
+<figures/lhc.jpeg, id=489, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
  <use figures/lhc.jpeg>
-Package pdftex.def Info: figures/lhc.jpeg used on input line 191.
+Package pdftex.def Info: figures/lhc.jpeg used on input line 214.
 (pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
 
-[8 <./figures/lhc.jpeg>] [9]
-<figures/created/particle_collider.jpg, id=454, 998.73125pt x 538.01pt>
+[9 <./figures/lhc.jpeg>] [10]
+<figures/created/particle_collider.jpg, id=517, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
-ne 235.
+ne 258.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
 
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
- [10 <./figures/created/particle_collider.jpg>]) [11]
+ [11 <./figures/created/particle_collider.jpg>]) [12]
 \openout2 = `method.aux'.
 
- (./method.tex [12
-
-
-
-]
+ (./method.tex
 Chapter 2.
-[13] [14]
+[13
+
+
+
+] [14]
 Overfull \hbox (14.82985pt too wide) in paragraph at lines 56--57
 []\T1/jkpk/m/n/10 Lepton veto, no elec-tron or muon, lead-ing jet with $\OMS/jk
 pw/m/n/10 j\OML/jkpw/m/it/10 ^^Q\OMS/jkpw/m/n/10 j \OML/jkpw/m/it/10 < \OT1/jkp
@@ -2139,17 +2159,25 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
- [25
+
+Underfull \hbox (badness 2073) in paragraph at lines 56--56
+[]\T1/jkpk/m/n/10 NASA.  NASA's so-lar sys-tem ex-plo-ration: the plan-ets: or-
+bits and
+ []
+
+[25
 
 
 ]
-Underfull \hbox (badness 2205) in paragraph at lines 94--94
+Underfull \hbox (badness 2205) in paragraph at lines 115--115
 \T1/pcr/m/n/10 twiki / bin / view / AtlasPublic / LuminosityPublicResults$[]\T1
 /jkpk/m/n/10 , 2013.
  []
 
-) (./main.ind) [26]
-<figures/default/LinkUniv_staende_pms.pdf, id=592, 260.975pt x 172.645pt>
+[26]) (./main.ind) [27] [28
+
+]
+<figures/default/LinkUniv_staende_pms.pdf, id=672, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2162,9 +2190,7 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 70--70
 doc-u-ment in-tegrity, please
  []
 
-[27
-
- <./figures/default/LinkUniv_staende_pms.pdf>]
+[29 <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./main.aux (./tack.aux)
@@ -2173,20 +2199,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BB574DCB68E262866F661430B4BC9728;3272.
+(rerunfilecheck)             Checksum: A60D268BA363DD3381A2A2AC35E6F47A;3862.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: E4247C9FB52ADC66851B4D35ACF03C8A;2042.
+(rerunfilecheck)             Checksum: 0BDD966F2A0EF334992B5BCB288B6477;2603.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  )
 (\end occurred when \ifx on line 21 was incomplete) 
 Here is how much of TeX's memory you used:
- 13997 strings out of 495031
- 201935 string characters out of 6181531
- 318840 words of memory out of 5000000
- 16576 multiletter control sequences out of 15000+600000
+ 14077 strings out of 495031
+ 203323 string characters out of 6181531
+ 321605 words of memory out of 5000000
+ 16637 multiletter control sequences out of 15000+600000
  263931 words of font info for 207 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,13n,87p,1147b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,87p,1147b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/share/texlive/texmf-dist/
 fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fonts
@@ -2210,10 +2236,10 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (41 pages, 798180 bytes).
+Output written on main.pdf (43 pages, 840385 bytes).
 PDF statistics:
- 699 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
- 124 named destinations out of 1000 (max. 500000)
- 18851 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 782 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 18909 words of extra memory for PDF output out of 20736 (max. 10000000)
 

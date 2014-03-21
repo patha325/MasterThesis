@@ -26,14 +26,13 @@ During the research period the following tasks were set up and performed/answere
 \section{Theoretical Background}\label{sec:tb}
 The following is a short description of the theory which is required to understand this thesis. 
 \subsection{Quantum mechanics and quantum field theory}\label{sec:tb:subsec:qm}
-In the beginning of the 20th century, some physical phenomena could not be explained by classical physics, for example the ultra-violet disaster of any classical model of of black-body radiation, and the photoelectric effect.\citep{Bransden:2000}
-It was these phenomena that led to the formulation of quantum mechanics (\abbrQM), where energy transfer is quantized and particles can act as both waves and particles at the same time. \citep{Hallsjo:2013}
+In the beginning of the 20th century, some physical phenomena could not be explained by classical physics, for example the ultra-violet disaster of any classical model of of black-body radiation, and the photoelectric effect\citep{Bransden:2000}.
+It was these phenomena that led to the formulation of quantum mechanics (\abbrQM), where energy transfer is quantized and particles can act as both waves and particles at the same time \citep{Hallsjo:2013}.
 
-Combining \abbrQM with classical electromagnetism proved harder than expected, colliding a photon(em-field) and an electron (particle/wave) is quite tricky. (Refer to scattering) One idea that came from this was to explain them both in the same framework, field theory.
-Also, trying to incorporate special relativity into \abbrQM suggested a field description. (Metric description and bending of gravitational fields).
-The culmination of both of these problems is Quantum electrodynamics (\abbrQED)which with incredible precision explains electromagnetic phenomena including effects from special relativity.\citep{Zee:2003}
+Combining \abbrQM with classical electromagnetism proved harder than expected, colliding a photon(em-field) and an electron (particle/wave) is quite tricky. This can be seen when trying to calculate the scattering between them both in a \abbrQM schema. One idea that came from this was to explain them both in the same framework, field theory. Also, trying to incorporate special relativity into \abbrQM suggested a field description where space-time is described using the metric formalism from differential geometry.
+The culmination of both of these problems is the first part of a Quantum field theory (\abbrQFT), Quantum electrodynamics (\abbrQED) which with incredible precision explains electromagnetic phenomena including effects from special relativity\citep{Zee:2003}. It is in this merging that antimatter was theorised, since it is a requirement for the theory to hold. After the discovery of antimatter, which is described more in \subsectionref{sec:tb:subsec:nps}, the theory was set in stone. 
 
-
+To mention some mathematics, to be able to calculate properties in \abbrQFT one uses the Lagrangian formalism \citep{Goldstein:2001}.
 Something something Lagrangian of these processes something something can be simply viewed through Feynman diagrams.
 Explain four-vectors quickly.
 Somehow end up with Feynman diagrams.
@@ -45,9 +44,9 @@ Theoretical Particle physics comes from Feynman diagrams!
 
 Dont forget to explain cross-sections from qft.
 
-Find more information in \citep{Goldstein:2001,Bransden:2000, Zee:2003}.
+Find much more information in \citep{Goldstein:2001, Hallsjo:2013, Bransden:2000, Zee:2003}.
 
-\subsection{Nuclear, particle and subatomic particle physics}
+\subsection{Nuclear, particle and subatomic particle physics}\label{sec:tb:subsec:nps}
 Can be seen as the experimental counterpart to quantum mechanics.
 Many could argue that these branches started after Ernest Rutherford famous gold foil experiment (reference), where he discovered that matter is composed of matter with a nucleus, a lot of empty space and electrons. This and more sparked the curiosity to see what the nucleus was made of and so on... 
 
@@ -58,6 +57,8 @@ Content should be enough for the rest of the thesis regarding collisions etc.
 Luminosity!
 
 \textbf{Explain hadrons...}
+Hadrons are categorized into two families: baryons (such as protons and neutrons, made of three quarks) and mesons (such as pions, made of one quark and one antiquark).
+Basically matter comprised of quarks and anti-quarks.
 
 From \citep{Burchan:1995}
 
@@ -65,7 +66,7 @@ From \citep{Burchan:1995}
 The standard model of particle physics, simply the standard model (\abbrSM).
 How and why is there a standard model? give the Lagrangian and refer to all the different interactions that are included. Which then combines \abbrQM with subatomic particle physics.
 
- From \citep{Burchan:1995} and more for the problems?
+ From \citep{Burchan:1995} and for the problems \citep{Jungman:1996}.
  
 Mention Antimatter!
 Is it proved? What problems exist? 
@@ -76,22 +77,46 @@ Is it proved? What problems exist?
 \item No dark matter candidate!
 \item Dark energy?
 \end{itemize} 
+
+
+The standard model is the particle zoo which has been discovered experimentally. QFT has tried its best to explain the interactions between these particles and it has also predicted several particles by including symmetries.
+
+
 \subsection{Dark matter}\label{sec:dark}
 A very quick introduction was given in the beginning of this chapter. Dark matter is the name given to the solution to the discrepancies of galactic rotations. 
 \textbf{Check the email regarding half-time meeting} Image etc.
+To explain this, focus on matter in a galaxy which are rotating around the center of the galaxy. Through Newtons law of gravity and the centrifugal force one can calculate the rotation speed dependent on the distance to the center of the galaxy. Since one of these forces is attractive and the other repulsive, if the matter is in a stable orbit around the galactic center (which they are) they must be equal and give us an expression for the speed depending on the distance. Newtons law can be written as the following:
+\begin{equation}\label{eq:forces}
+F_{Gravitational}=G \frac{M m}{r^2} = G_M \frac{m}{r^2} \qquad F_{Centrifugal} = m\frac{V^2}{r}
+\end{equation}
+where G is the gravitational constant, M the mass of the centre object, m the mass of the matter, r the distance between the two and V is the rotation speed. It has been simplified using $G_M$ since all matter orbits the same galactic center. Setting the equations in \eqref{eq:forces} results in:
+\begin{equation}\label{eq:rotation}
+G_M \frac{m}{r^2} = m\frac{V^2}{r} \Leftrightarrow V^2 =\frac{G_M}{r} \Rightarrow V=\sqrt{\frac{G_M}{r}} \propto \frac{1}{\sqrt{r}}
+\end{equation}
+where the speed is assumed to be positive and $\propto$ means proportional. Through these simple calculations it shown that the rotation speed should decrease with and increased distance. The same reasoning can be applied to, our solar system where this is the case \figureref{fig:rotation:a}. The relation in these units is $V=\frac{107}{\sqrt{r}}$ where 107 can be used in \eqref{eq:rotation} to calculate the mass of the sun. However when looking at galaxies, even when taking into account that one has to see the galaxies as a mass distribution and that the above is only true when outside of the inner mass half, this is not the case! In \figureref{fig:rotation:b} experimental data can be seen from the galaxy NGC3198 with a fitted curve which does not decrease with the distance but is instead constant.  This is the discrepancy which is solved by postulating the existence of dark matter.
 
-After this the big question arises, what could this dark matter consist of? One possible explanation comes from \abbrSUSY where there exists particles that are massive though will not interact electromagnetically.
+ \begin{figure}[H] %!ht
+    \subfloat[Rotation speed of planets in our solarsystem. Based on data from \citep{Nasa}. \label{fig:rotation:a}]{%
+     \includegraphics[width=0.5\textwidth]{solarsystemrotation.jpg}
+    }
+    \hfill
+    \subfloat[Rotation speed of mater in NGC3198 with a curve fitting and two different models, if only a dark model halo existed and if there was no dark matter. \citep{Albada:1985}.\label{fig:rotation:b}]{%
+      \includegraphics[width=0.5\textwidth]{rotationNGC3198.png}
+    }
+    \caption{Different rotation curves, both for planets in our solar system and matter in the NGC3198 galaxy.}
+    \label{fig:rotation}
+  \end{figure}
 
-Dark since no electromagnetic interaction, matter since gravitational interaction. Mention that the interest is cold dark matter, thus massive [GeV] scale.
-
-There are several theories how to detect dark matter in proton-proton collisions such that occur at \abbrCERN \textbf{Refer to section?}. 
+After this the big question arises, what could this dark matter consist of? What is known so far lies in the name. Dark since no electromagnetic interaction and matter since gravitational interaction. This means that it can not be made up of any barionic matter or anything in the Standard Model apart from neutrinos. The main topic and also the main contributor to the rotational discrepancies is known as cold dark matter. This is due to the matter having as low kinetic energy and have mass in the GeV scale \citep{Goodman:2010,CERN-PH-EP-2012-210,Jungman:1996}. This means however that neutrions can not be a candidate, thus the standard model is ruled out. One possible explanation comes from \abbrSUSY where there exists particles that are massive enough and which will not interact electromagnetically. This is discussed more in \subsectionref{sec:tb:subsec:standard}.
+There are several different ideas for how dark matter can be detected, \citep{Jungman:1996}
 \begin{itemize}
 \item Ordinary matter interacting with ordinary matter can produce dark matter, known as production.
 \item Dark matter interacting with ordinary matter can produce dark matter, known as direct detection.
 \item Dark matter interacting with dark matter can produce ordinary matter, known as indirect detection.
 \end{itemize} 
-In this theses the focus lies with production.
-\subsection{Beyond the standard model: Supersymmetry}
+In this theses the focus lies with production. There are several theories how to detect dark matter in proton-proton collisions such that occur at \abbrCERN this is covered more in \subsectionref{sec:tb:subsec:WIMPS}. 
+
+\subsection{Beyond the standard model: Supersymmetry}\label{sec:tb:subsec:standard}
 In the early 1970:s similar as \abbrQED expansion with antimatter due to (integral which one diverged?). Similarly to this, an expansion with a similar symmetry having bosons instead of fermions and the reverse. These symmetrical particles are known as supersymmetrical partners. The \abbrSUSY partner of a boson is denoted as sfermion (squarks and sleptons) whereas the \abbrSUSY partner of a fermion is denoted as bosinos (gauginos).  \textbf{Image used by Sara particles with their equivalents.}
 
 Different problems, hierarchy, etc
@@ -104,12 +129,12 @@ Minimal Supersymmetric Standard Model
 
 Supersymmetry: Every boson has a supersymmetrical fermion, and the reverse.
 
-Some from, else from licentiates \citep{Martin:1998,Dine:1981,Pavel:2014}
+From: \citep{Jungman:1996,Martin:1998,Dine:1981,Pavel:2014}
 
 \subsection{Effective field theory}
 In quantum field theory the objective is usually to find the part of the Lagrangian which explains a type of interaction, known as the operator of the interaction and also to find the probability amplitude (cross-section) for a certain interaction. For complicated processes it is easier to employ certain conditions so that the small scale phenomena are simplified and the whole picture understood. This called using an effective field theory and the idea can be in \figureref{fig:feymanc}. The operator can be found through assuming the possible interactions and using the effective field theory \citep{Zee:2003}. The cross-sections can be found through the Feynman diagrams as described in \subsectionref{sec:tb:subsec:qm}. 
 %trim=left botm right top.
- % good for finding limits \fbox{\includegraphics[scale=•]{•}}
+ % good for finding limits \fbox{\includegraphics}
  \begin{figure}[H] %!ht
     \subfloat[Electromagnetic interaction.\label{fig:feymanc:a}]{%
      \includegraphics[trim=5cm 22cm 11cm 4cm,clip=true, width=0.5\textwidth]{myfeynman.pdf}
@@ -130,7 +155,7 @@ The focus for the operators will be quark bilinear operators on the form $\bar{q
 \end{equation}
 This will dictate how the operators are written, more of why this is done can be found in \citep{82.116010,Goodman:2010,Zee:2003}.
 
-This, together with the \textbf{couplings to GG} define an effective field theory of the interaction of singlet \abbrWIMPS with hadronic matter. It is a non-renormalizable field theory which will break down when the mediator mass is close to the mass of the \abbrWIMP .
+This, together with the coupling with the strong force defines an effective field theory of the interaction of singlet \abbrWIMPS with hadronic matter. It is a non-renormalizable field theory which will break down when the mediator mass is close to the mass of the \abbrWIMP .
 The condition for this is derived in \citep{82.116010} and gives:
 \begin{equation}
 M > 2 m_\chi
@@ -166,7 +191,7 @@ Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions.
 
 \textbf{Also what is looked at is light vector-mediators similar to Z!}
 
-\subsection{Search for \abbrWIMPS}
+\subsection{Search for \abbrWIMPS}\label{sec:tb:subsec:WIMPS}
 The search of \abbrWIMPS is based on a mono-jet analysis which is described in \subsectionref{sec:experiment:subsec:monojet}. 
 
 Since the search for \abbrWIMPS at the \abbrLHC is based on looking at $E_T^{Miss}$ it will be canonical though the experiment can no establish if a \abbrWIMP is stable on a cosmological time scale and thus if it is a Dark matter candidate \citep{CERN-PH-EP-2012-210}
@@ -174,9 +199,7 @@ Since the search for \abbrWIMPS at the \abbrLHC is based on looking at $E_T^{Mis
 Include SUSY-feynman?
 
 What is it? Why at \abbrCERN/\abbrATLAS? Candidates?
-Dark matter is something which does not interact electromagnetically however it does have a gravitational effect on nearby bodies.
-Cold dark matter?
-Non-barionic dark matter. Why not barionic?
+
 \abbrWIMPS, wimps as candidates.
 How is this detectable at \abbrATLAS? Finish with this. Refer next chapter and that neutralinos are a candidate. \textbf{(THEY ARE MAJORANA PARTICLES! so does not coincide with our effective field theory.)}
 
@@ -273,5 +296,6 @@ Assumed effects, timespan when will it be done?
 \section{Monte Carlo simulation, truth data}
 What it is in short detail. How it is set-up and what it produces for us in this context. 
 Where does it come from? Perhaps quick explanation of different programs?
+PYTHIA which is the generator? \citep{Sjostrand:2008}
 \section{ROOT}
 A wonderful tool for processing data by programming in C++ and so on... Reference to root homepage?
