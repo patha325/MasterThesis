@@ -24,8 +24,8 @@
 \BOOKMARK [2][-]{subsection.1.3.6}{1.3.6 Pile-up}{section.1.3}% 24
 \BOOKMARK [2][-]{subsection.1.3.7}{1.3.7 Mono-jet analysis}{section.1.3}% 25
 \BOOKMARK [2][-]{subsection.1.3.8}{1.3.8 Phase II high luminosity upgrade}{section.1.3}% 26
-\BOOKMARK [1][-]{section.1.4}{1.4 Monte Carlo simulation, truth data}{chapter.1}% 27
-\BOOKMARK [1][-]{section.1.5}{1.5 ROOT}{chapter.1}% 28
+\BOOKMARK [2][-]{subsection.1.3.9}{1.3.9 Monte Carlo simulation, truth data}{section.1.3}% 27
+\BOOKMARK [2][-]{subsection.1.3.10}{1.3.10 ROOT}{section.1.3}% 28
 \BOOKMARK [0][]{chapter.2}{2 Method}{}% 29
 \BOOKMARK [1][-]{section.2.1}{2.1 Validation of smearing functions}{chapter.2}% 30
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Smearing}{section.2.1}% 31
@@ -49,5 +49,5 @@
 \BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 49
 \BOOKMARK [1][-]{section.5.1}{5.1 Recommendations to mitigate the effect of the high luminosity}{chapter.5}% 50
 \BOOKMARK [1][-]{section.5.2}{5.2 Suggestions for future research}{chapter.5}% 51
-\BOOKMARK [0][]{appendix*.12}{Bibliography}{}% 52
+\BOOKMARK [0][]{chapter*.14}{Bibliography}{}% 52
 \BOOKMARK [0][]{Copyright.0}{Copyright}{}% 53

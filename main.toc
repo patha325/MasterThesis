@@ -13,47 +13,47 @@
 \contentsline {section}{\numberline {1.1}Research goals}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Theoretical Background}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Quantum mechanics and quantum field theory}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Nuclear, particle and subatomic particle physics}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Nuclear, particle and subatomic particle physics}{4}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}The standard model of particle physics}{4}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Dark matter}{4}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Beyond the standard model: Supersymmetry}{6}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Effective field theory}{6}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Search for \textsc {wimps}\xspace }{8}{subsection.1.2.7}
-\contentsline {section}{\numberline {1.3}Experimental overview}{9}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}\textsc {lhc}\xspace }{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}\textsc {atlas}\xspace }{10}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Coordinate system}{10}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Calorimeter}{11}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Reconstructing data}{11}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Pile-up}{11}{subsection.1.3.6}
-\contentsline {subsection}{\numberline {1.3.7}Mono-jet analysis}{11}{subsection.1.3.7}
-\contentsline {subsection}{\numberline {1.3.8}Phase II high luminosity upgrade}{12}{subsection.1.3.8}
-\contentsline {section}{\numberline {1.4}Monte Carlo simulation, truth data}{12}{section.1.4}
-\contentsline {section}{\numberline {1.5}ROOT}{12}{section.1.5}
-\contentsline {chapter}{\numberline {2}Method}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Validation of smearing functions}{14}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Smearing}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Validation}{14}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Evaluating dark matter signals}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Signal to background ratio}{15}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Selection criteria}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Comparing with published papers}{15}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Figures of merit}{16}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Other selection criteria and observables}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}Mitigating the effect of the high luminosity}{16}{section.2.4}
-\contentsline {chapter}{\numberline {3}Results}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Validation of smearing functions}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Signal to background ratio}{17}{section.3.2}
-\contentsline {section}{\numberline {3.3}Other selection criteria and observables}{17}{section.3.3}
-\contentsline {section}{\numberline {3.4}Mitigating the effect of the high luminosity}{17}{section.3.4}
-\contentsline {chapter}{\numberline {4}Discussion}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Validation of smearing functions}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mitigating the effect of the high luminosity}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Viability of different signals}{19}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusions}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Recommendations to mitigate the effect of the high luminosity}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Suggestions for future research}{21}{section.5.2}
-\contentsline {chapter}{Bibliography}{25}{appendix*.12}
+\contentsline {subsection}{\numberline {1.2.4}Dark matter}{5}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Beyond the standard model: Supersymmetry}{7}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Effective field theory}{7}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}Search for \textsc {wimps}\xspace }{9}{subsection.1.2.7}
+\contentsline {section}{\numberline {1.3}Experimental overview}{10}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}\textsc {lhc}\xspace }{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}\textsc {atlas}\xspace }{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Coordinate system}{11}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Calorimeter}{12}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Reconstructing data}{12}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Pile-up}{12}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Mono-jet analysis}{12}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.8}Phase II high luminosity upgrade}{13}{subsection.1.3.8}
+\contentsline {subsection}{\numberline {1.3.9}Monte Carlo simulation, truth data}{13}{subsection.1.3.9}
+\contentsline {subsection}{\numberline {1.3.10}ROOT}{13}{subsection.1.3.10}
+\contentsline {chapter}{\numberline {2}Method}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Validation of smearing functions}{16}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Smearing}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Validation}{16}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Evaluating dark matter signals}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Signal to background ratio}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Selection criteria}{17}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Comparing with published papers}{17}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Figures of merit}{18}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Other selection criteria and observables}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}Mitigating the effect of the high luminosity}{18}{section.2.4}
+\contentsline {chapter}{\numberline {3}Results}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Validation of smearing functions}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Signal to background ratio}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Other selection criteria and observables}{19}{section.3.3}
+\contentsline {section}{\numberline {3.4}Mitigating the effect of the high luminosity}{19}{section.3.4}
+\contentsline {chapter}{\numberline {4}Discussion}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Validation of smearing functions}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mitigating the effect of the high luminosity}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Viability of different signals}{21}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusions}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Recommendations to mitigate the effect of the high luminosity}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Suggestions for future research}{23}{section.5.2}
+\contentsline {chapter}{Bibliography}{25}{chapter*.14}
 \select@language {english}
 \select@language {english}
 \select@language {english}
