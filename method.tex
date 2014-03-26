@@ -10,20 +10,43 @@ The validation was done for \textbf{what MCdata? and validated for which pile-up
 \subsection{Smearing}
 One might assume that using a Monte Carlo simulation it would be easy to model and simulate the whole process, from collision to detection and reconstruction in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. 
 
-This was done by using a Monte Carlo simulation of a proton-proton collision, then applying code, that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004} , to simulate the effect that pile-up would have on the signals that come from the detectors and the reconstruction of these. \textbf{Code from where?}
+This was done by using a Monte Carlo simulation of a proton-proton collision the applying official Truth to reco code that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004}; to simulate the effect that pile-up would have on the signals that come from the detectors and the reconstruction of these. \textbf{Code from where?}
 
-The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
+The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. 
 
+The data was taken from these processes:
+\begin{itemize}
+\item Electron, W$\rightarrow e\nu$
+\item Muon, W$\rightarrow \mu \nu$
+\item $\gamma$, $\gamma$ + Jet sample.
+\item Tau, W$\rightarrow \tau \nu$
+\item Jets, Jet sample.
+\item $E_T^{Miss}$, Z$\rightarrow \nu \nu$ + Jet sample
+\end{itemize}
+
+That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
+
+Perhaps under results?
 \subsection{Validation}
-To validate the code comparisons were made with \citep{ATL-PHYS-PUB-2013-004}. 
-
-Also include the following so that readers will understand the smearing functions.
-\begin{eqnarray}
-a\oplus b = \sqrt{a^2 + b^2} \\
-a\oplus b\oplus c = \sqrt{a^2+b^2+c^2} 
-\end{eqnarray}
+To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004}. 
 
 Parametrization used according to the paper \citep{ATL-PHYS-PUB-2013-004}. What results and what did I get/say in my presentation? Use that in results Perhaps even write something better than the original that can be used to explain this again.
+
+\begin{itemize}
+\item For electron, photon:\\
+$\sigma=0.3\oplus 0.1\sqrt{E(GeV)}\oplus 0.01E(GeV)$, $|\eta|<$ 1.4, \\
+$\sigma=0.3\oplus 0.15\sqrt{E(GeV)}\oplus 0.015E(GeV)$, 1.4 $<|\eta|<$ 2.47 
+\item For muon: $\sigma=\frac{\sigma_{id} \sigma_{ms}}{\sigma_{id} \oplus \sigma_{ms}}$\\
+$\sigma_{id}=P_T(a_1 \oplus a_2 P_T)$, $\sigma_{ms}=P_T(\frac{b_0}{P_T} \oplus b_1 \oplus b_2 P_T)$
+\item For tau: $\sigma =(0.03\oplus \frac{0.76}{\sqrt{E(GeV)}})E(GeV)$, for 3 prong. 
+\item For Jet: $\sigma = P_T(GeV)(\frac{N}{P_T} \oplus \frac{S}{\sqrt{P_T}} \oplus C)$ \\
+Where N, S, and C are parameters found in the paper, that depend on $\eta$. 
+\\N is also dependent on the pile-up that is simulated.
+\item For $E_T^{miss}$: $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$
+\end{itemize}
+Here each sigma represents the \textbf{absolute?} rms.
+
+\textbf{One prong for tau exists, though was not used!}
 
 Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults.
 

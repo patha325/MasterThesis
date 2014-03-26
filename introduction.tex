@@ -1,7 +1,7 @@
 \chapter{Introduction}\label{cha:intro}
 Discrepancies in measurements of the rotations of galaxies indicate the presence of a large amount of matter which interacts through gravity, though not electromagnetically making it invisible to our telescopes. This matter is commonly referred to as dark matter. Since no known or hypothesised particle in the standard model of particle physics can be used as a candidate for dark matter, this has opened the door for new physics. Aside from dark matter there are other phenomena, such as the neutrino mass and the hierarchy problem, that can not be explained today. One of the proposed models to correct these discrepancies is known as Supersymmetry (\abbrSUSY).  
 
-At the Organisation européene pour la recherche nucléaire (\abbrCERN) the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called weakly interacting massive particles (\abbrWIMPS) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed decay channels and inconsistencies in momentum conservation it is hoped that signs will be found. Though as of \today\ none have been found. 
+At the Organisation européene pour la recherche nucléaire (\abbrCERN) the interest now lies to discover any evidence of \abbrSUSY. Among other searches one is fixed at looking for so called weakly interacting massive particles (\abbrWIMPS) which may be a candidate for dark matter. It is usually impossible to detect any interaction of dark matter candidates on the subatomic scale, however through looking at proposed interactions, searching for assumed decay channels and inconsistencies in momentum conservation it is hoped that signs will be found. Though as of \today , none have been found. 
 
 Both these experiments and current theories now show that higher energies are required at the \abbrLHC to be able to see any signs. This is why the \abbrLHC and all detectors are undergoing a vast upgrading program \citep{ATLAS:LOI2}.
 In this thesis focus will be on the last part of the upgrade due for completion in 2023, known as the high luminosity-\abbrLHC phase II upgrade; and also on the \abbrATLAS detector.
@@ -48,15 +48,7 @@ Many could argue that these branches of physics started after Ernest Rutherford 
 
 It was this and other things that sparked the curiosity to see what the nucleus is made of and what forces govern the insides of atoms. After this, and the combination of the theoretical description given by \abbrQM, a lot more has been discovered and still more has been predicted. The newest of these is of course the Higgs particle, which was predicted through \abbrQFT and then discovered by \abbrCERN \citep{Higgs:2012}. 
 
-The discovered particles are often divided into different groups depending on the fundamental particles that build them up, more in \subsectionref{sec:tb:subsec:SM}.
-
-The discovery of the quark dividing of bosons/fermions different generations. Fundamental particles. HADRONS
-
-More details about collision given in LHC subsection.
-
-\textbf{Explain hadrons...}
-Hadrons are categorized into two families: baryons (such as protons and neutrons, made of three quarks) and mesons (such as pions, made of one quark and one antiquark).
-Basically matter comprised of quarks and anti-quarks.
+The discovered particles are often divided into different groups depending on the fundamental particles that build them up. For instance, particles build up of three quarks are known as hadrons. Particles with an integer spin are known as bosons whereas half-integer particles are known as fermions.
 
 \subsection{The standard model of particle physics}\label{sec:tb:subsec:SM}
 The standard model of particle physics, referred to simply as the standard model (\abbrSM), is the particle zoo which tries to categorize all the particles and that have been discovered experimentally. \abbrQFT has tried its best to explain the interactions between these particles and it has also predicted several particles by including symmetries \citep{Burchan:1995}. Regarding \abbrSM, Gauge bosons are the force carriers for the different forces, quarks are the and leptons are the fundamental blocks that we know of so far. The difference between the later two is if they interact via the strong force or not. 
@@ -91,7 +83,7 @@ where G is the gravitational constant, M the mass of the centre object, m the ma
 G_M \frac{m}{r^2} = m\frac{V^2}{r} \Leftrightarrow V^2 =\frac{G_M}{r} \Rightarrow V=\sqrt{\frac{G_M}{r}} \propto \frac{1}{\sqrt{r}}
 \end{equation}
 where the speed is assumed to be positive and $\propto$ means proportional. Through these simple calculations it shown that the rotation speed should decrease with and increased distance. The same reasoning can be applied to, our solar system where this is the case \figureref{fig:rotation:a}. The relation in these units is $V=\frac{107}{\sqrt{r}}$ where 107 can be used in \eqref{eq:rotation} to calculate the mass of the sun. However when looking at galaxies, even when taking into account that one has to see the galaxies as a mass distribution and that the above is only true when outside of the inner mass half, this is not the case! In \figureref{fig:rotation:b} experimental data can be seen from the galaxy NGC3198 with a fitted curve which does not decrease with the distance but is instead constant.  This is the discrepancy which is solved by postulating the existence of dark matter.
- \begin{figure}[H] %!ht
+ \begin{figure}[h] %!ht
     \subfloat[Rotation speed of planets in our solarsystem. Based on data from \citep{Nasa}. \label{fig:rotation:a}]{%
      \includegraphics[width=0.5\textwidth]{solarsystemrotation2.jpg}
     }
@@ -141,7 +133,6 @@ In quantum field theory the objective is usually to find the part of the Lagrang
     \caption{Feyman diagram of an electron-electron scattering, both as an ordinary diagram and as its effective version, where the details are hidden in the blob.}
     \label{fig:feymanc}
   \end{figure}
-
 In this thesis the same effective field theory as in \citep{82.116010,Goodman:2010} will be considered. The \abbrWIMP (usually denoted $\chi$) is assumed as the only particle in addition to the standard model fields. $\chi$ will be assumed odd under some $Z_2$ symmetry. This means that an even number of $\chi$ must be in every coupling. It is assumed that the whatever mediator exists is heavier that the \abbrWIMPS, meaning that their interactions are in higher order terms of the effective field theory and thus not included in the operators. For simplicity, the \abbrWIMPS are assumed to be \abbrSM singlets, thus invariant under \abbrSM gauge transformations, and the coupling to the Higgs boson is neglected.
 
 The focus for the operators will be quark bilinear operators on the form $\bar{q}\Gamma q$ where $\Gamma$ is a 4 $\times$ 4 matrix of the complete set, 
@@ -177,21 +168,30 @@ In \tableref{tab:operators} the operators which are integrated out via the effec
   	D11 & gg & scalar & $\frac{1}{4M^3_*}\bar{\chi}\chi \alpha_s (G^a_{\mu \nu})^2 $\\ \hline
   	\end{tabular}
 
-  	\caption{From \citep{CERN-PH-EP-2012-210}}
+  	\caption{Table based on discussion in \citep{CERN-PH-EP-2012-210}}
   	\label{tab:operators}
   	  	\end{center}
     \end{table}
 \renewcommand{\arraystretch}{1.0}  %Back to default
-Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions.
+Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions. These can all be described using \figureref{fig:opfeyn:a}
 
-\textbf{Also what is looked at is light vector-mediators similar to Z!}
+ \begin{figure}[H] %!ht
+    \subfloat[Effective Feynman diagram explaining the D-operators. \label{fig:opfeyn:a}]{%
+     \includegraphics[trim=5cm 21cm 8cm 3.9cm, clip=true, width=0.5\textwidth]{effectiveD.pdf}
+    }
+    \hfill
+    \subfloat[Feynman diagram describing the vector mediator model. \label{fig:opfeyn:b}]{%
+      \includegraphics[trim=5cm 22cm 10cm 3.9cm, clip=true, width=0.5\textwidth]{vectorboson.pdf}
+    }
+    \caption{Feynman diagrams describing the used signal models.}
+    \label{fig:opfeyn}
+  \end{figure}
+Another model which is considered is when the \abbrWIMP mass is close to the mediator mass. Then the effective theory fails and the process is assumed to be described by \figureref{fig:opfeyn:b}. 
 
 \subsection{Search for \abbrWIMPS}\label{sec:tb:subsec:WIMPS}
 The search of \abbrWIMPS is based on a mono-jet analysis which is described in \subsectionref{sec:experiment:subsec:monojet}. 
 
 Since the search for \abbrWIMPS at the \abbrLHC is based on looking at $E_T^{Miss}$ it will be canonical though the experiment can no establish if a \abbrWIMP is stable on a cosmological time scale and thus if it is a Dark matter candidate \citep{CERN-PH-EP-2012-210}
-
-Include SUSY-feynman?
 
 What is it? Why at \abbrCERN/\abbrATLAS? Candidates?
 
