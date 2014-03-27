@@ -118,7 +118,7 @@ Supersymmetry: Every boson has a supersymmetrical fermion, and the reverse.
 
 From: \citep{Jungman:1996,Martin:1998,Dine:1981,Pavel:2014}
 
-\subsection{Effective field theory}
+\subsection{Effective field theory}\label{sec:tb:subsec:eft}
 In quantum field theory the objective is usually to find the part of the Lagrangian which explains a type of interaction, known as the operator of the interaction and also to find the probability amplitude (cross-section) for a certain interaction. For complicated processes it is easier to employ certain conditions so that the small scale phenomena are simplified and the whole picture understood. This called using an effective field theory and the idea can be in \figureref{fig:feymanc}. The operator can be found through assuming the possible interactions and using the effective field theory \citep{Zee:2003}. The cross-sections can be found through the Feynman diagrams as described in \subsectionref{sec:tb:subsec:qm}. 
 %trim=left botm right top.
  % good for finding limits \fbox{\includegraphics}
@@ -189,11 +189,13 @@ Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions. These can 
 Another model which is considered is when the \abbrWIMP mass is close to the mediator mass. Then the effective theory fails and the process is assumed to be described by \figureref{fig:opfeyn:b}. 
 
 \subsection{Search for \abbrWIMPS}\label{sec:tb:subsec:WIMPS}
-The search of \abbrWIMPS is based on a mono-jet analysis which is described in \subsectionref{sec:experiment:subsec:monojet}. 
+The search of \abbrWIMPS is based on a mono-jet analysis which is described in \subsectionref{sec:eo:subsec:mjet}. 
 
 Since the search for \abbrWIMPS at the \abbrLHC is based on looking at $E_T^{Miss}$ it will be canonical though the experiment can no establish if a \abbrWIMP is stable on a cosmological time scale and thus if it is a Dark matter candidate \citep{CERN-PH-EP-2012-210}
 
 What is it? Why at \abbrCERN/\abbrATLAS? Candidates?
+
+REFER TO MJET
 
 \abbrWIMPS, wimps as candidates.
 How is this detectable at \abbrATLAS? Finish with this. Refer next chapter and that neutralinos are a candidate. \textbf{(THEY ARE MAJORANA PARTICLES! so does not coincide with our effective field theory.)}
@@ -214,7 +216,7 @@ The instantaneous luminosity can be defined in different ways depending on how t
 \begin{equation}
 \mathscr{L} = \frac{fkN_1 N_2}{4\pi \sigma_x \sigma_y}
 \end{equation}
-where $N_i$ are the number of particles in each of the bunches, f is the frequency at which the bunches collide , k the number of colliding bunches in each beam, and $\sigma_x$ ($\sigma_y$) is the horizontal (vertical) beam size at the interaction point. Since the instantaneous luminosity increases quadratically with more particles in each bunch this would be a good strategy. However aside from the difficulties to create and maintain a beam with more particles, a large $N_i$ increases the probability for multiple collisions per bunch crossing, referred to as pile-up. Pile up will be a key aspect which is described more in \subsectionref{sec:experiment:subsec:pileup}. 
+where $N_i$ are the number of particles in each of the bunches, f is the frequency at which the bunches collide , k the number of colliding bunches in each beam, and $\sigma_x$ ($\sigma_y$) is the horizontal (vertical) beam size at the interaction point. Since the instantaneous luminosity increases quadratically with more particles in each bunch this would be a good strategy. However aside from the difficulties to create and maintain a beam with more particles, a large $N_i$ increases the probability for multiple collisions per bunch crossing, referred to as pile-up. Pile up will be a key aspect which is described more in \subsectionref{sec:eo:subsec:pile}. 
 
 The expected number of events can be calculated by using the instantaneous luminosity through the following:
 \begin{equation}
@@ -255,18 +257,36 @@ It is quite common to calculate the distance between particles and jets in the $
 \end{center}
 \end{figure}
 
-\subsection{Calorimeter}
 \subsection{Reconstructing data}
-Give a general description.
+Since the data used in this thesis is based on simulated Monte Carlo data, \textbf{refer to method}. To be able to compare the simulated data to measurable data it is important to include effects of the detector. This is done using so called smearing functions which try to emulate the reconstruction of data. 
 
-In this thesis, truth = Montecarlo. 
-Reconstructed data = that which is seen in the detectors, which is the smeared data.
-\subsection{Pile-up}\label{sec:experiment:subsec:pileup}
-\subsection{Mono-jet analysis}\label{sec:experiment:subsec:monojet}
-What is a jet? why are we only looking at transverse missing energy? 
+The reconstruction process of data, \textbf{reference}, is based on what response is given from the detectors. It is affected by pile-up and the energy of that which is detected. Since no measured data is used in the analysis, only for comparison, this is not discussed further. 
 
-\subsection{Phase II high luminosity upgrade}
+\subsection{Pile-up}\label{sec:eo:subsec:pile}
+Somewhat described in pavels lic.
+
+Pile-up is defined as the average number of collisions that occur per second. It is denoted as $\obs{\mu}$. 
+
+
+\subsection{Mono-jet analysis}\label{sec:eo:subsec:mjet}
+
+\textbf{Image of the mono-jet?} 
+
+Transversal energy since it is known that it is almost zero before the collision and that it is unknown the amount of energy before and after in the z-direction. (Hard to create a detector that does not block the beam.)
+
+When measuring the transversal energy one can in some interactions find inconsistencies, such as jets that are in excess in one direction. In the \textbf{image} one can see a high energetic jet which gives an excess of transversal energy in one direction after the collision. Since there is no balancing jet there must be transversal energy that is not detected, denoted $E_T^{miss}$, since it was close to zero before the collision. This gives an indication that there energy to balance this that simply can not be detected. This could for instance be neutrinos or the sign of a new particle.
+
+Jets are showers of particles that are produced at collisions. They are composed of highly energetic quarks and/or gluons. Since the gluons have self interaction, they s split into even more gluons which then results in shower of particles moving in the same direction. In the final stages the quarks and gluons can combine to form larger particles. It is by measuring these end products that one can gain more information about the collision which created the jet.
+
+There are two main concepts to the analysis, signal and background. The signal is what theoretically should be detected by a assumed process. In this thesis the different dark matter processes, from \subsectionref{sec:tb:subsec:eft}, will constitute different signals. However to know that the missing energy is sign of the signal then one must understand all the other components that could contribute to the missing energy.
+
+The background comprises of all the background processes that occur and that could contribute to the missing energy. By finding so called Control regions, where background process are in excess one can model how many neutrinos come from the processes. 
+
+\subsection{Phase II high luminosity upgrade}\label{sec:eo:subsec:hlu}
 Talk about the upgrade schedule. \citep{ATLAS:LOI2}
+
+The key question is how the signals are affected by the increase of luminosity and pile-up.
+
 I am looking at the upgrade which will be done at \abbrCERN and will be completed around 2022-2023 and is denoted High Luminosity-\abbrLHC Phase 2 upgrade. When this is running the following is expected:
 \renewcommand{\arraystretch}{1.5} %Change height of tabel
 \begin{table}[H]
