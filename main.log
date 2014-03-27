@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2191,13 +2191,13 @@ Chapter 2.
 
 
 ]
-Overfull \hbox (5.47993pt too wide) in paragraph at lines 29--30
+Overfull \hbox (5.47993pt too wide) in paragraph at lines 33--34
 []\T1/jkpk/m/n/10 That this is true can be shown from \T1/jkpk/b/n/10 fig-ures 
 and ref-er-ences from non-pile-updep.txt
  []
 
 [16] [17]
-Overfull \hbox (14.82985pt too wide) in paragraph at lines 81--82
+Overfull \hbox (14.82985pt too wide) in paragraph at lines 85--86
 []\T1/jkpk/m/n/10 Lepton veto, no elec-tron or muon, lead-ing jet with $\OMS/jk
 pw/m/n/10 j\OML/jkpw/m/it/10 ^^Q\OMS/jkpw/m/n/10 j \OML/jkpw/m/it/10 < \OT1/jkp
 /m/n/10 2\OML/jkpw/m/it/10 :\OT1/jkp/m/n/10 0$ \T1/jkpk/m/n/10 and $\U/jkpmiaw/
@@ -2206,7 +2206,7 @@ m/it/10 ^^A\OML/jkpw/m/it/10 ^^^\OT1/jkp/m/n/10 (\OML/jkpw/m/it/10 jet; E[]\OT1
  []
 
 
-Overfull \hbox (1.78554pt too wide) in paragraph at lines 87--96
+Overfull \hbox (1.78554pt too wide) in paragraph at lines 91--100
  [] 
  []
 
@@ -2326,7 +2326,7 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (43 pages, 1036645 bytes).
+Output written on main.pdf (43 pages, 1037000 bytes).
 PDF statistics:
  835 PDF objects out of 1000 (max. 8388607)
  731 compressed objects within 8 object streams

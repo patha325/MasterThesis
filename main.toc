@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Validation}{16}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Evaluating dark matter signals}{17}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Signal to background ratio}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Selection criteria}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Selection criteria}{17}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Comparing with published papers}{18}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Figures of merit}{18}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Other selection criteria and observables}{18}{section.2.3}

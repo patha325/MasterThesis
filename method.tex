@@ -17,14 +17,18 @@ This was done by using a Monte Carlo simulation of a proton-proton collision the
 The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. 
 
 The data was taken from these processes:
-\begin{itemize}
-\item Electron, W$\rightarrow e\nu$
-\item Muon, W$\rightarrow \mu \nu$
-\item $\gamma$, $\gamma$ + Jet sample.
-\item Tau, W$\rightarrow \tau \nu$
-\item Jets, Jet sample.
-\item $E_T^{Miss}$, Z$\rightarrow \nu \nu$ + Jet sample
-\end{itemize}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Entity & Process \\ \hline
+Electron & W$\rightarrow e\nu$ \\
+Muon & W$\rightarrow \mu \nu$ \\
+$\gamma$ & $\gamma$ + Jet sample \\
+Tau & W$\rightarrow \tau \nu$ \\
+Jets & Jet sample \\
+$E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
+\end{tabular}
+\end{center}
 
 That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
 
@@ -46,7 +50,7 @@ Where N, S, and C are parameters found in the paper, that depend on $\eta$.
 \\N is also dependent on the pile-up that is simulated.
 \item For $E_T^{miss}$: $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$
 \end{itemize}
-Here each sigma represents the \textbf{absolute?} rms.
+Here each sigma represents the \textbf{absolute?} rms. \textbf{Check the code in validation}
 
 \textbf{One prong for tau exists, though was not used!}
 
