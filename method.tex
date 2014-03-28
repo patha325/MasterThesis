@@ -9,7 +9,7 @@ For the proposed upgrade of the LHC.
 
 The validation was done for \textbf{what MCdata? and validated for which pile-up?}
 
-\subsection{Smearing}
+\subsection{Smearing}\label{sec:vali:subsec:smear}
 One might assume that using a Monte Carlo simulation it would be easy to model and simulate the whole process, from collision to detection and reconstruction in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. 
 
 This was done by using a Monte Carlo simulation of a proton-proton collision the applying official Truth to reco code that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004}; to simulate the effect that pile-up would have on the signals that come from the detectors and the reconstruction of these.
@@ -50,8 +50,7 @@ Where N, S, and C are parameters found in the paper, that depend on $\eta$.
 \\N is also dependent on the pile-up that is simulated.
 \item For $E_T^{miss}$: $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$
 \end{itemize}
-Here each sigma represents the \textbf{absolute?} rms. \textbf{Check the code in validation}
-
+Here each sigma represents the absolute rms. 
 \textbf{One prong for tau exists, though was not used!}
 
 Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults.

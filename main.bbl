@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,19 +47,19 @@ The~ATLAS Collaboration.
 \newblock \emph{Phys. Lett. B}, 716\penalty0 (arXiv:1207.7214.
   CERN-PH-EP-2012-218):\penalty0 1--29. 39 p, Aug 2012{\natexlab{a}}.
 
-\bibitem[{Jungman} et~al.(1996){Jungman}, {Kamionkowski}, and
-  {Griest}]{Jungman:1996}
-G.~{Jungman}, M.~{Kamionkowski}, and K.~{Griest}.
-\newblock {Supersymmetric dark matter}.
-\newblock \emph{Physics Reports}, 267:\penalty0 195--373, March 1996.
-\newblock \doi{10.1016/0370-1573(95)00058-5}.
-
 \bibitem[wik(2014)]{wiki1}
 {Standard model of elementary particles}.
 \newblock
   \url{http://en.wikipedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg},
   2014.
 \newblock Accessed: 2014-03-24.
+
+\bibitem[{Jungman} et~al.(1996){Jungman}, {Kamionkowski}, and
+  {Griest}]{Jungman:1996}
+G.~{Jungman}, M.~{Kamionkowski}, and K.~{Griest}.
+\newblock {Supersymmetric dark matter}.
+\newblock \emph{Physics Reports}, 267:\penalty0 195--373, March 1996.
+\newblock \doi{10.1016/0370-1573(95)00058-5}.
 
 \bibitem[NASA(2014)]{Nasa}
 NASA.
@@ -150,6 +150,23 @@ Joao Pequenao.
 \newblock {Computer generated image of the whole ATLAS detector}, Mar 2008.
 \newblock URL \url{http://cds.cern.ch/record/1095924}.
 
+\bibitem[Collaboration(2011)]{monojet}
+ATLAS Collaboration.
+\newblock {Event display for one of the monojet candidates in the data. The
+  event has a jet with pt = 602 GeV at eta = -1 and phi = 2.6, MET = 523 GeV,
+  and no additional jet with ptjet > 30 GeV in the final state. }.
+\newblock
+  \url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2011-096/fig_08.png},
+  2011.
+\newblock Accessed: 2014-03-28.
+
+\bibitem[{Alwall} et~al.(2011){Alwall}, {Herquet}, {Maltoni}, {Mattelaer}, and
+  {Stelzer}]{madgraph}
+J.~{Alwall}, M.~{Herquet}, F.~{Maltoni}, O.~{Mattelaer}, and T.~{Stelzer}.
+\newblock {MadGraph 5: going beyond}.
+\newblock \emph{Journal of High Energy Physics}, 6:\penalty0 128, June 2011.
+\newblock \doi{10.1007/JHEP06(2011)128}.
+
 \bibitem[Sjöstrand et~al.(2008)Sjöstrand, Mrenna, and Skands]{Sjostrand:2008}
 Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
 \newblock A brief introduction to \{PYTHIA\} 8.1.
@@ -159,6 +176,12 @@ Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
 \newblock \doi{http://dx.doi.org/10.1016/j.cpc.2008.01.036}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0010465508000441}.
+
+\bibitem[Team(2014)]{root}
+The~ROOT Team.
+\newblock Root.
+\newblock \url{http://root.cern.ch/drupal/}, 2014.
+\newblock Accessed: 2014-03-28.
 
 \bibitem[{ATLAS Collaboration}(2013)]{ATL-PHYS-PUB-2013-004}
 {ATLAS Collaboration}.

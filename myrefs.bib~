@@ -290,7 +290,13 @@ year = "2014",
 year = "2014",
   note = {Accessed: 2014-03-24}
 }
-
+@misc{monojet,
+ author        = "ATLAS Collaboration",
+      title         = "{Event display for one of the monojet candidates in the data. The event has a jet with pt = 602 GeV at eta = -1 and phi = 2.6, MET = 523 GeV, and no additional jet with ptjet > 30 GeV in the final state. }",
+  howpublished = {\url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2011-096/fig_08.png}},
+year = "2011",
+  note = {Accessed: 2014-03-28}
+}
 URL
 @misc{lumires,
   author = {ATLAS},
@@ -298,5 +304,14 @@ year = "2013",
   title = {ATLAS luminosity public results},
   howpublished = {\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}},
   note = {Accessed: 2014-03-06}
+}
+
+
+@misc{root,
+  author = {The ROOT Team},
+year = "2014",
+  title = {ROOT},
+  howpublished = {\url{http://root.cern.ch/drupal/}},
+  note = {Accessed: 2014-03-28}
 }
 

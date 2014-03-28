@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 15:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  28 MAR 2014 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
 (./rtthesis.cls
 Document Class: rtthesis 2011/12/05 rtthesis Class v. 0.51
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -98,7 +98,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1112,16 +1112,18 @@ is class
    defining Unicode char U+C5A1 (decimal 50593)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+Package: babel 2013/05/16 v3.9f The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count140
 \U@D=\dimen136
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1193,7 +1195,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \backup@length=\skip112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
-Package: ctable 2013/12/19 v1.27 ctable package for \ flexible typesetting of t
+Package: ctable 2013/06/15 v1.26 ctable package for \ flexible typesetting of t
 able and figure floats using key/value directives
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -2048,20 +2050,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \newpage
-              [1
+l.9 \newpage
+             [1
 
 
 
 
 ]
-Overfull \hbox (14.13997pt too wide) in paragraph at lines 13--15
+Overfull \hbox (14.13997pt too wide) in paragraph at lines 11--13
 \T1/jkpk/m/n/10 Dur-ing the re-search pe-riod the fol-low-ing tasks were set up
  and per-formed/answered: 
  []
 
 
-Overfull \hbox (4.08995pt too wide) in paragraph at lines 19--20
+Overfull \hbox (4.08995pt too wide) in paragraph at lines 17--18
 []\T1/jkpk/m/n/10 Implement se-lec-tion cri-te-ria that se-lects the sig-nal co
 l-li-sions ef-fi-ciently while
  []
@@ -2070,25 +2072,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \newpage
+l.23 \newpage
               [2] <figures/myfeynman.pdf, id=352, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
-Package pdftex.def Info: figures/myfeynman.pdf used on input line 39.
+Package pdftex.def Info: figures/myfeynman.pdf used on input line 37.
 (pdftex.def)             Requested size: 142.2616pt x 105.28325pt.
 
-Underfull \hbox (badness 6741) in paragraph at lines 42--42
+Underfull \hbox (badness 6741) in paragraph at lines 40--40
 [][]\T1/jkpk/b/sl/10 : |\T1/jkpk/m/sl/9 An ex-am-ple of a
  []
 
 
-Underfull \hbox (badness 5417) in paragraph at lines 42--42
+Underfull \hbox (badness 5417) in paragraph at lines 40--40
 \T1/jkpk/m/sl/9 Feyn-man di-a-gram ex-plain-ing an
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 42--42
+Underfull \hbox (badness 6592) in paragraph at lines 40--40
 \T1/jkpk/m/sl/9 electron-electron scat-ter-ing us-ing
  []
 
@@ -2099,10 +2101,10 @@ File: figures/Standard_Model_of_Elementary_Particles.png Graphic file (type png
 )
  <use figures/Standard_Model_of_Elementary_Particles.png>
 Package pdftex.def Info: figures/Standard_Model_of_Elementary_Particles.png use
-d on input line 57.
+d on input line 55.
 (pdftex.def)             Requested size: 155.37775pt x 116.63368pt.
 
-Underfull \hbox (badness 1184) in paragraph at lines 60--60
+Underfull \hbox (badness 1184) in paragraph at lines 58--58
 [][]\T1/jkpk/b/sl/10 : |\T1/jkpk/m/sl/9 The stan-dard model of
  []
 
@@ -2112,17 +2114,17 @@ File: figures/created/solarsystemrotation2.jpg Graphic file (type jpg)
 
 <use figures/created/solarsystemrotation2.jpg>
 Package pdftex.def Info: figures/created/solarsystemrotation2.jpg used on input
- line 89.
+ line 87.
 (pdftex.def)             Requested size: 177.82971pt x 127.3821pt.
 
 <figures/rotationNGC3198.png, id=416, 500.87125pt x 368.37625pt>
 File: figures/rotationNGC3198.png Graphic file (type png)
 
 <use figures/rotationNGC3198.png>
-Package pdftex.def Info: figures/rotationNGC3198.png used on input line 93.
+Package pdftex.def Info: figures/rotationNGC3198.png used on input line 91.
 (pdftex.def)             Requested size: 177.82971pt x 130.78853pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 89--94
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 87--92
 [][] [][] 
  []
 
@@ -2133,14 +2135,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 png>]
 File: figures/myfeynman.pdf Graphic file (type pdf)
  <use figures/myfeynman.pdf>
-Package pdftex.def Info: figures/myfeynman.pdf used on input line 128.
+Package pdftex.def Info: figures/myfeynman.pdf used on input line 126.
 (pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
 File: figures/myfeynman.pdf Graphic file (type pdf)
  <use figures/myfeynman.pdf>
-Package pdftex.def Info: figures/myfeynman.pdf used on input line 132.
+Package pdftex.def Info: figures/myfeynman.pdf used on input line 130.
 (pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 128--133
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 126--131
 [][] [][] 
  []
 
@@ -2148,7 +2150,7 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 128--133
 File: figures/created/effectiveD.pdf Graphic file (type pdf)
 
 <use figures/created/effectiveD.pdf>
-Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 181.
+Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 179.
 
 (pdftex.def)             Requested size: 177.82971pt x 106.70209pt.
 
@@ -2156,18 +2158,18 @@ Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 181.
 File: figures/created/vectorboson.pdf Graphic file (type pdf)
 
 <use figures/created/vectorboson.pdf>
-Package pdftex.def Info: figures/created/vectorboson.pdf used on input line 185
+Package pdftex.def Info: figures/created/vectorboson.pdf used on input line 183
 .
 (pdftex.def)             Requested size: 177.82971pt x 112.6345pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 181--186
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 179--184
 [][] [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 191.
+(Font)              scaled to size 11.39996pt on input line 189.
 [9 <./figures/created/effectiveD.pdf> <./figures/created/vectorboson.pdf>]
-<figures/lhc.jpeg, id=536, 781.92125pt x 563.10374pt>
+<figures/lhc.jpeg, id=537, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
  <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 210.
@@ -2179,24 +2181,37 @@ File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
-ne 254.
+ne 260.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
- [12 <./figures/created/particle_collider.jpg>] [13]) [14]
+ [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=576
+, 4818.0pt x 3212.0pt>
+File: figures/monojetbig.png Graphic file (type png)
+
+<use figures/monojetbig.png>
+Package pdftex.def Info: figures/monojetbig.png used on input line 280.
+(pdftex.def)             Requested size: 355.65944pt x 237.06674pt.
+ [13 <./figures/monojetbig.png (PNG copy)>]
+Overfull \hbox (6.71996pt too wide) in paragraph at lines 323--324
+[]\T1/jkpk/m/n/10 MadGraph [[]] starts with Feyn-man di-a-grams and then gen-er
+-ates sim-u-lated events
+ []
+
+[14]) [15]
 \openout2 = `method.aux'.
 
- (./method.tex
-Chapter 2.
-[15
+ (./method.tex [16
 
 
 
 ]
+Chapter 2.
+[17]
 Overfull \hbox (5.47993pt too wide) in paragraph at lines 33--34
 []\T1/jkpk/m/n/10 That this is true can be shown from \T1/jkpk/b/n/10 fig-ures 
 and ref-er-ences from non-pile-updep.txt
  []
 
-[16] [17]
+[18] [19]
 Overfull \hbox (14.82985pt too wide) in paragraph at lines 85--86
 []\T1/jkpk/m/n/10 Lepton veto, no elec-tron or muon, lead-ing jet with $\OMS/jk
 pw/m/n/10 j\OML/jkpw/m/it/10 ^^Q\OMS/jkpw/m/n/10 j \OML/jkpw/m/it/10 < \OT1/jkp
@@ -2210,34 +2225,34 @@ Overfull \hbox (1.78554pt too wide) in paragraph at lines 91--100
  [] 
  []
 
-) [18]
+) [20]
 \openout2 = `results.aux'.
 
  (./results.tex
 Chapter 3.
-) [19
+) [21
 
 
 
 ]
 \openout2 = `discussion.aux'.
 
- (./discussion.tex [20
+ (./discussion.tex [22
 
 
 
 ]
 Chapter 4.
-) [21]
+) [23]
 \openout2 = `conclusions.aux'.
 
- (./conclusions.tex [22
+ (./conclusions.tex [24
 
 
 
 ]
 Chapter 5.
-) [23] [24
+) [25] [26
 
 
 ] (./main.bbl (./main.brf)
@@ -2245,7 +2260,7 @@ Chapter 5.
 \openout6 = `main.brf'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 \T1/pcr/m/n/10 wiki / File : Standard _ Model _ of _ Elementary _ Particles . s
 vg$[]\T1/jkpk/m/n/10 ,
  []
@@ -2256,7 +2271,7 @@ Underfull \hbox (badness 2073) in paragraph at lines 70--70
 bits and
  []
 
-[25
+[27
 
 ]
 Underfull \hbox (badness 2205) in paragraph at lines 129--129
@@ -2264,10 +2279,16 @@ Underfull \hbox (badness 2205) in paragraph at lines 129--129
 /jkpk/m/n/10 , 2013.
  []
 
-[26]) (./main.ind) [27] [28
+
+Underfull \hbox (badness 1655) in paragraph at lines 162--162
+\T1/pcr/m/n/10 CONFNOTES / ATLAS-[]CONF-[]2011-[]096 / fig _ 08 . png$[]\T1/jkp
+k/m/n/10 , 2011.  Ac-cessed:
+ []
+
+[28]) (./main.ind) [29] [30
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=722, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=752, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2280,7 +2301,7 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 71--71
 doc-u-ment in-tegrity, please
  []
 
-[29 <./figures/default/LinkUniv_staende_pms.pdf>]
+[31 <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (./main.aux (./tack.aux)
@@ -2289,19 +2310,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 877EC041DA9CB871DEE401B55BE07764;3808.
+(rerunfilecheck)             Checksum: A87577AEEEAF15272AC1291BCA06D9ED;3796.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 1428F8C5E2A474AFA4F744E3DDCDFB49;2490.
+(rerunfilecheck)             Checksum: A815794B4ABBE6BF7CF1D3ACF337D7EB;2691.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 14291 strings out of 493304
- 207134 string characters out of 6139871
- 330299 words of memory out of 5000000
- 17082 multiletter control sequences out of 15000+600000
+ 14321 strings out of 495031
+ 207490 string characters out of 6181531
+ 326356 words of memory out of 5000000
+ 16853 multiletter control sequences out of 15000+600000
  257834 words of font info for 207 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  47i,13n,87p,1147b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
@@ -2326,10 +2347,10 @@ kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (43 pages, 1037000 bytes).
+Output written on main.pdf (45 pages, 2544349 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 731 compressed objects within 8 object streams
- 146 named destinations out of 1000 (max. 500000)
- 18934 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 865 PDF objects out of 1000 (max. 8388607)
+ 757 compressed objects within 8 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 18939 words of extra memory for PDF output out of 20736 (max. 10000000)
 
