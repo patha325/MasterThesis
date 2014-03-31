@@ -16,9 +16,8 @@
 \contentsline {subsection}{\numberline {1.2.2}Nuclear, particle and subatomic particle physics}{4}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}The standard model of particle physics}{4}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Dark matter}{5}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Beyond the standard model: Supersymmetry}{6}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Effective field theory}{7}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Search for \textsc {wimps}\xspace }{9}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.5}Effective field theory}{6}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Search for \textsc {wimps}\xspace }{9}{subsection.1.2.6}
 \contentsline {section}{\numberline {1.3}Experimental overview}{10}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}\textsc {lhc}\xspace }{10}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}\textsc {atlas}\xspace }{11}{subsection.1.3.2}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -90,25 +90,6 @@ ATLAS Collaboration.
 \newblock \emph{J. High Energy Phys.}, 04\penalty0 (arXiv:1210.4491.
   CERN-PH-EP-2012-210):\penalty0 075. 58 p, October 2012{\natexlab{b}}.
 \newblock URL \url{http://cds.cern.ch/record/1485031}.
-
-\bibitem[{Martin}(1998)]{Martin:1998}
-S.~P. {Martin}.
-\newblock {A Supersymmetry Primer}.
-\newblock In G.~L. {Kane}, editor, \emph{Perspectives on Supersymmetry},
-  page~1, 1998.
-
-\bibitem[Dine and Fischler(1982)]{Dine:1981}
-Michael Dine and Willy Fischler.
-\newblock {A Phenomenological Model of Particle Physics Based on
-  Supersymmetry}.
-\newblock \emph{Phys.Lett.}, B110:\penalty0 227, 1982.
-\newblock \doi{10.1016/0370-2693(82)91241-2}.
-
-\bibitem[Klimek(2014)]{Pavel:2014}
-Pawel Klimek.
-\newblock \emph{Search for Charginos and Sleptons in ATLAS and Identification
-  of Pile-up with the Tile Calorimeter}.
-\newblock Licentiate thesis, Stockholm University, Jan. 2014.
 
 \bibitem[{Goodman} et~al.(2010){Goodman}, {Ibe}, {Rajaraman}, {Shepherd},
   {Tait}, and {Yu}]{82.116010}
