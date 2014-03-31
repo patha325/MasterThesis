@@ -36,21 +36,21 @@
 \contentsline {subsection}{\numberline {2.2.2}Selection criteria}{20}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Comparing with published papers}{20}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Figures of merit}{20}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Other selection criteria and observables}{20}{section.2.3}
-\contentsline {section}{\numberline {2.4}Mitigating the effect of the high luminosity}{20}{section.2.4}
-\contentsline {chapter}{\numberline {3}Results}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Validation of smearing functions}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Signal to background ratio}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Other selection criteria and observables}{21}{section.3.3}
-\contentsline {section}{\numberline {3.4}Mitigating the effect of the high luminosity}{21}{section.3.4}
-\contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Validation of smearing functions}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mitigating the effect of the high luminosity}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}Viability of different signals}{23}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusions}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Recommendations to mitigate the effect of the high luminosity}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Suggestions for future research}{25}{section.5.2}
-\contentsline {chapter}{Bibliography}{27}{chapter*.19}
+\contentsline {section}{\numberline {2.3}Other selection criteria and observables}{21}{section.2.3}
+\contentsline {section}{\numberline {2.4}Mitigating the effect of the high luminosity}{21}{section.2.4}
+\contentsline {chapter}{\numberline {3}Results}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Validation of smearing functions}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Signal to background ratio}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Other selection criteria and observables}{23}{section.3.3}
+\contentsline {section}{\numberline {3.4}Mitigating the effect of the high luminosity}{23}{section.3.4}
+\contentsline {chapter}{\numberline {4}Discussion}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Validation of smearing functions}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mitigating the effect of the high luminosity}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Viability of different signals}{25}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusions}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Recommendations to mitigate the effect of the high luminosity}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Suggestions for future research}{27}{section.5.2}
+\contentsline {chapter}{Bibliography}{29}{chapter*.19}
 \select@language {english}
 \select@language {english}
 \select@language {english}
