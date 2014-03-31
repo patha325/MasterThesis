@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -140,6 +140,12 @@ ATLAS Collaboration.
   \url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2011-096/fig_08.png},
   2011.
 \newblock Accessed: 2014-03-28.
+
+\bibitem[Collaboration(2013)]{HL:2013}
+ATLAS Collaboration.
+\newblock {Physics at a High-Luminosity LHC with ATLAS}.
+\newblock \penalty0 (ATL-PHYS-PUB-2013-007), Jul 2013.
+\newblock URL \url{https://cds.cern.ch/record/1564937}.
 
 \bibitem[{Alwall} et~al.(2011){Alwall}, {Herquet}, {Maltoni}, {Mattelaer}, and
   {Stelzer}]{madgraph}

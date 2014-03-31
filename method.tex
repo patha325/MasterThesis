@@ -17,6 +17,7 @@ This was done by using a Monte Carlo simulation of a proton-proton collision the
 The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. 
 
 The data was taken from these processes:
+\begin{table}[h]
 \begin{center}
 \begin{tabular}{|l|l|}
 \hline
@@ -29,29 +30,35 @@ Jets & Jet sample \\
 $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 \end{tabular}
 \end{center}
-
+\end{table}
 That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
 
 Perhaps under results?
 \subsection{Validation}
-To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004}. 
-
-Parametrization used according to the paper \citep{ATL-PHYS-PUB-2013-004}. What results and what did I get/say in my presentation? Use that in results Perhaps even write something better than the original that can be used to explain this again.
-
+To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004} which gave the following formulation for the expected rms: 
+\begin{table}[h]
+\renewcommand{\arraystretch}{1.5} %Change height of tabel
+\begin{tabular}{|l|l|}
+\hline
+Process & Absolute rms \\ \hline
+Electron \& photon & $\sigma=0.3\oplus 0.1\sqrt{E(GeV)}\oplus 0.01E(GeV)$, $|\eta|<$ 1.4 \\
+& $\sigma=0.3\oplus 0.15\sqrt{E(GeV)}\oplus 0.015E(GeV)$, 1.4 $<|\eta|<$ 2.47 \\ \hline 
+Muon & $\sigma=\frac{\sigma_{id} \sigma_{ms}}{\sigma_{id} \oplus \sigma_{ms}}$\\
+& $\sigma_{id}=P_T(a_1 \oplus a_2 P_T)$\\
+& $\sigma_{ms}=P_T(\frac{b_0}{P_T} \oplus b_1 \oplus b_2 P_T)$\\ \hline
+Tau & $\sigma =(0.03\oplus \frac{0.76}{\sqrt{E(GeV)}})E(GeV)$ \\ \hline
+Jet & $\sigma = P_T(GeV)(\frac{N}{P_T} \oplus \frac{S}{\sqrt{P_T}} \oplus C)$ \\ \hline
+$E_T^{miss}$ & $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$ \\ \hline
+\end{tabular}
+\renewcommand{\arraystretch}{1.0} %Change back
+\end{table}
 \begin{itemize}
-\item For electron, photon:\\
-$\sigma=0.3\oplus 0.1\sqrt{E(GeV)}\oplus 0.01E(GeV)$, $|\eta|<$ 1.4, \\
-$\sigma=0.3\oplus 0.15\sqrt{E(GeV)}\oplus 0.015E(GeV)$, 1.4 $<|\eta|<$ 2.47 
-\item For muon: $\sigma=\frac{\sigma_{id} \sigma_{ms}}{\sigma_{id} \oplus \sigma_{ms}}$\\
-$\sigma_{id}=P_T(a_1 \oplus a_2 P_T)$, $\sigma_{ms}=P_T(\frac{b_0}{P_T} \oplus b_1 \oplus b_2 P_T)$
-\item For tau: $\sigma =(0.03\oplus \frac{0.76}{\sqrt{E(GeV)}})E(GeV)$, for 3 prong. 
-\item For Jet: $\sigma = P_T(GeV)(\frac{N}{P_T} \oplus \frac{S}{\sqrt{P_T}} \oplus C)$ \\
-Where N, S, and C are parameters found in the paper, that depend on $\eta$. 
-\\N is also dependent on the pile-up that is simulated.
-\item For $E_T^{miss}$: $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$
+\item For tau: Fixed at 3 prong. 1 prong exists though was not used in this thesis. \\
+Where prong refers to the different amount of tracks that were from which they were reconstructed.
+\item For Jet: Where N, S, and C depend on $\eta$. N is also dependent on the pile-up that is simulated.\\
+Where $\eta$ is the same as discussed in \subsectionref{sec:eo:subsec:coord}
+\item All parameters can be found in \citep{ATL-PHYS-PUB-2013-004}.
 \end{itemize}
-Here each sigma represents the absolute rms. 
-\textbf{One prong for tau exists, though was not used!}
 
 Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults.
 

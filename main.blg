@@ -12,47 +12,49 @@ A level-1 auxiliary file: conclusions.aux
 Database file #1: myrefs.bib
 Warning--empty journal in ATLAS:LOI2
 Warning--empty journal in Herr:2006
+Warning--empty journal in HL:2013
+Warning--there's a number but no volume in HL:2013
 Warning--empty journal in ATL-PHYS-PUB-2013-004
 Warning--empty journal in ATLAS-CONF-2012-147
-You've used 26 entries,
+You've used 27 entries,
             2481 wiz_defined-function locations,
-            743 strings with 9055 characters,
-and the built_in function-call counts, 8597 in all, are:
-= -- 742
-> -- 351
-< -- 18
-+ -- 155
-- -- 102
-* -- 604
-:= -- 1389
-add.period$ -- 99
-call.type$ -- 26
-change.case$ -- 53
-chr.to.int$ -- 25
-cite$ -- 31
-duplicate$ -- 450
-empty$ -- 842
-format.name$ -- 133
-if$ -- 1833
+            749 strings with 9172 characters,
+and the built_in function-call counts, 8881 in all, are:
+= -- 767
+> -- 358
+< -- 19
++ -- 159
+- -- 104
+* -- 624
+:= -- 1435
+add.period$ -- 103
+call.type$ -- 27
+change.case$ -- 55
+chr.to.int$ -- 26
+cite$ -- 34
+duplicate$ -- 468
+empty$ -- 871
+format.name$ -- 136
+if$ -- 1892
 int.to.chr$ -- 2
-int.to.str$ -- 27
-missing$ -- 22
-newline$ -- 159
-num.names$ -- 75
-pop$ -- 233
+int.to.str$ -- 28
+missing$ -- 23
+newline$ -- 165
+num.names$ -- 78
+pop$ -- 242
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 27
 quote$ -- 0
-skip$ -- 258
+skip$ -- 267
 stack$ -- 0
-substring$ -- 273
-swap$ -- 62
+substring$ -- 275
+swap$ -- 64
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 4
-while$ -- 60
+type$ -- 177
+warning$ -- 6
+while$ -- 62
 width$ -- 0
-write$ -- 372
-(There were 4 warnings)
+write$ -- 386
+(There were 6 warnings)
