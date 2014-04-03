@@ -2,20 +2,15 @@
 In this chapter the methodology used to perform the tasks given above in \sectionref{sec:goals}.
 \newpage
 \section{Validation of smearing functions} 
+\subsection{Smearing functions}\label{sec:vali:subsec:smear}
+One might assume that using a Monte Carlo simulation it would be easy to model and emulate the whole process, from collision to detection and reconstruction in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. 
 
+This was done by using a Monte Carlo simulation of a proton-proton collision and applying the official Truth to reco code, also known as the smearing functions, that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004} to simulate how the detector and the reconstruction is affected by the increased luminosity and the pile-up that comes with this.
 
-Find more information in my presentation. also mention no pile-up dependence of leptons.
-For the proposed upgrade of the LHC.
+The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta, it is from this that the name smearing functions comes.
+The code does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are effected by pile-up, more in \subsectionref{sec:vali:subsec:vali}.
 
-The validation was done for \textbf{what MCdata? and validated for which pile-up?}
-
-\subsection{Smearing}\label{sec:vali:subsec:smear}
-One might assume that using a Monte Carlo simulation it would be easy to model and simulate the whole process, from collision to detection and reconstruction in the upgraded LHC. It is possible, but it requires a lot of computing power. Instead one can use one simulation and a mathematical model to calculate the estimated response in the detector. This was validated and used in this thesis to be able to create the data needed for further analysis. 
-
-This was done by using a Monte Carlo simulation of a proton-proton collision the applying official Truth to reco code that was developed using previous studies \citep{ATL-PHYS-PUB-2013-004}; to simulate the effect that pile-up would have on the signals that come from the detectors and the reconstruction of these.
-
-The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta; It does not however alter the direction of the momenta. Other experimental data was used and shows that only jets and $E^{miss}_T$ are affected by pile-up. 
-
+\subsection{Validation}\label{sec:vali:subsec:vali}
 The data was taken from these processes:
 \begin{table}[h]
 \begin{center}
@@ -34,7 +29,12 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given!
 
 Perhaps under results?
-\subsection{Validation}
+
+The expected response has been calculated and taken from: ATL-PHYS-PUB-2013-004
+Find more information in my presentation. also mention no pile-up dependence of leptons.
+
+Confirmed that my code produces resolutions consistent with that which is stated in the Letter of Intent for Phase 2 for the upgrade when using common background processes.
+
 To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004} which gave the following formulation for the expected rms: 
 \begin{table}[h]
 \renewcommand{\arraystretch}{1.5} %Change height of tabel
@@ -115,5 +115,7 @@ In \tableref{tab:Compare1} a comparison has been made. It can be seen that the s
 
 \subsection{Figures of merit}
 P-value, see more in Majas phd thesis when completed.
+\subsection{D5 operators and M*}
+\subsection{Light vector mediator models}
 \section{Other selection criteria and observables}
 \section{Mitigating the effect of the high luminosity}

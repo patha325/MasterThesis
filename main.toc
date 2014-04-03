@@ -29,13 +29,15 @@
 \contentsline {subsection}{\numberline {1.3.8}Monte Carlo simulation}{15}{subsection.1.3.8}
 \contentsline {chapter}{\numberline {2}Method}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}Validation of smearing functions}{18}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Smearing}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Smearing functions}{18}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Validation}{18}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Evaluating dark matter signals}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Signal to background ratio}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Signal to background ratio}{20}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Selection criteria}{20}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Comparing with published papers}{20}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Figures of merit}{20}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}D5 operators and M*}{21}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Light vector mediator models}{21}{subsection.2.2.6}
 \contentsline {section}{\numberline {2.3}Other selection criteria and observables}{21}{section.2.3}
 \contentsline {section}{\numberline {2.4}Mitigating the effect of the high luminosity}{21}{section.2.4}
 \contentsline {chapter}{\numberline {3}Results}{23}{chapter.3}
