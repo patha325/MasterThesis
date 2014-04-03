@@ -5,47 +5,45 @@ The style file: unsrtnat.bst
 A level-1 auxiliary file: tack.aux
 A level-1 auxiliary file: notation.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: method.aux
-A level-1 auxiliary file: results.aux
-A level-1 auxiliary file: discussion.aux
-A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: validationofsmearing.aux
+A level-1 auxiliary file: darkmatter.aux
+A level-1 auxiliary file: resultsandconclusions.aux
 Database file #1: myrefs.bib
 Warning--empty journal in ATLAS:LOI2
 Warning--empty journal in Herr:2006
 Warning--empty journal in HL:2013
-Warning--there's a number but no volume in HL:2013
 Warning--empty journal in ATL-PHYS-PUB-2013-004
 Warning--empty journal in ATLAS-CONF-2012-147
 You've used 27 entries,
             2481 wiz_defined-function locations,
-            749 strings with 9172 characters,
-and the built_in function-call counts, 8881 in all, are:
-= -- 767
+            747 strings with 9164 characters,
+and the built_in function-call counts, 8870 in all, are:
+= -- 766
 > -- 358
 < -- 19
 + -- 159
 - -- 104
-* -- 624
-:= -- 1435
+* -- 619
+:= -- 1434
 add.period$ -- 103
 call.type$ -- 27
 change.case$ -- 55
 chr.to.int$ -- 26
-cite$ -- 34
+cite$ -- 33
 duplicate$ -- 468
-empty$ -- 871
+empty$ -- 870
 format.name$ -- 136
-if$ -- 1892
+if$ -- 1890
 int.to.chr$ -- 2
 int.to.str$ -- 28
 missing$ -- 23
 newline$ -- 165
 num.names$ -- 78
-pop$ -- 242
+pop$ -- 243
 preamble$ -- 1
 purify$ -- 27
 quote$ -- 0
-skip$ -- 267
+skip$ -- 268
 stack$ -- 0
 substring$ -- 275
 swap$ -- 64
@@ -53,8 +51,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 177
-warning$ -- 6
+warning$ -- 5
 while$ -- 62
 width$ -- 0
-write$ -- 386
-(There were 6 warnings)
+write$ -- 385
+(There were 5 warnings)

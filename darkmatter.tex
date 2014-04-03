@@ -1,0 +1,62 @@
+\chapter{Evaluating dark matter signals}
+The main goal of the thesis is to investigate if certain dark matter signals can be detected after the high luminosity upgrade. One immediate worry is that the background will be large in comparison to the signal, thus making it undetectable. 
+
+The following signals models have been used:
+\textbf{Here only the operators should be explained, or different models. The names and the MC here or in appendix?} They are explained somewhat in the introduction.
+Each of these has been evaluated in different signal regions and the detectability has been evaluated using a statistical P-value. This process has been performed at different pile-up values. 
+
+\textbf{What background existed? How was it simulated in MC? Should that be here or in appendix?}
+
+
+Dont mention, but good to know. Used METpt in all histograms, with the weight as in main.C and mainclass.C. 
+
+
+\section{Signal to background ratio}
+What I am doing now, looking at what signal? What are the different background processes? What and why was the weight used?
+
+Signals should be explained somewhat in the introduction.
+
+
+
+Look at presentation, is it worth bringing up the first signal regions when the data has already been filtered? Should that be here?
+ 
+\subsection{Selection criteria}
+What criteria were used and more importantly why? It is quite important that you can explain why this was used.
+
+\section{Comparing with published papers} 	
+To verify that the background data was correct it was compared with \citep{ATLAS-CONF-2012-147}, in which the luminosity if 10 fb$^{-1}$ and thus the expected values from the paper scaled up with a factor 100. \textbf{Also, somewhat unexpectedly is that the difference in center of mass energy required the cross-sections to be lowered than compared with the upgrade.} The signal region used in the article were the following:
+\begin{itemize}
+\item Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$
+\item Lepton veto, no electron or muon, leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{miss})>0.5$ (second-leading jet)
+\item Leading jet with $p_T > 500 GeV$ and $E_T^{miss}>500 GeV$
+\end{itemize}
+The article has several different signal regions, the difference is the last item, unfortunately since the simulated events are already filtered before the analysis only one of the regions could be used.
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+Process & Simulated events & Expected events (Scaled to 1000 fb$^{-1}$) \\ \hline
+Z$\rightarrow\nu\nu$&27675.1&27000 \\
+W$\rightarrow\tau\nu$&6506.09&3900 \\
+W$\rightarrow e\nu$&1660.06&1600 \\
+W$\rightarrow\mu\nu$&2048.77&4200 \\ \hline
+Total background&37890&36700 \\ \hline
+\end{tabular}
+\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147}.}
+\label{tab:Compare1}
+\end{center}
+\end{table}
+
+In \tableref{tab:Compare1} a comparison has been made. It can be seen that the simulated events and expected events coincide on all accounts apart from W$\rightarrow\tau\nu$, W$\rightarrow\mu\nu$ and thus the total as well. \textbf{This can be explained by better separation of $\mu$,$\tau$ and missing energy.} 
+
+\section{Figures of merit}
+P-value, see more in Majas phd thesis when completed.
+\section{D5 operators and M*}
+\section{Light vector mediator models}
+\section{Other selection criteria and observables}
+\section{Mitigating the effect of the high luminosity}
+\section{Results}
+\subsection{Limit on M*}
+\subsection{Limit on mediator mass}
+\section{Discussion}
+\section{Conclusion}
