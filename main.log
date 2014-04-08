@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  8 APR 2014 09:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  8 APR 2014 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2309,7 +2309,7 @@ k/m/n/10 , 2011.  Ac-cessed:
 [32]) (./main.ind) [33] [34
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=840, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=839, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2330,67 +2330,49 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 (./darkmatter.aux) (./resultsandconclusions.aux) (./datasets.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 74820079BD2A0EE399A0ACEA0DEB4530;4652
-(rerunfilecheck)             After:  C01F5C66955A55C4C2CA1F8A6424C8E7;4652.
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 08184AEF1893A8069D1E43BD99FDD232;2509
-(rerunfilecheck)             After:  4D62D9B0D8FF9F3FC59C083555C89FF2;2502.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C01F5C66955A55C4C2CA1F8A6424C8E7;4652.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: 4D62D9B0D8FF9F3FC59C083555C89FF2;2502.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 14355 strings out of 495031
- 208144 string characters out of 6181531
- 325524 words of memory out of 5000000
+ 14354 strings out of 495031
+ 208128 string characters out of 6181531
+ 325525 words of memory out of 5000000
  16863 multiletter control sequences out of 15000+600000
  276818 words of font info for 213 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,13n,87p,1147b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{
-subsection.2.2.1} has been referenced but does not exist, replaced by a fixed o
-ne
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/sh
-are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts
-/jkpbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbne.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/kpfonts/jkpkbsc.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/kpfonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfo
-nts/jkpmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/kpfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rs
-fs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (49 pages, 2649874 bytes).
+{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/kpfonts/kpfonts-large-sc.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/kpfonts/jkpkbsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpf
+onts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpk
+msc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/j
+kpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (49 pages, 2649804 bytes).
 PDF statistics:
- 960 PDF objects out of 1000 (max. 8388607)
- 843 compressed objects within 9 object streams
- 172 named destinations out of 1000 (max. 500000)
+ 959 PDF objects out of 1000 (max. 8388607)
+ 842 compressed objects within 9 object streams
+ 171 named destinations out of 1000 (max. 500000)
  19048 words of extra memory for PDF output out of 20736 (max. 10000000)
 
