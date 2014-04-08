@@ -44,7 +44,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Selection criteria}{22}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Comparing with published papers}{22}{section.3.2}
 \contentsline {section}{\numberline {3.3}Figures of merit}{22}{section.3.3}
-\contentsline {section}{\numberline {3.4}D5 operators}{22}{section.3.4}
+\contentsline {section}{\numberline {3.4}D5 operators}{23}{section.3.4}
 \contentsline {section}{\numberline {3.5}Light vector mediator models}{23}{section.3.5}
 \contentsline {section}{\numberline {3.6}Other selection criteria and observables}{23}{section.3.6}
 \contentsline {section}{\numberline {3.7}Mitigating the effect of the high luminosity}{23}{section.3.7}
