@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  8 APR 2014 16:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  9 APR 2014 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1935,7 +1935,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<figures/default/LiTH_staende_eng_sv.pdf, id=265, 260.975pt x 190.7125pt>
+<figures/default/LiTH_staende_eng_sv.pdf, id=273, 260.975pt x 190.7125pt>
 File: figures/default/LiTH_staende_eng_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_staende_eng_sv.pdf>
@@ -1963,7 +1963,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 32--32
 
 ] [2
 
-] <figures/default/LiTH_sigill_sv.pdf, id=288, 124.465pt x 124.465pt>
+] <figures/default/LiTH_sigill_sv.pdf, id=296, 124.465pt x 124.465pt>
 File: figures/default/LiTH_sigill_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_sigill_sv.pdf>
@@ -2073,7 +2073,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 \newpage
-              [2] <figures/myfeynman.pdf, id=417, 597.50829pt x 845.0471pt>
+              [2] <figures/myfeynman.pdf, id=427, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
@@ -2095,7 +2095,7 @@ Underfull \hbox (badness 6592) in paragraph at lines 39--39
  []
 
 [3 <./figures/myfeynman.pdf>]
-<figures/Standard_Model_of_Elementary_Particles.png, id=458, 776.9025pt x 583.1
+<figures/Standard_Model_of_Elementary_Particles.png, id=468, 776.9025pt x 583.1
 7876pt>
 File: figures/Standard_Model_of_Elementary_Particles.png Graphic file (type png
 )
@@ -2109,7 +2109,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 57--57
  []
 
 [4 <./figures/Standard_Model_of_Elementary_Particles.png>]
-<figures/created/solarsystemrotation2.jpg, id=478, 491.8375pt x 352.31625pt>
+<figures/created/solarsystemrotation2.jpg, id=488, 491.8375pt x 352.31625pt>
 File: figures/created/solarsystemrotation2.jpg Graphic file (type jpg)
 
 <use figures/created/solarsystemrotation2.jpg>
@@ -2117,7 +2117,7 @@ Package pdftex.def Info: figures/created/solarsystemrotation2.jpg used on input
  line 86.
 (pdftex.def)             Requested size: 177.82971pt x 127.3821pt.
 
-<figures/rotationNGC3198.png, id=481, 500.87125pt x 368.37625pt>
+<figures/rotationNGC3198.png, id=491, 500.87125pt x 368.37625pt>
 File: figures/rotationNGC3198.png Graphic file (type png)
 
 <use figures/rotationNGC3198.png>
@@ -2146,7 +2146,7 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 110--115
  []
 
 [6 <./figures/created/solarsystemrotation2.jpg> <./figures/rotationNGC3198.png>
-] [7] <figures/created/effectiveD.pdf, id=543, 597.50829pt x 845.0471pt>
+] [7] <figures/created/effectiveD.pdf, id=553, 597.50829pt x 845.0471pt>
 File: figures/created/effectiveD.pdf Graphic file (type pdf)
 
 <use figures/created/effectiveD.pdf>
@@ -2154,7 +2154,7 @@ Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 163.
 
 (pdftex.def)             Requested size: 177.82971pt x 106.70209pt.
 
-<figures/created/vectorboson.pdf, id=545, 597.50829pt x 845.0471pt>
+<figures/created/vectorboson.pdf, id=555, 597.50829pt x 845.0471pt>
 File: figures/created/vectorboson.pdf Graphic file (type pdf)
 
 <use figures/created/vectorboson.pdf>
@@ -2169,21 +2169,21 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 163--168
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 11.39996pt on input line 173.
 [8 <./figures/created/effectiveD.pdf> <./figures/created/vectorboson.pdf>]
-[9] <figures/lhc.jpeg, id=593, 781.92125pt x 563.10374pt>
+[9] <figures/lhc.jpeg, id=603, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
 
 <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 185.
 (pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
  [10 <./figures/lhc.jpeg>] [11]
-<figures/created/particle_collider.jpg, id=621, 998.73125pt x 538.01pt>
+<figures/created/particle_collider.jpg, id=631, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
 ne 235.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
- [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=633
+ [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=643
 , 4818.0pt x 3212.0pt>
 File: figures/monojetbig.png Graphic file (type png)
 
@@ -2191,7 +2191,7 @@ File: figures/monojetbig.png Graphic file (type png)
 Package pdftex.def Info: figures/monojetbig.png used on input line 255.
 (pdftex.def)             Requested size: 355.65944pt x 237.06674pt.
  [13 <./figures/monojetbig.png (PNG copy)>]
-<figures/lumi-projection.png, id=644, 984.67876pt x 552.0625pt>
+<figures/lumi-projection.png, id=654, 984.67876pt x 552.0625pt>
 File: figures/lumi-projection.png Graphic file (type png)
 
 <use figures/lumi-projection.png>
@@ -2218,26 +2218,178 @@ Overfull \hbox (6.71996pt too wide) in paragraph at lines 307--308
 
 ]
 Chapter 2.
-[17]
+[17] [18] <figures/validation/eleta1.pdf, id=700, 569.12625pt x 384.43625pt>
+File: figures/validation/eleta1.pdf Graphic file (type pdf)
+
+<use figures/validation/eleta1.pdf>
+Package pdftex.def Info: figures/validation/eleta1.pdf used on input line 50.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/eleta2.pdf, id=701, 569.12625pt x 384.43625pt>
+File: figures/validation/eleta2.pdf Graphic file (type pdf)
+
+<use figures/validation/eleta2.pdf>
+Package pdftex.def Info: figures/validation/eleta2.pdf used on input line 54.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/pheta1.pdf, id=702, 569.12625pt x 384.43625pt>
+File: figures/validation/pheta1.pdf Graphic file (type pdf)
+
+<use figures/validation/pheta1.pdf>
+Package pdftex.def Info: figures/validation/pheta1.pdf used on input line 58.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/pheta2.pdf, id=703, 569.12625pt x 384.43625pt>
+File: figures/validation/pheta2.pdf Graphic file (type pdf)
+
+<use figures/validation/pheta2.pdf>
+Package pdftex.def Info: figures/validation/pheta2.pdf used on input line 62.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 50--63
+[][] [][]
+ []
+
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 50--63
+[][] [][] 
+ []
+
+<figures/validation/mueta1.pdf, id=704, 569.12625pt x 384.43625pt>
+File: figures/validation/mueta1.pdf Graphic file (type pdf)
+
+<use figures/validation/mueta1.pdf>
+Package pdftex.def Info: figures/validation/mueta1.pdf used on input line 70.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/mueta2.pdf, id=705, 569.12625pt x 384.43625pt>
+File: figures/validation/mueta2.pdf Graphic file (type pdf)
+
+<use figures/validation/mueta2.pdf>
+Package pdftex.def Info: figures/validation/mueta2.pdf used on input line 74.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 70--75
+[][] [][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-Overfull \hbox (5.47993pt too wide) in paragraph at lines 55--56
+ [19 <./figures/validation/eleta1.pdf, page is rotated 90 degrees> <./figures/v
+alidation/eleta2.pdf, page is rotated 90 degrees> <./figures/validation/pheta1.
+pdf, page is rotated 90 degrees> <./figures/validation/pheta2.pdf, page is rota
+ted 90 degrees>] <figures/validation/tau.pdf, id=888, 569.12625pt x 384.43625pt
+>
+File: figures/validation/tau.pdf Graphic file (type pdf)
+
+<use figures/validation/tau.pdf>
+Package pdftex.def Info: figures/validation/tau.pdf used on input line 83.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/tau2.pdf, id=889, 569.12625pt x 384.43625pt>
+File: figures/validation/tau2.pdf Graphic file (type pdf)
+
+<use figures/validation/tau2.pdf>
+Package pdftex.def Info: figures/validation/tau2.pdf used on input line 87.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 83--88
+[][] [][] 
+ []
+
+<figures/validation/jeteta1.pdf, id=890, 569.12625pt x 384.43625pt>
+File: figures/validation/jeteta1.pdf Graphic file (type pdf)
+
+<use figures/validation/jeteta1.pdf>
+Package pdftex.def Info: figures/validation/jeteta1.pdf used on input line 95.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/jeteta2.pdf, id=891, 569.12625pt x 384.43625pt>
+File: figures/validation/jeteta2.pdf Graphic file (type pdf)
+
+<use figures/validation/jeteta2.pdf>
+Package pdftex.def Info: figures/validation/jeteta2.pdf used on input line 99.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/jeteta3.pdf, id=892, 569.12625pt x 384.43625pt>
+File: figures/validation/jeteta3.pdf Graphic file (type pdf)
+
+<use figures/validation/jeteta3.pdf>
+Package pdftex.def Info: figures/validation/jeteta3.pdf used on input line 103.
+
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/jeteta4.pdf, id=893, 569.12625pt x 384.43625pt>
+File: figures/validation/jeteta4.pdf Graphic file (type pdf)
+
+<use figures/validation/jeteta4.pdf>
+Package pdftex.def Info: figures/validation/jeteta4.pdf used on input line 107.
+
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 95--108
+[][] [][]
+ []
+
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 95--108
+[][] [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./figures/validation/mueta1.pdf, page is rotated 90 degrees> <./figures/v
+alidation/mueta2.pdf, page is rotated 90 degrees> <./figures/validation/tau.pdf
+, page is rotated 90 degrees> <./figures/validation/tau2.pdf, page is rotated 9
+0 degrees>] <figures/validation/METx.pdf, id=1077, 569.12625pt x 384.43625pt>
+File: figures/validation/METx.pdf Graphic file (type pdf)
+
+<use figures/validation/METx.pdf>
+Package pdftex.def Info: figures/validation/METx.pdf used on input line 117.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/validation/METy.pdf, id=1078, 569.12625pt x 384.43625pt>
+File: figures/validation/METy.pdf Graphic file (type pdf)
+
+<use figures/validation/METy.pdf>
+Package pdftex.def Info: figures/validation/METy.pdf used on input line 121.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 117--122
+[][] [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./figures/validation/jeteta1.pdf, page is rotated 90 degrees> <./figures/
+validation/jeteta2.pdf, page is rotated 90 degrees> <./figures/validation/jetet
+a3.pdf, page is rotated 90 degrees> <./figures/validation/jeteta4.pdf, page is 
+rotated 90 degrees>]
+Overfull \hbox (5.47993pt too wide) in paragraph at lines 132--133
 []\T1/jkpk/m/n/10 That this is true can be shown from \T1/jkpk/b/n/10 fig-ures 
 and ref-er-ences from non-pile-updep.txt
  []
 
-[19]) [20]
+[22 <./figures/validation/METx.pdf, page is rotated 90 degrees> <./figures/vali
+dation/METy.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.37012pt too wide) in paragraph at lines 165--182
+ [] 
+ []
+
+) [23]
 \openout2 = `darkmatter.aux'.
 
- (./darkmatter.tex
-Chapter 3.
-[21
+ (./darkmatter.tex [24
 
 
 
 ]
-Overfull \hbox (14.82985pt too wide) in paragraph at lines 30--31
+Chapter 3.
+[25]
+Overfull \hbox (16.37265pt too wide) in paragraph at lines 30--31
 []\T1/jkpk/m/n/10 Lepton veto, no elec-tron or muon, lead-ing jet with $\OMS/jk
 pw/m/n/10 j\OML/jkpw/m/it/10 ^^Q\OMS/jkpw/m/n/10 j \OML/jkpw/m/it/10 < \OT1/jkp
 /m/n/10 2\OML/jkpw/m/it/10 :\OT1/jkp/m/n/10 0$ \T1/jkpk/m/n/10 and $\U/jkpmiaw/
@@ -2250,30 +2402,30 @@ Overfull \hbox (1.78554pt too wide) in paragraph at lines 36--45
  [] 
  []
 
-[22]) [23]
+[26]) [27]
 \openout2 = `resultsandconclusions.aux'.
 
- (./resultsandconclusions.tex [24
+ (./resultsandconclusions.tex [28
 
 
 
 ]
 Chapter 4.
-) [25] [26
+) [29] [30
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 61.
- [27] [28]
+ [31] [32]
 \openout2 = `datasets.aux'.
 
  (./datasets.tex
 Appendix A.
-) [29
+) [33
 
 
-] [30
+] [34
 
 
 ] (./main.bbl (./main.brf)
@@ -2292,7 +2444,7 @@ Underfull \hbox (badness 2073) in paragraph at lines 70--70
 bits and
  []
 
-[31
+[35
 
 ]
 Underfull \hbox (badness 2205) in paragraph at lines 110--110
@@ -2306,10 +2458,10 @@ Underfull \hbox (badness 1655) in paragraph at lines 143--143
 k/m/n/10 , 2011.  Ac-cessed:
  []
 
-[32]) (./main.ind) [33] [34
+[36]) (./main.ind) [37] [38
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=839, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=1506, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2322,7 +2474,7 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 75--75
 doc-u-ment in-tegrity, please
  []
 
-[35 <./figures/default/LinkUniv_staende_pms.pdf>]
+[39 <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main.aux (./tack.aux)
@@ -2331,17 +2483,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C01F5C66955A55C4C2CA1F8A6424C8E7;4652.
+(rerunfilecheck)             Checksum: 85EE0956D538812ED9268A799060C1D5;4780.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4D62D9B0D8FF9F3FC59C083555C89FF2;2502.
+(rerunfilecheck)             Checksum: 6DDDC476B14A78525C703CE484294422;2502.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 14354 strings out of 495031
- 208128 string characters out of 6181531
- 325525 words of memory out of 5000000
- 16863 multiletter control sequences out of 15000+600000
+ 14484 strings out of 495031
+ 210926 string characters out of 6181531
+ 327186 words of memory out of 5000000
+ 16956 multiletter control sequences out of 15000+600000
  276818 words of font info for 213 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,13n,87p,1147b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2369,10 +2521,10 @@ kpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (49 pages, 2650098 bytes).
+Output written on main.pdf (53 pages, 6579548 bytes).
 PDF statistics:
- 959 PDF objects out of 1000 (max. 8388607)
- 842 compressed objects within 9 object streams
- 171 named destinations out of 1000 (max. 500000)
- 19048 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1630 PDF objects out of 1728 (max. 8388607)
+ 1142 compressed objects within 12 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 19134 words of extra memory for PDF output out of 20736 (max. 10000000)
 

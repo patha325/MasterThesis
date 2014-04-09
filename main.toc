@@ -30,42 +30,44 @@
 \contentsline {chapter}{\numberline {2}Validation of smearing functions}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}Smearing functions}{18}{section.2.1}
 \contentsline {section}{\numberline {2.2}Validation}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Results}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Leptons and photon}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Jets}{19}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Missing Energy}{19}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Expected results}{19}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Discussion}{20}{section.2.4}
-\contentsline {section}{\numberline {2.5}Conclusion}{20}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Validation}{20}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Some smearing independent on pile-up}{20}{subsection.2.5.2}
-\contentsline {chapter}{\numberline {3}Evaluating dark matter signals}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal to background ratio}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Selection criteria}{22}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Comparing with published papers}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Figures of merit}{22}{section.3.3}
-\contentsline {section}{\numberline {3.4}D5 operators}{23}{section.3.4}
-\contentsline {section}{\numberline {3.5}Light vector mediator models}{23}{section.3.5}
-\contentsline {section}{\numberline {3.6}Other selection criteria and observables}{23}{section.3.6}
-\contentsline {section}{\numberline {3.7}Mitigating the effect of the high luminosity}{23}{section.3.7}
-\contentsline {section}{\numberline {3.8}Results}{23}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Limit on M*}{23}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Previous results}{23}{subsection.3.8.2}
-\contentsline {subsection}{\numberline {3.8.3}Limit on mediator mass}{23}{subsection.3.8.3}
-\contentsline {section}{\numberline {3.9}Discussion}{23}{section.3.9}
-\contentsline {section}{\numberline {3.10}Conclusion}{23}{section.3.10}
-\contentsline {chapter}{\numberline {4}Results and Conclusions}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Validation of smearing functions}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Signal to background ratio}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{25}{section.4.3}
-\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{25}{section.4.4}
-\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{25}{section.4.5}
-\contentsline {section}{\numberline {4.6}Suggestions for future research}{25}{section.4.6}
-\contentsline {chapter}{\numberline {A}Datasets}{29}{appendix.A}
-\contentsline {section}{\numberline {A.1}Background processes}{29}{section.A.1}
-\contentsline {section}{\numberline {A.2}D5 signal processes}{29}{section.A.2}
-\contentsline {section}{\numberline {A.3}Light vector mediator processes}{29}{section.A.3}
-\contentsline {chapter}{Bibliography}{31}{appendix*.20}
+\contentsline {section}{\numberline {2.3}Results}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Electron and photon}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Muon}{20}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tau}{20}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Jets}{21}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Missing Energy}{21}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Expected results}{22}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Discussion}{23}{section.2.4}
+\contentsline {section}{\numberline {2.5}Conclusion}{23}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Validation}{23}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Some smearing independent on pile-up}{23}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}Evaluating dark matter signals}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal to background ratio}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Selection criteria}{26}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Comparing with published papers}{26}{section.3.2}
+\contentsline {section}{\numberline {3.3}Figures of merit}{26}{section.3.3}
+\contentsline {section}{\numberline {3.4}D5 operators}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Light vector mediator models}{27}{section.3.5}
+\contentsline {section}{\numberline {3.6}Other selection criteria and observables}{27}{section.3.6}
+\contentsline {section}{\numberline {3.7}Mitigating the effect of the high luminosity}{27}{section.3.7}
+\contentsline {section}{\numberline {3.8}Results}{27}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Limit on M*}{27}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Previous results}{27}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Limit on mediator mass}{27}{subsection.3.8.3}
+\contentsline {section}{\numberline {3.9}Discussion}{27}{section.3.9}
+\contentsline {section}{\numberline {3.10}Conclusion}{27}{section.3.10}
+\contentsline {chapter}{\numberline {4}Results and Conclusions}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Validation of smearing functions}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Signal to background ratio}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{29}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{29}{section.4.4}
+\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{29}{section.4.5}
+\contentsline {section}{\numberline {4.6}Suggestions for future research}{29}{section.4.6}
+\contentsline {chapter}{\numberline {A}Datasets}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Background processes}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}D5 signal processes}{33}{section.A.2}
+\contentsline {section}{\numberline {A.3}Light vector mediator processes}{33}{section.A.3}
+\contentsline {chapter}{Bibliography}{35}{appendix*.26}
 \select@language {english}
 \select@language {english}
 \select@language {english}

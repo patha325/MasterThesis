@@ -4,7 +4,7 @@ One might assume that using a Monte Carlo simulation it would be easy to model a
 This was done by using a Monte Carlo simulation of a proton-proton collision and applying the official Truth to reco code, also known as the smearing functions, that was developed using previous studies \citep{ATLAS:LOI2, ATL-PHYS-PUB-2013-004}. to simulate how the detector and the reconstruction is affected by the increased luminosity and the pile-up that comes with this.
 
 The code uses the experimental data from the previous studies to smear the reconstructed energy and momenta, it is from this that the name smearing functions comes.
-The key feature of those studies were that the direction of the momenta does not alter direction and also that only jets and $E^{miss}_T$ are effected by pile-up, more in \subsectionref{cha:vali:sec:results}.
+The key feature of those studies were that the direction of the momenta does not alter direction and also that only jets and $E^{Miss}_T$ are effected by pile-up, more in \subsectionref{cha:vali:sec:results}.
 
 \newpage
 \section{Smearing functions}\label{sec:smear}
@@ -39,12 +39,89 @@ Trying to fit a Gaussian curve to this data will then result in the mean value, 
 
 
 \section{Results}\label{cha:vali:sec:results}
-\subsection{Leptons and photon}
+As discussed in validation, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
+
+Since there are very slight differences depending on pile-up these are not shown except for met and jets. Also only one energy value is shown for all but electrons for simplicity. Though all were checked.
+\subsection{Electron and photon}
+Since these interact very  similarly in the detector, their smearing functions are identical.
+ \begin{figure}[H] %!ht
+    \subfloat[eleta1. \label{fig:elph:1}]{%
+     \includegraphics[width=0.5\textwidth]{eleta1.pdf}
+    }
+    \hfill
+\subfloat[eleta2.\label{fig:elph:2}]{%
+      \includegraphics[width=0.5\textwidth]{eleta2.pdf}
+    }
+    \hfill
+        \subfloat[pheta1. \label{fig:elph:3}]{%
+     \includegraphics[width=0.5\textwidth]{pheta1.pdf}
+    }
+    \hfill
+\subfloat[pheta2.\label{fig:elph:4}]{%
+      \includegraphics[width=0.5\textwidth]{pheta2.pdf}
+    }
+    \caption{el and ph eta}
+    \label{fig:elph}
+\end{figure}
+\subsection{Muon}
+ \begin{figure}[H] %!ht
+    \subfloat[Muoneta1. \label{fig:muon:1}]{%
+     \includegraphics[width=0.5\textwidth]{mueta1.pdf}
+    }
+    \hfill
+    \subfloat[Muoneta2.\label{fig:muon:2}]{%
+      \includegraphics[width=0.5\textwidth]{mueta2.pdf}
+    }
+    \caption{Muon}
+    \label{fig:muon}
+  \end{figure}
+
+\subsection{Tau}
+ \begin{figure}[H] %!ht
+    \subfloat[Tau \label{fig:tau:1}]{%
+     \includegraphics[width=0.5\textwidth]{tau.pdf}
+    }
+    \hfill
+    \subfloat[Tau energy vs smeared. \label{fig:tau:2}]{%
+      \includegraphics[width=0.5\textwidth]{tau2.pdf}
+    }
+    \caption{Tau}
+    \label{fig:tau}
+  \end{figure}
 \subsection{Jets}
+ \begin{figure}[H] %!ht
+    \subfloat[jeteta1. \label{fig:jet:1}]{%
+     \includegraphics[width=0.5\textwidth]{jeteta1.pdf}
+    }
+    \hfill
+\subfloat[jeteta2.\label{fig:jet:2}]{%
+      \includegraphics[width=0.5\textwidth]{jeteta2.pdf}
+    }
+    \hfill
+        \subfloat[jeteta3. \label{fig:jet:3}]{%
+     \includegraphics[width=0.5\textwidth]{jeteta3.pdf}
+    }
+    \hfill
+\subfloat[jeteta4.\label{fig:jet:4}]{%
+      \includegraphics[width=0.5\textwidth]{jeteta4.pdf}
+    }
+    \caption{Jet}
+    \label{fig:jet}
+\end{figure}
+
 \subsection{Missing Energy}
-
-
-
+These figures are given as smeared value from origin, thus at 0 it represents that the energy is unsmeared, compared to the others where the slice value represents the unsmeared. 
+ \begin{figure}[H] %!ht
+    \subfloat[METx. \label{fig:MET:x}]{%
+     \includegraphics[width=0.5\textwidth]{METx.pdf}
+    }
+    \hfill
+    \subfloat[METy.\label{fig:MET:y}]{%
+      \includegraphics[width=0.5\textwidth]{METy.pdf}
+    }
+    \caption{MET}
+    \label{fig:MET}
+  \end{figure}
 
 \subsection{Expected results}\label{cha:vali:sec:results:subsec:expr}
 
@@ -55,8 +132,9 @@ Find more information in my presentation. also mention no pile-up dependence of 
 That this is true can be shown from \textbf{figures and references from nonpileupdep.txt presentation!}. The smearing functions should be given! 
 
 To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004} which gave the following formulation for the expected rms: 
-\begin{table}[h]
+\begin{table}[H]
 \renewcommand{\arraystretch}{1.5} %Change height of tabel
+\begin{center}
 \begin{tabular}{|l|l|}
 \hline
 Process & Absolute rms \\ \hline
@@ -67,9 +145,12 @@ Muon & $\sigma=\frac{\sigma_{id} \sigma_{ms}}{\sigma_{id} \oplus \sigma_{ms}}$\\
 & $\sigma_{ms}=P_T(\frac{b_0}{P_T} \oplus b_1 \oplus b_2 P_T)$\\ \hline
 Tau & $\sigma =(0.03\oplus \frac{0.76}{\sqrt{E(GeV)}})E(GeV)$ \\ \hline
 Jet & $\sigma = P_T(GeV)(\frac{N}{P_T} \oplus \frac{S}{\sqrt{P_T}} \oplus C)$ \\ \hline
-$E_T^{miss}$ & $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$ \\ \hline
+$E_T^{Miss}$ & $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$ \\ \hline
 \end{tabular}
+\end{center}
 \renewcommand{\arraystretch}{1.0} %Change back
+\caption{Expected absolute rms.}
+\label{tab:expected rms}
 \end{table}
 \begin{itemize}
 \item For muon: Where a$_i$ and b$_i$ are dependent on $\eta$.
@@ -79,8 +160,34 @@ Where prong refers to the different amount of tracks that were from which they w
 Where $\eta$ is the same as discussed in \subsectionref{sec:eo:subsec:coord}
 \item All parameters can be found in \citep{ATL-PHYS-PUB-2013-004}.
 \end{itemize}
-
-Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults.
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Process&RMS [GeV]&Error in RMS&Expected RMS& Significance\\ \hline
+Electron low $\eta$&1.24948&0.0481987&1.18427&1.35286\\
+Electron high $\eta$&1.8211&0.141329&1.74446&0.542334\\ \hline
+Photon low $\eta$&1.18986&0.0400187&1.18427&0.139734\\
+Photon high $\eta$&1.80297&0.0374312&1.74446&1.56323\\ \hline
+Muon low $\eta$&1.19016&0.0524938&1.49789&5.86235\\
+Muon high $\eta$&1.70694&0.0882606&2.18318&5.39575\\ \hline
+Tau&10.8992&0.299761&10.3388&1.86975\\ \hline
+Jet low $\eta$&11.3974&0.351391&11.5983&0.571586\\
+Jet mid low $\eta$&11.5096&0.518872&11.9352&0.820407\\
+Jet mid high $\eta$&11.2916&0.310314&10.9439&1.12021\\
+Jet high $\eta$&16.6112&1.52891&13.5&2.03491\\ \hline
+$E_T^{Miss} x-axis$&45.2013&1.35426&48.4483&2.39762\\
+$E_T^{Miss} y-axis$&42.6906&1.27904&48.4483&4.50154\\ \hline
+\end{tabular}
+\end{center}
+\caption{Rms values.}
+\label{tab:rmsval}
+\end{table}
+\begin{itemize}
+\item Where the given rms is still the absolute. 
+\item The significance is the standard deviation of between the expected and calculated with respect to the error.
+\end{itemize}
+Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults. \textbf{RMS IS THE SAME AS STANDARD DEVIATION.}
 
 WHAT IS 3prong! must be explained.
 \section{Discussion}
