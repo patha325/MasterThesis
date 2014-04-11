@@ -23,12 +23,23 @@ Look at presentation, is it worth bringing up the first signal regions when the 
 \subsection{Selection criteria}
 What criteria were used and more importantly why? It is quite important that you can explain why this was used.
 
-\section{Comparing with published papers} 	
-To verify that the background data was correct it was compared with \citep{ATLAS-CONF-2012-147}, in which the luminosity if 10 fb$^{-1}$ and thus the expected values from the paper scaled up with a factor 100. \textbf{Also, somewhat unexpectedly is that the difference in center of mass energy required the cross-sections to be lowered than compared with the upgrade.} The signal region used in the article were the following:
+For different purposes different selection criteria or regions are used. These are a set of criteria specified to enhance the area of interest. For instance, if simulating a specific signal one wants to find as many ways as possible to diminish the background. This so that when searching experimentally, the signal will be easier to detect.
+
+These can be quite general cuts, there are only some things to take into consideration. 
+\begin{itemize}
+\item If experimental, what limitations are set by the detectors? Are there some criteria already?
+\item If simulated, is there some criteria set in the generator?
+\item Are there criteria which must be set since there is to much uncertainty in the data? or a large effect of pile up?
+\end{itemize}
+
+
+\subsection{Verifying background data} 	
+To verify that the background data was correct it was compared with \citep{ATLAS-CONF-2012-147}, in which the luminosity if 10 fb$^{-1}$ and thus the expected values from the paper scaled up with a factor 100. \textbf{Also, somewhat unexpectedly is that the difference in center of mass energy required the cross-sections to be much lowered than compared with the upgrade.} The signal region used in the article were the following:
 \begin{itemize}
 \item Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$
 \item Lepton veto, no electron or muon, leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet)
-\item Leading jet with $p_T > 500 GeV$ and $E_T^{Miss}>500 GeV$
+\item Leading jet with $p_T > 350$ GeV and $E_T^{Miss}>350$ GeV (SR3)
+\item Leading jet with $p_T > 500$ GeV and $E_T^{Miss}>500$ GeV (SR4)
 \end{itemize}
 The article has several different signal regions, the difference is the last item, unfortunately since the simulated events are already filtered before the analysis only one of the regions could be used.
 \begin{table}[ht]
@@ -47,17 +58,34 @@ Total background&37890&36700 \\ \hline
 \end{center}
 \end{table}
 
+NEW WITH 350 as SR3 and 500 as SR4 and expected scaled with a factor 100
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Process & SR3 & Expected SR3 & SR4  & Expected SR4 \\ \hline
+Z$\rightarrow\nu\nu$&140298&152000&25250.3&27000 \\
+W$\rightarrow\tau\nu$&40700.8&37000&5861.74&3900 \\
+W$\rightarrow e\nu$&11229&11200&1506.58&1600 \\
+W$\rightarrow\mu\nu$&13727.1&15800&1872.32&4200 \\ \hline
+Total background&205955&218000&34491&36700 \\ \hline
+\end{tabular}
+\end{center}
+
+
 The scaling is done by multiplying by a factor 100.
 In \tableref{tab:Compare1} a comparison has been made. It can be seen that the simulated events and expected events coincide on all accounts apart from W$\rightarrow\tau\nu$, W$\rightarrow\mu\nu$ and thus the total as well. \textbf{This can be explained by better separation of $\mu$,$\tau$ and missing energy.} 
+Tau can not be reconstructed as jets in the code, they can in reality!
 
-\section{Figures of merit}
+\subsection{Figures of merit}
 P-value, see more in Majas phd thesis when completed.
 
 The percentage value of the probability that the signal is "covered" by the fluctuations in the background. Try matching two Gaussians.
-\section{D5 operators}
+\subsection{D5 operators}
 Discuss M*, and the difference in mDM. From presentation given, 3-4 April. 
-\section{Light vector mediator models}
+\subsection{Light vector mediator models}
 Discuss Mm, width, and the difference in mDM. From presentation given, 3-4 April.
+\subsection{Susy models?}
 \section{Other selection criteria and observables}
 New signal regions.
 \begin{table}[h]
@@ -83,10 +111,12 @@ minimum E$^{Miss}_T$ (GeV) & 120 & 350 & 600 & 800 & 1000 \\ \hline
 \section{Mitigating the effect of the high luminosity}
 \section{Results}
 \subsection{Limit on M*}
-Give both at 10fb-1 and 1000fb-1.
+Give both at 10fb-1 and 1000fb-1. And for the different signal regions.
+\subsection{Effect of pile-up}
 \subsection{Previous results}
 Valerios paper for instance.
 \subsection{Limit on mediator mass}
 Are there previous results?
+\subsection{Effect of pile-up}
 \section{Discussion}
 \section{Conclusion}

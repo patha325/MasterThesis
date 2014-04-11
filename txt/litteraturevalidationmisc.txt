@@ -24,22 +24,6 @@ Some explination of how Emiss is calculated, where pile-up comes from.
       month         = "Sep",
       year          = "2013",
 }
-Some comments to the muons, else the same as above. 
-http://cds.cern.ch/record/1604420/files/ATL-PHYS-PUB-2013-009.pdf
-@techreport{ATL-PHYS-PUB-2013-009,
-      title         = "{Performance assumptions based on full simulation for an
-                       upgraded ATLAS detector at a High-Luminosity LHC}",
-      institution   = "CERN",
-      address       = "Geneva",
-      number        = "ATL-PHYS-PUB-2013-009",
-      month         = "Sep",
-      year          = "2013",
-}
-
-
-
-
-
 
 https://cds.cern.ch/record/1633407
 Intresting since it explaines where the data comes from.

@@ -17,6 +17,9 @@ The electron and photon have the same smearing since they are both detected in a
 The smearing takes a lot into account, efficiency etc...
 
 \section{Validation}\label{sec:vali}
+Validating the resolutions in the measurements.  
+
+
 To validate the smearing functions a comparison with \citep{ATL-PHYS-PUB-2013-004} was made where the standard deviation, depending on the energy of momentum value of an entity, was given, see \subsectionref{cha:vali:sec:results:subsec:expr}. To calculate this some simulated processes were needed to extract data, see \tableref{tab:backproc}. 
 \begin{SCtable}[][ht]
 \begin{tabular}{|l|l|}
@@ -33,7 +36,13 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 \label{tab:backproc}
 \end{SCtable}
 
-By plotting the data for each data point before and after the smearing function, denoted truth and reco, for that data point had been used, one could verify the functions. It was done looking at the reco data for a given truth energy or momentum value. The reco data will be spread out, since there should be effects \textbf{explain more about effeciency, why spread?!}. 
+
+By plotting the data for each data point before and after the smearing function, denoted truth and reco (reconstructed), for that data point had been used, one could verify the functions. It was done looking at the reco data for a given truth energy or momentum value. 
+
+\textbf{SHOULD BE IN ABOVE SECTION?}
+The reco data, discussed briefly in \subsectionref{sec:eo:subsec:reco}, is affected as the detectors by efficiency, the energy or momentum of the entity and the pile-up. This process has been 
+
+ since there should be effects \textbf{explain more about effeciency, why spread?!}. 
 
 Trying to fit a Gaussian curve to this data will then result in the mean value, and the standard deviation. The mean value is not of interest for the purposes of the thesis, though it is this standard deviation which is compared. 
 
@@ -41,7 +50,9 @@ Trying to fit a Gaussian curve to this data will then result in the mean value, 
 \section{Results}\label{cha:vali:sec:results}
 As discussed in validation, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
 
-Since there are very slight differences depending on pile-up these are not shown except for met and jets. Also only one energy value is shown for all but electrons for simplicity. Though all were checked.
+Since there are only slightly differences depending on pile-up these are not shown except for met and jets. Also only one energy value is shown for all but electrons for simplicity. Though all were checked.
+
+Pile-up is fixed at 60 is nothing else is said.
 \subsection{Electron and photon}
 Since these interact very  similarly in the detector, their smearing functions are identical.
  \begin{figure}[H] %!ht
@@ -119,7 +130,11 @@ These figures are given as smeared value from origin, thus at 0 it represents th
     \subfloat[METy.\label{fig:MET:y}]{%
       \includegraphics[width=0.5\textwidth]{METy.pdf}
     }
-    \caption{MET}
+        \hfill
+    \subfloat[MET140.\label{fig:MET:140}]{%
+      \includegraphics[width=0.5\textwidth]{mety140.pdf}
+    }
+   \caption{MET}
     \label{fig:MET}
   \end{figure}
 
@@ -166,18 +181,19 @@ Where $\eta$ is the same as discussed in \subsectionref{sec:eo:subsec:coord}
 \hline
 Process&RMS [GeV]&Error in RMS&Expected RMS& Significance\\ \hline
 Electron low $\eta$&1.24948&0.0481987&1.18427&1.35286\\
-Electron high $\eta$&1.8211&0.141329&1.74446&0.542334\\ \hline
+High $\eta$&1.8211&0.141329&1.74446&0.542334\\ \hline
 Photon low $\eta$&1.18986&0.0400187&1.18427&0.139734\\
-Photon high $\eta$&1.80297&0.0374312&1.74446&1.56323\\ \hline
+High $\eta$&1.80297&0.0374312&1.74446&1.56323\\ \hline
 Muon low $\eta$&1.19016&0.0524938&1.49789&5.86235\\
-Muon high $\eta$&1.70694&0.0882606&2.18318&5.39575\\ \hline
+High $\eta$&1.70694&0.0882606&2.18318&5.39575\\ \hline
 Tau&10.8992&0.299761&10.3388&1.86975\\ \hline
 Jet low $\eta$&11.3974&0.351391&11.5983&0.571586\\
-Jet mid low $\eta$&11.5096&0.518872&11.9352&0.820407\\
-Jet mid high $\eta$&11.2916&0.310314&10.9439&1.12021\\
-Jet high $\eta$&16.6112&1.52891&13.5&2.03491\\ \hline
-$E_T^{Miss} x-axis$&45.2013&1.35426&48.4483&2.39762\\
-$E_T^{Miss} y-axis$&42.6906&1.27904&48.4483&4.50154\\ \hline
+Mid low $\eta$&11.5096&0.518872&11.9352&0.820407\\
+Mid high $\eta$&11.2916&0.310314&10.9439&1.12021\\
+High $\eta$&16.6112&1.52891&13.5&2.03491\\ \hline
+$E_T^{Miss} $x$-$axis&45.2013&1.35426&48.4483&2.39762\\ \hline
+$E_T^{Miss} $y$-$axis&42.6906&1.27904&48.4483&4.50154\\ 
+$\obs{\mu}=140$&105.109&12.239&87.2812&1.45667\\  \hline
 \end{tabular}
 \end{center}
 \caption{Rms values.}
@@ -191,6 +207,11 @@ Remember for the discussion to mention different types of rms, relative or absol
 
 WHAT IS 3prong! must be explained.
 \section{Discussion}
+
+
+
 \section{Conclusion}
 \subsection{Validation}
 \subsection{Some smearing independent on pile-up}
+Interesting how little the pile-up effects. In previous studies (atleast one reference is available from pileupeffect presentation) which lead to these smearing functions it was confirmed that the effect of pile-up will only affect MET and jets. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
+

@@ -84,24 +84,6 @@ Z' decay, some intrests about the MC triggers.
       year          = "2013",
 }
 
-
-https://cds.cern.ch/record/1502664/
-Letter of Intent for the Phase-II Upgrade of the ATLAS Experiment Dec-12
-The main paper concerning the upgrade. "The sensitivity scales rather well with centre-of-mass energy but the dependence on luminosity is more complex"
-Intresting to read 8.4 Supersymmetry searches and measurements.
-
-@techreport{ATLAS:1502664,
-      author        = "ATLAS,  Collaboration",
-      title         = "{Letter of Intent for the Phase-II Upgrade of the ATLAS
-                       Experiment}",
-      institution   = "CERN",
-      address       = "Geneva",
-      number        = "CERN-LHCC-2012-022. LHCC-I-023",
-      month         = "Dec",
-      year          = "2012",
-      note          = "Draft version for comments",
-}
-
 could be interesting:ATLAS Collaboration. Performance assumptions for an upgraded ATLAS detector at a High-Luminosity LHC.ATL-PHYS-PUB-2013-004, 2013.
 https://cds.cern.ch/record/1527529?ln=en
 
