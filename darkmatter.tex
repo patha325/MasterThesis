@@ -78,11 +78,38 @@ In \tableref{tab:Compare1} a comparison has been made. It can be seen that the s
 Tau can not be reconstructed as jets in the code, they can in reality!
 
 \subsection{Figures of merit}
-P-value, see more in Majas phd thesis when completed.
+\textbf{P-value, info from Majas phd thesis. Is there a source? Should there be a figure?}
 
-The percentage value of the probability that the signal is "covered" by the fluctuations in the background. Try matching two Gaussians.
+To be able to evaluate different signal regions and different signal models, a figure of merit p is used. The value p is the probability for an assumed hypothesis to be correct, thus a good signal region will yield a low value. The assumed hypothesis is that the background and its fluctuations is measured over the signal plus background.
+
+Assuming the expected number of background events are B $\pm \sigma_B$ where $\sigma_B$ is the quadratic sum of the statistical error from Monte Carlo, the statistical error from the control region and the systematic errors. The expected number of signals is S, assumed without fluctuation. 
+
+If no uncertainty in B or S is assumed, then the number of expected events, N, in the signal region should follow a Poisson distribution as such:
+\begin{equation}
+\text{P(N|S+B)}=\frac{e^{-(S+B)}(S+B)^N}{N!}
+\end{equation} 
+
+However since there is an uncertainty in the background, the probability distribution P(N|S+B) must be convoluted with a Gaussian function:
+\begin{equation}
+ \text{G(N$_B$|B,$\sigma_B$)}=\frac{1}{\sigma_B \sqrt{2 \pi}} e^{-\frac{(N_B-B)^2}{2\sigma_B^2}}
+\end{equation}
+where N$_B$ is the expected number of background events. The convolution is done using N$_B$ as N resulting in the total probability density function:
+\begin{align}
+\text{F(N|S+B},\sigma_B) &= \text{P(N|S+N$_B$)$\ast$G(N$_B$|B,$\sigma_B$)}= \notag \\
+&=\int\limits_{-\infty}^{\infty}P(N|N_B - S+B)G(N_B|B,\sigma_B) dN_B
+\end{align}
+This leads to the probability of the signal plus background fluctuation to B events being obtained by summing the probability function from N=0 to N=B.
+\begin{equation}
+p = \sum\limits_{i=0}^{B} \int\limits_{-\infty}^{\infty} \text{P(i|N$_B - $S+B)G(N$_B$|B,$\sigma_B$)} dN_B
+\end{equation}
+
+
+
 \subsection{D5 operators}
 Discuss M*, and the difference in mDM. From presentation given, 3-4 April. 
+
+As described in the introduction \textbf{reference?}, one of the signals is modelled using the D5 operator. In this thesis two different scenearios were used, one at a dark matter mass of 50 GeV and one at 400 GeV.
+
 \subsection{Light vector mediator models}
 Discuss Mm, width, and the difference in mDM. From presentation given, 3-4 April.
 \subsection{Susy models?}
@@ -109,14 +136,22 @@ minimum E$^{Miss}_T$ (GeV) & 120 & 350 & 600 & 800 & 1000 \\ \hline
 \end{table}
 
 \section{Mitigating the effect of the high luminosity}
+Something pile-up
+Something as seen in validation of... the effect is quite minute for high energy values and does not at all affect leptons or photons. Mention that the effect is on a trigger level, that the lowest SR will be lost.
+
+Even though this was envisioned as the primary focus of the thesis, it was shown that the effect of pile-up is minute for these high signal regions. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different DM signal models.
 \section{Results}
 \subsection{Limit on M*}
+The mass suppression scale.
 Give both at 10fb-1 and 1000fb-1. And for the different signal regions.
-\subsection{Effect of pile-up}
+\textbf{ASK CHRISTOPHE FOR A GOOD EXPLANAITION OF M* and why there can be limits!}
+\subsection{Effect of pile-up on M*}
+Hardly any effect. 10 \% or in that vicinity.
+
 \subsection{Previous results}
 Valerios paper for instance.
 \subsection{Limit on mediator mass}
 Are there previous results?
-\subsection{Effect of pile-up}
+\subsection{Effect of pile-up on mediator mass}
 \section{Discussion}
 \section{Conclusion}

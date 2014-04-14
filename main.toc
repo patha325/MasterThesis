@@ -46,31 +46,31 @@
 \contentsline {subsection}{\numberline {3.1.1}Selection criteria}{26}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Verifying background data}{26}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Figures of merit}{27}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}D5 operators}{27}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Light vector mediator models}{27}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Susy models?}{27}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}Other selection criteria and observables}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.1.4}D5 operators}{28}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Light vector mediator models}{28}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Susy models?}{28}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}Other selection criteria and observables}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}Mitigating the effect of the high luminosity}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results}{28}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Limit on M*}{28}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Effect of pile-up}{28}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Previous results}{28}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Limit on mediator mass}{28}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Effect of pile-up}{28}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Discussion}{28}{section.3.5}
-\contentsline {section}{\numberline {3.6}Conclusion}{28}{section.3.6}
-\contentsline {chapter}{\numberline {4}Results and Conclusions}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Validation of smearing functions}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Signal to background ratio}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{29}{section.4.3}
-\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{29}{section.4.4}
-\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{29}{section.4.5}
-\contentsline {section}{\numberline {4.6}Suggestions for future research}{29}{section.4.6}
-\contentsline {chapter}{\numberline {A}Datasets}{33}{appendix.A}
-\contentsline {section}{\numberline {A.1}Background processes}{33}{section.A.1}
-\contentsline {section}{\numberline {A.2}D5 signal processes}{33}{section.A.2}
-\contentsline {section}{\numberline {A.3}Light vector mediator processes}{33}{section.A.3}
-\contentsline {chapter}{Bibliography}{35}{appendix*.26}
+\contentsline {section}{\numberline {3.4}Results}{29}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Limit on M*}{29}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Effect of pile-up on M*}{29}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Previous results}{29}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Limit on mediator mass}{29}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Effect of pile-up on mediator mass}{29}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Discussion}{29}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusion}{29}{section.3.6}
+\contentsline {chapter}{\numberline {4}Results and Conclusions}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Validation of smearing functions}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Signal to background ratio}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{31}{section.4.4}
+\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{31}{section.4.5}
+\contentsline {section}{\numberline {4.6}Suggestions for future research}{31}{section.4.6}
+\contentsline {chapter}{\numberline {A}Datasets}{35}{appendix.A}
+\contentsline {section}{\numberline {A.1}Background processes}{35}{section.A.1}
+\contentsline {section}{\numberline {A.2}D5 signal processes}{35}{section.A.2}
+\contentsline {section}{\numberline {A.3}Light vector mediator processes}{35}{section.A.3}
+\contentsline {chapter}{Bibliography}{37}{appendix*.26}
 \select@language {english}
 \select@language {english}
 \select@language {english}
