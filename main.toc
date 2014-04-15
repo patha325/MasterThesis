@@ -55,9 +55,9 @@
 \contentsline {subsection}{\numberline {3.4.2}Effect of pile-up on M*}{31}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Previous results}{31}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Limit on mediator mass}{31}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Effect of pile-up on mediator mass}{31}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Discussion}{31}{section.3.5}
-\contentsline {section}{\numberline {3.6}Conclusion}{31}{section.3.6}
+\contentsline {subsection}{\numberline {3.4.5}Effect of pile-up on mediator mass}{32}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Discussion}{32}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusion}{32}{section.3.6}
 \contentsline {chapter}{\numberline {4}Results and Conclusions}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Validation of smearing functions}{33}{section.4.1}
 \contentsline {section}{\numberline {4.2}Signal to background ratio}{33}{section.4.2}
@@ -71,7 +71,7 @@
 \contentsline {subsection}{\numberline {A.1.2}Background to signals}{37}{subsection.A.1.2}
 \contentsline {section}{\numberline {A.2}D5 signal processes}{38}{section.A.2}
 \contentsline {section}{\numberline {A.3}Light vector mediator processes}{38}{section.A.3}
-\contentsline {chapter}{Bibliography}{43}{appendix*.26}
+\contentsline {chapter}{Bibliography}{43}{appendix*.28}
 \select@language {english}
 \select@language {english}
 \select@language {english}

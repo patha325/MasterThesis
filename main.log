@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  15 APR 2014 13:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  15 APR 2014 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2415,16 +2415,57 @@ Overfull \hbox (1.78554pt too wide) in paragraph at lines 47--56
  [] 
  []
 
-[28] [29] [30]) [31]
+[28] [29] [30]
+<figures/signal/pvaluemm.pdf, id=1472, 569.12625pt x 355.3275pt>
+File: figures/signal/pvaluemm.pdf Graphic file (type pdf)
+
+<use figures/signal/pvaluemm.pdf>
+Package pdftex.def Info: figures/signal/pvaluemm.pdf used on input line 157.
+(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
+
+<figures/signal/pvaluemm2.pdf, id=1473, 569.12625pt x 355.3275pt>
+File: figures/signal/pvaluemm2.pdf Graphic file (type pdf)
+
+<use figures/signal/pvaluemm2.pdf>
+Package pdftex.def Info: figures/signal/pvaluemm2.pdf used on input line 161.
+(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 157--162
+[][] [][] 
+ []
+
+<figures/signal/exsig2sr3.pdf, id=1474, 569.12625pt x 384.43625pt>
+File: figures/signal/exsig2sr3.pdf Graphic file (type pdf)
+
+<use figures/signal/exsig2sr3.pdf>
+Package pdftex.def Info: figures/signal/exsig2sr3.pdf used on input line 177.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+<figures/signal/exsig2sr3log.pdf, id=1475, 569.12625pt x 384.43625pt>
+File: figures/signal/exsig2sr3log.pdf Graphic file (type pdf)
+
+<use figures/signal/exsig2sr3log.pdf>
+Package pdftex.def Info: figures/signal/exsig2sr3log.pdf used on input line 181
+.
+(pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
+
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 177--182
+[][] [][] 
+ []
+
+[31 <./figures/signal/pvaluemm.pdf, page is rotated 90 degrees> <./figures/sign
+al/pvaluemm2.pdf, page is rotated 90 degrees>]) [32 <./figures/signal/exsig2sr3
+.pdf, page is rotated 90 degrees> <./figures/signal/exsig2sr3log.pdf, page is r
+otated 90 degrees>]
 \openout2 = `resultsandconclusions.aux'.
 
- (./resultsandconclusions.tex [32
-
-
-
-]
+ (./resultsandconclusions.tex
 Chapter 4.
-) [33] [34
+) [33
+
+
+
+] [34
 
 
 ]
@@ -2441,30 +2482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--20
-
- []
-
-
-Overfull \hbox (33.8001pt too wide) in paragraph at lines 21--24
-[]\T1/jkpk/m/n/10 mc12.188408.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_
- qcut200d4pd.v06 
- []
-
-
-Overfull \hbox (33.8001pt too wide) in paragraph at lines 21--24
-\T1/jkpk/m/n/10 mc12.188409.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_ q
-cut400d4pd.v06 
- []
-
-
-Overfull \hbox (33.8001pt too wide) in paragraph at lines 21--24
-\T1/jkpk/m/n/10 mc12.188410.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_ q
-cut600d4pd.v06 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+Underfull \hbox (badness 10000) in paragraph at lines 16--22
 
  []
 
@@ -2472,89 +2490,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
 
 ]
-Overfull \hbox (39.25009pt too wide) in paragraph at lines 25--28
+Overfull \hbox (33.8001pt too wide) in paragraph at lines 23--26
+[]\T1/jkpk/m/n/10 mc12.188408.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_
+ qcut200d4pd.v06 
+ []
+
+
+Overfull \hbox (33.8001pt too wide) in paragraph at lines 23--26
+\T1/jkpk/m/n/10 mc12.188409.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_ q
+cut400d4pd.v06 
+ []
+
+
+Overfull \hbox (33.8001pt too wide) in paragraph at lines 23--26
+\T1/jkpk/m/n/10 mc12.188410.madgraphpythia_ auet2bcteq6l1_ d5_ dm50_ ms10000_ q
+cut600d4pd.v06 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+
+Overfull \hbox (39.25009pt too wide) in paragraph at lines 27--30
 []\T1/jkpk/m/n/10 mc12.188411.madgraphpythia_ auet2bcteq6l1_ d5_ dm400_ ms10000
 _ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (39.25009pt too wide) in paragraph at lines 25--28
+Overfull \hbox (39.25009pt too wide) in paragraph at lines 27--30
 \T1/jkpk/m/n/10 mc12.188412.madgraphpythia_ auet2bcteq6l1_ d5_ dm400_ ms10000_ 
 qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (39.25009pt too wide) in paragraph at lines 25--28
+Overfull \hbox (39.25009pt too wide) in paragraph at lines 27--30
 \T1/jkpk/m/n/10 mc12.188413.madgraphpythia_ auet2bcteq6l1_ d5_ dm400_ ms10000_ 
 qcut600d4pd.v06 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 29--31
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 33--35
 []\T1/jkpk/m/n/10 mc12.188414.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ 
 w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 29--31
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 33--35
 \T1/jkpk/m/n/10 mc12.188422.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w3
 _ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 29--31
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 33--35
 \T1/jkpk/m/n/10 mc12.188430.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w3
 _ qcut600d4pd.v06 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 32--35
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
 []\T1/jkpk/m/n/10 mc12.188415.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ 
 w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 32--35
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
 \T1/jkpk/m/n/10 mc12.188423.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w3
 _ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 32--35
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
 \T1/jkpk/m/n/10 mc12.188431.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w3
-_ qcut600d4pd.v06 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
-[]\T1/jkpk/m/n/10 mc12.188416.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ 
-w3_ qcut200d4pd.v06 
- []
-
-
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
-\T1/jkpk/m/n/10 mc12.188424.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w3
-_ qcut400d4pd.v06 
- []
-
-
-Overfull \hbox (56.4501pt too wide) in paragraph at lines 36--39
-\T1/jkpk/m/n/10 mc12.188432.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w3
 _ qcut600d4pd.v06 
  []
 
@@ -2564,21 +2582,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
  []
 
 
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 40--43
-[]\T1/jkpk/m/n/10 mc12.188417.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_
- w3_ qcut200d4pd.v06 
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 40--43
+[]\T1/jkpk/m/n/10 mc12.188416.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ 
+w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 40--43
-\T1/jkpk/m/n/10 mc12.188425.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_ w
-3_ qcut400d4pd.v06 
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 40--43
+\T1/jkpk/m/n/10 mc12.188424.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w3
+_ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 40--43
-\T1/jkpk/m/n/10 mc12.188433.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_ w
-3_ qcut600d4pd.v06 
+Overfull \hbox (56.4501pt too wide) in paragraph at lines 40--43
+\T1/jkpk/m/n/10 mc12.188432.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w3
+_ qcut600d4pd.v06 
  []
 
 
@@ -2588,19 +2606,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 44--47
-[]\T1/jkpk/m/n/10 mc12.188418.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_
+[]\T1/jkpk/m/n/10 mc12.188417.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_
  w3_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 44--47
-\T1/jkpk/m/n/10 mc12.188426.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_ w
+\T1/jkpk/m/n/10 mc12.188425.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_ w
 3_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 44--47
-\T1/jkpk/m/n/10 mc12.188434.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_ w
+\T1/jkpk/m/n/10 mc12.188433.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm1000_ w
 3_ qcut600d4pd.v06 
  []
 
@@ -2611,19 +2629,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 48--51
-[]\T1/jkpk/m/n/10 mc12.188419.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_
+[]\T1/jkpk/m/n/10 mc12.188418.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_
  w3_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 48--51
-\T1/jkpk/m/n/10 mc12.188427.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_ w
+\T1/jkpk/m/n/10 mc12.188426.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_ w
 3_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (61.9001pt too wide) in paragraph at lines 48--51
-\T1/jkpk/m/n/10 mc12.188435.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_ w
+\T1/jkpk/m/n/10 mc12.188434.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm3000_ w
 3_ qcut600d4pd.v06 
  []
 
@@ -2633,21 +2651,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 52--55
-[]\T1/jkpk/m/n/10 mc12.188420.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000
-_ w3_ qcut200d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 52--55
+[]\T1/jkpk/m/n/10 mc12.188419.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_
+ w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 52--55
-\T1/jkpk/m/n/10 mc12.188428.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000_ 
-w3_ qcut400d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 52--55
+\T1/jkpk/m/n/10 mc12.188427.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_ w
+3_ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 52--55
-\T1/jkpk/m/n/10 mc12.188436.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000_ 
-w3_ qcut600d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 52--55
+\T1/jkpk/m/n/10 mc12.188435.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm6000_ w
+3_ qcut600d4pd.v06 
  []
 
 
@@ -2655,21 +2673,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
-
+[38]
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 56--59
-[]\T1/jkpk/m/n/10 mc12.188421.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000
+[]\T1/jkpk/m/n/10 mc12.188420.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000
 _ w3_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 56--59
-\T1/jkpk/m/n/10 mc12.188429.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000_ 
+\T1/jkpk/m/n/10 mc12.188428.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000_ 
 w3_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 56--59
-\T1/jkpk/m/n/10 mc12.188437.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000_ 
+\T1/jkpk/m/n/10 mc12.188436.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm10000_ 
 w3_ qcut600d4pd.v06 
  []
 
@@ -2678,22 +2696,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
-[38]
-Overfull \hbox (65.4701pt too wide) in paragraph at lines 60--63
-[]\T1/jkpk/m/n/10 mc12.188438.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ 
-w8pi_ qcut200d4pd.v06 
+
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 60--63
+[]\T1/jkpk/m/n/10 mc12.188421.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000
+_ w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (65.4701pt too wide) in paragraph at lines 60--63
-\T1/jkpk/m/n/10 mc12.188446.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w8
-pi_ qcut400d4pd.v06 
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 60--63
+\T1/jkpk/m/n/10 mc12.188429.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000_ 
+w3_ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (65.4701pt too wide) in paragraph at lines 60--63
-\T1/jkpk/m/n/10 mc12.188454.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w8
-pi_ qcut600d4pd.v06 
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 60--63
+\T1/jkpk/m/n/10 mc12.188437.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm15000_ 
+w3_ qcut600d4pd.v06 
  []
 
 
@@ -2703,19 +2721,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 64--67
-[]\T1/jkpk/m/n/10 mc12.188439.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ 
+[]\T1/jkpk/m/n/10 mc12.188438.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ 
 w8pi_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 64--67
-\T1/jkpk/m/n/10 mc12.188447.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w8
+\T1/jkpk/m/n/10 mc12.188446.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w8
 pi_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 64--67
-\T1/jkpk/m/n/10 mc12.188455.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w8
+\T1/jkpk/m/n/10 mc12.188454.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm100_ w8
 pi_ qcut600d4pd.v06 
  []
 
@@ -2726,25 +2744,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 68--71
-[]\T1/jkpk/m/n/10 mc12.188440.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ 
+[]\T1/jkpk/m/n/10 mc12.188439.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ 
 w8pi_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 68--71
-\T1/jkpk/m/n/10 mc12.188448.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w8
+\T1/jkpk/m/n/10 mc12.188447.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w8
 pi_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (65.4701pt too wide) in paragraph at lines 68--71
-\T1/jkpk/m/n/10 mc12.188456.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w8
+\T1/jkpk/m/n/10 mc12.188455.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm300_ w8
 pi_ qcut600d4pd.v06 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--71
 
+ []
+
+
+Overfull \hbox (65.4701pt too wide) in paragraph at lines 72--75
+[]\T1/jkpk/m/n/10 mc12.188440.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ 
+w8pi_ qcut200d4pd.v06 
+ []
+
+
+Overfull \hbox (65.4701pt too wide) in paragraph at lines 72--75
+\T1/jkpk/m/n/10 mc12.188448.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w8
+pi_ qcut400d4pd.v06 
+ []
+
+
+Overfull \hbox (65.4701pt too wide) in paragraph at lines 72--75
+\T1/jkpk/m/n/10 mc12.188456.madgraphpythia_ auet2bcteq6l1_ dmv_ dm50_ mm500_ w8
+pi_ qcut600d4pd.v06 
  []
 
 
@@ -2768,44 +2804,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
  []
 
 [39]
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 88--91
-[]\T1/jkpk/m/n/10 mc12.188462.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_
- w3_ qcut200d4pd.v06 
- []
-
-
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 88--91
-\T1/jkpk/m/n/10 mc12.188468.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_ w
-3_ qcut400d4pd.v06 
- []
-
-
-Overfull \hbox (61.9001pt too wide) in paragraph at lines 88--91
-\T1/jkpk/m/n/10 mc12.188474.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_ w
-3_ qcut600d4pd.v06 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 92--95
-[]\T1/jkpk/m/n/10 mc12.188463.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
-_ w3_ qcut200d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 92--95
+[]\T1/jkpk/m/n/10 mc12.188462.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_
+ w3_ qcut200d4pd.v06 
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 92--95
-\T1/jkpk/m/n/10 mc12.188469.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000_ 
-w3_ qcut400d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 92--95
+\T1/jkpk/m/n/10 mc12.188468.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_ w
+3_ qcut400d4pd.v06 
  []
 
 
-Overfull \hbox (67.3501pt too wide) in paragraph at lines 92--95
-\T1/jkpk/m/n/10 mc12.188475.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000_ 
-w3_ qcut600d4pd.v06 
+Overfull \hbox (61.9001pt too wide) in paragraph at lines 92--95
+\T1/jkpk/m/n/10 mc12.188474.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm500_ w
+3_ qcut600d4pd.v06 
  []
 
 
@@ -2815,19 +2833,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 96--99
-[]\T1/jkpk/m/n/10 mc12.188464.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000
+[]\T1/jkpk/m/n/10 mc12.188463.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
 _ w3_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 96--99
-\T1/jkpk/m/n/10 mc12.188470.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000_ 
+\T1/jkpk/m/n/10 mc12.188469.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000_ 
 w3_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 96--99
-\T1/jkpk/m/n/10 mc12.188476.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000_ 
+\T1/jkpk/m/n/10 mc12.188475.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000_ 
 w3_ qcut600d4pd.v06 
  []
 
@@ -2838,25 +2856,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 100--103
-[]\T1/jkpk/m/n/10 mc12.188465.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000
+[]\T1/jkpk/m/n/10 mc12.188464.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000
 _ w3_ qcut200d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 100--103
-\T1/jkpk/m/n/10 mc12.188471.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000_ 
+\T1/jkpk/m/n/10 mc12.188470.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000_ 
 w3_ qcut400d4pd.v06 
  []
 
 
 Overfull \hbox (67.3501pt too wide) in paragraph at lines 100--103
-\T1/jkpk/m/n/10 mc12.188477.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000_ 
+\T1/jkpk/m/n/10 mc12.188476.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm3000_ 
 w3_ qcut600d4pd.v06 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
+ []
+
+
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 104--107
+[]\T1/jkpk/m/n/10 mc12.188465.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000
+_ w3_ qcut200d4pd.v06 
+ []
+
+
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 104--107
+\T1/jkpk/m/n/10 mc12.188471.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000_ 
+w3_ qcut400d4pd.v06 
+ []
+
+
+Overfull \hbox (67.3501pt too wide) in paragraph at lines 104--107
+\T1/jkpk/m/n/10 mc12.188477.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm6000_ 
+w3_ qcut600d4pd.v06 
  []
 
 
@@ -2890,30 +2926,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--127
  []
 
 
-Overfull \hbox (1.71019pt too wide) in paragraph at lines 128--129
-[]\T1/jkpk/m/n/10 mc12.188484.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
-0_ w8pi_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Overfull \hbox (1.71019pt too wide) in paragraph at lines 130--131
-[]\T1/jkpk/m/n/10 mc12.188490.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
-0_ w8pi_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 
 Overfull \hbox (1.71019pt too wide) in paragraph at lines 132--133
-[]\T1/jkpk/m/n/10 mc12.188496.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
+[]\T1/jkpk/m/n/10 mc12.188484.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
 0_ w8pi_
  []
 
@@ -2923,42 +2942,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
  []
 
 
-Overfull \hbox (1.71019pt too wide) in paragraph at lines 135--136
+Overfull \hbox (1.71019pt too wide) in paragraph at lines 134--135
+[]\T1/jkpk/m/n/10 mc12.188490.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
+0_ w8pi_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Overfull \hbox (1.71019pt too wide) in paragraph at lines 136--137
+[]\T1/jkpk/m/n/10 mc12.188496.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1000
+0_ w8pi_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Overfull \hbox (1.71019pt too wide) in paragraph at lines 138--139
 []\T1/jkpk/m/n/10 mc12.188485.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1500
 0_ w8pi_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Overfull \hbox (1.71019pt too wide) in paragraph at lines 137--138
+Overfull \hbox (1.71019pt too wide) in paragraph at lines 140--141
 []\T1/jkpk/m/n/10 mc12.188491.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1500
 0_ w8pi_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 )
-Overfull \hbox (1.71019pt too wide) in paragraph at lines 139--63
+Overfull \hbox (1.71019pt too wide) in paragraph at lines 142--63
 []\T1/jkpk/m/n/10 mc12.188497.madgraphpythia_ auet2bcteq6l1_ dmv_ dm400_ mm1500
 0_ w8pi_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--63
+Underfull \hbox (badness 10000) in paragraph at lines 142--63
 
  []
 
-[41] [42
-
-
-] (./main.bbl (./main.brf)
+[41] [42] (./main.bbl (./main.brf)
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
@@ -2976,6 +3014,8 @@ bits and
 
 [43
 
+
+
 ]
 Underfull \hbox (badness 2205) in paragraph at lines 110--110
 \T1/pcr/m/n/10 twiki / bin / view / AtlasPublic / LuminosityPublicResults$[]\T1
@@ -2991,7 +3031,7 @@ k/m/n/10 , 2011.  Ac-cessed:
 [44]) (./main.ind) [45] [46
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=1611, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=1793, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -3013,7 +3053,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4A47DF37FB8DF24D79B01E07ACDF5B03;5138.
+(rerunfilecheck)             Checksum: 237A078FC9B96B1DB371ED76F0AB8BC4;5138.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: 0BF21F037E8DD4C35410E0A4BDF3EEEF;2509.
 
@@ -3025,10 +3065,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 14547 strings out of 495031
- 212002 string characters out of 6181531
- 329336 words of memory out of 5000000
- 17000 multiletter control sequences out of 15000+600000
+ 14583 strings out of 495031
+ 212845 string characters out of 6181531
+ 329854 words of memory out of 5000000
+ 17026 multiletter control sequences out of 15000+600000
  292612 words of font info for 244 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,13n,87p,1147b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3056,10 +3096,10 @@ kpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (61 pages, 6614066 bytes).
+Output written on main.pdf (61 pages, 6757256 bytes).
 PDF statistics:
- 1739 PDF objects out of 2073 (max. 8388607)
- 1216 compressed objects within 13 object streams
- 214 named destinations out of 1000 (max. 500000)
- 19171 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1925 PDF objects out of 2073 (max. 8388607)
+ 1298 compressed objects within 13 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 19191 words of extra memory for PDF output out of 20736 (max. 10000000)
 
