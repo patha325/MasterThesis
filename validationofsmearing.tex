@@ -46,6 +46,9 @@ The reco data, discussed briefly in \subsectionref{sec:eo:subsec:reco}, is affec
 
 Trying to fit a Gaussian curve to this data will then result in the mean value, and the standard deviation. The mean value is not of interest for the purposes of the thesis, though it is this standard deviation which is compared. 
 
+Plot the truth vs smeared energy, take a slice at a truth energy to get the spread of smeared at that given truth energy value. For this, try to fit a Gaussian curve and from this retrieve the standard deviation. Compare this to the expected value given in the \textbf{paper?}.
+
+\textbf{Mention problems,} with the paper, with this process error calculations in root?
 
 \section{Results}\label{cha:vali:sec:results}
 As discussed in validation, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
@@ -100,6 +103,8 @@ Since these interact very  similarly in the detector, their smearing functions a
     \label{fig:tau}
   \end{figure}
 \subsection{Jets}
+Jets as described in \textbf{reference to intro}, are hadronic showers. The smearing functions are divided into four different regions depending on the angle $\eta$. 
+
  \begin{figure}[H] %!ht
     \subfloat[jeteta1. \label{fig:jet:1}]{%
      \includegraphics[width=0.5\textwidth]{jeteta1.pdf}
@@ -113,7 +118,7 @@ Since these interact very  similarly in the detector, their smearing functions a
      \includegraphics[width=0.5\textwidth]{jeteta3.pdf}
     }
     \hfill
-\subfloat[jeteta4.\label{fig:jet:4}]{%
+\subfloat[Jet in the high $\eta$ region. Very odd due to the low amount of available data. \label{fig:jet:4}]{%
       \includegraphics[width=0.5\textwidth]{jeteta4.pdf}
     }
     \caption{Jet}
@@ -192,7 +197,7 @@ Mid low $\eta$&11.5096&0.518872&11.9352&0.820407\\
 Mid high $\eta$&11.2916&0.310314&10.9439&1.12021\\
 High $\eta$&16.6112&1.52891&13.5&2.03491\\ \hline
 $E_T^{Miss} $x$-$axis&45.2013&1.35426&48.4483&2.39762\\ \hline
-$E_T^{Miss} $y$-$axis&42.6906&1.27904&48.4483&4.50154\\ 
+$E_T^{Miss} $y$-$axis&42.6906&2.27904&48.4483&4.50154\\ 
 $\obs{\mu}=140$&105.109&12.239&87.2812&1.45667\\  \hline
 \end{tabular}
 \end{center}
@@ -207,11 +212,13 @@ Remember for the discussion to mention different types of rms, relative or absol
 
 WHAT IS 3prong! must be explained.
 \section{Discussion}
-
-
-
-\section{Conclusion}
-\subsection{Validation}
 \subsection{Some smearing independent on pile-up}
 Interesting how little the pile-up effects. In previous studies (atleast one reference is available from pileupeffect presentation) which lead to these smearing functions it was confirmed that the effect of pile-up will only affect MET and jets. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
 
+
+\section{Conclusion}
+The smearing functions work as intended within ? sigma. 
+
+One of the major problems was to get the significance of the Gaussian fit to be calculated correctly.
+
+Another was to retrieve the correct values from the paper since it was not clear if the values given were absolute or scale dependent.

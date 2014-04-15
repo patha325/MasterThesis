@@ -1,4 +1,0 @@
-mueta11 Sigma: 1190.16
-mueta11 Error in sigma: 52.4938
-mueta11 Real sigma: 1497.89
-mueta11 Significance: 5.86236

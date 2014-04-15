@@ -1,4 +1,0 @@
-mety1 Sigma: 42690.6
-mety1 Error in sigma: 1279.03
-mety1 Real sigma: 48448.3
-mety1 Significance: 4.50154

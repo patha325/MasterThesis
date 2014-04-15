@@ -1,4 +1,0 @@
-pheta21 Sigma: 1802.97
-pheta21 Error in sigma: 37.4312
-pheta21 Real sigma: 1333.23
-pheta21 Significance: 12.5494

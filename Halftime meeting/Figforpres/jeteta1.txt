@@ -1,4 +1,0 @@
-jeteta11 Sigma: 11397.4
-jeteta11 Error in sigma: 351.393
-jeteta11 Real sigma: 11598.3
-jeteta11 Significance: 0.571584

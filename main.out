@@ -34,37 +34,38 @@
 \BOOKMARK [2][-]{subsection.2.3.5}{2.3.5 Missing Energy}{section.2.3}% 34
 \BOOKMARK [2][-]{subsection.2.3.6}{2.3.6 Expected results}{section.2.3}% 35
 \BOOKMARK [1][-]{section.2.4}{2.4 Discussion}{chapter.2}% 36
-\BOOKMARK [1][-]{section.2.5}{2.5 Conclusion}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Validation}{section.2.5}% 38
-\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Some smearing independent on pile-up}{section.2.5}% 39
-\BOOKMARK [0][]{chapter.3}{3 Evaluating dark matter signals}{}% 40
-\BOOKMARK [1][-]{section.3.1}{3.1 Signal to background ratio}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Selection criteria}{section.3.1}% 42
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Verifying background data}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Figures of merit}{section.3.1}% 44
-\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 D5 operators}{section.3.1}% 45
-\BOOKMARK [2][-]{subsection.3.1.5}{3.1.5 Light vector mediator models}{section.3.1}% 46
-\BOOKMARK [2][-]{subsection.3.1.6}{3.1.6 Susy models?}{section.3.1}% 47
-\BOOKMARK [1][-]{section.3.2}{3.2 Other selection criteria and observables}{chapter.3}% 48
-\BOOKMARK [1][-]{section.3.3}{3.3 Mitigating the effect of the high luminosity}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.4}{3.4 Results}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Limit on M*}{section.3.4}% 51
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Effect of pile-up on M*}{section.3.4}% 52
-\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 Previous results}{section.3.4}% 53
-\BOOKMARK [2][-]{subsection.3.4.4}{3.4.4 Limit on mediator mass}{section.3.4}% 54
-\BOOKMARK [2][-]{subsection.3.4.5}{3.4.5 Effect of pile-up on mediator mass}{section.3.4}% 55
-\BOOKMARK [1][-]{section.3.5}{3.5 Discussion}{chapter.3}% 56
-\BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 57
-\BOOKMARK [0][]{chapter.4}{4 Results and Conclusions}{}% 58
-\BOOKMARK [1][-]{section.4.1}{4.1 Validation of smearing functions}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.2}{4.2 Signal to background ratio}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.3}{4.3 Other selection criteria and observables}{chapter.4}% 61
-\BOOKMARK [1][-]{section.4.4}{4.4 Mitigating the effect of the high luminosity}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.5}{4.5 Recommendations to mitigate the effect of the high luminosity}{chapter.4}% 63
-\BOOKMARK [1][-]{section.4.6}{4.6 Suggestions for future research}{chapter.4}% 64
-\BOOKMARK [0][]{appendix.A}{A Datasets}{}% 65
-\BOOKMARK [1][-]{section.A.1}{A.1 Background processes}{appendix.A}% 66
-\BOOKMARK [1][-]{section.A.2}{A.2 D5 signal processes}{appendix.A}% 67
-\BOOKMARK [1][-]{section.A.3}{A.3 Light vector mediator processes}{appendix.A}% 68
-\BOOKMARK [0][]{appendix*.26}{Bibliography}{}% 69
-\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 70
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Some smearing independent on pile-up}{section.2.4}% 37
+\BOOKMARK [1][-]{section.2.5}{2.5 Conclusion}{chapter.2}% 38
+\BOOKMARK [0][]{chapter.3}{3 Evaluating dark matter signals}{}% 39
+\BOOKMARK [1][-]{section.3.1}{3.1 Signal to background ratio}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Selection criteria}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Verifying background data}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Figures of merit}{section.3.1}% 43
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 D5 operators}{section.3.1}% 44
+\BOOKMARK [2][-]{subsection.3.1.5}{3.1.5 Light vector mediator models}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.6}{3.1.6 Susy models?}{section.3.1}% 46
+\BOOKMARK [1][-]{section.3.2}{3.2 Other selection criteria and observables}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.3}{3.3 Mitigating the effect of the high luminosity}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.4}{3.4 Results}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Limit on M*}{section.3.4}% 50
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Effect of pile-up on M*}{section.3.4}% 51
+\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 Previous results}{section.3.4}% 52
+\BOOKMARK [2][-]{subsection.3.4.4}{3.4.4 Limit on mediator mass}{section.3.4}% 53
+\BOOKMARK [2][-]{subsection.3.4.5}{3.4.5 Effect of pile-up on mediator mass}{section.3.4}% 54
+\BOOKMARK [1][-]{section.3.5}{3.5 Discussion}{chapter.3}% 55
+\BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 56
+\BOOKMARK [0][]{chapter.4}{4 Results and Conclusions}{}% 57
+\BOOKMARK [1][-]{section.4.1}{4.1 Validation of smearing functions}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.2}{4.2 Signal to background ratio}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.3}{4.3 Other selection criteria and observables}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.4}{4.4 Mitigating the effect of the high luminosity}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.5}{4.5 Recommendations to mitigate the effect of the high luminosity}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.6}{4.6 Suggestions for future research}{chapter.4}% 63
+\BOOKMARK [0][]{appendix.A}{A Datasets}{}% 64
+\BOOKMARK [1][-]{section.A.1}{A.1 Background processes}{appendix.A}% 65
+\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Validation}{section.A.1}% 66
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background to signals}{section.A.1}% 67
+\BOOKMARK [1][-]{section.A.2}{A.2 D5 signal processes}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.3}{A.3 Light vector mediator processes}{appendix.A}% 69
+\BOOKMARK [0][]{appendix*.26}{Bibliography}{}% 70
+\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 71

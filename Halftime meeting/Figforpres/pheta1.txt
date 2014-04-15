@@ -1,4 +1,0 @@
-pheta11 Sigma: 1189.86
-pheta11 Error in sigma: 40.0187
-pheta11 Real sigma: 1184.27
-pheta11 Significance: 0.139733

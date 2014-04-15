@@ -1,6 +1,0 @@
-eleta1 Sigma: 1249.48
-eleta1 Error in sigma: 48.1988
-eleta1 Real sigma: 1184.27
-eleta1 Significance: 1.35286
-
-

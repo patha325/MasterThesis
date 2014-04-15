@@ -1,4 +1,0 @@
-eleta21 Sigma: 1821.1
-eleta21 Error in sigma: 141.329
-eleta21 Real sigma: 1333.23
-eleta21 Significance: 3.45204

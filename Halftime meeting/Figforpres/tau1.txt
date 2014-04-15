@@ -1,4 +1,0 @@
-tau11 Sigma: 10899.2
-tau11 Error in sigma: 299.761
-tau11 Real sigma: 9308.11
-tau11 Significance: 5.30799
