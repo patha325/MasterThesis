@@ -35,43 +35,48 @@ These can be quite general cuts, there are only some things to take into conside
 
 \subsection{Verifying background data} 	
 To verify that the background data was correct it was compared with \citep{ATLAS-CONF-2012-147}, in which the luminosity if 10 fb$^{-1}$ and thus the expected values from the paper scaled up with a factor 100. \textbf{Also, somewhat unexpectedly is that the difference in center of mass energy required the cross-sections to be much lowered than compared with the upgrade.} The signal region used in the article were the following:
-\begin{itemize}
-\item Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$
-\item Lepton veto, no electron or muon, leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet)
-\item Leading jet with $p_T > 350$ GeV and $E_T^{Miss}>350$ GeV (SR3)
-\item Leading jet with $p_T > 500$ GeV and $E_T^{Miss}>500$ GeV (SR4)
-\end{itemize}
-The article has several different signal regions, the difference is the last item, unfortunately since the simulated events are already filtered before the analysis only one of the regions could be used.
-\begin{table}[ht]
+\begin{table}[h]
 \begin{center}
-\begin{tabular}{|l|l|l|}
+\begin{tabular}{l}
 \hline
-Process & Simulated events & Expected events (Scaled to 1000 fb$^{-1}$) \\ \hline
-Z$\rightarrow\nu\nu$&27675.1&27000 \\
-W$\rightarrow\tau\nu$&6506.09&3900 \\
-W$\rightarrow e\nu$&1660.06&1600 \\
-W$\rightarrow\mu\nu$&2048.77&4200 \\ \hline
-Total background&37890&36700 \\ \hline
+Selection Criteria \\ \hline
+Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$ \\
+Lepton veto, no electron or muon \\
+Leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147}.}
-\label{tab:Compare1}
+\begin{tabular}{l l l l l l}
+signal region & SR3p & SR4p \\ \hline
+minimum leading jet p$_T$ (GeV) & 350 & 500 \\
+minimum E$^{Miss}_T$ (GeV) & 350 & 500 \\ \hline
+\end{tabular}
+\label{tab:oldsr}
+\caption{The signal regions}
 \end{center}
 \end{table}
 
-NEW WITH 350 as SR3 and 500 as SR4 and expected scaled with a factor 100
 
+
+
+
+
+The article has several different signal regions, the difference is the last item, unfortunately since the simulated events are already filtered before the analysis only one of the regions could be used.
+
+NEW WITH 350 as SR3 and 500 as SR4 and expected (Scaled to 1000 fb$^{-1}$) thus scaled a factor 100.
+\begin{table}[ht]
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-Process & SR3 & Expected SR3 & SR4  & Expected SR4 \\ \hline
+Process & SR3p & Expected SR3p & SR4p  & Expected SR4p \\ \hline
 Z$\rightarrow\nu\nu$&140298&152000&25250.3&27000 \\
 W$\rightarrow\tau\nu$&40700.8&37000&5861.74&3900 \\
 W$\rightarrow e\nu$&11229&11200&1506.58&1600 \\
 W$\rightarrow\mu\nu$&13727.1&15800&1872.32&4200 \\ \hline
 Total background&205955&218000&34491&36700 \\ \hline
 \end{tabular}
+\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147}.}
+\label{tab:Compare1}
 \end{center}
-
+\end{table}
 
 The scaling is done by multiplying by a factor 100.
 In \tableref{tab:Compare1} a comparison has been made. It can be seen that the simulated events and expected events coincide on all accounts apart from W$\rightarrow\tau\nu$, W$\rightarrow\mu\nu$ and thus the total as well. \textbf{This can be explained by better separation of $\mu$,$\tau$ and missing energy.} 
@@ -96,11 +101,11 @@ However since there is an uncertainty in the background, the probability distrib
 where N$_B$ is the expected number of background events. The convolution is done using N$_B$ as N resulting in the total probability density function:
 \begin{align}
 \text{F(N|S+B},\sigma_B) &= \text{P(N|S+N$_B$)$\ast$G(N$_B$|B,$\sigma_B$)}= \notag \\
-&=\int\limits_{-\infty}^{\infty}P(N|N_B - S+B)G(N_B|B,\sigma_B) dN_B
+&=\int\limits_{-\infty}^{\infty}P(N|N_B - (S+B))G(N_B|B,\sigma_B) dN_B
 \end{align}
 This leads to the probability of the signal plus background fluctuation to B events being obtained by summing the probability function from N=0 to N=B.
 \begin{equation}
-p = \sum\limits_{i=0}^{B} \int\limits_{-\infty}^{\infty} \text{P(i|N$_B - $S+B)G(N$_B$|B,$\sigma_B$)} dN_B
+p = \sum\limits_{i=0}^{B} \int\limits_{-\infty}^{\infty} \text{P(i|N$_B - $(S+B))G(N$_B$|B,$\sigma_B$)} dN_B
 \end{equation}
 
 
@@ -136,6 +141,8 @@ signal region & SR0 & SRa & SRb & SRc & SRd \\ \hline
 minimum leading jet p$_T$ (GeV) & 350 & 350 & 350 & 350 & 350 \\
 minimum E$^{Miss}_T$ (GeV) & 120 & 350 & 600 & 800 & 1000 \\ \hline
 \end{tabular}
+\label{tab:newsr}
+\caption{The new signal regions}
 \end{center}
 \end{table}
 
@@ -168,6 +175,8 @@ Hardly any effect. 10 \% or in that vicinity.
 
 \subsection{Previous results}
 Valerios paper for instance.
+
+The whole discussion with Steven and David.
 \subsection{Limit on mediator mass}
 Are there previous results?
 Signal vs background plot in normal and log scale for one of the vector mediator models, to be able to evaluate all the different models the so called p-value was used in different signal regions. Below are two figures showing one of the vector mediator models in SR3.

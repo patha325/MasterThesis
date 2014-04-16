@@ -14,7 +14,14 @@ Somehow explain the entities used.
 
 The electron and photon have the same smearing since they are both detected in a similar way.  Perhaps add more to the introduction about each part of the detector. or simply write that here?
 
+The jet and $E^{Miss}_T$ are the only "parts" which are not unique particles instead they are based either on a shower of particles or the energy that is not detected. Thus, the pile-up dependence here must simply come from the fact that it is hard to separate the different jets and that with several different collisions occurring makes it hard to accurately measure the total energy.
+
+
 The smearing takes a lot into account, efficiency etc...
+
+
+These smearing functions are designed so that they take into account the efficiency of the different detectors, 
+
 
 \section{Validation}\label{sec:vali}
 Validating the resolutions in the measurements.  
@@ -51,32 +58,53 @@ Plot the truth vs smeared energy, take a slice at a truth energy to get the spre
 \textbf{Mention problems,} with the paper, with this process error calculations in root?
 
 \section{Results}\label{cha:vali:sec:results}
-As discussed in validation, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
+As discussed above, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
 
 Since there are only slightly differences depending on pile-up these are not shown except for met and jets. Also only one energy value is shown for all but electrons for simplicity. Though all were checked.
 
-Pile-up is fixed at 60 is nothing else is said.
+Pile-up is fixed at 60 is nothing else is said used simply as a benchmark.
 \subsection{Electron and photon}
 Since these interact very  similarly in the detector, their smearing functions are identical.
- \begin{figure}[H] %!ht
-    \subfloat[eleta1. \label{fig:elph:1}]{%
-     \includegraphics[width=0.5\textwidth]{eleta1.pdf}
-    }
-    \hfill
-\subfloat[eleta2.\label{fig:elph:2}]{%
-      \includegraphics[width=0.5\textwidth]{eleta2.pdf}
-    }
-    \hfill
-        \subfloat[pheta1. \label{fig:elph:3}]{%
-     \includegraphics[width=0.5\textwidth]{pheta1.pdf}
-    }
-    \hfill
-\subfloat[pheta2.\label{fig:elph:4}]{%
-      \includegraphics[width=0.5\textwidth]{pheta2.pdf}
-    }
-    \caption{el and ph eta}
-    \label{fig:elph}
+\begin{figure}[!htbp]
+  \centering 
+  \subfloat[eleta1. \label{fig:elph:1}]{\includegraphics[width=0.5\textwidth]{eleta1.pdf}}% 
+\hfill
+  \subfloat[eleta2.\label{fig:elph:2}]{\includegraphics[width=0.5\textwidth]{eleta2.pdf}} 
+  \caption{el and ph eta}
+  \label{fig:elph}
 \end{figure}
+
+\begin{figure}[!htbp]
+  \ContinuedFloat 
+  \centering 
+  \subfloat[pheta1. \label{fig:elph:3}]{\includegraphics[width=0.5\textwidth]{pheta1.pdf}}% 
+  \hfill
+  \subfloat[pheta2.\label{fig:elph:4}]{\includegraphics[width=0.5\textwidth]{pheta2.pdf}} 
+  \setcounter{figure}{1}
+  \caption[]{el and ph eta}
+  \label{fig:elph}
+\end{figure} 
+\setcounter{figure}{1}
+
+% \begin{figure}[H] %!ht
+ %   \subfloat[eleta1. \label{fig:elph:1}]{%
+  %   \includegraphics[width=0.5\textwidth]{eleta1.pdf}
+   % }
+   % \hfill
+%\subfloat[eleta2.\label{fig:elph:2}]{%
+ %     \includegraphics[width=0.5\textwidth]{eleta2.pdf}
+  %  }
+   % \hfill
+    %    \subfloat[pheta1. \label{fig:elph:3}]{%
+     %\includegraphics[width=0.5\textwidth]{pheta1.pdf}
+    %}
+    %\hfill
+%\subfloat[pheta2.\label{fig:elph:4}]{%
+ %     \includegraphics[width=0.5\textwidth]{pheta2.pdf}
+  %  }
+   % \caption{el and ph eta}
+    %\label{fig:elph}
+%\end{figure}
 \subsection{Muon}
  \begin{figure}[H] %!ht
     \subfloat[Muoneta1. \label{fig:muon:1}]{%
@@ -89,7 +117,7 @@ Since these interact very  similarly in the detector, their smearing functions a
     \caption{Muon}
     \label{fig:muon}
   \end{figure}
-
+\newpage
 \subsection{Tau}
  \begin{figure}[H] %!ht
     \subfloat[Tau \label{fig:tau:1}]{%
@@ -104,7 +132,7 @@ Since these interact very  similarly in the detector, their smearing functions a
   \end{figure}
 \subsection{Jets}
 Jets as described in \textbf{reference to intro}, are hadronic showers. The smearing functions are divided into four different regions depending on the angle $\eta$. 
-
+\newpage
  \begin{figure}[H] %!ht
     \subfloat[jeteta1. \label{fig:jet:1}]{%
      \includegraphics[width=0.5\textwidth]{jeteta1.pdf}
@@ -121,10 +149,23 @@ Jets as described in \textbf{reference to intro}, are hadronic showers. The smea
 \subfloat[Jet in the high $\eta$ region. Very odd due to the low amount of available data. \label{fig:jet:4}]{%
       \includegraphics[width=0.5\textwidth]{jeteta4.pdf}
     }
+        \hfill
+\subfloat[Eta1 at mu140 \label{fig:jet:5}]{%
+      \includegraphics[width=0.5\textwidth]{jeteta1140.pdf}
+    }
+            \hfill
+\subfloat[Eta2 at mu140 \label{fig:jet:6}]{%
+      \includegraphics[width=0.5\textwidth]{jeteta2140.pdf}
+    }
     \caption{Jet}
     \label{fig:jet}
 \end{figure}
+jeteta1140.pdf
+jeteta2140.pdf
 
+for 140 mu
+
+\newpage
 \subsection{Missing Energy}
 These figures are given as smeared value from origin, thus at 0 it represents that the energy is unsmeared, compared to the others where the slice value represents the unsmeared. 
  \begin{figure}[H] %!ht
@@ -193,7 +234,9 @@ Muon low $\eta$&1.19016&0.0524938&1.49789&5.86235\\
 High $\eta$&1.70694&0.0882606&2.18318&5.39575\\ \hline
 Tau&10.8992&0.299761&10.3388&1.86975\\ \hline
 Jet low $\eta$&11.3974&0.351391&11.5983&0.571586\\
+$\obs{\mu}=140$&15.3673&0.473783&15.7721&0.854499\\
 Mid low $\eta$&11.5096&0.518872&11.9352&0.820407\\
+$\obs{\mu}=140$&15.1427&0.682649&15.9515&1.18475\\
 Mid high $\eta$&11.2916&0.310314&10.9439&1.12021\\
 High $\eta$&16.6112&1.52891&13.5&2.03491\\ \hline
 $E_T^{Miss} $x$-$axis&45.2013&1.35426&48.4483&2.39762\\ \hline
