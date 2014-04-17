@@ -8,26 +8,22 @@ The key feature of those studies were that the direction of the momenta does not
 
 \newpage
 \section{Smearing functions}\label{sec:smear}
-\textbf{Put in introduction? The particles that are directly detectable in \abbrATLAS are:} electron, photon, muon, tau. Aside from this jets can be detected, and from this $E_T^{Miss}$ can be calculated. This means that the all detectable entities must have their own smearing functions.
-
-Somehow explain the entities used. 
+\textbf{Put in introduction? The particles that are directly detectable in \abbrATLAS are:} electron, photon, muon, tau. Aside from this jets can be detected, and from this $E_T^{Miss}$ can be calculated as described in \textbf{reference to intro? Did I explain this enough?} This means that the all detectable entities must have their own smearing functions. 
 
 The electron and photon have the same smearing since they are both detected in a similar way.  Perhaps add more to the introduction about each part of the detector. or simply write that here?
 
 The jet and $E^{Miss}_T$ are the only "parts" which are not unique particles instead they are based either on a shower of particles or the energy that is not detected. Thus, the pile-up dependence here must simply come from the fact that it is hard to separate the different jets and that with several different collisions occurring makes it hard to accurately measure the total energy.
 
+muon is special!  
 
-The smearing takes a lot into account, efficiency etc...
+Tau is detected similarly to electron and photon.
 
+These smearing functions are designed so that they take into account the efficiency of the different detectors, limitations as well as their dependence on pile-up. They also take into account how all this varies depending on the measured entries energy or momenta.
 
-These smearing functions are designed so that they take into account the efficiency of the different detectors, 
-
+The terminology is that data before smearing, simulated data, is denoted as data at a truth level or truth data. Data after smearing, which is comparable to what is measured, reconstructed or reco data as discussed in \subsectionref{sec:eo:subsec:reco}.
 
 \section{Validation}\label{sec:vali}
-Validating the resolutions in the measurements.  
-
-
-To validate the smearing functions a comparison with \citep{ATL-PHYS-PUB-2013-004} was made where the standard deviation, depending on the energy of momentum value of an entity, was given, see \subsectionref{cha:vali:sec:results:subsec:expr}. To calculate this some simulated processes were needed to extract data, see \tableref{tab:backproc}. 
+To validate the smearing functions a comparison with \citep{ATL-PHYS-PUB-2013-004} was made where the standard deviation, depending on the energy of momentum value of an entity, was given, see \sectionref{cha:vali:sec:expr}. To calculate this some simulated processes were needed to extract data, see \tableref{tab:backproc}. 
 \begin{SCtable}[][ht]
 \begin{tabular}{|l|l|}
 \hline
@@ -43,15 +39,11 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 \label{tab:backproc}
 \end{SCtable}
 
+\textbf{REWRITE BELOW!}
 
-By plotting the data for each data point before and after the smearing function, denoted truth and reco (reconstructed), for that data point had been used, one could verify the functions. It was done looking at the reco data for a given truth energy or momentum value. 
+By plotting the data for each data point before and after the smearing function, denoted truth and reco (reconstructed), for that data point had been used, one could verify the functions. It was done looking at the reco data for a given truth energy or momentum value. Since the smearing functions, as above, take a lot of things into account the match will not be a fine line, see \textbf{refere to the truth reco image!}
 
-\textbf{SHOULD BE IN ABOVE SECTION?}
-The reco data, discussed briefly in \subsectionref{sec:eo:subsec:reco}, is affected as the detectors by efficiency, the energy or momentum of the entity and the pile-up. This process has been 
-
- since there should be effects \textbf{explain more about effeciency, why spread?!}. 
-
-Trying to fit a Gaussian curve to this data will then result in the mean value, and the standard deviation. The mean value is not of interest for the purposes of the thesis, though it is this standard deviation which is compared. 
+By fitting a Gaussian curve to this data will then result in the mean value, and the standard deviation. The mean value is not of interest for the purposes of the thesis, though it is this standard deviation which is compared. This is known as the resolution of the data.
 
 Plot the truth vs smeared energy, take a slice at a truth energy to get the spread of smeared at that given truth energy value. For this, try to fit a Gaussian curve and from this retrieve the standard deviation. Compare this to the expected value given in the \textbf{paper?}.
 
@@ -184,7 +176,7 @@ These figures are given as smeared value from origin, thus at 0 it represents th
     \label{fig:MET}
   \end{figure}
 
-\subsection{Expected results}\label{cha:vali:sec:results:subsec:expr}
+\section{Expected results}\label{cha:vali:sec:expr}
 
 The expected response has been calculated and taken from: ATL-PHYS-PUB-2013-004
 Find more information in my presentation. also mention no pile-up dependence of leptons.
