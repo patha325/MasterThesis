@@ -10,18 +10,20 @@ The key feature of those studies were that the direction of the momenta does not
 \section{Smearing functions}\label{sec:smear}
 \textbf{Put in introduction? The particles that are directly detectable in \abbrATLAS are:} electron, photon, muon, tau. Aside from this jets can be detected, and from this $E_T^{Miss}$ can be calculated as described in \textbf{reference to intro? Did I explain this enough?} This means that the all detectable entities must have their own smearing functions. 
 
+$E_T^{Miss}$ denotes the missing transversal energy, which is calculated by knowing that there should be energy conservation in the collision. In is comprised of different parts, one from neutrinos, one from errors in the other measurements and one from (hopefully) new physics.
+
 The electron and photon have the same smearing since they are both detected in a similar way.  Perhaps add more to the introduction about each part of the detector. or simply write that here?
 
-The jet and $E^{Miss}_T$ are the only "parts" which are not unique particles instead they are based either on a shower of particles or the energy that is not detected. Thus, the pile-up dependence here must simply come from the fact that it is hard to separate the different jets and that with several different collisions occurring makes it hard to accurately measure the total energy.
+The jet and $E^{Miss}_T$ are the only "parts" which are not unique particles instead they are based either on a shower of particles or the energy which is missing from the conservation of transversal energy. Thus, the pile-up dependence here must simply come from the fact that it is hard to separate the different jets and that with several different collisions occurring makes it hard to accurately measure the total energy.
 
-muon is special!  
+muon is special since it is detected in the muon spectrometer.  
 
 Tau is detected similarly to electron and photon.
 
 These smearing functions are designed so that they take into account the efficiency of the different detectors, limitations as well as their dependence on pile-up. They also take into account how all this varies depending on the measured entries energy or momenta.
 
 The terminology is that data before smearing, simulated data, is denoted as data at a truth level or truth data. Data after smearing, which is comparable to what is measured, reconstructed or reco data as discussed in \subsectionref{sec:eo:subsec:reco}.
-
+\newpage
 \section{Validation}\label{sec:vali}
 To validate the smearing functions a comparison with \citep{ATL-PHYS-PUB-2013-004} was made where the standard deviation, depending on the energy of momentum value of an entity, was given, see \sectionref{cha:vali:sec:expr}. To calculate this some simulated processes were needed to extract data, see \tableref{tab:backproc}. 
 \begin{SCtable}[][ht]
@@ -39,64 +41,63 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 \label{tab:backproc}
 \end{SCtable}
 
-\textbf{REWRITE BELOW!}
-
-By plotting the data for each data point before and after the smearing function, denoted truth and reco (reconstructed), for that data point had been used, one could verify the functions. It was done looking at the reco data for a given truth energy or momentum value. Since the smearing functions, as above, take a lot of things into account the match will not be a fine line, see \textbf{refere to the truth reco image!}
+By plotting the data for each data point before and after the smearing function, denoted truth and reco (reconstructed), for that data point had been used, one can verify the functions. This is done looking at the reco data for a given truth energy or momentum value. Since the smearing functions, as above, take a lot of things into account the match will not be a fine line, see \textbf{refere to the truth reco image!}
 
 By fitting a Gaussian curve to this data will then result in the mean value, and the standard deviation. The mean value is not of interest for the purposes of the thesis, though it is this standard deviation which is compared. This is known as the resolution of the data.
 
-Plot the truth vs smeared energy, take a slice at a truth energy to get the spread of smeared at that given truth energy value. For this, try to fit a Gaussian curve and from this retrieve the standard deviation. Compare this to the expected value given in the \textbf{paper?}.
+This resolution is then compared to previous results, \citep{ATL-PHYS-PUB-2013-004}, and finally confirmed or demented.
 
-\textbf{Mention problems,} with the paper, with this process error calculations in root?
-
+To get enough and thorough statistics enough data must be available for a given truth energy or momenta and the analysis must be specific enough to only look at a minute interval around this point.
+\newpage
 \section{Results}\label{cha:vali:sec:results}
 As discussed above, the method was to plot the data against its smeared counterpart and through this determine the standard deviation to see if it conforms to the expected values.
 
-Since there are only slightly differences depending on pile-up these are not shown except for met and jets. Also only one energy value is shown for all but electrons for simplicity. Though all were checked.
+Since there are only slightly differences depending on pile-up these are not shown except for $E_T^{Miss}$ and jets. Also only one energy value is shown for simplicity, though the comparison was done for different energy values.
 
 Pile-up is fixed at 60 is nothing else is said used simply as a benchmark.
 \subsection{Electron and photon}
 Since these interact very  similarly in the detector, their smearing functions are identical.
-\begin{figure}[!htbp]
-  \centering 
-  \subfloat[eleta1. \label{fig:elph:1}]{\includegraphics[width=0.5\textwidth]{eleta1.pdf}}% 
-\hfill
-  \subfloat[eleta2.\label{fig:elph:2}]{\includegraphics[width=0.5\textwidth]{eleta2.pdf}} 
-  \caption{el and ph eta}
-  \label{fig:elph}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \ContinuedFloat 
-  \centering 
-  \subfloat[pheta1. \label{fig:elph:3}]{\includegraphics[width=0.5\textwidth]{pheta1.pdf}}% 
-  \hfill
-  \subfloat[pheta2.\label{fig:elph:4}]{\includegraphics[width=0.5\textwidth]{pheta2.pdf}} 
-  \setcounter{figure}{1}
-  \caption[]{el and ph eta}
-  \label{fig:elph}
-\end{figure} 
-\setcounter{figure}{1}
-
-% \begin{figure}[H] %!ht
- %   \subfloat[eleta1. \label{fig:elph:1}]{%
-  %   \includegraphics[width=0.5\textwidth]{eleta1.pdf}
-   % }
-   % \hfill
-%\subfloat[eleta2.\label{fig:elph:2}]{%
- %     \includegraphics[width=0.5\textwidth]{eleta2.pdf}
-  %  }
-   % \hfill
-    %    \subfloat[pheta1. \label{fig:elph:3}]{%
-     %\includegraphics[width=0.5\textwidth]{pheta1.pdf}
-    %}
-    %\hfill
-%\subfloat[pheta2.\label{fig:elph:4}]{%
- %     \includegraphics[width=0.5\textwidth]{pheta2.pdf}
-  %  }
-   % \caption{el and ph eta}
-    %\label{fig:elph}
+%\begin{figure}[!htbp]
+%  \centering 
+%  \subfloat[eleta1. \label{fig:elph:1}]{\includegraphics[width=0.5\textwidth]{eleta1.pdf}}% 
+%\hfill
+%  \subfloat[eleta2.\label{fig:elph:2}]{\includegraphics[width=0.5\textwidth]{eleta2.pdf}} 
+%  \caption{el and ph eta}
+%  \label{fig:elph}
 %\end{figure}
+
+%\begin{figure}[!htbp]
+%% If it needs to be split.
+%  \ContinuedFloat 
+%  \centering 
+%  \subfloat[pheta1. \label{fig:elph:3}]{\includegraphics[width=0.5\textwidth]{pheta1.pdf}}% 
+%  \hfill
+%  \subfloat[pheta2.\label{fig:elph:4}]{\includegraphics[width=0.5\textwidth]{pheta2.pdf}} 
+%  \setcounter{figure}{1}
+%  \caption[]{el and ph eta}
+%  \label{fig:elph}
+%\end{figure} 
+%\setcounter{figure}{1}
+
+ \begin{figure}[H] %!ht
+    \subfloat[eleta1. \label{fig:elph:1}]{%
+    \includegraphics[width=0.5\textwidth]{eleta1.pdf}
+    }
+    \hfill
+\subfloat[eleta2.\label{fig:elph:2}]{%
+      \includegraphics[width=0.5\textwidth]{eleta2.pdf}
+    }
+    \hfill
+        \subfloat[pheta1. \label{fig:elph:3}]{%
+     \includegraphics[width=0.5\textwidth]{pheta1.pdf}
+    }
+    \hfill
+\subfloat[pheta2.\label{fig:elph:4}]{%
+     \includegraphics[width=0.5\textwidth]{pheta2.pdf}
+    }
+    \caption{el and ph eta}
+    \label{fig:elph}
+\end{figure}
 \subsection{Muon}
  \begin{figure}[H] %!ht
     \subfloat[Muoneta1. \label{fig:muon:1}]{%
@@ -109,7 +110,6 @@ Since these interact very  similarly in the detector, their smearing functions a
     \caption{Muon}
     \label{fig:muon}
   \end{figure}
-\newpage
 \subsection{Tau}
  \begin{figure}[H] %!ht
     \subfloat[Tau \label{fig:tau:1}]{%
@@ -122,9 +122,9 @@ Since these interact very  similarly in the detector, their smearing functions a
     \caption{Tau}
     \label{fig:tau}
   \end{figure}
+  \newpage
 \subsection{Jets}
 Jets as described in \textbf{reference to intro}, are hadronic showers. The smearing functions are divided into four different regions depending on the angle $\eta$. 
-\newpage
  \begin{figure}[H] %!ht
     \subfloat[jeteta1. \label{fig:jet:1}]{%
      \includegraphics[width=0.5\textwidth]{jeteta1.pdf}
@@ -149,13 +149,9 @@ Jets as described in \textbf{reference to intro}, are hadronic showers. The smea
 \subfloat[Eta2 at mu140 \label{fig:jet:6}]{%
       \includegraphics[width=0.5\textwidth]{jeteta2140.pdf}
     }
-    \caption{Jet}
+    \caption{Jet at $\obs{\mu}=140$}
     \label{fig:jet}
 \end{figure}
-jeteta1140.pdf
-jeteta2140.pdf
-
-for 140 mu
 
 \newpage
 \subsection{Missing Energy}
@@ -175,7 +171,7 @@ These figures are given as smeared value from origin, thus at 0 it represents th
    \caption{MET}
     \label{fig:MET}
   \end{figure}
-
+\newpage
 \section{Expected results}\label{cha:vali:sec:expr}
 
 The expected response has been calculated and taken from: ATL-PHYS-PUB-2013-004
@@ -208,11 +204,12 @@ $E_T^{Miss}$ & $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$ \\ \hline
 \begin{itemize}
 \item For muon: Where a$_i$ and b$_i$ are dependent on $\eta$.
 \item For tau: Fixed at 3 prong. 1 prong exists though was not used in this thesis. \\
-Where prong refers to the different amount of tracks that were from which they were reconstructed.
+Where prong refers to the different amount of tracks that from which they were reconstructed.
 \item For Jet: Where N, S, and C depend on $\eta$. N is also dependent on the pile-up that is simulated.\\
 Where $\eta$ is the same as discussed in \subsectionref{sec:eo:subsec:coord}
 \item All parameters can be found in \citep{ATL-PHYS-PUB-2013-004}.
 \end{itemize}
+\newpage
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
@@ -244,16 +241,14 @@ $\obs{\mu}=140$&105.109&12.239&87.2812&1.45667\\  \hline
 \item The significance is the standard deviation of between the expected and calculated with respect to the error.
 \end{itemize}
 Remember for the discussion to mention different types of rms, relative or absolute. and the problem which occurred with this and the papers faults. \textbf{RMS IS THE SAME AS STANDARD DEVIATION.}
-
-WHAT IS 3prong! must be explained.
 \section{Discussion}
-\subsection{Some smearing independent on pile-up}
-Interesting how little the pile-up effects. In previous studies (atleast one reference is available from pileupeffect presentation) which lead to these smearing functions it was confirmed that the effect of pile-up will only affect MET and jets. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
-
-
-\section{Conclusion}
-The smearing functions work as intended within ? sigma. 
+\subsection{Smearing independent on pile-up}
+Interesting how little the pile-up affects. In previous studies (atleast one reference is available from pileupeffect presentation) which lead to these smearing functions it was confirmed that the effect of pile-up will only affect MET and jets. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
+\subsection{Comparison to expected results}
+\textbf{Mention problems,} with the paper, with this process error calculations in root?
 
 One of the major problems was to get the significance of the Gaussian fit to be calculated correctly.
 
 Another was to retrieve the correct values from the paper since it was not clear if the values given were absolute or scale dependent.
+\section{Conclusion}
+The smearing functions work as intended within ? sigma. 
