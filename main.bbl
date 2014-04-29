@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -169,6 +169,54 @@ The~ROOT Team.
 \newblock Root.
 \newblock \url{http://root.cern.ch/drupal/}, 2014.
 \newblock Accessed: 2014-03-28.
+
+\bibitem[Agostinelli et~al.(2003)Agostinelli, Allison, Amako, Apostolakis,
+  Araujo, Arce, Asai, Axen, Banerjee, Barrand, Behner, Bellagamba, Boudreau,
+  Broglia, Brunengo, Burkhardt, Chauvie, Chuma, Chytracek, Cooperman, Cosmo,
+  Degtyarenko, Dell'Acqua, Depaola, Dietrich, Enami, Feliciello, Ferguson,
+  Fesefeldt, Folger, Foppiano, Forti, Garelli, Giani, Giannitrapani, Gibin,
+  Cadenas, González, Abril, Greeniaus, Greiner, Grichine, Grossheim, Guatelli,
+  Gumplinger, Hamatsu, Hashimoto, Hasui, Heikkinen, Howard, Ivanchenko,
+  Johnson, Jones, Kallenbach, Kanaya, Kawabata, Kawabata, Kawaguti, Kelner,
+  Kent, Kimura, Kodama, Kokoulin, Kossov, Kurashige, Lamanna, Lampén, Lara,
+  Lefebure, Lei, Liendl, Lockman, Longo, Magni, Maire, Medernach, Minamimoto,
+  de~Freitas, Morita, Murakami, Nagamatu, Nartallo, Nieminen, Nishimura,
+  Ohtsubo, Okamura, O'Neale, Oohata, Paech, Perl, Pfeiffer, Pia, Ranjard,
+  Rybin, Sadilov, Salvo, Santin, Sasaki, Savvas, Sawada, Scherer, Sei,
+  Sirotenko, Smith, Starkov, Stoecker, Sulkimo, Takahata, Tanaka, Tcherniaev,
+  Tehrani, Tropeano, Truscott, Uno, Urban, Urban, Verderi, Walkden, Wander,
+  Weber, Wellisch, Wenaus, Williams, Wright, Yamada, Yoshida, and
+  Zschiesche]{Geant4}
+S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, F.~Behner, L.~Bellagamba,
+  J.~Boudreau, L.~Broglia, A.~Brunengo, H.~Burkhardt, S.~Chauvie, J.~Chuma,
+  R.~Chytracek, G.~Cooperman, G.~Cosmo, P.~Degtyarenko, A.~Dell'Acqua,
+  G.~Depaola, D.~Dietrich, R.~Enami, A.~Feliciello, C.~Ferguson, H.~Fesefeldt,
+  G.~Folger, F.~Foppiano, A.~Forti, S.~Garelli, S.~Giani, R.~Giannitrapani,
+  D.~Gibin, J.J.~Gómez Cadenas, I.~González, G.~Gracia Abril, G.~Greeniaus,
+  W.~Greiner, V.~Grichine, A.~Grossheim, S.~Guatelli, P.~Gumplinger,
+  R.~Hamatsu, K.~Hashimoto, H.~Hasui, A.~Heikkinen, A.~Howard, V.~Ivanchenko,
+  A.~Johnson, F.W. Jones, J.~Kallenbach, N.~Kanaya, M.~Kawabata, Y.~Kawabata,
+  M.~Kawaguti, S.~Kelner, P.~Kent, A.~Kimura, T.~Kodama, R.~Kokoulin,
+  M.~Kossov, H.~Kurashige, E.~Lamanna, T.~Lampén, V.~Lara, V.~Lefebure,
+  F.~Lei, M.~Liendl, W.~Lockman, F.~Longo, S.~Magni, M.~Maire, E.~Medernach,
+  K.~Minamimoto, P.~Mora de~Freitas, Y.~Morita, K.~Murakami, M.~Nagamatu,
+  R.~Nartallo, P.~Nieminen, T.~Nishimura, K.~Ohtsubo, M.~Okamura, S.~O'Neale,
+  Y.~Oohata, K.~Paech, J.~Perl, A.~Pfeiffer, M.G. Pia, F.~Ranjard, A.~Rybin,
+  S.~Sadilov, E.~Di Salvo, G.~Santin, T.~Sasaki, N.~Savvas, Y.~Sawada,
+  S.~Scherer, S.~Sei, V.~Sirotenko, D.~Smith, N.~Starkov, H.~Stoecker,
+  J.~Sulkimo, M.~Takahata, S.~Tanaka, E.~Tcherniaev, E.~Safai Tehrani,
+  M.~Tropeano, P.~Truscott, H.~Uno, L.~Urban, P.~Urban, M.~Verderi, A.~Walkden,
+  W.~Wander, H.~Weber, J.P. Wellisch, T.~Wenaus, D.C. Williams, D.~Wright,
+  T.~Yamada, H.~Yoshida, and D.~Zschiesche.
+\newblock Geant4—a simulation toolkit.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  506\penalty0 (3):\penalty0 250 -- 303, 2003.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}.
 
 \bibitem[{ATLAS Collaboration}(2013)]{ATL-PHYS-PUB-2013-004}
 {ATLAS Collaboration}.
