@@ -15,16 +15,26 @@
 \usepackage{hypernat} 
 \usepackage{sidecap}
 
+\usepackage{pdflscape}
+
 % My inclusions/definitions
 \def\obs#1{\left<#1\right>}
 %\newcommand\abs[1]{\left|#1\right|}
 \newcommand\abs[1]{|#1|}
 %\graphicspath{ {images_folder/}{other_folder/}{third_folder/} }
-\graphicspath{{figures/}{figures/default/}{figures/created/}{figures/validation/}{figures/signal/}}
+\graphicspath{{figures/}{figures/default/}{figures/created/}{figures/validation/}{figures/signal/}{figures/signal/m/}}
 \usepackage{mathrsfs} %Nice L
 \newcommand{\Intl}{\mathscr{L}}
 
 \newcommand{\Lagr}{\mathcal{L}}
+
+\newlength{\blackoutwidth}
+\newcommand{\blackout}[1]
+{%necessary comment
+  \settowidth{\blackoutwidth}{#1}%necessary comment
+  \rule[-0.3em]{\blackoutwidth}{1.125em}%necessary comment
+}
+
 
 \usepackage{lineno} %Package to add line numbers to .pdf
 \linenumbers %Add line numbers to .pdf

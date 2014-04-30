@@ -8,7 +8,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Notation}{ix}{section*.3}
+\contentsline {chapter}{Notation}{xi}{section*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Research goals}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Theoretical Background}{3}{section.1.2}
@@ -47,41 +47,51 @@
 \contentsline {subsection}{\numberline {2.5.2}Comparison to expected results}{28}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Conclusion}{29}{section.2.6}
 \contentsline {chapter}{\numberline {3}Evaluating dark matter signals}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal to background ratio}{31}{section.3.1}
+\contentsline {section}{\numberline {3.1}Signal to background ratio}{32}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Selection criteria}{32}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Verifying background data}{32}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Figures of merit}{33}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}D5 operators}{34}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Light vector mediator models}{34}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Susy models?}{34}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}Other selection criteria and observables}{34}{section.3.2}
-\contentsline {section}{\numberline {3.3}Mitigating the effect of the high luminosity}{34}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results}{35}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Limit on M*}{35}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Effect of pile-up on M*}{35}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Previous results}{36}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Limit on mediator mass}{36}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Effect of pile-up on mediator mass}{36}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Discussion}{36}{section.3.5}
-\contentsline {section}{\numberline {3.6}Conclusion}{36}{section.3.6}
-\contentsline {chapter}{\numberline {4}Results and Conclusions}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Validation of smearing functions}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Signal to background ratio}{37}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Limit on M*}{37}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Limit on mediator mass}{37}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{37}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Limit on M*}{37}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Limit on mediator mass}{37}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{37}{section.4.4}
-\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{37}{section.4.5}
-\contentsline {section}{\numberline {4.6}Suggestions for future research}{38}{section.4.6}
-\contentsline {chapter}{\numberline {A}Datasets}{41}{appendix.A}
-\contentsline {section}{\numberline {A.1}Background processes}{41}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Validation}{41}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Background to signals}{41}{subsection.A.1.2}
-\contentsline {section}{\numberline {A.2}D5 signal processes}{42}{section.A.2}
-\contentsline {section}{\numberline {A.3}Light vector mediator processes}{42}{section.A.3}
-\contentsline {chapter}{Bibliography}{47}{appendix*.31}
+\contentsline {subsection}{\numberline {3.1.3}Weight}{33}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Figure of merit}{33}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}D5 operators}{34}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Light vector mediator models}{34}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}Other selection criteria}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Criteria}{35}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Verifying background data}{35}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Mitigating the effect of the high luminosity}{36}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results}{37}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Verifying background data}{37}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Events}{37}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Limit on M*}{38}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Effect of pile-up on M*}{41}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Previous results}{41}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Limit on mediator mass}{41}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Effect of pile-up on mediator mass}{42}{subsection.3.4.7}
+\contentsline {section}{\numberline {3.5}Discussion}{43}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Comparison to previous results}{43}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Effect of the high luminosity}{43}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Conclusion}{44}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Limit on M*}{44}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Limit on mediator mass}{44}{subsection.3.6.2}
+\contentsline {chapter}{\numberline {4}Results and Conclusions}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Validation of smearing functions}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}Signal to background ratio}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Limit on M*}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Limit on mediator mass}{46}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Other selection criteria and observables}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Limit on M*}{46}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Limit on mediator mass}{46}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Mitigating the effect of the high luminosity}{46}{section.4.4}
+\contentsline {section}{\numberline {4.5}Recommendations to mitigate the effect of the high luminosity}{46}{section.4.5}
+\contentsline {section}{\numberline {4.6}Suggestions for future research}{46}{section.4.6}
+\contentsline {chapter}{\numberline {A}Datasets}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Background processes}{49}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Validation}{49}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Background to signals}{49}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Signals}{50}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Qcut}{50}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}D5 signal processes}{50}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Light vector mediator processes}{50}{subsection.A.2.3}
+\contentsline {chapter}{Bibliography}{55}{appendix*.41}
 \select@language {english}
 \select@language {english}
 \select@language {english}
