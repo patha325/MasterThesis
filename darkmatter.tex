@@ -94,23 +94,20 @@ Both models are based on Ref. \citep{ATLAS-CONF-2012-147}. As described in the b
 \item All this results the total error being used as either, 0.0793411 or 0.0215018. 
 \end{itemize}
 
-\subsection{D5 operators}
-As described in the introduction \subsectionref{sec:tb:subsec:eft}, one of the signals is modelled using the D5 operator. In this thesis two different scenearios were used, one at a dark matter mass of 50 GeV and one at 400 GeV.
+\subsection{D5 operators}\label{sec:signal:subsec:d5}
+As described in the introduction \subsectionref{sec:tb:subsec:eft}, one of the signals is modelled using the D5 operator. In this thesis two different scenarios were used, one at a dark matter mass of 50 GeV and one at 400 GeV.
 
+Each of these models are modelled with a mass suppression scale, denoted M*, which is strongly correlated to the cross-section of the process.
 
-Discuss M*, and the difference in mDM. 
-
-Was discussed in part in 
-
-What does M$_S$ mean? M$_S$ or M* given in GeV. It is the suppression given to the probability of the process.
-
-Why does one want to find limits on M*? How much can it be suppressed and still detectable.
+One property which is of interest is to calculate how large M* can be so that the signal is still detectable over the background processes. Theses results are given in \subsectionref{sec:res:subsec:m*}.
 
 \subsection{Light vector mediator models}
-Discuss Mm, width, and the difference in mDM. 
+As described in the introduction \subsectionref{sec:tb:subsec:eft}, the other signal model is a vector mediator model. In this thesis these signals have two different width scenarios and a number of different mediator mass scenarios. In addition to this there are, as with the D5 operator two different dark matter mass scenarios.
 
-As described in the introduction \subsectionref{sec:tb:subsec:eft}, the other signal model is a vector mediator model. The data available is: two different widths Mm/3 and Mm/8pi, where Mm denotes the mediator mass and \textbf{the width is ?}
-two different mDM, 50 GeV and 400 GeV and finally a variety of mediator masses. 
+\textbf{What is width?}
+
+The models which are detectable are given in \subsectionref{sec:res:subsec:Mm}.
+ 
 \newpage
 \section{Other selection criteria}
 \subsection{Criteria}
@@ -144,8 +141,6 @@ minimum E$^{Miss}_T$ (GeV) & 350 & & 600 & 800 & 1000 \\ \hline
 \subsection{Verifying background data}
 To make sure that the altered electron veto still produces results comparable with \citep{ATLAS-CONF-2012-147} a comparison was made again. This can be seen in \subsectionref{Verifying background data} in \tableref{tab:newcomp}.
 
-
-\newpage
 \section{Mitigating the effect of the high luminosity}
 As discussed in \subsectionref{chap:vali:sec:dis:subsec:smearindep} the effect of pile-up should be minimal in the high energy regions which are of interest in this thesis. 
 
@@ -153,7 +148,7 @@ Mention that the effect is on a trigger level, that the lowest SR will be lost.
 
 Even though this was envisioned as the primary focus of the thesis, it was shown that the effect of pile-up is minute for these high signal regions. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different DM signal models.
 \newpage
-\section{Results}
+\section{Results}\label{chap:sig:sec:res}
 \subsection{Verifying background data}\label{Verifying background data}
 In \tableref{tab:Compare1} a comparison has been made. It can be seen that the simulated events and expected events coincide on all accounts apart from W$\rightarrow\tau\nu$, W$\rightarrow\mu\nu$ and thus the total as well. \textbf{This can be explained by better separation of $\mu$,$\tau$ and missing energy.} 
 Tau can not be reconstructed as jets in the code, they can in reality!
@@ -164,14 +159,14 @@ Here used truth data as to not be effected by pile-up.
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-Process & SR3p & Expected SR3p & SR4p  & Expected SR4p \\ \hline
-Z$\rightarrow\nu\nu$&140298&152000&25250.3&27000 \\
-W$\rightarrow\tau\nu$&40700.8&37000&5861.74&3900 \\
-W$\rightarrow e\nu$&11229&11200&1506.58&1600 \\
-W$\rightarrow\mu\nu$&13727.1&15800&1872.32&4200 \\ \hline
-Total background&205955&218000&34491&36700 \\ \hline
+Process & SR3p & Expected SR3p & SR4p & Expected SR4p \\ \hline
+Z$\rightarrow\nu\nu$ & 140298 & 152000 & 25250.3 & 27000 \\
+W$\rightarrow\tau\nu$ & 40700.8 & 37000 & 5861.74 & 3900 \\
+W$\rightarrow e\nu$ & 11229 & 11200 & 1506.58 & 1600 \\
+W$\rightarrow\mu\nu$ & 13727.1 & 15800 & 1872.32 & 4200 \\ \hline
+Total background & 205955 & 218000 & 34491 & 36700 \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$ and cross-sections corresponding to $\sqrt{s}=8$TeV.}
+\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using the same electron veto.}
 \label{tab:Compare1}
 \end{center}
 \end{table}
@@ -180,14 +175,14 @@ Total background&205955&218000&34491&36700 \\ \hline
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-Process & SR1  & Expected SR1 & SR1p  & Expected SR1p  \\ \hline
-Z$\rightarrow\nu\nu$&147009&152000&26734&27000 \\
-W$\rightarrow\tau\nu$&44727.7&37000&6543.82&3900 \\
-W$\rightarrow e\nu$&17964&11200&2470.46&1600 \\
-W$\rightarrow\mu\nu$&14285.7&15800&1971.87&4200 \\ \hline
-Total background&223986&218000&37720.2&36700 \\ \hline
+Process & SR1  & Expected SR1 & SR1p & Expected SR1p  \\ \hline
+Z$\rightarrow\nu\nu$ & 147009 & 152000 & 26734 & 27000 \\
+W$\rightarrow\tau\nu$ & 44727.7 & 37000 & 6543.82 & 3900 \\
+W$\rightarrow e\nu$ & 17964 & 11200 & 2470.46 & 1600 \\
+W$\rightarrow\mu\nu$ & 14285.7 & 15800 & 1971.87 & 4200 \\ \hline
+Total background & 223986 & 218000 & 37720.2 & 36700 \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$ and cross-sections corresponding to $\sqrt{s}=8$TeV.}
+\caption{Comparison of the simulated and expected events from \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using a modified electron veto.}
 \label{tab:newcomp}
 \end{center}
 \end{table}
@@ -197,99 +192,63 @@ Total background&223986&218000&37720.2&36700 \\ \hline
 Give a table with the number of events for signals and background in all signal regions both truth and reco.
 
 The below is only for truth, must create new code to write it for reco.
-%\renewcommand{\arraystretch}{1.0} %Change back
-%\renewcommand{\arraystretch}{1.5} %Change height of tabel
-
-\begin{table}[ht]
-\begin{center}
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-Process & SR1  & SR2 & SR3 & SR4 \\ \hline
-D5 mDm=50 $Q_{cut}=200$&50410.4&0&0&0 \\
-M*=1TeV $Q_{cut}=400$&53242.1&4934.73&0&0 \\
-$Q_{cut}=600$&26210.6&25284.7&10749.7&4391.35 \\ \hline
-Total signal&129863&30219.4&10749.7&4391.35 \\ \hline
-Z$\rightarrow\nu\nu$&604479&42656.5&8423.89&2110.55 \\
-W$\rightarrow\tau\nu$&154140&7807.06&1307.89&295.124 \\
-W$\rightarrow e\nu$&61771.6&2890.39&485.485&109.887 \\
-W$\rightarrow\mu\nu$&49114.3&2357.17&379.201&90.9721 \\ \hline
-Total background&869505&55711.2&10596.5&2606.54 \\ \hline
-\end{tabular}
-\caption{Signal and background events for truth data in the signal regions.}
-\label{tab:srtruth1}
-\end{center}
-\end{table}
-\begin{table}
-\begin{center}
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-Process & SRa  & SRb & SRc & SRd \\ \hline
-Signal 1 $Q_{cut}=200$&50410.4&434.012&0&0 \\
-Signal 1 $Q_{cut}=400$&53242.1&10018.1&159.539&22.0054 \\
-Signal 1 $Q_{cut}=600$&26210.6&25958.1&12767.2&5199.47 \\
-Signal 1 total&129863&36410.1&12926.8&5221.48 \\
-Z$\rightarrow\nu\nu$&604479&58613.9&11383.4&2842.85 \\
-W$\rightarrow\tau\nu$&154140&10678.5&1788.16&385.861 \\
-W$\rightarrow e\nu$&61771.6&3961.35&653.918&152.221 \\
-W$\rightarrow\mu\nu$&49114.3&3051.61&498.995&108.086 \\
-Total background&869505&76305.4&14324.5&3489.02 \\ \hline
-\end{tabular}
-\caption{Signal and background events for truth data in the signal regions.}
-\label{tab:srtruth2}
-\end{center}
-\end{table}
 
 
 Have a table with the number of signal and bkg ground events for the different SR where the signal then is given at M* 1 GeV for a good comparison.
 
 Same tables as above but at reco.
 
-
+%\renewcommand{\arraystretch}{1.0} %Change back
+%\renewcommand{\arraystretch}{1.5} %Change height of tabel
+\begin{landscape}
 \begin{table}[ht]
 \begin{center}
-\begin{tabular}{|l|l|l|l|l|}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
 \hline
-Process & SR1  & SR2 & SR3 & SR4 \\ \hline
-Signal 1 $Q_{cut}=200$&41968.9&0&0&0 \\
-Signal 1 $Q_{cut}=400$&52235.9&4126.01&0&0 \\
-Signal 1 $Q_{cut}=600$&26090&23893&9978.04&4130.4 \\
-Signal 1 total&120295&28019&9978.04&4130.4 \\
-Z$\rightarrow\nu\nu$&553735&39104.6&7680.99&1932.33 \\
-W$\rightarrow\tau\nu$&156023&7741.1&1282.23&275.877 \\
-W$\rightarrow e\nu$&58873.9&2705.75&447.655&106.284 \\
-W$\rightarrow\mu\nu$&47800.6&2298.63&380.102&89.1707 \\
-Total background&816433&51850&9790.98&2403.66 \\ \hline
+Process & SRa/SR1  & SRb & SR2 & SRc & SR3 & SRd & SR4 \\ \hline
+D5 mDm=50 $Q_{cut}=200$ & 50410.4 & 434.012 & 0 & 0 & 0 & 0 & 0 \\
+M*=1TeV $Q_{cut}=400$ & 53242.1 & 10018.1 & 4934.73 & 159.539 & 0 & 22.0054 & 0 \\
+$Q_{cut}=600$ & 26210.6 & 25958.1 & 25284.7 & 12767.2 & 10749.7 & 5199.47 & 4391.35 \\ \hline
+Total signal & 129863 & 36410.1 & 30219.4 & 12926.8 & 10749.7 & 5221.48 & 4391.35 \\ \hline
+
+Z$\rightarrow\nu\nu$ & 604479 & 58613.9 & 42656.5 & 11383.4 & 8423.89 & 2842.85 & 2110.55 \\
+W$\rightarrow\tau\nu$ & 154140 & 10678.5 & 7807.06 & 1788.16 & 1307.89 & 385.861 & 295.124 \\
+W$\rightarrow e\nu$ & 61771.6 & 3961.35 & 2890.39 & 653.918 & 485.485 & 152.221 & 109.887 \\
+W$\rightarrow\mu\nu$ & 49114.3 & 3051.61 & 2357.17 & 498.995 & 379.201 & 108.086 & 90.9721 \\ \hline
+Total background & 869505 & 76305.4 & 55711.2 & 14324.5 & 10596.5 & 3489.02 & 2606.54 \\ \hline
+\end{tabular}
+\caption{Signal and background events for truth data in the signal regions.}
+\label{tab:srtruth1}
+\end{center}
+\vspace*{5px}
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Process & SRa/SR1 & SRb & SR2 & SRc & SR3 & SRd & SR4 \\ \hline
+D5 mDm=50 $Q_{cut}=200$ & 41968.9 & 564.215 & 0 & 0 & 0 & 0 & 0 \\
+M*=1TeV $Q_{cut}=400$ & 52235.9 & 13131.8 & 4126.01 & 275.068 & 0 & 22.0054 & 0 \\
+$\obs{\mu}=140$ $Q_{cut}=600$ & 26090 & 25065.8 & 23893 & 13477.1 & 9978.04 & 5482.88 & 4130.4 \\ \hline
+Total signal & 120295 & 38761.9 & 28019 & 13752.2 & 9978.04 & 5504.88 & 4130.4 \\ \hline
+
+Z$\rightarrow\nu\nu$ & 553735 & 71613.2 & 39104.6 & 13145.1 & 7680.99 & 3139.89 & 1932.33 \\
+W$\rightarrow\tau\nu$ & 156023 & 14500.3 & 7741.1 & 2174.02 & 1282.23 & 467.433 & 275.877 \\
+W$\rightarrow e\nu$ & 58873.9 & 5177.33 & 2705.75 & 789.925 & 447.655 & 175.639 & 106.284 \\
+W$\rightarrow\mu\nu$ & 47800.6 & 4030.7 & 2298.63 & 617.889 & 380.102 & 138.71 & 89.1707 \\ \hline
+Total background & 816433 & 95321.6 & 51850 & 16727 & 9790.98 & 3921.67 & 2403.66 \\ \hline
 \end{tabular}
 \caption{Signal and background events for reco data with $\obs{\mu}=140$ in the signal regions.}
 \label{tab:srreco1}
 \end{center}
 \end{table}
+\end{landscape}
 
-\begin{table}[ht]
-\begin{center}
-\begin{tabular}{|l|l|l|l|l|l|l|l|}
-\hline
-Process & SRa  & SRb & SRc & SRd \\ \hline
-Signal 1 $Q_{cut}=200$&41968.9&564.215&0&0 \\
-Signal 1 $Q_{cut}=400$&52235.9&13131.8&275.068&22.0054 \\
-Signal 1 $Q_{cut}=600$&26090&25065.8&13477.1&5482.88 \\
-Signal 1 total&120295&38761.9&13752.2&5504.88 \\
-Z$\rightarrow\nu\nu$&553735&71613.2&13145.1&3139.89 \\
-W$\rightarrow\tau\nu$&156023&14500.3&2174.02&467.433 \\
-W$\rightarrow e\nu$&58873.9&5177.33&789.925&175.639 \\
-W$\rightarrow\mu\nu$&47800.6&4030.7&617.889&138.71 \\
-Total background&816433&95321.6&16727&3921.67 \\ \hline
-\end{tabular}
-\caption{Signal and background events for reco data with $\obs{\mu}=140$ in the signal regions.}
-\label{tab:srreco2}
-\end{center}
-\end{table}
-\newpage
-\subsection{Limit on M*}
+\textbf{Disclaimer: The thesis is not completed after here.}
+
+\subsection{Limit on M*}\label{sec:res:subsec:m*}
 The mass suppression scale.
 
 Give at 1000fb-1 and with 14 TeV cross-sections. And for the different signal regions.
-Refer to M* explained in subsection d5. 
+Refer to M* explained in subsection d5. \subsectionref{sec:signal:subsec:d5}
 
 For the new signal regions: \textbf{Include a table of the limits for truth and Reco.}
  \begin{figure}[H] %!ht
@@ -389,7 +348,7 @@ Preliminary not that much better results for 1000fb-1 and 14TeV.
 The whole discussion with Steven and David.
 
 
-\subsection{Limit on mediator mass}
+\subsection{Limit on mediator mass}\label{sec:res:subsec:Mm}
 Are there previous results?
 Signal vs background plot in normal and log scale for one of the vector mediator models, to be able to evaluate all the different models the so called p-value was used in different signal regions. Below are two figures showing one of the vector mediator models in SR3.
  \begin{figure}[H] %!ht
