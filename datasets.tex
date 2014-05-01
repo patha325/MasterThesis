@@ -1,142 +1,144 @@
 \chapter{Datasets}\label{cha:datasets}
+\textbf{Disclaimer: This appendix is not yet complete.}
 \section{Background processes}
+All datasets used are d4pd.
 \subsection{Validation}
 For the validation the following datasets were used, with a filter at generator level at 450GeV for lead jet and MET. \\
-mc12.157539.sherpa\_ ct10\_ znunupt280d4pd.v03
-mc12.157534.sherpa\_  ct10\_  wenupt200d4pd.v03\\
-mc12.157535.sherpa\_  ct10\_  wmunupt200d4pd.v03\\
-mc12.157536.sherpa\_  ct10\_  wtaunupt200d4pd.v03\\
-mc12.129160.pythia8\_  au2cteq6l1\_  perf\_  jf17d4pd.v03\\
-mc12.129160.pythia8\_  au2cteq6l1\_  perf\_  jf17d4pd.v04\\
-mc12.129170.pythia8\_  au2cteq6l1\_  gammajet\_  dp17d4pd.v04
+mc12 157539 sherpa ct10 znunupt280 v03
+mc12 157534 sherpa  ct10  wenupt200 v03\\
+mc12 157535 sherpa  ct10  wmunupt200 v03\\
+mc12 157536 sherpa  ct10  wtaunupt200 v03\\
+mc12 129160 pythia8  au2cteq6l1  perf  jf17 v03\\
+mc12 129160 pythia8  au2cteq6l1  perf  jf17 v04\\
+mc12 129170 pythia8  au2cteq6l1  gammajet  dp17 v04
 
 They should be read as such: Monte Carlo version, dataset number, generator, ? name.
 
 \subsection{Background to signals}
 The same as the above though now with the filter as indicated by their name. The second znunu sample has been generated with and center of mass energy at 8 TeV. 
 
-mc12.157539.sherpa\_  ct10\_  znunupt280d4pd.v05\\
-mc12.157539.8tev\_  sherpa\_  ct10\_  znunupt280d4pd.v05\\
-mc12.157536.sherpa\_  ct10\_  wtaunupt200d4pd.v05\\
-mc12.157534.sherpa\_  ct10\_  wenupt200d4pd.v05\\
-mc12.157535.sherpa\_  ct10\_  wmunupt200d4pd.v05
+mc12 157539 sherpa  ct10  znunupt280 v05\\
+mc12 157539 8tev  sherpa  ct10  znunupt280 v05\\
+mc12 157536 sherpa  ct10  wtaunupt200 v05\\
+mc12 157534 sherpa  ct10  wenupt200 v05\\
+mc12 157535 sherpa  ct10  wmunupt200 v05
 \section{Signals}
 \subsection{Qcut}
 Qcut means that the original data has been split into different parts depending on the value of the lead jet pt. 
 \subsection{D5 signal processes}
-mc12.188408.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm50\_  ms10000\_  \\ qcut200d4pd.v06\\
-mc12.188409.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm50\_  ms10000\_  \\ qcut400d4pd.v06\\
-mc12.188410.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm50\_  ms10000\_  \\ qcut600d4pd.v06
+mc12 188408 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut200 v06\\
+mc12 188409 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut400 v06\\
+mc12 188410 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut600 v06
 
-mc12.188411.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm400\_  ms10000\_  \\ qcut200d4pd.v06\\
-mc12.188412.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm400\_  ms10000\_  \\ qcut400d4pd.v06\\
-mc12.188413.madgraphpythia\_  auet2bcteq6l1\_  d5\_  dm400\_  ms10000\_  \\ qcut600d4pd.v06
+mc12 188411 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut200 v06\\
+mc12 188412 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut400 v06\\
+mc12 188413 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut600 v06
 
-\textbf{All signals should be read as such: Monte Carlo version, dataset number, generator, ?, name of operator,  dark matter mass, default mass suppression scale, \\ qcut part.} As discussed in \textbf{reference} \\ 
+\textbf{All signals should be read as such: Monte Carlo version, dataset number, generator, ?, name of operator,  dark matter mass, default mass suppression scale, qcut part.} As discussed in \textbf{reference} 
 \subsection{Light vector mediator processes}
-mc12.188414.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w3\_ \\ qcut200d4pd.v06\\ mc12.188422.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188430.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w3\_ \\ qcut600d4pd.v06
+mc12 188414 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut200 v06\\ mc12 188422 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut400 v06\\
+mc12 188430 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut600 v06
  
-mc12.188415.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188423.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188431.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w3\_ \\ qcut600d4pd.v06
+mc12 188415 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut200 v06\\
+mc12 188423 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut400 v06\\
+mc12 188431 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut600 v06
 
-mc12.188416.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188424.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188432.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w3\_ \\ qcut600d4pd.v06
+mc12 188416 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut200 v06\\
+mc12 188424 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut400 v06\\
+mc12 188432 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut600 v06
 
-mc12.188417.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188425.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188433.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188417 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut200 v06\\
+mc12 188425 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut400 v06\\
+mc12 188433 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut600 v06
 
-mc12.188418.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188426.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188434.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188418 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut200 v06\\
+mc12 188426 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut400 v06\\
+mc12 188434 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut600 v06
 
-mc12.188419.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm6000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188427.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm6000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188435.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm6000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188419 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut200 v06\\
+mc12 188427 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut400 v06\\
+mc12 188435 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut600 v06
 
-mc12.188420.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188428.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188436.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188420 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut200 v06\\
+mc12 188428 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut400 v06\\
+mc12 188436 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut600 v06
 
-mc12.188421.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188429.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188437.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188421 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut200 v06\\
+mc12 188429 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut400 v06\\
+mc12 188437 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut600 v06
 
-mc12.188438.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188446.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188454.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm100\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188438 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut200 v06\\
+mc12 188446 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut400 v06\\
+mc12 188454 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut600 v06
 
-mc12.188439.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188447.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188455.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm300\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188439 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut200 v06\\
+mc12 188447 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut400 v06\\
+mc12 188455 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut600 v06
 
-mc12.188440.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188448.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188456.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm500\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188440 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut200 v06\\
+mc12 188448 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut400 v06\\
+mc12 188456 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut600 v06
 
-mc12.188441.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188449.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188457.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm1000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188441 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut200 v06\\
+mc12 188449 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut400 v06\\
+mc12 188457 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut600 v06
 
-mc12.188442.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188450.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188458.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm3000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188442 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut200 v06\\
+mc12 188450 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut400 v06\\
+mc12 188458 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut600 v06
 
-mc12.188444.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188452.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188460.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm10000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188444 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut200 v06\\
+mc12 188452 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut400 v06\\
+mc12 188460 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut600 v06
 
-mc12.188445.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188453.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188461.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm50\_ mm15000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188445 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut200 v06\\
+mc12 188453 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut400 v06\\
+mc12 188461 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut600 v06
 
-mc12.188462.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188468.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188474.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w3\_ \\ qcut600d4pd.v06
+mc12 188462 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut200 v06\\
+mc12 188468 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut400 v06\\
+mc12 188474 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut600 v06
 
-mc12.188463.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188469.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188475.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188463 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut200 v06\\
+mc12 188469 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut400 v06\\
+mc12 188475 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut600 v06
 
-mc12.188464.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188470.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188476.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188464 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut200 v06\\
+mc12 188470 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut400 v06\\
+mc12 188476 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut600 v06
 
-mc12.188465.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188471.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188477.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188465 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut200 v06\\
+mc12 188471 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut400 v06\\
+mc12 188477 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut600 v06
 
-mc12.188466.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188472.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188478.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188466 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut200 v06\\
+mc12 188472 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut400 v06\\
+mc12 188478 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut600 v06
 
-mc12.188467.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w3\_ \\ qcut200d4pd.v06\\
-mc12.188473.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w3\_ \\ qcut400d4pd.v06\\
-mc12.188479.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w3\_ \\ qcut600d4pd.v06
+mc12 188467 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut200 v06\\
+mc12 188473 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut400 v06\\
+mc12 188479 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut600 v06
 
-mc12.188480.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188486.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188492.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm500\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188480 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut200 v06\\
+mc12 188486 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut400 v06\\
+mc12 188492 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut600 v06
 
-mc12.188481.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188487.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188493.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm1000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188481 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut200 v06\\
+mc12 188487 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut400 v06\\
+mc12 188493 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut600 v06
 
-mc12.188482.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188488.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188494.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm3000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188482 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut200 v06\\
+mc12 188488 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut400 v06\\
+mc12 188494 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut600 v06
 
-mc12.188483.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188489.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188495.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm6000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188483 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut200 v06\\
+mc12 188489 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut400 v06\\
+mc12 188495 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut600 v06
 
-mc12.188484.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188490.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188496.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm10000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188484 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut200 v06\\
+mc12 188490 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut400 v06\\
+mc12 188496 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut600 v06
 
-mc12.188485.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w8pi\_ \\ qcut200d4pd.v06\\
-mc12.188491.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w8pi\_ \\ qcut400d4pd.v06\\
-mc12.188497.madgraphpythia\_ auet2bcteq6l1\_ dmv\_ dm400\_ mm15000\_ w8pi\_ \\ qcut600d4pd.v06
+mc12 188485 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut200 v06\\
+mc12 188491 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut400 v06\\
+mc12 188497 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut600 v06

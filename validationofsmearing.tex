@@ -9,7 +9,7 @@ Since part of this thesis work was to take the official \abbrATLAS smearing func
 
 \newpage
 \section{Smearing functions}\label{sec:smear}
-These smearing functions are designed so that they take into account the efficiency of the different detectors, limitations as well as their dependence on pile-up. They also take into account how all this varies depending on the measured entries energy or momenta.
+These smearing functions are designed so that they take into account the efficiency of the different detectors, limitations from how they are constructed as well as their dependence on pile-up. They also take into account how all this varies depending on the measured entries energy or momenta.
 
 Terminology:
 \begin{itemize}
@@ -24,7 +24,7 @@ The electron and photon have the same smearing since they are both detected in a
 
 \subsection{Muon}
 The identification of muons relies on isolated tracks in the inner detector  being matched with information in the muon system. Since the muon system is the outer most detector seen from the collision point it is unaffected by the false detection effects of pile-up.  
-\subsection{Tau}
+\subsection{Tau}\label{sec:smear:subsec:tau}
 Tau is detected similarly to electron and photon.
 In this thesis all tau processes are assumed to be at 3 prong. Where prong refers to the different amount of tracks from which they were reconstructed. This in turn means that the effect of pile-up will be worse compared to an electron as a triplet must be found in an increased number of tracks.
 \subsection{Jets}
@@ -51,14 +51,26 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + Jet sample \\ \hline
 \label{tab:backproc}
 \end{SCtable}
 
+\subsection{Method}
 The energy and momentum resolutions are obtained for each type of particle by comparing the values before and after smearing.
-This is done looking at the reco data for a given slice at a truth energy or momentum value. Since the smearing functions takes a lot into account the match will not be a fine line as seen in \figureref{fig:tau:2}.
+
+This is done by looking at the reco data for a given slice at a truth energy or momentum value. Since the smearing functions takes a lot into account the match will not be a fine line as seen in \figureref{fig:tau:2}.
 
 By fitting a Gaussian curve to this data will then result in the standard deviation which is used in the validation. The standard deviation is also known as the resolution of the data and will be denoted $\sigma$.
 
 This resolution is then compared to previous results, \citep{ATL-PHYS-PUB-2013-004}.
 
 To get enough statistics enough data must be available for a given truth energy or momenta and the analysis must be specific enough to only look at a narrow enough interval around this point.
+
+Step by step method
+\begin{itemize}
+\item Take a MC sample with a given particle, i.e electrons.
+\item Choose a slice of electron which have a truth energy of a given value (75 GeV for electrons).
+\item Plot the smeared electron energy for this slice of truth energy. Given for electrons and photons in \figureref{fig:elph}.
+\item For this distribution of smeared energy, fit a Gaussian distribution and calculate the sigma value of this Gaussian.
+\item Compare this sigma, which is the calculated resolution to the expected resolution given from the smearing functions.
+\end{itemize}
+
 \newpage
 \section{Results}\label{cha:vali:sec:results}
 As discussed above, the method was to plot the data against its smeared counterpart and through this determine $\sigma$ to see if it conforms to the expected values.
@@ -71,8 +83,8 @@ As the comparison, \figureref{fig:jet}, \figureref{fig:elph}, \figureref{fig:muo
 
 All results are summarized in \tableref{tab:sigmaval}. 
 \newpage
-\subsection{Electron and photon}
-Since these interact very  similarly in the detector, their smearing functions are identical.
+\subsection{Electron and photon}\label{cha:vali:sec:res:subsec:elph}
+Since these interact very similarly in the detector, their smearing functions are identical.
 The slice value represents at which value of unsmeared energy or momentum this smearing occurs. 
 %\begin{figure}[!htbp]
 %  \centering 
@@ -97,83 +109,85 @@ The slice value represents at which value of unsmeared energy or momentum this s
 %\setcounter{figure}{1}
 
  \begin{figure}[H] %!ht
-    \subfloat[Electron smearing for $\abs{\eta}<1.4$. \label{fig:elph:1}]{%
+    \subfloat[Electron energy after smearing for $\abs{\eta}<1.4$. \label{fig:elph:1}]{%
     \includegraphics[width=0.5\textwidth]{eleta1.pdf}
     }
     \hfill
-\subfloat[Electron smearing for $1.4<\abs{\eta}<2.47$.\label{fig:elph:2}]{%
+\subfloat[Electron energy after smearing for $1.4<\abs{\eta}<2.47$.\label{fig:elph:2}]{%
       \includegraphics[width=0.5\textwidth]{eleta2.pdf}
     }
     \hfill
-        \subfloat[Photon smearing for $\abs{\eta}<1.4$. \label{fig:elph:3}]{%
+        \subfloat[Photon energy after smearing for $\abs{\eta}<1.4$. \label{fig:elph:3}]{%
      \includegraphics[width=0.5\textwidth]{pheta1.pdf}
     }
     \hfill
-\subfloat[Photon smearing for $1.4<\abs{\eta}<2.47$.\label{fig:elph:4}]{%
+\subfloat[Photon energy after smearing for $1.4<\abs{\eta}<2.47$.\label{fig:elph:4}]{%
      \includegraphics[width=0.5\textwidth]{pheta2.pdf}
     }
-    \caption{Photon and electron smearing plots.}
+    \caption{Photon and electron energy after smearing.}
     \label{fig:elph}
 \end{figure}
 \newpage
 \subsection{Muon}
+Since muons are shielded from the effects of pile-up only efficiency and detector limitations affect the smearing.
  \begin{figure}[H] %!ht
-    \subfloat[Muon smearing for $\abs{\eta}<1.05$. \label{fig:muon:1}]{%
+    \subfloat[Muon momenta after smearing for $\abs{\eta}<1.05$. \label{fig:muon:1}]{%
      \includegraphics[width=0.5\textwidth]{mueta1.pdf}
     }
     \hfill
-    \subfloat[Muon smearing for $1.05<\abs{\eta}$.\label{fig:muon:2}]{%
+    \subfloat[Muon momenta after smearing for $1.05<\abs{\eta}$.\label{fig:muon:2}]{%
       \includegraphics[width=0.5\textwidth]{mueta2.pdf}
     }
-    \caption{Muon smearing plots.}
+    \caption{Muon momenta after smearing.}
     \label{fig:muon}
   \end{figure}
 \subsection{Tau}
+As described in \subsectionref{sec:smear:subsec:tau} tauons are detected similarly to electrons and photons. Thus the plots should look similarly to those in the previous subsection apart from the slice being at 150 GeV. In \figureref{fig:tau:1} the Gaussian fit (red) and the data (black) are given for tau detected through 3 prong. In \figureref{fig:tau:2} smeared verses truth energy is shown. 
  \begin{figure}[H] %!ht
-    \subfloat[Tau smearing. \label{fig:tau:1}]{%
+    \subfloat[Tau energy after smearing. \label{fig:tau:1}]{%
      \includegraphics[width=0.5\textwidth]{tau.pdf}
     }
     \hfill
     \subfloat[Tau energy vs smeared. \label{fig:tau:2}]{%
       \includegraphics[width=0.5\textwidth]{tau2.pdf}
     }
-    \caption{Tau smearing and energy vs smearing plot.}
+    \caption{Tau energy after smearing and energy vs smearing.}
     \label{fig:tau}
   \end{figure}
   \newpage
 \subsection{Jets}
 Jets as described in \subsectionref{sec:eo:subsec:mjet}, are hadronic showers. The smearing functions are divided into four different regions depending on the angle $\eta$. 
  \begin{figure}[H] %!ht
-    \subfloat[Jet smearing for $\abs{\eta}<0.8$. \label{fig:jet:1}]{%
+    \subfloat[Jet momenta after smearing \newline for $\abs{\eta}<0.8$. \label{fig:jet:1}]{%
      \includegraphics[width=0.5\textwidth]{jeteta1.pdf}
     }
     \hfill
-\subfloat[Jet smearing for $0.8<\abs{\eta}<1.2$.\label{fig:jet:2}]{%
+\subfloat[For $0.8<\abs{\eta}<1.2$.\label{fig:jet:2}]{%
       \includegraphics[width=0.5\textwidth]{jeteta2.pdf}
     }
     \hfill
-        \subfloat[Jet smearing for $1.2<\abs{\eta}<2.8$. \label{fig:jet:3}]{%
+        \subfloat[Jet momenta after smearing \newline for $1.2<\abs{\eta}<2.8$. \label{fig:jet:3}]{%
      \includegraphics[width=0.5\textwidth]{jeteta3.pdf}
     }
     \hfill
-\subfloat[Jet smearing for $2.8<\abs{\eta}<3.6$. \newline Very odd due to the low amount of available data. \label{fig:jet:4}]{%
+\subfloat[For $2.8<\abs{\eta}<3.6$. Very odd due to the low amount of available data. \label{fig:jet:4}]{%
       \includegraphics[width=0.5\textwidth]{jeteta4.pdf}
     }
         \hfill
-\subfloat[Jet smearing for $\abs{\eta}<0.8$ at $\obs{\mu}=140$. \label{fig:jet:5}]{%
+\subfloat[Jet momenta after smearing \newline for $\abs{\eta}<0.8$ at $\obs{\mu}=140$. \label{fig:jet:5}]{%
       \includegraphics[width=0.5\textwidth]{jeteta1140.pdf}
     }
             \hfill
-\subfloat[Jet smearing for $0.8<\abs{\eta}<1.2$ \newline at $\obs{\mu}=140$. \label{fig:jet:6}]{%
+\subfloat[For $0.8<\abs{\eta}<1.2$ at $\obs{\mu}=140$. \label{fig:jet:6}]{%
       \includegraphics[width=0.5\textwidth]{jeteta2140.pdf}
     }
-    \caption{Jet smearing plots.}
+    \caption{Jet momenta after smearing.}
     \label{fig:jet}
 \end{figure}
 
 \newpage
 \subsection{Missing Transversal Energy}
-These figures are given as smeared value from origin, thus at 0 it represents that the energy is unsmeared, compared to the others where the slice value represents the unsmeared.
+The figures in this subsection are, compared to the above, given as absolute smearing, thus at 0 it represents that the energy is unsmeared, compared to the others where the slice value represents the unsmeared.
 
 Here the $E_T^{Miss}$ is projected down to the x- and y-axis, since these are the transversal axes, to be smeared. 
  \begin{figure}[H] %!ht
@@ -193,16 +207,9 @@ Here the $E_T^{Miss}$ is projected down to the x- and y-axis, since these are th
   \end{figure}
 \newpage
 \section{Expected results}\label{cha:vali:sec:expr}
+Since the leptons and photons are all detected by fitting detectors responses to different tracks, meaning that the effect of pile-up should be that there are more track to match, but it should not affect which ones are matched. The independence of pile-up for leptons and photons is backed up in previous research, for instance \citep{Electronperf:2011, ATLAS:LOI2}.
 
-The expected response has been calculated and taken from \citep{ATL-PHYS-PUB-2013-004}.
-
-The independence of pile-up for leptons and photons is backed up in previous research, for instance \citep{Electronperf:2011, ATLAS:LOI2} were the first states:
-\begin{quotation}
-``The uncertainty due to pile-up was investigated by comparing simulated MC samples with and without pile-up and was found to be negligible''
-\end{quotation}
-
-
-To validate the smearing code comparisons were made with \citep{ATL-PHYS-PUB-2013-004} which gave the following formulation for the expected $\sigma$: 
+To validate the smearing code, comparisons were made with \citep{ATL-PHYS-PUB-2013-004} which gave the following formulation for the expected $\sigma$: 
 \begin{table}[H]
 \renewcommand{\arraystretch}{1.5} %Change height of tabel
 \begin{center}
