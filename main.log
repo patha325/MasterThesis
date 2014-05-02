@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  1 MAY 2014 15:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  2 MAY 2014 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1963,7 +1963,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<figures/default/LiTH_staende_eng_sv.pdf, id=373, 260.975pt x 190.7125pt>
+<figures/default/LiTH_staende_eng_sv.pdf, id=377, 260.975pt x 190.7125pt>
 File: figures/default/LiTH_staende_eng_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_staende_eng_sv.pdf>
@@ -1993,7 +1993,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 51--51
 
 ] [2
 
-] <figures/default/LiTH_sigill_sv.pdf, id=398, 124.465pt x 124.465pt>
+] <figures/default/LiTH_sigill_sv.pdf, id=402, 124.465pt x 124.465pt>
 File: figures/default/LiTH_sigill_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_sigill_sv.pdf>
@@ -2114,7 +2114,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 \newpage
-              [2] <figures/myfeynman.pdf, id=562, 597.50829pt x 845.0471pt>
+              [2] <figures/myfeynman.pdf, id=567, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
@@ -2136,7 +2136,7 @@ Underfull \hbox (badness 6592) in paragraph at lines 39--39
  []
 
 [3 <./figures/myfeynman.pdf>]
-<figures/Standard_Model_of_Elementary_Particles.png, id=604, 776.9025pt x 583.1
+<figures/Standard_Model_of_Elementary_Particles.png, id=609, 776.9025pt x 583.1
 7876pt>
 File: figures/Standard_Model_of_Elementary_Particles.png Graphic file (type png
 )
@@ -2150,7 +2150,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 57--57
  []
 
 [4 <./figures/Standard_Model_of_Elementary_Particles.png>]
-<figures/created/solarsystemrotation2.jpg, id=624, 491.8375pt x 352.31625pt>
+<figures/created/solarsystemrotation2.jpg, id=629, 491.8375pt x 352.31625pt>
 File: figures/created/solarsystemrotation2.jpg Graphic file (type jpg)
 
 <use figures/created/solarsystemrotation2.jpg>
@@ -2158,7 +2158,7 @@ Package pdftex.def Info: figures/created/solarsystemrotation2.jpg used on input
  line 84.
 (pdftex.def)             Requested size: 177.82971pt x 127.3821pt.
 
-<figures/rotationNGC3198.png, id=627, 500.87125pt x 368.37625pt>
+<figures/rotationNGC3198.png, id=632, 500.87125pt x 368.37625pt>
 File: figures/rotationNGC3198.png Graphic file (type png)
 
 <use figures/rotationNGC3198.png>
@@ -2191,7 +2191,7 @@ Underfull \vbox (badness 1383) has occurred while \output is active []
 
  [6 <./figures/created/solarsystemrotation2.jpg> <./figures/rotationNGC3198.png
 >] [7]
-<figures/created/effectiveD.pdf, id=689, 597.50829pt x 845.0471pt>
+<figures/created/effectiveD.pdf, id=694, 597.50829pt x 845.0471pt>
 File: figures/created/effectiveD.pdf Graphic file (type pdf)
 
 <use figures/created/effectiveD.pdf>
@@ -2199,7 +2199,7 @@ Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 161.
 
 (pdftex.def)             Requested size: 177.82971pt x 106.70209pt.
 
-<figures/created/vectorboson.pdf, id=691, 597.50829pt x 845.0471pt>
+<figures/created/vectorboson.pdf, id=696, 597.50829pt x 845.0471pt>
 File: figures/created/vectorboson.pdf Graphic file (type pdf)
 
 <use figures/created/vectorboson.pdf>
@@ -2214,21 +2214,21 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 161--166
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 11.39996pt on input line 171.
 [8 <./figures/created/effectiveD.pdf> <./figures/created/vectorboson.pdf>]
-[9] <figures/lhc.jpeg, id=743, 781.92125pt x 563.10374pt>
+[9] <figures/lhc.jpeg, id=748, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
 
 <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 183.
 (pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
  [10 <./figures/lhc.jpeg>] [11]
-<figures/created/particle_collider.jpg, id=768, 998.73125pt x 538.01pt>
+<figures/created/particle_collider.jpg, id=773, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
 ne 228.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
- [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=781
+ [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=786
 , 4818.0pt x 3212.0pt>
 File: figures/monojetbig.png Graphic file (type png)
 
@@ -2236,7 +2236,7 @@ File: figures/monojetbig.png Graphic file (type png)
 Package pdftex.def Info: figures/monojetbig.png used on input line 247.
 (pdftex.def)             Requested size: 355.65944pt x 237.06674pt.
  [13 <./figures/monojetbig.png (PNG copy)>]
-<figures/lumi-projection.png, id=793, 984.67876pt x 552.0625pt>
+<figures/lumi-projection.png, id=798, 984.67876pt x 552.0625pt>
 File: figures/lumi-projection.png Graphic file (type png)
 
 <use figures/lumi-projection.png>
@@ -2264,14 +2264,14 @@ Overfull \hbox (6.71996pt too wide) in paragraph at lines 304--305
 ]
 Chapter 2.
 [17] [18] [19] [20] [21]
-<figures/validation/eleta1.pdf, id=869, 569.12625pt x 384.43625pt>
+<figures/validation/eleta1.pdf, id=874, 569.12625pt x 384.43625pt>
 File: figures/validation/eleta1.pdf Graphic file (type pdf)
 
 <use figures/validation/eleta1.pdf>
 Package pdftex.def Info: figures/validation/eleta1.pdf used on input line 114.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/eleta2.pdf, id=870, 569.12625pt x 384.43625pt>
+<figures/validation/eleta2.pdf, id=875, 569.12625pt x 384.43625pt>
 File: figures/validation/eleta2.pdf Graphic file (type pdf)
 
 <use figures/validation/eleta2.pdf>
@@ -2282,14 +2282,14 @@ Underfull \hbox (badness 1997) in paragraph at lines 118--118
 []\T1/jkpk/b/sl/9 (b) |\T1/jkpk/m/sl/9 Elec-tron en-ergy af-ter smear-ing for
  []
 
-<figures/validation/pheta1.pdf, id=871, 569.12625pt x 384.43625pt>
+<figures/validation/pheta1.pdf, id=876, 569.12625pt x 384.43625pt>
 File: figures/validation/pheta1.pdf Graphic file (type pdf)
 
 <use figures/validation/pheta1.pdf>
 Package pdftex.def Info: figures/validation/pheta1.pdf used on input line 122.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/pheta2.pdf, id=872, 569.12625pt x 384.43625pt>
+<figures/validation/pheta2.pdf, id=877, 569.12625pt x 384.43625pt>
 File: figures/validation/pheta2.pdf Graphic file (type pdf)
 
 <use figures/validation/pheta2.pdf>
@@ -2309,14 +2309,14 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 114--127
 lidation/eleta2.pdf, page is rotated 90 degrees> <./figures/validation/pheta1.p
 df, page is rotated 90 degrees> <./figures/validation/pheta2.pdf, page is rotat
 ed 90 degrees>]
-<figures/validation/mueta1.pdf, id=1054, 569.12625pt x 384.43625pt>
+<figures/validation/mueta1.pdf, id=1059, 569.12625pt x 384.43625pt>
 File: figures/validation/mueta1.pdf Graphic file (type pdf)
 
 <use figures/validation/mueta1.pdf>
 Package pdftex.def Info: figures/validation/mueta1.pdf used on input line 136.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/mueta2.pdf, id=1055, 569.12625pt x 384.43625pt>
+<figures/validation/mueta2.pdf, id=1060, 569.12625pt x 384.43625pt>
 File: figures/validation/mueta2.pdf Graphic file (type pdf)
 
 <use figures/validation/mueta2.pdf>
@@ -2332,14 +2332,14 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 136--141
 [][] [][] 
  []
 
-<figures/validation/tau.pdf, id=1059, 569.12625pt x 384.43625pt>
+<figures/validation/tau.pdf, id=1064, 569.12625pt x 384.43625pt>
 File: figures/validation/tau.pdf Graphic file (type pdf)
 
 <use figures/validation/tau.pdf>
 Package pdftex.def Info: figures/validation/tau.pdf used on input line 149.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/tau2.pdf, id=1060, 569.12625pt x 384.43625pt>
+<figures/validation/tau2.pdf, id=1065, 569.12625pt x 384.43625pt>
 File: figures/validation/tau2.pdf Graphic file (type pdf)
 
 <use figures/validation/tau2.pdf>
@@ -2354,7 +2354,7 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 149--154
 lidation/mueta2.pdf, page is rotated 90 degrees> <./figures/validation/tau.pdf,
  page is rotated 90 degrees> <./figures/validation/tau2.pdf, page is rotated 90
  degrees>]
-<figures/validation/jeteta1.pdf, id=1243, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta1.pdf, id=1248, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta1.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta1.pdf>
@@ -2362,7 +2362,7 @@ Package pdftex.def Info: figures/validation/jeteta1.pdf used on input line 163.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta2.pdf, id=1244, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta2.pdf, id=1249, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta2.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta2.pdf>
@@ -2370,7 +2370,7 @@ Package pdftex.def Info: figures/validation/jeteta2.pdf used on input line 167.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta3.pdf, id=1245, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta3.pdf, id=1250, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta3.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta3.pdf>
@@ -2378,7 +2378,7 @@ Package pdftex.def Info: figures/validation/jeteta3.pdf used on input line 171.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta4.pdf, id=1246, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta4.pdf, id=1251, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta4.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta4.pdf>
@@ -2386,7 +2386,7 @@ Package pdftex.def Info: figures/validation/jeteta4.pdf used on input line 175.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta1140.pdf, id=1247, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta1140.pdf, id=1252, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta1140.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta1140.pdf>
@@ -2394,7 +2394,7 @@ Package pdftex.def Info: figures/validation/jeteta1140.pdf used on input line 1
 79.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta2140.pdf, id=1248, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta2140.pdf, id=1253, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta2140.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta2140.pdf>
@@ -2421,21 +2421,21 @@ alidation/jeteta2.pdf, page is rotated 90 degrees> <./figures/validation/jeteta
 3.pdf, page is rotated 90 degrees> <./figures/validation/jeteta4.pdf, page is r
 otated 90 degrees> <./figures/validation/jeteta1140.pdf, page is rotated 90 deg
 rees> <./figures/validation/jeteta2140.pdf, page is rotated 90 degrees>]
-<figures/validation/METx.pdf, id=1518, 569.12625pt x 384.43625pt>
+<figures/validation/METx.pdf, id=1523, 569.12625pt x 384.43625pt>
 File: figures/validation/METx.pdf Graphic file (type pdf)
 
 <use figures/validation/METx.pdf>
 Package pdftex.def Info: figures/validation/METx.pdf used on input line 196.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/METy.pdf, id=1519, 569.12625pt x 384.43625pt>
+<figures/validation/METy.pdf, id=1524, 569.12625pt x 384.43625pt>
 File: figures/validation/METy.pdf Graphic file (type pdf)
 
 <use figures/validation/METy.pdf>
 Package pdftex.def Info: figures/validation/METy.pdf used on input line 200.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/mety140.pdf, id=1520, 569.12625pt x 384.43625pt>
+<figures/validation/mety140.pdf, id=1525, 569.12625pt x 384.43625pt>
 File: figures/validation/mety140.pdf Graphic file (type pdf)
 
 <use figures/validation/mety140.pdf>
@@ -2462,126 +2462,88 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 3.
-[31] [32] [33] [34] [35] [36] [37]
-<figures/signal/m/Truth11.pdf, id=1764, 569.12625pt x 355.3275pt>
+[31] [32] [33] [34] [35] [36] [37] [38
+
+]
+<figures/signal/m/Truth11.pdf, id=1789, 569.12625pt x 355.3275pt>
 File: figures/signal/m/Truth11.pdf Graphic file (type pdf)
 
 <use figures/signal/m/Truth11.pdf>
-Package pdftex.def Info: figures/signal/m/Truth11.pdf used on input line 257.
+Package pdftex.def Info: figures/signal/m/Truth11.pdf used on input line 278.
 (pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
 
-<figures/signal/m/Truth21.pdf, id=1765, 569.12625pt x 355.3275pt>
+<figures/signal/m/Truth21.pdf, id=1790, 569.12625pt x 355.3275pt>
 File: figures/signal/m/Truth21.pdf Graphic file (type pdf)
 
 <use figures/signal/m/Truth21.pdf>
-Package pdftex.def Info: figures/signal/m/Truth21.pdf used on input line 261.
+Package pdftex.def Info: figures/signal/m/Truth21.pdf used on input line 282.
 (pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 257--262
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 278--283
 [][] [][] 
  []
 
-<figures/signal/m/Reco11.pdf, id=1766, 569.12625pt x 355.3275pt>
+<figures/signal/m/Reco11.pdf, id=1791, 569.12625pt x 355.3275pt>
 File: figures/signal/m/Reco11.pdf Graphic file (type pdf)
 
 <use figures/signal/m/Reco11.pdf>
-Package pdftex.def Info: figures/signal/m/Reco11.pdf used on input line 269.
+Package pdftex.def Info: figures/signal/m/Reco11.pdf used on input line 290.
 (pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
 
-<figures/signal/m/Reco21.pdf, id=1767, 569.12625pt x 364.36125pt>
+<figures/signal/m/Reco21.pdf, id=1792, 569.12625pt x 364.36125pt>
 File: figures/signal/m/Reco21.pdf Graphic file (type pdf)
 
 <use figures/signal/m/Reco21.pdf>
-Package pdftex.def Info: figures/signal/m/Reco21.pdf used on input line 273.
+Package pdftex.def Info: figures/signal/m/Reco21.pdf used on input line 294.
 (pdftex.def)             Requested size: 177.82971pt x 113.85149pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 269--274
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 290--295
 [][] [][] 
  []
 
-<figures/signal/m/Truth12.pdf, id=1768, 569.12625pt x 355.3275pt>
-File: figures/signal/m/Truth12.pdf Graphic file (type pdf)
-
-<use figures/signal/m/Truth12.pdf>
-Package pdftex.def Info: figures/signal/m/Truth12.pdf used on input line 301.
-(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
-
-<figures/signal/m/Truth22.pdf, id=1769, 569.12625pt x 355.3275pt>
-File: figures/signal/m/Truth22.pdf Graphic file (type pdf)
-
-<use figures/signal/m/Truth22.pdf>
-Package pdftex.def Info: figures/signal/m/Truth22.pdf used on input line 305.
-(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
-
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 301--306
-[][] [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38
-
+[39
 
  <./figures/signal/m/Truth11.pdf, page is rotated 90 degrees> <./figures/signal
 /m/Truth21.pdf, page is rotated 90 degrees> <./figures/signal/m/Reco11.pdf, pag
 e is rotated 90 degrees> <./figures/signal/m/Reco21.pdf, page is rotated 90 deg
-rees>]
-<figures/signal/m/Reco12.pdf, id=1953, 569.12625pt x 355.3275pt>
-File: figures/signal/m/Reco12.pdf Graphic file (type pdf)
-
-<use figures/signal/m/Reco12.pdf>
-Package pdftex.def Info: figures/signal/m/Reco12.pdf used on input line 313.
-(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
-
-<figures/signal/m/Reco22.pdf, id=1954, 569.12625pt x 355.3275pt>
-File: figures/signal/m/Reco22.pdf Graphic file (type pdf)
-
-<use figures/signal/m/Reco22.pdf>
-Package pdftex.def Info: figures/signal/m/Reco22.pdf used on input line 317.
-(pdftex.def)             Requested size: 177.82971pt x 111.02872pt.
-
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 313--318
-[][] [][] 
- []
-
-[39 <./figures/signal/m/Truth12.pdf, page is rotated 90 degrees> <./figures/sig
-nal/m/Truth22.pdf, page is rotated 90 degrees> <./figures/signal/m/Reco12.pdf, 
-page is rotated 90 degrees> <./figures/signal/m/Reco22.pdf, page is rotated 90 
-degrees>] <figures/signal/exsig2sr3.pdf, id=2139, 569.12625pt x 384.43625pt>
+rees>] <figures/signal/exsig2sr3.pdf, id=1979, 569.12625pt x 384.43625pt>
 File: figures/signal/exsig2sr3.pdf Graphic file (type pdf)
 
 <use figures/signal/exsig2sr3.pdf>
-Package pdftex.def Info: figures/signal/exsig2sr3.pdf used on input line 357.
+Package pdftex.def Info: figures/signal/exsig2sr3.pdf used on input line 397.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/signal/exsig2sr3log.pdf, id=2140, 569.12625pt x 384.43625pt>
+<figures/signal/exsig2sr3log.pdf, id=1980, 569.12625pt x 384.43625pt>
 File: figures/signal/exsig2sr3log.pdf Graphic file (type pdf)
 
 <use figures/signal/exsig2sr3log.pdf>
-Package pdftex.def Info: figures/signal/exsig2sr3log.pdf used on input line 361
+Package pdftex.def Info: figures/signal/exsig2sr3log.pdf used on input line 401
 .
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-Overfull \hbox (5.09996pt too wide) in paragraph at lines 357--362
+Overfull \hbox (5.09996pt too wide) in paragraph at lines 397--402
 [][] [][] 
  []
 
-[40 <./figures/signal/exsig2sr3.pdf, page is rotated 90 degrees> <./figures/sig
-nal/exsig2sr3log.pdf, page is rotated 90 degrees>] [41] [42]) [43]
+
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+ [40]
+[41 <./figures/signal/exsig2sr3.pdf, page is rotated 90 degrees> <./figures/sig
+nal/exsig2sr3log.pdf, page is rotated 90 degrees>] [42] [43]) [44]
 \openout2 = `resultsandconclusions.aux'.
 
 
-(./resultsandconclusions.tex [44
-
-
-
-]
+(./resultsandconclusions.tex
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
+ [45
+
+
+
+])
 [46]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 80.
@@ -2597,127 +2559,127 @@ Appendix A.
 
 
 ] [50] [51]
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 88--91
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 90--93
 []\T1/jkpk/m/n/10 mc12 188444 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm10000 w
 8pi qcut200
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 88--91
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 90--93
 \T1/jkpk/m/n/10 mc12 188452 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm10000 w8p
 i qcut400
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 88--91
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 90--93
 \T1/jkpk/m/n/10 mc12 188460 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm10000 w8p
 i qcut600
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 92--95
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 94--97
 []\T1/jkpk/m/n/10 mc12 188445 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm15000 w
 8pi qcut200
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 92--95
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 94--97
 \T1/jkpk/m/n/10 mc12 188453 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm15000 w8p
 i qcut400
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 92--95
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 94--97
 \T1/jkpk/m/n/10 mc12 188461 mad-graph-pythia auet2bcteq6l1 dmv dm50 mm15000 w8p
 i qcut600
  []
 
 [52]
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 124--127
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 126--129
 []\T1/jkpk/m/n/10 mc12 188481 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm1000 w
 8pi qcut200
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 124--127
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 126--129
 \T1/jkpk/m/n/10 mc12 188487 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm1000 w8p
 i qcut400
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 124--127
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 126--129
 \T1/jkpk/m/n/10 mc12 188493 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm1000 w8p
 i qcut600
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 128--131
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 130--133
 []\T1/jkpk/m/n/10 mc12 188482 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm3000 w
 8pi qcut200
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 128--131
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 130--133
 \T1/jkpk/m/n/10 mc12 188488 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm3000 w8p
 i qcut400
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 128--131
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 130--133
 \T1/jkpk/m/n/10 mc12 188494 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm3000 w8p
 i qcut600
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 132--135
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 134--137
 []\T1/jkpk/m/n/10 mc12 188483 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm6000 w
 8pi qcut200
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 132--135
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 134--137
 \T1/jkpk/m/n/10 mc12 188489 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm6000 w8p
 i qcut400
  []
 
 
-Overfull \hbox (1.9702pt too wide) in paragraph at lines 132--135
+Overfull \hbox (1.9702pt too wide) in paragraph at lines 134--137
 \T1/jkpk/m/n/10 mc12 188495 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm6000 w8p
 i qcut600
  []
 
-
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 136--139
+[53]
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 138--141
 []\T1/jkpk/m/n/10 mc12 188484 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm10000 
 w8pi qcut200
  []
 
 
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 136--139
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 138--141
 \T1/jkpk/m/n/10 mc12 188490 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm10000 w8
 pi qcut400
  []
 
 
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 136--139
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 138--141
 \T1/jkpk/m/n/10 mc12 188496 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm10000 w8
 pi qcut600
  []
 
-[53])
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 140--82
+)
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 142--82
 []\T1/jkpk/m/n/10 mc12 188485 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm15000 
 w8pi qcut200
  []
 
 
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 140--82
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 142--82
 \T1/jkpk/m/n/10 mc12 188491 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm15000 w8
 pi qcut400
  []
 
 
-Overfull \hbox (7.4202pt too wide) in paragraph at lines 140--82
+Overfull \hbox (7.4202pt too wide) in paragraph at lines 142--82
 \T1/jkpk/m/n/10 mc12 188497 mad-graph-pythia auet2bcteq6l1 dmv dm400 mm15000 w8
 pi qcut600
  []
@@ -2773,7 +2735,7 @@ en,
  []
 
 [57]) (./main.ind) [58]
-<figures/default/LinkUniv_staende_pms.pdf, id=2408, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=2254, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2797,9 +2759,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5E1BD2270C418185D184AE07C39AEB5E;6706.
+(rerunfilecheck)             Checksum: FDF218D5E85322F579E70F0530C362BB;6803.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 07D3653F0FDFB66BB86689367F2BED4B;3257.
+(rerunfilecheck)             Checksum: C309D164139EF05BB31F81206A4B3E7A;3493.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2809,10 +2771,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 15000 strings out of 495031
- 219808 string characters out of 6181531
- 345441 words of memory out of 5000000
- 17365 multiletter control sequences out of 15000+600000
+ 14979 strings out of 495031
+ 219217 string characters out of 6181531
+ 345522 words of memory out of 5000000
+ 17348 multiletter control sequences out of 15000+600000
  308122 words of font info for 251 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,13n,87p,1255b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2824,25 +2786,26 @@ ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kp
-fonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmi
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist
+live/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpf
+onts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpm
+i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/k
-pfonts/jkpsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (75 pages, 7561678 bytes).
+e1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
+sya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (75 pages, 7175095 bytes).
 PDF statistics:
- 2547 PDF objects out of 2984 (max. 8388607)
- 1688 compressed objects within 17 object streams
+ 2397 PDF objects out of 2487 (max. 8388607)
+ 1641 compressed objects within 17 object streams
  276 named destinations out of 1000 (max. 500000)
- 19399 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19387 words of extra memory for PDF output out of 20736 (max. 10000000)
 
