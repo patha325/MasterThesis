@@ -64,16 +64,14 @@
 \contentsline {subsection}{\numberline {3.4.1}Verifying background data}{37}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Events}{37}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Limit on M*}{39}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Effect of pile-up on M*}{40}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Previous results}{40}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Limit on mediator mass}{40}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}Effect of pile-up on mediator mass}{42}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.4}Limit on mediator mass}{40}{subsection.3.4.4}
 \contentsline {section}{\numberline {3.5}Discussion}{43}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Comparison to previous results}{43}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Effect of the high luminosity}{43}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Conclusion}{44}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Limit on M*}{44}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Limit on mediator mass}{44}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Effect of the high luminosity}{44}{subsection.3.6.3}
 \contentsline {chapter}{\numberline {4}Results and Conclusions}{45}{chapter.4}
 \contentsline {section}{\numberline {4.1}Validation of smearing functions}{45}{section.4.1}
 \contentsline {section}{\numberline {4.2}Signal to background ratio}{46}{section.4.2}
@@ -93,7 +91,7 @@
 \contentsline {subsection}{\numberline {A.2.1}Qcut}{50}{subsection.A.2.1}
 \contentsline {subsection}{\numberline {A.2.2}D5 signal processes}{50}{subsection.A.2.2}
 \contentsline {subsection}{\numberline {A.2.3}Light vector mediator processes}{50}{subsection.A.2.3}
-\contentsline {chapter}{Bibliography}{55}{appendix*.38}
+\contentsline {chapter}{Bibliography}{53}{appendix*.38}
 \select@language {english}
 \select@language {english}
 \select@language {english}

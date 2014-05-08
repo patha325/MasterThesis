@@ -131,7 +131,7 @@ Each of these models are modelled with a mass suppression scale, denoted M*, whi
 
 In \subsectionref{sec:res:subsec:m*} it is determined which values of M* could be excluded with the upgraded \abbrLHC phase 2 upgrade and \abbrATLAS .
 
-\subsection{Light vector mediator models}
+\subsection{Light vector mediator models}\label{sec:signal:subsec:vecmed}
 As described in \subsectionref{sec:tb:subsec:eft}, the other signal model is a vector mediator model. In this thesis these signals have two different width scenarios and a number of different mediator mass scenarios. \textbf{Where width is related to the lifetime of the dark matter particle.} In addition to this there are, as with the D5 operator, two different dark matter masses, one at 50 GeV and one at 400 GeV.
 
 The result of the investigation of which models are excludable with the upgraded \abbrLHC phase 2 upgrade and \abbrATLAS are given in \subsectionref{sec:res:subsec:Mm}. 
@@ -139,7 +139,7 @@ The result of the investigation of which models are excludable with the upgraded
 \newpage
 \section{Signal region definitions}
 \subsection{Signal regions}
-To be able to compare signal results to previous papers new signal regions were devised. It was also discovered that the requirement of no electrons was to harsh for the signal models. Because of this new signal criteria were devised.
+To be able to compare signal results to previous papers new signal regions were devised. It was also discovered that the requirement of no electrons or muons was to harsh for the signal models. Because of this new signal criteria were devised.
 
 \begin{table}[h]
 \begin{center}
@@ -150,6 +150,8 @@ Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$ \\
 Lepton veto, no electron or muon. \\
 The electron veto is defined: $\Delta R (jet^{lead},electron^{lead})\geq 0.4$ and \\
 $electron^{lead} P_T>20 GeV$ removed.\\
+The muon veto is defined: $\Delta R (jet^{lead},muon^{lead})\geq 0.4$ and \\
+$muon^{lead} P_T>20 GeV$ removed.\\
 Leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ 
 \end{tabular}
 \begin{tabular}{l l l l l l}
@@ -176,7 +178,7 @@ As discussed in \subsectionref{chap:vali:sec:dis:subsec:smearindep} the smearing
 
 From the formulation of the smearing functions, the biggest effect should be seen at low energies. This is related to the difficulty for the hardware triggers to select events. This means that one drawback of the high luminosity upgrade is that very low energy signal regions will be lost.
 
-The effect of the high luminosity is seen in the results in \subsectionref{subsec:pilem*}, \subsectionref{subsec:pilemm} and discussed in \subsectionref{subsec:hleff}
+The effect of the high luminosity is seen in \chapterref{chap:sig:sec:res} and discussed in \subsectionref{subsec:hleff}.
 
 \newpage
 \section{Results}\label{chap:sig:sec:res}
@@ -208,13 +210,14 @@ Total background & 205955 & 218000 & 34491 & 36700 \\ \hline
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 Process & SR1  & Expected SR1 & SR1p & Expected SR1p  \\ \hline
-Z$\rightarrow\nu\nu$ & 147009 & 152000 & 26734 & 27000 \\
-W$\rightarrow\tau\nu$ & 44728 & 37000 & 6544 & 3900 \\
-W$\rightarrow e\nu$ & 17964 & 11200 & 2470 & 1600 \\
-W$\rightarrow\mu\nu$ & 14286 & 15800 & 1972 & 4200 \\ \hline
-Total background & 223986 & 218000 & 37720 & 36700 \\ \hline
+Z$\rightarrow\nu\nu$ & 150753 & 152000 & 27569 & 27000 \\
+W$\rightarrow\tau\nu$ & 49320 & 37000 & 7318 & 3900 \\
+W$\rightarrow e\nu$ & 18329 & 11200 & 2534 & 1600 \\
+W$\rightarrow\mu\nu$ & 22290 & 15800 & 3218 & 4200 \\ \hline
+Total background & 240690 & 218000 & 40639 & 36700 \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using a modified electron veto.}
+\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using a modified electron veto and muon veto.}
+
 \label{tab:newcomp}
 \end{center}
 \end{table}
@@ -230,7 +233,7 @@ In the following tables the number of events are given using one of the D5 opera
 \begin{center}
 \begin{tabular}{|l|l|l|l|l !{\vrule width 4pt} l|l|l|l|}
 \hline
-Process & SR1 & SR2 & SR3 & SR4 & SRa & Srb & Src & Srd \\ \hline
+Process at $\sqrt{s}=14$TeV& SR1 & SR2 & SR3 & SR4 & SRa & Srb & Src & Srd \\ \hline
 D5, mDm=50 GeV, M*=1TeV & 129863 & 30219 & 10750 & 4391 & 129863 & 36410 & 12927 & 5221 \\ \hline
 Z$\rightarrow\nu\nu$ & 604479 & 42657 & 8424 & 2111 & 604479 & 58614 & 11383 & 2843 \\
 W$\rightarrow\tau\nu$ & 154140 & 7807 & 1308 & 295 & 154140 & 10679 & 1788 & 386\\ 
@@ -245,7 +248,7 @@ Total background & 869505 & 55711 & 10597 & 2607 & 869505 & 76305 & 14325 & 3489
 \begin{center}
 \begin{tabular}{|l|l|l|l|l !{\vrule width 4pt} l|l|l|l|}
 \hline
-Process & SR1 & SR2 & SR3 & SR4 & SRa & SRb & SRc & SRd \\ \hline
+Process at $\sqrt{s}=14$TeV& SR1 & SR2 & SR3 & SR4 & SRa & SRb & SRc & SRd \\ \hline
 D5, mDm=50 Gev, M*=1TeV & 120295 & 28019 & 9978 & 4130 & 120295 & 38762 & 13752 & 5505 \\ \hline 
 Z$\rightarrow\nu\nu$ & 553735 & 39105 & 7681 & 1932 & 553735 & 71613 & 13145 & 3140 \\
 W$\rightarrow\tau\nu$ & 156023 & 7741 & 1282 & 276 & 156023 & 14500 & 2174 & 467 \\
@@ -259,18 +262,10 @@ Total background & 816433 & 51850 & 9791 & 2404 & 816433 & 95322 & 16727 & 3922 
 \end{table}
 \end{landscape}
 
-\textbf{Disclaimer: The thesis is not completed after here.}
-
 \subsection{Limit on M*}\label{sec:res:subsec:m*}
-For the D5 operators as described in \subsectionref{sec:signal:subsec:d5} the mass suppression has been calculated by evaluating at which point the signal is covered by the background. This is done using the two different error models as described in \subsectionref{subsec:figmer} as figures of merit.
+For the D5 operators as described in \subsectionref{sec:signal:subsec:d5} limits on the mass suppression has been calculated by evaluating at which point the signal is covered by the background, meaning that the p-value $>0.05$. This is done using the two different error models as described in \subsectionref{subsec:figmer} as figures of merit.
 
-The limit is found, seen as a horizontal line, when the p-value = 0.05.
-
-Give at 1000fb-1 and with 14 TeV cross-sections. And for the different signal regions.
-Refer to M* explained in subsection d5. \subsectionref{sec:signal:subsec:d5}
-
-Simply figures for one signal and error model. Otherwise it would take alot of space.
-
+The limit is found, seen as a horizontal line in both \figureref{fig:SRnewMt} and \figureref{fig:SRnewMr}, when the p-value = 0.05. \textbf{Will insert new images}
 
  \begin{figure}[H] %!ht
     \subfloat[ \label{fig:SRnewMt:1}]{%
@@ -280,7 +275,7 @@ Simply figures for one signal and error model. Otherwise it would take alot of s
     \subfloat[ \label{fig:SRnewMt:2}]{%
       \includegraphics[width=0.5\textwidth]{Truth21.pdf}
     }
-    \caption{On a truth level error model 0.02.}
+    \caption{Limits of the mass suppression on a truth level for error model 0.02.}
     \label{fig:SRnewMt}
   \end{figure}
 
@@ -292,26 +287,27 @@ Simply figures for one signal and error model. Otherwise it would take alot of s
     \subfloat[ \label{fig:SRnewMr:2}]{%
       \includegraphics[width=0.5\textwidth]{Reco21.pdf}
     }
-    \caption{On a reco level error model 0.02.}
+    \caption{Limits of the mass suppression on a reco level for error model 0.02.}
     \label{fig:SRnewMr}
   \end{figure}
 
+Calculating the instersection between these lines and 0.05 results in, tables~\ref{tab:masssupp002}-~\ref{tab:masssupp2010} for both a dark matter mass of 50 GeV and at 400 GeV at the different error models.
 
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
-Signal region & M* Truth data [GeV]& Reco data [GeV]\\ \hline
-SR1&1425&1420\\
-SR2&1960&1957\\
-SR3&2249&2248\\
-SR4&2423&2423\\ \hline
-SRa&1425&1421\\
-SRb&1900&1827\\
-SRc&2197&2152\\
-SRd&2389&2363\\ \hline
+Signal region & Truth [GeV]& Reco [GeV]\\ \hline
+SR1, symmetric 350&1425&1420\\
+SR2, 600&1960&1957\\
+SR3, 800&2249&2248\\
+SR4, 1000&2423&2423\\ \hline
+SRa, symmetric 350&1425&1421\\
+SRb, asymmetric 600&1900&1827\\
+SRc, 800&2197&2152\\
+SRd, 1000&2389&2363\\ \hline
 \end{tabular}
-\caption{Mass suppression scales in GeV given for mDm=50 and the 0.02 error model.}
+\caption{Limits on mass suppression scales in GeV given for mDm=50 GeV and the 0.02 error model.}
 \label{tab:masssupp002}
 \end{center}
 \end{table}
@@ -320,7 +316,7 @@ SRd&2389&2363\\ \hline
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
-Signal region & M* Truth data [GeV]& Reco data [GeV]\\ \hline
+Signal region & Truth [GeV]& Reco [GeV]\\ \hline
 SR1&1015&1012\\
 SR2&1400&1400\\
 SR3&1636&1637\\
@@ -330,7 +326,7 @@ SRb&1356&1303\\
 SRc&1589&1553\\
 SRd&1796&1768\\ \hline
 \end{tabular}
-\caption{Mass suppression scales in GeV given for mDm=50 and the 0.08 error model.}
+\caption{Limits on mass suppression scales in GeV given for mDm=50 GeV and the 0.08 error model.}
 \label{tab:masssupp010}
 \end{center}
 \end{table}
@@ -339,17 +335,17 @@ SRd&1796&1768\\ \hline
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
-Signal region & M* Truth data [GeV]& Reco data [GeV]\\ \hline
-SR1&7780&7832\\
-SR2&8350&8280\\
-SR3&8360&8400\\
-SR4&8000&7900\\ \hline
-SRa&7780&7832\\
-SRb&8185&8080\\
-SRc&8310&8270\\
-SRd&8060&8030\\ \hline
+Signal region & Truth [GeV]& Reco [GeV]\\ \hline
+SR1, symmetric 350&1350&1346\\
+SR2, 600&1871&1870\\
+SR3, 800&2185&2186\\
+SR4, 1000&2353&2322\\ \hline
+SRa, symmetric 350&1350&1346\\
+SRb, asymmetric 600&1814&1745\\
+SRc, 800&2134&2087\\
+SRd, 1000&2313&2281\\ \hline
 \end{tabular}
-\caption{Mass suppression scales in GeV given for mDm=400 and the 0.02 error model.}
+\caption{Limits on mass suppression scales in GeV given for mDm=400 GeV and the 0.02 error model.}
 \label{tab:masssupp2002}
 \end{center}
 \end{table}
@@ -358,39 +354,33 @@ SRd&8060&8030\\ \hline
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
-Signal region & M* Truth data [GeV]& Reco data [GeV]\\ \hline
-SR1&5550&5580\\
-SR2&5965&5920\\
-SR3&6080&6120\\
-SR4&6100&6040\\ \hline
+Signal region & Truth [GeV]& Reco [GeV]\\ \hline
+SR1&961&959\\
+SR2&1337&1337\\
+SR3&1589&1592\\
+SR4&1793&1777\\ \hline
 
-SRa&5550&5580\\
-SRb&5850&5770\\
-SRc&6010&5970\\
-SRd&6060&6000\\ \hline
+SRa&961&959\\
+SRb&1295&1245\\
+SRc&1544&1507\\
+SRd&1739&1707\\ \hline
 \end{tabular}
-\caption{Mass suppression scales in GeV given for mDm=400 and the 0.08 error model.}
+\caption{Limits on mass suppression scales in GeV given for mDm=400 GeV and the 0.08 error model.}
 \label{tab:masssupp2010}
 \end{center}
 \end{table}
 
 \newpage
-
-\subsection{Effect of pile-up on M*}\label{subsec:pilem*}
-As seen in the data above, \textbf{refer to tables, how big is the effect maximum? Since no error bars are given, perhaps no concrete results.}
-
-Seems to be a minimal effect atleast.
-
-\subsection{Previous results}
-10fb paper.
-Preliminary not that much better results for 1000fb-1 and 14TeV.
-
-The whole discussion with Steven and David.
-
-
 \subsection{Limit on mediator mass}\label{sec:res:subsec:Mm}
-Are there previous results?
-Signal vs background plot in normal and log scale for one of the vector mediator models, to be able to evaluate all the different models the so called p-value was used in different signal regions. Below are two figures showing one of the vector mediator models in SR3p.
+For the vector mediator modes as described in \subsectionref{sec:signal:subsec:vecmed} limits on which models can be excluded have been calculated. This is done by calculating which models the p-value is $<0.05$. This is done using the two different error models as described in \subsectionref{subsec:figmer} as figures of merit.
+
+\begin{itemize}
+\item Have a signal on background plot in a log scale just to show a trend.
+\item Add tables with the results.
+\item Write how this is done more in detail, with how these models are robust. \textbf{Do this again with new data.} See if they are still robust in truth vs reco and different error models.
+\end{itemize}
+
+
  \begin{figure}[H] %!ht
     \subfloat[Signal on background plot for E$^{Miss}_T$ on reco level in SR3. \label{fig:sigback:1}]{%
      \includegraphics[width=0.5\textwidth]{exsig2sr3.pdf}
@@ -407,26 +397,49 @@ To set a limit on the mediator mass the p-value is calculated in different signa
 
 The limit is found when the p-value = 0.05.
 
-A table will be given with those models which survived in SR2 and SR3, truth and reco. Should SR4 be there?
-
-
-\subsection{Effect of pile-up on mediator mass}\label{subsec:pilemm}
-What is surprising is that if any model is viable in either truth or reco scenario with any of the error-models, then it is viable for the rest. 
-
-
-Check the different cases for reco and truth to see what happens.
-
+A table will be given with those models which survived in SR2 and SR3, and SR4 truth and reco. 
 
 \newpage
 \section{Discussion}
 \subsection{Comparison to previous results}
+Compared to 10fb paper ca 3-4 times better.
+Results was 800 GeV for mDM=50 GeV for my SR2 for 10fb-1 at 8TeV.
+I have: at 1000fb-1 and 14TeV.
+
+Results was 700 GeV for mDM=400 GeV for my SR2 for 10fb-1 at 8TeV.
+I have: at 1000fb-1 and 14TeV.
+
+The whole discussion with Steven and David. \textbf{How should this be used? They have no public results.}
+
+Difference to the previous estimates may be explained by: 
+\begin{itemize}
+\item Them using lower cross-sections for the background.
+\item The difference in treatment of CB.
+\end{itemize}
+
 \subsection{Effect of the high luminosity}\label{subsec:hleff}
+As seen in \textbf{Results}, the effect of a pile-up rate of 140 is minute in the signal regions chosen. The primary focus of this thesis was to look at the effect of pile-up, and try to mitigate the effect of it. However it is shown here that by choosing signal regions with a high enough requirement the effect is minute. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different Dm signal models. This modes were specifically the vector mediators.
 
-Even though this was envisioned as the primary focus of the thesis, it is shown that the effect of pile-up is minute for these high signal regions. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different DM signal models.
+Effect on m*
 
-Or is the effect high? Work in progress.
+As seen in the tables reference the ones in 3.4.3. above, comparing the truth values against the reco values the difference is at most $<5 \% $. Thus these signal regions are preferable for use in the high luminosity upgrade.  
+
+effect on mediator mass.
+
+What is surprising is that if any model is viable in either truth or reco scenario with any of the error-models, then it is viable for the rest. 
+
+Check the different cases for reco and truth to see what happens.
+
+
 
 \newpage
 \section{Conclusion}
 \subsection{Limit on M*}
+Give the limits from results.
+
+
 \subsection{Limit on mediator mass}
+Give the limits from results.
+
+\subsection{Effect of the high luminosity}
+At a pile-up level of 140 the effect is at most $<5\%$ for the mass suppression scale only affects vector mediator models which are borderline to survive as discussed above. \textbf{Reference.} 
