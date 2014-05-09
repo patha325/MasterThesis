@@ -193,14 +193,16 @@ The difference in W$\rightarrow\mu\nu$ is explained through the simulated events
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-Process & SR3p & Expected SR3p & SR4p & Expected SR4p \\ \hline
+& \multicolumn{2}{c}{SR3p} & \multicolumn{2}{|c|}{SR4p} \\
+\hline
+Process & Simulated & From paper & Simulated & From paper \\ \hline
 Z$\rightarrow\nu\nu$ & 140298 & 152000 & 25250 & 27000 \\
 W$\rightarrow\tau\nu$ & 40701 & 37000 & 5862 & 3900 \\
 W$\rightarrow e\nu$ & 11229 & 11200 & 1507 & 1600 \\
 W$\rightarrow\mu\nu$ & 13727 & 15800 & 1872 & 4200 \\ \hline
 Total background & 205955 & 218000 & 34491 & 36700 \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using the same electron veto.}
+\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using the same electron and muon veto.}
 \label{tab:Compare1}
 \end{center}
 \end{table}
@@ -209,14 +211,16 @@ Total background & 205955 & 218000 & 34491 & 36700 \\ \hline
 \begin{center}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-Process & SR1  & Expected SR1 & SR1p & Expected SR1p  \\ \hline
+& \multicolumn{2}{c}{SR1} & \multicolumn{2}{|c|}{SR1p} \\
+\hline
+Process & Simulated  & From paper & Simulated & From paper  \\ \hline
 Z$\rightarrow\nu\nu$ & 150753 & 152000 & 27569 & 27000 \\
 W$\rightarrow\tau\nu$ & 49320 & 37000 & 7318 & 3900 \\
 W$\rightarrow e\nu$ & 18329 & 11200 & 2534 & 1600 \\
 W$\rightarrow\mu\nu$ & 22290 & 15800 & 3218 & 4200 \\ \hline
 Total background & 240690 & 218000 & 40639 & 36700 \\ \hline
 \end{tabular}
-\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using a modified electron veto and muon veto.}
+\caption{Comparison of the simulated and expected events from Ref. \citep{ATLAS-CONF-2012-147} with $\Lagr=1000$fb$^{-1}$, cross-sections corresponding to $\sqrt{s}=8$TeV and using a modified electron and muon veto.}
 
 \label{tab:newcomp}
 \end{center}
@@ -260,6 +264,9 @@ Total background & 816433 & 51850 & 9791 & 2404 & 816433 & 95322 & 16727 & 3922 
 \label{tab:srreco1}
 \end{center}
 \end{table}
+\textbf{Values need to be updated.}
+
+Note how the ratio between the number of signal events and total background increases from the first to the last signal regions meaning that these are good choices of signal regions. Also note how similar the two tables are even though \tableref{tab:srreco1} is at reco with a pile-up rate of 140.
 \end{landscape}
 
 \subsection{Limit on M*}\label{sec:res:subsec:m*}
@@ -331,7 +338,7 @@ SRd&1796&1768\\ \hline
 \end{center}
 \end{table}
 
-\begin{table}[ht]
+\begin{table}[ht!]
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
@@ -370,15 +377,11 @@ SRd&1739&1707\\ \hline
 \end{center}
 \end{table}
 
+What should be noted from these tables is the significant difference between the different signals regions, especially between 4 and d which are similar apart from the lead jet cut. Also how small the effect from pile-up seems to be and the increase in dark matter mass.
+
 \newpage
 \subsection{Limit on mediator mass}\label{sec:res:subsec:Mm}
-For the vector mediator modes as described in \subsectionref{sec:signal:subsec:vecmed} limits on which models can be excluded have been calculated. This is done by calculating which models the p-value is $<0.05$. This is done using the two different error models as described in \subsectionref{subsec:figmer} as figures of merit.
-
-\begin{itemize}
-\item Have a signal on background plot in a log scale just to show a trend.
-\item Add tables with the results.
-\item Write how this is done more in detail, with how these models are robust. \textbf{Do this again with new data.} See if they are still robust in truth vs reco and different error models.
-\end{itemize}
+For the vector mediator modes as described in \subsectionref{sec:signal:subsec:vecmed} limits on which models can be excluded have been calculated. This is done by calculating which models the p-value is $<0.05$. This is done using the two different error models as described in \subsectionref{subsec:figmer} as figures of merit. All signals which have been used can be found in \ref{livecmedpro}.
 
 
  \begin{figure}[H] %!ht
@@ -395,19 +398,62 @@ For the vector mediator modes as described in \subsectionref{sec:signal:subsec:v
 
 To set a limit on the mediator mass the p-value is calculated in different signal regions for the different signal models with different mediator mass. This resulted in the following plot.
 
+\textbf{Should be plots as in presentation with increasing mediator mass on x-axis and p-value as y-axis.}
+
 The limit is found when the p-value = 0.05.
 
-A table will be given with those models which survived in SR2 and SR3, and SR4 truth and reco. 
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+width & mDM=50 GeV & mDM=400 GeV \\ \hline
+m/3 & 1000 GeV & 1000 GeV \\ \hline
+m/8p & 3000 GeV & 3000 GeV\\ \hline
+\end{tabular}
+\caption{Limits on which the highest mediator mass which can be excluded for different widths, different dark matter masses for truth and reco and both error models. In SR2, 3, 4, c, d.}
+\label{tab:mediatorpass}
+\end{center}
+\end{table}
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+width & mDM=50 GeV & mDM=400 GeV \\ \hline
+m/3 & 1000 GeV & 1000 GeV\\ \hline
+m/8p & 1000 GeV & 1000 GeV\\ \hline
+\end{tabular}
+\caption{Limits on which the highest mediator mass which can be excluded for different widths, different dark matter masses for truth and reco and both error models. In SRb.}
+\label{tab:mediatorpass2}
+\end{center}
+\end{table}
+
+What can be seen in the plots and in the tables is that the models are very robust when it comes to increased fluctuation in the background as indicated by the error models and with the introduction of pile-up. It is though quite interesting to see that SRb is the signal region which was worst suited for the vector mediator signals. Which by looking at the definition would suggest that the background is less susceptible to a lead jet cut than the signals.
 
 \newpage
 \section{Discussion}
 \subsection{Comparison to previous results}
-Compared to 10fb paper ca 3-4 times better.
-Results was 800 GeV for mDM=50 GeV for my SR2 for 10fb-1 at 8TeV.
-I have: at 1000fb-1 and 14TeV.
+The background was compared to Ref. \citep{ATLAS-CONF-2012-147} altering the cross-sections of the samples used in this thesis to simulate a center of mass energy of 8 TeV instead of 14. This could unfortunately not be done for the signals as that would require new samples to be produced. As seen and some what discussed in \subsectionref{Verifying background data} the events corresponded quite nicely to the values from the paper. The discrepancies are explained by general differences between simulations and measured events, such as:
+\begin{itemize}
+\item The difference in W$\rightarrow\tau\nu$ can be explained by the fact that $\tau$ can not be recreated as a jet in the simulated events which it can in measured events.
 
-Results was 700 GeV for mDM=400 GeV for my SR2 for 10fb-1 at 8TeV.
-I have: at 1000fb-1 and 14TeV.
+\item The difference in W$\rightarrow\mu\nu$ is explained through the simulated events having a better separation of muons neutrinos and E$_T^{Miss}$.
+\end{itemize}
+Where the choice of a new muon veto giving more events supports the final claim.
+
+In \tableref{Comp pval} the limits for the mass suppresion scale are given from both the paper and from this work. It is seen that the increase in luminosity and center of mass energy gives an increase of the mass supression scale by a factor of 2-3.
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+Dark matter mass & From simulation & From paper \\ \hline
+50 GeV & 1960 GeV &800 GeV \\
+400 GeV & 1871 GeV & 700 GeV \\ \hline
+\end{tabular}
+\caption{M* values in SR2 from both simulation at 14 TeV, 1000fb$^{-1}$ and from Ref. \citep{ATLAS-CONF-2012-147} at 8 TeV and 10fb$^{-1}$. }
+\label{Comp pval}
+\end{center}
+\end{table}
 
 The whole discussion with Steven and David. \textbf{How should this be used? They have no public results.}
 
@@ -418,28 +464,19 @@ Difference to the previous estimates may be explained by:
 \end{itemize}
 
 \subsection{Effect of the high luminosity}\label{subsec:hleff}
-As seen in \textbf{Results}, the effect of a pile-up rate of 140 is minute in the signal regions chosen. The primary focus of this thesis was to look at the effect of pile-up, and try to mitigate the effect of it. However it is shown here that by choosing signal regions with a high enough requirement the effect is minute. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different Dm signal models. This modes were specifically the vector mediators.
+As seen in \sectionref{chap:sig:sec:res}, the effect of a pile-up rate of 140 is minute in the signal regions chosen. The primary focus of this thesis was to look at the effect of pile-up, and try to mitigate the effect of it. However it is shown here that by choosing signal regions with a high enough requirement the effect is minute. Thus the focus was shifted to perform a more in-depth mono-jet analysis of different Dm signal models. This models were specifically the vector mediators.
 
-Effect on m*
+For the mass suppression scale, as seen in \subsectionref{sec:res:subsec:m*}, comparing the truth values against the reco values the difference is at most $<5 \% $. Thus these signal regions are preferable for use in the high luminosity upgrade. 
 
-As seen in the tables reference the ones in 3.4.3. above, comparing the truth values against the reco values the difference is at most $<5 \% $. Thus these signal regions are preferable for use in the high luminosity upgrade.  
-
-effect on mediator mass.
-
-What is surprising is that if any model is viable in either truth or reco scenario with any of the error-models, then it is viable for the rest. 
-
-Check the different cases for reco and truth to see what happens.
-
-
+Regarding the mediator models, as discussed in \subsectionref{sec:res:subsec:Mm} the models are sensitive to exclusion regardless of truth or reco. This suggests that the different models are very robust or that the effect of pile-up is negligible. However the later is more probable since a tougher error model produces the same results.
 
 \newpage
 \section{Conclusion}
 \subsection{Limit on M*}
-Give the limits from results.
-
+The limits can be found in \subsectionref{sec:res:subsec:m*} and are 2-3 times better than previous results at 8 TeV and 10fb$^{-1}$.
 
 \subsection{Limit on mediator mass}
-Give the limits from results.
+The limits can be found in \subsectionref{sec:res:subsec:Mm} and is the first result done with these models and thus can not be compared.
 
 \subsection{Effect of the high luminosity}
-At a pile-up level of 140 the effect is at most $<5\%$ for the mass suppression scale only affects vector mediator models which are borderline to survive as discussed above. \textbf{Reference.} 
+At a pile-up level of 140 the effect is at most $<5\%$ for the mass suppression scale and does not affect the vector mediator models which are robust as discussed in \subsectionref{subsec:hleff}.
