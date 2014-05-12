@@ -9,12 +9,14 @@ Since part of this thesis work was to take the official \abbrATLAS smearing func
 
 \newpage
 \section{Smearing functions}\label{sec:smear}
+In a simulation of a proton-proton collision all quantities such as energy, momentum and direction of all produced particles are perfectly known. In a real experiment it is only possible to get measured values from the detector. The detector energy and momentum resolutions given in the smearing functions relate the measured values are to the true values on a statistical basis. To emulate the measured energies and momenta, their true values are smeared using the known detector resolutions. 
+
 These smearing functions are designed so that they take into account the efficiency of the different detectors, limitations from how they are constructed as well as their dependence on pile-up. They also take into account how all this varies depending on the measured entries energy or momenta.
 
 Terminology:
 \begin{itemize}
 \item Data before smearing, simulated data, is denoted as data at a truth level or truth data.
-\item Data after smearing, which is comparable to what is measured is denoted as reconstructed or reco data as discussed in \subsectionref{sec:eo:subsec:reco}.
+\item Data after smearing, which is comparable to what is measured is denoted as reconstructed or reco data.
 \end{itemize}
 
 \subsection{Electron and photon}
@@ -149,7 +151,7 @@ As described in \subsectionref{sec:smear:subsec:tau} tauons are detected similar
     }
     \hfill
     \subfloat[Tau energy vs smeared. \label{fig:tau:2}]{%
-      \includegraphics[width=0.5\textwidth]{tau2.pdf}
+      \includegraphics[width=0.5\textwidth]{tau2.png}
     }
     \caption{Tau energy after smearing and energy vs smearing.}
     \label{fig:tau}
@@ -309,7 +311,7 @@ $\obs{\mu}=140$&$105.11 \pm 12.24$&87.28\\  \hline
 From the validation done it was interesting to note that the smearing functions were created from previous studies, \citep{Electronperf:2011, ATLAS:LOI2}, which had shown that leptons and photons are not affected by pile-up.
 This may seem incredible however it becomes quite logical when one understands how the detectors work. To be able to detect particles the detectors must detect an excess of energy which comes from a particle passing through. This should not be distorted by an increased pile-up. The amount of particles passing through will of course increase, but the detections should be unaffected as well as the recreation of the events. However with the same logic it makes sense that jets and $E_T^{Miss}$ are quite affected since they are combined of several parts, either hadronic particles or by all the transversal missing energy. 
 
-Another interesting part is how the effect diminishes with and increasing energy. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
+Another interesting part is how the effect diminishes with an increasing energy. As seen above, and through the the formula, for the high energies which were of interest here the effect is minimal. 
 \subsection{Comparison to expected results}
 One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult. Also since this is a statistical property there is a statistical fluctuation in the result. 
 

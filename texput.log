@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  25 MAR 2014 14:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.24)  12 MAY 2014 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**rtmsc-defs-utf8.tex
+**mythesis.tex
 
 ! Emergency stop.
-<*> rtmsc-defs-utf8.tex
-                       
+<*> mythesis.tex
+                
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  3 strings out of 495031
- 116 string characters out of 6181531
+ 109 string characters out of 6181531
  45720 words of memory out of 5000000
  3312 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

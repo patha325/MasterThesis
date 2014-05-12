@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -35,6 +35,12 @@ Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
 \newblock Addison-Wesley, 3 edition, June 2001.
 \newblock ISBN 0201657023.
 
+\bibitem[Herr and Muratori(2006)]{Herr:2006}
+Werner Herr and B~Muratori.
+\newblock {Concept of luminosity}.
+\newblock 2006.
+\newblock URL \url{http://cds.cern.ch/record/941318/}.
+
 \bibitem[Burcham and Jobes(1995)]{Burchan:1995}
 W.~E. Burcham and M.~Jobes.
 \newblock \emph{{Nuclear and Particle Physics}}.
@@ -60,6 +66,14 @@ G.~{Jungman}, M.~{Kamionkowski}, and K.~{Griest}.
 \newblock {Supersymmetric dark matter}.
 \newblock \emph{Physics Reports}, 267:\penalty0 195--373, March 1996.
 \newblock \doi{10.1016/0370-1573(95)00058-5}.
+
+\bibitem[Trimble(1987)]{darkmatter}
+Virginia Trimble.
+\newblock Existence and nature of dark matter in the universe.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 25\penalty0
+  (1):\penalty0 425--472, 1987.
+\newblock \doi{10.1146/annurev.aa.25.090187.002233}.
+\newblock URL \url{http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}.
 
 \bibitem[NASA(2014)]{Nasa}
 NASA.
@@ -113,12 +127,6 @@ AC~Team.
 \newblock {The four main LHC experiments}, Jun 1999.
 \newblock URL \url{http://cds.cern.ch/record/40525}.
 
-\bibitem[Herr and Muratori(2006)]{Herr:2006}
-Werner Herr and B~Muratori.
-\newblock {Concept of luminosity}.
-\newblock 2006.
-\newblock URL \url{http://cds.cern.ch/record/941318/}.
-
 \bibitem[Collaboration(2008)]{1129811}
 The~ATLAS Collaboration.
 \newblock The atlas experiment at the cern large hadron collider.
@@ -153,6 +161,14 @@ J.~{Alwall}, M.~{Herquet}, F.~{Maltoni}, O.~{Mattelaer}, and T.~{Stelzer}.
 \newblock {MadGraph 5: going beyond}.
 \newblock \emph{Journal of High Energy Physics}, 6:\penalty0 128, June 2011.
 \newblock \doi{10.1007/JHEP06(2011)128}.
+
+\bibitem[Gleisberg et~al.(2004)Gleisberg, Hoeche, Krauss, Schalicke, Schumann,
+  et~al.]{sherpa}
+Tanju Gleisberg, Stefan Hoeche, Frank Krauss, Andreas Schalicke, Steffen
+  Schumann, et~al.
+\newblock {SHERPA 1. alpha: A Proof of concept version}.
+\newblock \emph{JHEP}, 0402:\penalty0 056, 2004.
+\newblock \doi{10.1088/1126-6708/2004/02/056}.
 
 \bibitem[Sjöstrand et~al.(2008)Sjöstrand, Mrenna, and Skands]{Sjostrand:2008}
 Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
@@ -241,11 +257,5 @@ ATLAS Collaboration.
   detector at the LHC}.
 \newblock Nov 2012.
 \newblock URL \url{http://cds.cern.ch/record/1493486/}.
-
-\bibitem[Duck(2005)]{Duck:2005}
-Donald Duck.
-\newblock The history of automatic control.
-\newblock \emph{Duckburg Journal of Science}, 106\penalty0 (3):\penalty0
-  345--401, 2005.
 
 \end{thebibliography}
