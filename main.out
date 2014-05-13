@@ -12,7 +12,7 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Nuclear, particle and subatomic particle physics}{section.1.2}% 12
 \BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 The standard model of particle physics}{section.1.2}% 13
 \BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Dark matter}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Effective field theory}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Signal models}{section.1.2}% 15
 \BOOKMARK [2][-]{subsection.1.2.6}{1.2.6 Jets}{section.1.2}% 16
 \BOOKMARK [2][-]{subsection.1.2.7}{1.2.7 Search for WIMPS}{section.1.2}% 17
 \BOOKMARK [1][-]{section.1.3}{1.3 Experimental overview}{chapter.1}% 18
@@ -29,7 +29,7 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Muon}{section.2.1}% 29
 \BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Tau}{section.2.1}% 30
 \BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 Jets}{section.2.1}% 31
-\BOOKMARK [2][-]{subsection.2.1.5}{2.1.5 Missing Transversal Energy}{section.2.1}% 32
+\BOOKMARK [2][-]{subsection.2.1.5}{2.1.5 Missing Transverse Energy}{section.2.1}% 32
 \BOOKMARK [1][-]{section.2.2}{2.2 Validation}{chapter.2}% 33
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Method}{section.2.2}% 34
 \BOOKMARK [1][-]{section.2.3}{2.3 Results}{chapter.2}% 35
@@ -38,11 +38,11 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Tau}{section.2.3}% 38
 \BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Jets}{section.2.3}% 39
 \BOOKMARK [2][-]{subsection.2.3.5}{2.3.5 Missing Transversal Energy}{section.2.3}% 40
-\BOOKMARK [1][-]{section.2.4}{2.4 Expected results}{chapter.2}% 41
-\BOOKMARK [1][-]{section.2.5}{2.5 Discussion}{chapter.2}% 42
-\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Smearing independent on pile-up}{section.2.5}% 43
-\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Comparison to expected results}{section.2.5}% 44
-\BOOKMARK [1][-]{section.2.6}{2.6 Conclusion}{chapter.2}% 45
+\BOOKMARK [2][-]{subsection.2.3.6}{2.3.6 Summary}{section.2.3}% 41
+\BOOKMARK [1][-]{section.2.4}{2.4 Discussion}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Dependence of smearing on pile-up}{section.2.4}% 43
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Comparison to expected results}{section.2.4}% 44
+\BOOKMARK [1][-]{section.2.5}{2.5 Conclusion}{chapter.2}% 45
 \BOOKMARK [0][]{chapter.3}{3 Evaluating dark matter signals}{}% 46
 \BOOKMARK [1][-]{section.3.1}{3.1 Signal to background ratio}{chapter.3}% 47
 \BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Signal Region}{section.3.1}% 48
@@ -68,24 +68,14 @@
 \BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Limit on M*}{section.3.6}% 68
 \BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Limit on mediator mass}{section.3.6}% 69
 \BOOKMARK [2][-]{subsection.3.6.3}{3.6.3 Effect of the high luminosity}{section.3.6}% 70
-\BOOKMARK [0][]{chapter.4}{4 Results and Conclusions}{}% 71
-\BOOKMARK [1][-]{section.4.1}{4.1 Validation of smearing functions}{chapter.4}% 72
-\BOOKMARK [1][-]{section.4.2}{4.2 Signal to background ratio}{chapter.4}% 73
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Limit on M*}{section.4.2}% 74
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Limit on mediator mass}{section.4.2}% 75
-\BOOKMARK [1][-]{section.4.3}{4.3 Other selection criteria and observables}{chapter.4}% 76
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Limit on M*}{section.4.3}% 77
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Limit on mediator mass}{section.4.3}% 78
-\BOOKMARK [1][-]{section.4.4}{4.4 Mitigating the effect of the high luminosity}{chapter.4}% 79
-\BOOKMARK [1][-]{section.4.5}{4.5 Recommendations to mitigate the effect of the high luminosity}{chapter.4}% 80
-\BOOKMARK [1][-]{section.4.6}{4.6 Suggestions for future research}{chapter.4}% 81
-\BOOKMARK [0][]{appendix.A}{A Datasets}{}% 82
-\BOOKMARK [1][-]{section.A.1}{A.1 Background processes}{appendix.A}% 83
-\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Validation}{section.A.1}% 84
-\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background to signals}{section.A.1}% 85
-\BOOKMARK [1][-]{section.A.2}{A.2 Signals}{appendix.A}% 86
-\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Qcut}{section.A.2}% 87
-\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 D5 signal processes}{section.A.2}% 88
-\BOOKMARK [2][-]{subsection.A.2.3}{A.2.3 Light vector mediator processes}{section.A.2}% 89
-\BOOKMARK [0][]{appendix*.42}{Bibliography}{}% 90
-\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 91
+\BOOKMARK [0][]{chapter.4}{4 Final remarks}{}% 71
+\BOOKMARK [0][]{appendix.A}{A Datasets}{}% 72
+\BOOKMARK [1][-]{section.A.1}{A.1 Background processes}{appendix.A}% 73
+\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Validation}{section.A.1}% 74
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background to signals}{section.A.1}% 75
+\BOOKMARK [1][-]{section.A.2}{A.2 Signals}{appendix.A}% 76
+\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Qcut}{section.A.2}% 77
+\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 D5 signal processes}{section.A.2}% 78
+\BOOKMARK [2][-]{subsection.A.2.3}{A.2.3 Light vector mediator processes}{section.A.2}% 79
+\BOOKMARK [0][]{appendix*.41}{Bibliography}{}% 80
+\BOOKMARK [0][]{Copyright.0}{Copyright}{}% 81

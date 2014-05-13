@@ -75,13 +75,13 @@ The presence of dark matter can be measured indirectly from its gravitational ef
 \begin{equation}\label{eq:forces}
 F_{Gravitational}=G \frac{M m}{r^2} \equiv G_M \frac{m}{r^2} \qquad F_{Centrifugal} = m\frac{V^2}{r}
 \end{equation}
-where $G$ is the gravitational constant, $M$ the mass of the centre object, $m$ the mass of the matter, $r$ the distance between the two and $V$ is the rotation speed. It has been simplified using $G_M$ since all matter orbits the same galactic center. Setting the equations in \eqref{eq:forces} results in:
+where $G$ is the gravitational constant, $M$ the mass of the centre object, $m$ the mass of the matter, $r$ the distance between the two and $V$ is the rotation speed. It has been simplified using $G_M$ since all matter orbits the same galactic center. The assumption that the two objects have spherical symmetrical mass distributions and that the rotating object is assumed in a circular orbit outside of the center object have been made. Setting the equations in \eqref{eq:forces} results in:
 \begin{equation}\label{eq:rotation}
 G_M \frac{m}{r^2} = m\frac{V^2}{r} \Leftrightarrow V^2 =\frac{G_M}{r} \Rightarrow V=\sqrt{\frac{G_M}{r}} \propto \frac{1}{\sqrt{r}}
 \end{equation}
-where the speed is assumed to be positive and $\propto$ means proportional. Through these simple calculations it is shown that the rotation speed should decrease with and increased distance. The same reasoning can be applied to our solar system where this is the case \figureref{fig:rotation:a}. The relation in these units is $V=\frac{107}{\sqrt{r}}$ where 107 can be used in \eqref{eq:rotation} to calculate the mass of the sun. However when looking at galaxies, even when taking into account that one has to see the galaxies as a mass distribution and that the above is only true when outside of the inner mass half, this is not the case! In \figureref{fig:rotation:b} experimental data can be seen from the galaxy NGC3198 with a fitted curve which does not decrease with the distance but is instead constant.  This is the discrepancy which is solved by postulating the existence of dark matter \citep{1933AcHPh}.
+where the speed is assumed to be positive and $\propto$ means proportional. Through these simple calculations it is shown that the rotation speed should decrease with and increased distance. The same reasoning can be applied to our solar system where this is the case \figureref{fig:rotation:a}. The relation in these units is $V=\frac{107}{\sqrt{r}}$ where 107 can be used in \eqref{eq:rotation} to calculate the mass of the sun. However when looking at galaxies, this is not the case! In \figureref{fig:rotation:b} experimental data can be seen from the galaxy NGC3198 with a fitted curve which does not decrease with the distance but is instead constant.  This is the discrepancy which is solved by postulating the existence of dark matter \citep{1933AcHPh}.
  \begin{figure}[h] %!ht
-    \subfloat[Rotation speed of planets in our solarsystem. Since the distance is quite small on an astronomical scale, there is no sign of dark matter. Based on data from \citep{Nasa}. \label{fig:rotation:a}]{%
+    \subfloat[Rotation speed of planets in our solarsystem. Since the distance is quite small on an astronomical scale, there is no sign of dark matter. Based on data from Ref. \citep{Nasa}. \label{fig:rotation:a}]{%
      \includegraphics[width=0.5\textwidth]{solarsystemrotation2.jpg}
     }
     \hfill
@@ -102,7 +102,7 @@ There are several strategies to search for dark matter, \citep{Jungman:1996}
 \end{itemize} 
 In this thesis the focus lies with production at colliders, namely the \abbrLHC . There are several theories models for how to detect dark matter in proton-proton collisions such that occur at the \abbrLHC at \abbrCERN. This is covered more in \subsectionref{sec:tb:subsec:WIMPS}. 
 
-\subsection{Effective field theory}\label{sec:tb:subsec:eft}
+\subsection{Signal models}\label{sec:tb:subsec:eft}
 In quantum field theory the objective is usually to find the part of the Lagrangian which explains a type of interaction, known as the operator of the interaction and also to find the probability amplitude (cross-section) for a certain interaction. For complicated processes it is easier to employ a simplified phenomenological model. This is done by using an effective field theory and the concept is explained in \figureref{fig:feymanc}. The operator can be found through assuming the possible interactions and using the effective field theory \citep{Zee:2003}. 
 %trim=left botm right top.
  % good for finding limits \fbox{\includegraphics}
@@ -117,43 +117,10 @@ In quantum field theory the objective is usually to find the part of the Lagrang
     \caption{Feyman diagram of an electron-electron scattering, both as a diagram where a photon is exchanged and as its effective theory version, where the details are hidden in the blob.}
     \label{fig:feymanc}
   \end{figure}
-In this thesis the same effective field theory as in Refs. \citep{82.116010,Goodman:2010} is considered. The \abbrWIMP (denoted $\chi$) is assumed to be the only particle in addition to the standard model fields. In order to explain dark matter the \abbrWIMP $\chi$ must be stable. For this reason only Feynman diagrams with an even number of $\chi$ are considered. It is assumed that the mediator exists is heavier that the \abbrWIMPS, meaning that their interactions are in higher order terms of the effective field theory and thus not included in the operators. 
+In this thesis the same effective field theory as in Refs. \citep{82.116010,Goodman:2010} is considered, denoted D5 and explained in \figureref{fig:opfeyn:a}. The \abbrWIMP (denoted $\chi$) is assumed to be the only particle in addition to the standard model fields and is assumed to interact through the electroweak force. In order to explain dark matter the \abbrWIMP $\chi$ must be stable, for this reason only Feynman diagrams with an even number of $\chi$ are considered. It is assumed that the mediator is heavier that the \abbrWIMPS, meaning that the mediator interactions are in higher order terms of the effective field theory and thus not included in the operators. In this work, WIMPS are assumed to be Dirac fermions (half integer spin and is not its own antiparticle). 
 
-The operator used in this thesis are assumed to be quark bilinear operators on the form $\bar{q}\Gamma q$ where $\Gamma$ is a 4 $\times$ 4 matrix of the complete set, 
-\begin{equation}
-\Gamma = \left\lbrace 1,\gamma ^5,\gamma ^\mu,\gamma ^\mu \gamma ^5, \sigma ^{\mu \nu} \right\rbrace
-\end{equation}
-This will dictate how the operator is written, more of why this is done can be found in \citep{82.116010,Goodman:2010,Zee:2003}.
+Another model which is considered is a vector mediator model which is described by \figureref{fig:opfeyn:b}. This model is based on the assumption that the interaction of \abbrWIMPS is mediated by a particle denoted V which is a spin 1 particle. This particle is modelled as a heavy z-boson which governs the electroweak interactions. The free parameters of this mediator particle are its weight and its width which is related to the lifetime of the particle and which decay modes exist. It contains the same assumptions about the \abbrWIMPS as the D5 operator.
 
-This defines an effective field theory of the interaction of singlet \abbrWIMPS with hadronic matter. It is an approximation which will break down when the mediator mass is close to the mass of the \abbrWIMP .
-The condition for this is derived in \citep{82.116010} and gives:
-\begin{equation}
-M > 2 m_\chi
-\end{equation}
-where $m_\chi$ is the mass of the \abbrWIMP and M is the mass of the mediator particle. There is also the requirement that:
-\begin{equation}
-M \lesssim 4 \pi M_*
-\end{equation}
-where $M_*$ is the energy scale where the effective theory is no longer a good approximation.
-
-In this work, WIMPS are assumed to be Dirac fermions (half integer spin and is not its own antiparticle). 
- 
-In \tableref{tab:operators} the operator which is integrated out via the effective field theory and is of interest in this thesis are given.
-\renewcommand{\arraystretch}{1.5} %Change height of tabel
-\begin{table}[H]
-\begin{center}
-    \begin{tabular}{ | l | l | l | l |}
-    \hline
-    Name & Initial state & Type & Operator \\ \hline
-  	D5 & qq & vector & $\frac{1}{M^2_*} \bar{\chi} \gamma^\mu \chi \bar{q} \gamma_\mu q$ \\ \hline
-    	\end{tabular}
-
-  	\caption{Table based on discussion in \citep{CERN-PH-EP-2012-210}.}
-  	\label{tab:operators}
-  	  	\end{center}
-    \end{table}
-\renewcommand{\arraystretch}{1.0}  %Back to default
-Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions. These can all be described using \figureref{fig:opfeyn:a}.
 
  \begin{figure}[H] %!ht
     \subfloat[Effective Feynman diagram explaining the D-operators. \label{fig:opfeyn:a}]{%
@@ -166,7 +133,7 @@ Where D denotes that the \abbrWIMPS are assumed to be Dirac fermions. These can 
     \caption{Feynman diagrams describing the signal models used in this thesis.}
     \label{fig:opfeyn}
   \end{figure}
-Another model which is considered is a vector mediator model which is described by \figureref{fig:opfeyn:b}. 
+
 
 \subsection{Jets}\label{sec:tb:subsec:jets}
 In particle collisions free gluons and quarks with high energy can be produced. According to \abbrQFT these can not exist and must decay through a process known as hadronization meaning that they will decay into a cone of energetic hadrons, which is known as a Jet. It is not possible to measure these free gluons or quarks, however this cone of hadrons will travel in the same direction and will be measured by the calorimeters, see \subsectionref{ATLAS}. These measurements can then be summed to calculate the energy and momentum which the initial gluon or quark had which in turn results in more information about the collision.
@@ -216,7 +183,7 @@ The neutrinos escape the \abbrATLAS experiment without being detected, and in th
 
 Therefore WIMPS and neutrinos have the same detector signature. As seen in \sectionref{chap:sig:sec:res} the main background to the WIMP signal is the production of a Z boson that in turn decay to two neutrinos mimicking the WIMP signature.
 \subsection{Coordinate system}\label{sec:eo:subsec:coord}
-The coordinate system of ATLAS, seen in \figureref{fig:coordinatesystem} is a right-handed coordinate system with the x-axis pointing towards the centre of the LHC ring, and the z-axis along the tunnel/beam (counter clockwise) seen from above. The y-axis points upward. The origin is defined as the geometric center of the detector. A cylindrical coordinate system is also used for the transversal plane, (R,$\phi$,Z).
+The coordinate system of ATLAS, seen in \figureref{fig:coordinatesystem} is a right-handed coordinate system with the x-axis pointing towards the centre of the LHC ring, and the z-axis along the tunnel/beam (counter clockwise) seen from above. The y-axis points upward. The origin is defined as the geometric center of the detector. A cylindrical coordinate system is also used for the transverse plane, (R,$\phi$,Z).
 For simplicity the pseudorapidity of particles from the primary vertex is defined as:
 \begin{equation}
 \eta = - \ln( \tan\frac{\theta}{2})
@@ -228,7 +195,7 @@ It is quite common to calculate the distance between particles and jets in the $
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=\linewidth]{particle_collider.jpg}
-\caption{The \abbrATLAS detector and the definition of the orthogonal Cartesian coordinate system. Image altered from\citep{coordimage}}
+\caption{The \abbrATLAS detector and the definition of the orthogonal Cartesian coordinate system. Image altered from Ref. \citep{coordimage}}
 \label{fig:coordinatesystem}
 \end{center}
 \end{figure}
@@ -241,11 +208,11 @@ Pile-up is the phenomena that several proton-proton collisions occur simultaneou
 
 \begin{figure}[ht]
 \includegraphics[width=\linewidth]{monojetbig.png}
-\caption{Image in the transversal plane of a mono-jet event recorded by the \abbrATLAS experiment \citep{monojet}. The figure in the top right is a diagram in the $(\eta,\phi)$-plane showing where in the calorimeter (red in the main figure) the energy is deposited and how much.}
+\caption{Image in the transverse plane of a mono-jet event recorded by the \abbrATLAS experiment \citep{monojet}. The figure in the top right is a diagram in the $(\eta,\phi)$-plane showing where in the calorimeter (red in the main figure) the energy is deposited and how much.}
 \label{fig:monojet}
 \end{figure}
 
-When measuring the transverse energy one can in some interactions find inconsistencies, such as jets that are in excess in one direction. Conservation of momentum in the transverse plane of the experiment indicates that the sum of all momenta should be zero as before the collision. In \figureref{fig:monojet} one can see a high energetic jet which gives an excess of transverse energy in one direction after the collision. Since there is no balancing jet there must be transverse energy that is not detected, denoted $E_T^{Miss}$. This gives an indication that the energy to balance this can not be detected. This could for instance be neutrinos or the characteristic signature of \abbrWIMPS .
+When measuring the transverse energy one can in some interactions find inconsistencies such as jets, discussed in \subsectionref{sec:tb:subsec:jets}, that are in excess in one direction. Conservation of momentum in the transverse plane of the experiment indicates that the sum of all momenta should be zero as before the collision. In \figureref{fig:monojet} one can see a high energetic jet which gives an excess of transverse energy in one direction after the collision. Since there is no balancing jet there must be transverse energy that is not detected, denoted $E_T^{Miss}$. This gives an indication that the energy to balance this can not be detected. This could for instance be neutrinos or the characteristic signature of \abbrWIMPS .
 
 $E_T^{Miss}$ is the modulus of the $E_T^{Miss}$ vector which is defined as:
 \begin{equation}\label{eq:etmiss}
