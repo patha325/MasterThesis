@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,7 +17,7 @@ B.H. Bransden and C.J. Joachain.
 \newblock Pearson Education, second edition, 2000.
 
 \bibitem[Hallsj{\"o}(2013)]{Hallsjo:2013}
-Sven-Patrik Hallsj{\"o}.
+S-P. Hallsj{\"o}.
 \newblock Covering the sphere with noncontextuality inequalities.
 \newblock Bachelor’s thesis, Linköping University, The Institute of
   Technology, 2013.
@@ -30,13 +30,13 @@ A.~Zee.
 \newblock ISBN 0691010196.
 
 \bibitem[Goldstein et~al.(2001)Goldstein, Poole, and Safko]{Goldstein:2001}
-Herbert Goldstein, Charles~P. Poole, and John~L. Safko.
+H.~Goldstein, C.~P. Poole, and J.~L. Safko.
 \newblock \emph{{Classical Mechanics (3rd Edition)}}.
 \newblock Addison-Wesley, 3 edition, June 2001.
 \newblock ISBN 0201657023.
 
 \bibitem[Herr and Muratori(2006)]{Herr:2006}
-Werner Herr and B~Muratori.
+W.~Herr and B.~Muratori.
 \newblock {Concept of luminosity}.
 \newblock 2006.
 \newblock URL \url{http://cds.cern.ch/record/941318/}.
@@ -53,6 +53,13 @@ The~ATLAS Collaboration.
 \newblock \emph{Phys. Lett. B}, 716\penalty0 (arXiv:1207.7214.
   CERN-PH-EP-2012-218):\penalty0 1--29. 39 p, Aug 2012{\natexlab{a}}.
 
+\bibitem[Chatrchyan et~al.(2012)]{Chatrchyan:2012}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys.Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
 \bibitem[wik(2014)]{wiki1}
 {Standard model of elementary particles}.
 \newblock
@@ -68,12 +75,17 @@ G.~{Jungman}, M.~{Kamionkowski}, and K.~{Griest}.
 \newblock \doi{10.1016/0370-1573(95)00058-5}.
 
 \bibitem[Trimble(1987)]{darkmatter}
-Virginia Trimble.
+V.~Trimble.
 \newblock Existence and nature of dark matter in the universe.
 \newblock \emph{Annual Review of Astronomy and Astrophysics}, 25\penalty0
   (1):\penalty0 425--472, 1987.
 \newblock \doi{10.1146/annurev.aa.25.090187.002233}.
 \newblock URL \url{http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}.
+
+\bibitem[{Zwicky}(1933)]{1933AcHPh}
+F.~{Zwicky}.
+\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
+\newblock \emph{Helvetica Physica Acta}, 6:\penalty0 110--127, 1933.
 
 \bibitem[NASA(2014)]{Nasa}
 NASA.
@@ -89,10 +101,14 @@ T.~S. {van Albada}, J.~N. {Bahcall}, K.~{Begeman}, and R.~{Sancisi}.
 \newblock \emph{Astrophysical Journal}, 295:\penalty0 305--313, August 1985.
 \newblock \doi{10.1086/163375}.
 
+\bibitem[Gondolo(2005)]{Gondolo:2003}
+P.~Gondolo.
+\newblock {Non-baryonic dark matter}.
+\newblock \emph{NATO Sci.Ser.II}, 187:\penalty0 279--333, 2005.
+
 \bibitem[Goodman et~al.(2011)Goodman, Ibe, Rajaraman, Shepherd, Tait,
   et~al.]{Goodman:2010}
-Jessica Goodman, Masahiro Ibe, Arvind Rajaraman, William Shepherd, Tim~M.P.
-  Tait, et~al.
+J.~Goodman, M.~Ibe, A.~Rajaraman, W.~Shepherd, Tim~M.P. Tait, et~al.
 \newblock {Constraints on Light Majorana dark Matter from Colliders}.
 \newblock \emph{Phys.Lett.}, B695:\penalty0 185--188, 2011.
 \newblock \doi{10.1016/j.physletb.2010.11.009}.
@@ -135,7 +151,7 @@ The~ATLAS Collaboration.
 \newblock URL \url{https://cdsweb.cern.ch/record/1129811/}.
 
 \bibitem[Pequenao(2008)]{coordimage}
-Joao Pequenao.
+J.~Pequenao.
 \newblock {Computer generated image of the whole ATLAS detector}, Mar 2008.
 \newblock URL \url{http://cds.cern.ch/record/1095924}.
 
@@ -164,14 +180,13 @@ J.~{Alwall}, M.~{Herquet}, F.~{Maltoni}, O.~{Mattelaer}, and T.~{Stelzer}.
 
 \bibitem[Gleisberg et~al.(2004)Gleisberg, Hoeche, Krauss, Schalicke, Schumann,
   et~al.]{sherpa}
-Tanju Gleisberg, Stefan Hoeche, Frank Krauss, Andreas Schalicke, Steffen
-  Schumann, et~al.
+T.~Gleisberg, S.~Hoeche, F.~Krauss, A.~Schalicke, S.~Schumann, et~al.
 \newblock {SHERPA 1. alpha: A Proof of concept version}.
 \newblock \emph{JHEP}, 0402:\penalty0 056, 2004.
 \newblock \doi{10.1088/1126-6708/2004/02/056}.
 
 \bibitem[Sjöstrand et~al.(2008)Sjöstrand, Mrenna, and Skands]{Sjostrand:2008}
-Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
+T.~Sjöstrand, S.~Mrenna, and P.~Skands.
 \newblock A brief introduction to \{PYTHIA\} 8.1.
 \newblock \emph{Computer Physics Communications}, 178\penalty0 (11):\penalty0
   852 -- 867, 2008.
@@ -186,45 +201,8 @@ The~ROOT Team.
 \newblock \url{http://root.cern.ch/drupal/}, 2014.
 \newblock Accessed: 2014-03-28.
 
-\bibitem[Agostinelli et~al.(2003)Agostinelli, Allison, Amako, Apostolakis,
-  Araujo, Arce, Asai, Axen, Banerjee, Barrand, Behner, Bellagamba, Boudreau,
-  Broglia, Brunengo, Burkhardt, Chauvie, Chuma, Chytracek, Cooperman, Cosmo,
-  Degtyarenko, Dell'Acqua, Depaola, Dietrich, Enami, Feliciello, Ferguson,
-  Fesefeldt, Folger, Foppiano, Forti, Garelli, Giani, Giannitrapani, Gibin,
-  Cadenas, González, Abril, Greeniaus, Greiner, Grichine, Grossheim, Guatelli,
-  Gumplinger, Hamatsu, Hashimoto, Hasui, Heikkinen, Howard, Ivanchenko,
-  Johnson, Jones, Kallenbach, Kanaya, Kawabata, Kawabata, Kawaguti, Kelner,
-  Kent, Kimura, Kodama, Kokoulin, Kossov, Kurashige, Lamanna, Lampén, Lara,
-  Lefebure, Lei, Liendl, Lockman, Longo, Magni, Maire, Medernach, Minamimoto,
-  de~Freitas, Morita, Murakami, Nagamatu, Nartallo, Nieminen, Nishimura,
-  Ohtsubo, Okamura, O'Neale, Oohata, Paech, Perl, Pfeiffer, Pia, Ranjard,
-  Rybin, Sadilov, Salvo, Santin, Sasaki, Savvas, Sawada, Scherer, Sei,
-  Sirotenko, Smith, Starkov, Stoecker, Sulkimo, Takahata, Tanaka, Tcherniaev,
-  Tehrani, Tropeano, Truscott, Uno, Urban, Urban, Verderi, Walkden, Wander,
-  Weber, Wellisch, Wenaus, Williams, Wright, Yamada, Yoshida, and
-  Zschiesche]{Geant4}
-S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
-  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, F.~Behner, L.~Bellagamba,
-  J.~Boudreau, L.~Broglia, A.~Brunengo, H.~Burkhardt, S.~Chauvie, J.~Chuma,
-  R.~Chytracek, G.~Cooperman, G.~Cosmo, P.~Degtyarenko, A.~Dell'Acqua,
-  G.~Depaola, D.~Dietrich, R.~Enami, A.~Feliciello, C.~Ferguson, H.~Fesefeldt,
-  G.~Folger, F.~Foppiano, A.~Forti, S.~Garelli, S.~Giani, R.~Giannitrapani,
-  D.~Gibin, J.J.~Gómez Cadenas, I.~González, G.~Gracia Abril, G.~Greeniaus,
-  W.~Greiner, V.~Grichine, A.~Grossheim, S.~Guatelli, P.~Gumplinger,
-  R.~Hamatsu, K.~Hashimoto, H.~Hasui, A.~Heikkinen, A.~Howard, V.~Ivanchenko,
-  A.~Johnson, F.W. Jones, J.~Kallenbach, N.~Kanaya, M.~Kawabata, Y.~Kawabata,
-  M.~Kawaguti, S.~Kelner, P.~Kent, A.~Kimura, T.~Kodama, R.~Kokoulin,
-  M.~Kossov, H.~Kurashige, E.~Lamanna, T.~Lampén, V.~Lara, V.~Lefebure,
-  F.~Lei, M.~Liendl, W.~Lockman, F.~Longo, S.~Magni, M.~Maire, E.~Medernach,
-  K.~Minamimoto, P.~Mora de~Freitas, Y.~Morita, K.~Murakami, M.~Nagamatu,
-  R.~Nartallo, P.~Nieminen, T.~Nishimura, K.~Ohtsubo, M.~Okamura, S.~O'Neale,
-  Y.~Oohata, K.~Paech, J.~Perl, A.~Pfeiffer, M.G. Pia, F.~Ranjard, A.~Rybin,
-  S.~Sadilov, E.~Di Salvo, G.~Santin, T.~Sasaki, N.~Savvas, Y.~Sawada,
-  S.~Scherer, S.~Sei, V.~Sirotenko, D.~Smith, N.~Starkov, H.~Stoecker,
-  J.~Sulkimo, M.~Takahata, S.~Tanaka, E.~Tcherniaev, E.~Safai Tehrani,
-  M.~Tropeano, P.~Truscott, H.~Uno, L.~Urban, P.~Urban, M.~Verderi, A.~Walkden,
-  W.~Wander, H.~Weber, J.P. Wellisch, T.~Wenaus, D.C. Williams, D.~Wright,
-  T.~Yamada, H.~Yoshida, and D.~Zschiesche.
+\bibitem[Agostinelli et~al.(2003)Agostinelli, Allison, Amako, et~al.]{Geant4}
+S.~Agostinelli, J.~Allison, K.~Amako, et~al.
 \newblock Geant4—a simulation toolkit.
 \newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},

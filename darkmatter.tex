@@ -8,7 +8,7 @@ This thesis focus on using a luminosity at 1000 fb$^{-1}$ and a center of mass e
 
 The signal models are given in \appendixref{cha:datasets} along with the background models. The different models were introduced \subsectionref{sec:tb:subsec:eft} and will be discussed in more detail in this chapter.
 
-Each signal model has been evaluated in different signal regions and the detectability has been evaluated using a statistical P-value. This process has been performed at a pile-up value of 140, as expected for after the high luminosity upgrade. 
+Each signal model has been evaluated in different signal regions and the detectability has been evaluated using a statistical p-value. 
 
 \newpage
 \section{Signal to background ratio}
@@ -126,7 +126,7 @@ Each of these models are modelled with a mass suppression scale, denoted M*, whi
 \begin{equation}
 \sigma_{new} = \frac{\sigma_{old}}{M^*} 
 \end{equation}
-
+where $\sigma_{old}$ is the theoretically calculated sigma and $\sigma_{new}$ denotes the sigma which is used taking the mass suppression scale into account.
 In \subsectionref{sec:res:subsec:m*} it is determined which values of M* could be excluded with the upgraded \abbrLHC phase 2 upgrade and \abbrATLAS .
 
 \subsection{Light vector mediator models}\label{sec:signal:subsec:vecmed}
@@ -137,7 +137,7 @@ The result of the investigation of which models are excludable with the upgraded
 \newpage
 \section{Signal region definitions}
 \subsection{Signal regions}
-To be able to compare signal results to previous papers new signal regions were devised. It was also discovered that the requirement of no electrons or muons was to harsh for the signal models. Because of this new signal criteria were devised.
+To be able to compare signal results to previous studies new signal regions were devised. It was also discovered that the requirement of no electrons or muons was to harsh for the signal models. Through this these new selection criteria were devised. In \tableref{tab:newsr} the superscript lead denotes the the entity with highest transversal momentum $p_T$. Thus $electron^{lead}$ would be the simulated electron in an event with the highest $p_T$.
 
 \begin{table}[h]
 \begin{center}
@@ -147,9 +147,9 @@ Selection Criteria \\ \hline
 Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$ \\
 Lepton veto, no electron or muon. \\
 The electron veto is defined: $\Delta R (jet^{lead},electron^{lead})\geq 0.4$ and \\
-$electron^{lead} P_T>20 GeV$ removed.\\
+$electron^{lead} p_T>20 GeV$ removed.\\
 The muon veto is defined: $\Delta R (jet^{lead},muon^{lead})\geq 0.4$ and \\
-$muon^{lead} P_T>20 GeV$ removed.\\
+$muon^{lead} p_T>20 GeV$ removed.\\
 Leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ 
 \end{tabular}
 \begin{tabular}{l l l l l l}
@@ -163,8 +163,8 @@ signal region & SRa &  SRb & SRc & SRd \\ \hline
 minimum leading jet p$_T$ (GeV) & 350 & 350 & 350 & 350 \\
 minimum E$^{Miss}_T$ (GeV) & 350 & 600 & 800 & 1000 \\ \hline
 \end{tabular}
+\caption{The new signal regions.}
 \label{tab:newsr}
-\caption{The new signal regions}
 \end{center}
 \end{table}
 
