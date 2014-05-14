@@ -49,7 +49,7 @@ The signal regions used in the article were the following:
 Selection Criteria \\ \hline
 Jet veto, require no more than 2 jets with $p_T > 30 GeV$ and $|\eta| < 4.5$ \\
 Lepton veto, no electron or muon \\
-Leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ \hline
+Leading jet with $|\eta| < 2.0$ and $\Delta \varphi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ \hline
 \end{tabular}
 \begin{tabular}{l l l l l l}
 signal region & SR3p & SR4p \\ \hline
@@ -64,7 +64,7 @@ minimum E$^{Miss}_T$ (GeV) & 350 & 500 \\ \hline
 The article \citep{ATLAS-CONF-2012-147} has in total four signal regions, unfortunately since the simulated events used in this thesis are filtered before the analysis only the two highest regions are comparable. This can be seen in \tableref{tab:Compare1} in \subsectionref{Verifying background data}.
 
 \subsection{Errors in data}\label{subsec:errdata}
-To make a through analysis of the background it is important to take into consideration different errors that exist in the number of events. This is especially important when looking at which signals can be excluded in different signal regions.
+To make a thorough analysis of the background it is important to take into consideration different errors that exist in the number of events. This is especially important when looking at which signals can be excluded in different signal regions.
 There exists three main types of errors:
 \begin{itemize}
 \item Statistical errors from \abbrMC.
@@ -87,20 +87,19 @@ If no uncertainty in B or S is assumed, then the probability that the background
 \text{P(S+B|B)}=\frac{e^{-B}B^{(S+B)}}{(S+B)!}
 \end{equation} 
 
-The probability that the background will fluctuate to a value N larger or equal to the signal and background then becomes:
+The probability that the observed number of background events O will fluctuate to a value larger or equal to the signal and background then becomes:
 \begin{equation}
-\text{P(B$ \geq$S+B|B)} \equiv \text{P(N|B)}=\sum_{N=S+B}^{\infty}  \frac{e^{-B}B^N}{N!}
+\text{P(O$ \geq$S+B|B)} \equiv \text{P(N|B)}=\sum_{k=S+B}^{\infty}  \frac{e^{-B}B^k}{k!}
 \end{equation} 
 
-However since there is an uncertainty in the background, the probability distribution P(N|B) must be convoluted with a Gaussian function:
+However since there is an uncertainty in the background, the probability distribution P(N|B) must be weighted with a Gaussian function:
 \begin{equation}
- \text{G(N$_B$|B,$\sigma_B$)}=\frac{1}{\sigma_B \sqrt{2 \pi}} e^{-\frac{(N_B-B)^2}{2\sigma_B^2}}
+ \text{G(N$_B$|B,$\sigma_B$)}=\frac{1}{\sigma_B \sqrt{2 \pi}} e^{-\frac{(O-B)^2}{2\sigma_B^2}}
 \end{equation}
-where N$_B$ is the expected number of background events. The convolution is done using N$_B$ as B resulting in the total probability density function:
-\begin{align}
-\text{F(N|N$_B$},\sigma_B) &= \text{P(N|B)$\ast$G(N$_B$|B,$\sigma_B$)}= \notag \\
-&=\int\limits_{-\infty}^{\infty}P(N|N_B - B)G(N_B|B,\sigma_B) dN_B
-\end{align}
+where N$_B$ is the expected number of background events. Applying the weight results in the total probability density function:
+\begin{equation}
+\text{F(N|N$_B$},\sigma_B) =\int\limits_{-\infty}^{\infty}P(N|N_B)G(N_B|B,\sigma_B) dN_B
+\end{equation}
 Inserting the sum over N leads to the probability of the background fluctuation to signal and background being obtained as.
 \begin{equation}
 p = \sum\limits_{N=S+B}^{\infty} \int\limits_{-\infty}^{\infty} \text{P(N|N$_B - $B)G(N$_B$|B,$\sigma_B$)} dN_B
@@ -150,7 +149,7 @@ The electron veto is defined: $\Delta R (jet^{lead},electron^{lead})\geq 0.4$ an
 $electron^{lead} p_T>20 GeV$ removed.\\
 The muon veto is defined: $\Delta R (jet^{lead},muon^{lead})\geq 0.4$ and \\
 $muon^{lead} p_T>20 GeV$ removed.\\
-Leading jet with $|\eta| < 2.0$ and $\Delta \phi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ 
+Leading jet with $|\eta| < 2.0$ and $\Delta \varphi (jet, E_T^{Miss})>0.5$ (second-leading jet) \\ 
 \end{tabular}
 \begin{tabular}{l l l l l l}
 \hline
@@ -170,13 +169,6 @@ minimum E$^{Miss}_T$ (GeV) & 350 & 600 & 800 & 1000 \\ \hline
 
 \subsection{Verifying background data}
 To make sure that the altered electron veto still produces results comparable with \citep{ATLAS-CONF-2012-147} a comparison is made again. This can be seen in \subsectionref{Verifying background data} in \tableref{tab:newcomp}.
-
-\section{Mitigating the effect of the high luminosity}
-As discussed in \subsectionref{chap:vali:sec:dis:subsec:smearindep} the smearing functions effect of pile-up should be minimal in the high energy regions which are of interest in this thesis. 
-
-From the formulation of the smearing functions, the biggest effect should be seen at low energies. This is related to the difficulty for the hardware triggers to select events. This means that one drawback of the high luminosity upgrade is that very low energy signal regions will be lost.
-
-The effect of the high luminosity is seen in \chapterref{chap:sig:sec:res} and discussed in \subsectionref{subsec:hleff}.
 
 \newpage
 \section{Results}\label{chap:sig:sec:res}
@@ -382,11 +374,11 @@ For the vector mediator modes as described in \subsectionref{sec:signal:subsec:v
 
 
  \begin{figure}[H] %!ht
-    \subfloat[A signal model given in log-scale which is not blocked by the amound of background and is thus excludable. \label{fig:sigback:1}]{%
+    \subfloat[A signal model given in log-scale which is not blocked by the amount of background and is thus excludable. \label{fig:sigback:1}]{%
      \includegraphics[width=0.5\textwidth]{mediator2.pdf}
     }
     \hfill
-    \subfloat[A signal model given in log-scale which is blocked by the amound of background and is thus nonexcludable. \label{fig:sigbacktau:2}]{%
+    \subfloat[A signal model given in log-scale which is blocked by the amount of background and is thus nonexcludable. \label{fig:sigbacktau:2}]{%
       \includegraphics[width=0.5\textwidth]{mediator6.pdf}
     }
     \caption{Signal on background plot for E$^{Miss}_T$ on a reconstructed level in SR3 to illustrate a signal which is excludable and one which is not. }

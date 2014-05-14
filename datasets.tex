@@ -4,141 +4,141 @@
 All datasets used are d4pd which is a dataformat used at \abbrCERN.
 \subsection{Validation}
 For the validation the following datasets were used, with a filter at generator level at 450GeV for lead jet and MET. \\
-157539 sherpa ct10 znunupt280
-157534 sherpa  ct10  wenupt200\\
-157535 sherpa  ct10  wmunupt200\\
-157536 sherpa  ct10  wtaunupt200\\
-129160 pythia8  au2cteq6l1  perf  jf17\\
-129160 pythia8  au2cteq6l1  perf  jf17\\
-129170 pythia8  au2cteq6l1  gammajet  dp17
+157539 sherpa  znunupt280
+157534 sherpa    wenupt200\\
+157535 sherpa    wmunupt200\\
+157536 sherpa    wtaunupt200\\
+129160 pythia8    perf  jf17\\
+129160 pythia8    perf  jf17\\
+129170 pythia8    gammajet  dp17
 
 They should be read as such: Monte Carlo version, dataset number, generator, ? name.
 
 \subsection{Background to signals}
 The same as the above though now with the filter as indicated by their name. The second znunu sample has been generated with and center of mass energy at 8 TeV. 
 
-157539 sherpa  ct10  znunupt280\\
-157539 8tev  sherpa  ct10  znunupt280\\
-157536 sherpa  ct10  wtaunupt200\\
-157534 sherpa  ct10  wenupt200\\
-157535 sherpa  ct10  wmunupt200
+157539 sherpa    znunupt280\\
+157539 8tev  sherpa    znunupt280\\
+157536 sherpa    wtaunupt200\\
+157534 sherpa    wenupt200\\
+157535 sherpa    wmunupt200
 \section{Signals}
 \subsection{Qcut}
 Qcut means that the original data has been split into different parts depending on the value of the lead jet pt. 
 \subsection{D5 signal processes}
-188408 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut200\\
-188409 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut400\\
-188410 madgraphpythia  auet2bcteq6l1  d5  dm50  ms10000  qcut600
+188408 madgraphpythia    d5  dm50  ms10000  qcut200\\
+188409 madgraphpythia    d5  dm50  ms10000  qcut400\\
+188410 madgraphpythia    d5  dm50  ms10000  qcut600
 
-188411 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut200\\
-188412 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut400\\
-188413 madgraphpythia  auet2bcteq6l1  d5  dm400  ms10000  qcut600
+188411 madgraphpythia    d5  dm400  ms10000  qcut200\\
+188412 madgraphpythia    d5  dm400  ms10000  qcut400\\
+188413 madgraphpythia    d5  dm400  ms10000  qcut600
 
 \textbf{All signals should be read as such: Monte Carlo version, dataset number, generator, ?, name of operator,  dark matter mass, default mass suppression scale, qcut part.} As discussed in \textbf{reference} 
 \subsection{Light vector mediator processes}\label{livecmedpro}
-188414 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut200\\ 188422 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut400\\
-188430 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w3 qcut600
+188414 madgraphpythia  dmv dm50 mm100 w3 qcut200\\ 188422 madgraphpythia  dmv dm50 mm100 w3 qcut400\\
+188430 madgraphpythia  dmv dm50 mm100 w3 qcut600
  
-188415 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut200\\
-188423 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut400\\
-188431 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w3 qcut600
+188415 madgraphpythia  dmv dm50 mm300 w3 qcut200\\
+188423 madgraphpythia  dmv dm50 mm300 w3 qcut400\\
+188431 madgraphpythia  dmv dm50 mm300 w3 qcut600
 
-188416 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut200\\
-188424 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut400\\
-188432 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w3 qcut600
+188416 madgraphpythia  dmv dm50 mm500 w3 qcut200\\
+188424 madgraphpythia  dmv dm50 mm500 w3 qcut400\\
+188432 madgraphpythia  dmv dm50 mm500 w3 qcut600
 
-188417 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut200\\
-188425 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut400\\
-188433 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w3 qcut600
+188417 madgraphpythia  dmv dm50 mm1000 w3 qcut200\\
+188425 madgraphpythia  dmv dm50 mm1000 w3 qcut400\\
+188433 madgraphpythia  dmv dm50 mm1000 w3 qcut600
 
-188418 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut200\\
-188426 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut400\\
-188434 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w3 qcut600
+188418 madgraphpythia  dmv dm50 mm3000 w3 qcut200\\
+188426 madgraphpythia  dmv dm50 mm3000 w3 qcut400\\
+188434 madgraphpythia  dmv dm50 mm3000 w3 qcut600
 
-188419 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut200\\
-188427 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut400\\
-188435 madgraphpythia auet2bcteq6l1 dmv dm50 mm6000 w3 qcut600
+188419 madgraphpythia  dmv dm50 mm6000 w3 qcut200\\
+188427 madgraphpythia  dmv dm50 mm6000 w3 qcut400\\
+188435 madgraphpythia  dmv dm50 mm6000 w3 qcut600
 
-188420 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut200\\
-188428 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut400\\
-188436 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w3 qcut600
+188420 madgraphpythia  dmv dm50 mm10000 w3 qcut200\\
+188428 madgraphpythia  dmv dm50 mm10000 w3 qcut400\\
+188436 madgraphpythia  dmv dm50 mm10000 w3 qcut600
 
-188421 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut200\\
-188429 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut400\\
-188437 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w3 qcut600
+188421 madgraphpythia  dmv dm50 mm15000 w3 qcut200\\
+188429 madgraphpythia  dmv dm50 mm15000 w3 qcut400\\
+188437 madgraphpythia  dmv dm50 mm15000 w3 qcut600
 
-188438 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut200\\
-188446 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut400\\
-188454 madgraphpythia auet2bcteq6l1 dmv dm50 mm100 w8pi qcut600
+188438 madgraphpythia  dmv dm50 mm100 w8pi qcut200\\
+188446 madgraphpythia  dmv dm50 mm100 w8pi qcut400\\
+188454 madgraphpythia  dmv dm50 mm100 w8pi qcut600
 
-188439 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut200\\
-188447 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut400\\
-188455 madgraphpythia auet2bcteq6l1 dmv dm50 mm300 w8pi qcut600
+188439 madgraphpythia  dmv dm50 mm300 w8pi qcut200\\
+188447 madgraphpythia  dmv dm50 mm300 w8pi qcut400\\
+188455 madgraphpythia  dmv dm50 mm300 w8pi qcut600
 
-188440 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut200\\
-188448 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut400\\
-188456 madgraphpythia auet2bcteq6l1 dmv dm50 mm500 w8pi qcut600
+188440 madgraphpythia  dmv dm50 mm500 w8pi qcut200\\
+188448 madgraphpythia  dmv dm50 mm500 w8pi qcut400\\
+188456 madgraphpythia  dmv dm50 mm500 w8pi qcut600
 
-188441 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut200\\
-188449 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut400\\
-188457 madgraphpythia auet2bcteq6l1 dmv dm50 mm1000 w8pi qcut600
+188441 madgraphpythia  dmv dm50 mm1000 w8pi qcut200\\
+188449 madgraphpythia  dmv dm50 mm1000 w8pi qcut400\\
+188457 madgraphpythia  dmv dm50 mm1000 w8pi qcut600
 
-188442 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut200\\
-188450 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut400\\
-188458 madgraphpythia auet2bcteq6l1 dmv dm50 mm3000 w8pi qcut600
+188442 madgraphpythia  dmv dm50 mm3000 w8pi qcut200\\
+188450 madgraphpythia  dmv dm50 mm3000 w8pi qcut400\\
+188458 madgraphpythia  dmv dm50 mm3000 w8pi qcut600
 
-188444 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut200\\
-188452 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut400\\
-188460 madgraphpythia auet2bcteq6l1 dmv dm50 mm10000 w8pi qcut600
+188444 madgraphpythia  dmv dm50 mm10000 w8pi qcut200\\
+188452 madgraphpythia  dmv dm50 mm10000 w8pi qcut400\\
+188460 madgraphpythia  dmv dm50 mm10000 w8pi qcut600
 
-188445 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut200\\
-188453 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut400\\
-188461 madgraphpythia auet2bcteq6l1 dmv dm50 mm15000 w8pi qcut600
+188445 madgraphpythia  dmv dm50 mm15000 w8pi qcut200\\
+188453 madgraphpythia  dmv dm50 mm15000 w8pi qcut400\\
+188461 madgraphpythia  dmv dm50 mm15000 w8pi qcut600
 
-188462 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut200\\
-188468 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut400\\
-188474 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w3 qcut600
+188462 madgraphpythia  dmv dm400 mm500 w3 qcut200\\
+188468 madgraphpythia  dmv dm400 mm500 w3 qcut400\\
+188474 madgraphpythia  dmv dm400 mm500 w3 qcut600
 
-188463 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut200\\
-188469 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut400\\
-188475 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w3 qcut600
+188463 madgraphpythia  dmv dm400 mm1000 w3 qcut200\\
+188469 madgraphpythia  dmv dm400 mm1000 w3 qcut400\\
+188475 madgraphpythia  dmv dm400 mm1000 w3 qcut600
 
-188464 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut200\\
-188470 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut400\\
-188476 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w3 qcut600
+188464 madgraphpythia  dmv dm400 mm3000 w3 qcut200\\
+188470 madgraphpythia  dmv dm400 mm3000 w3 qcut400\\
+188476 madgraphpythia  dmv dm400 mm3000 w3 qcut600
 
-188465 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut200\\
-188471 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut400\\
-188477 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w3 qcut600
+188465 madgraphpythia  dmv dm400 mm6000 w3 qcut200\\
+188471 madgraphpythia  dmv dm400 mm6000 w3 qcut400\\
+188477 madgraphpythia  dmv dm400 mm6000 w3 qcut600
 
-188466 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut200\\
-188472 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut400\\
-188478 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w3 qcut600
+188466 madgraphpythia  dmv dm400 mm10000 w3 qcut200\\
+188472 madgraphpythia  dmv dm400 mm10000 w3 qcut400\\
+188478 madgraphpythia  dmv dm400 mm10000 w3 qcut600
 
-188467 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut200\\
-188473 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut400\\
-188479 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w3 qcut600
+188467 madgraphpythia  dmv dm400 mm15000 w3 qcut200\\
+188473 madgraphpythia  dmv dm400 mm15000 w3 qcut400\\
+188479 madgraphpythia  dmv dm400 mm15000 w3 qcut600
 
-188480 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut200\\
-188486 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut400\\
-188492 madgraphpythia auet2bcteq6l1 dmv dm400 mm500 w8pi qcut600
+188480 madgraphpythia  dmv dm400 mm500 w8pi qcut200\\
+188486 madgraphpythia  dmv dm400 mm500 w8pi qcut400\\
+188492 madgraphpythia  dmv dm400 mm500 w8pi qcut600
 
-188481 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut200\\
-188487 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut400\\
-188493 madgraphpythia auet2bcteq6l1 dmv dm400 mm1000 w8pi qcut600
+188481 madgraphpythia  dmv dm400 mm1000 w8pi qcut200\\
+188487 madgraphpythia  dmv dm400 mm1000 w8pi qcut400\\
+188493 madgraphpythia  dmv dm400 mm1000 w8pi qcut600
 
-188482 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut200\\
-188488 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut400\\
-188494 madgraphpythia auet2bcteq6l1 dmv dm400 mm3000 w8pi qcut600
+188482 madgraphpythia  dmv dm400 mm3000 w8pi qcut200\\
+188488 madgraphpythia  dmv dm400 mm3000 w8pi qcut400\\
+188494 madgraphpythia  dmv dm400 mm3000 w8pi qcut600
 
-188483 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut200\\
-188489 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut400\\
-188495 madgraphpythia auet2bcteq6l1 dmv dm400 mm6000 w8pi qcut600
+188483 madgraphpythia  dmv dm400 mm6000 w8pi qcut200\\
+188489 madgraphpythia  dmv dm400 mm6000 w8pi qcut400\\
+188495 madgraphpythia  dmv dm400 mm6000 w8pi qcut600
 
-188484 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut200\\
-188490 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut400\\
-188496 madgraphpythia auet2bcteq6l1 dmv dm400 mm10000 w8pi qcut600
+188484 madgraphpythia  dmv dm400 mm10000 w8pi qcut200\\
+188490 madgraphpythia  dmv dm400 mm10000 w8pi qcut400\\
+188496 madgraphpythia  dmv dm400 mm10000 w8pi qcut600
 
-188485 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut200\\
-188491 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut400\\
-188497 madgraphpythia auet2bcteq6l1 dmv dm400 mm15000 w8pi qcut600
+188485 madgraphpythia  dmv dm400 mm15000 w8pi qcut200\\
+188491 madgraphpythia  dmv dm400 mm15000 w8pi qcut400\\
+188497 madgraphpythia  dmv dm400 mm15000 w8pi qcut600
