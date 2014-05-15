@@ -1,144 +1,191 @@
 \chapter{Datasets}\label{cha:datasets}
-\textbf{Disclaimer: This appendix is not yet complete.}
-\section{Background processes}
-All datasets used are d4pd which is a dataformat used at \abbrCERN.
-\subsection{Validation}
-For the validation the following datasets were used, with a filter at generator level at 450GeV for lead jet and MET. \\
-157539 sherpa  znunupt280
-157534 sherpa    wenupt200\\
-157535 sherpa    wmunupt200\\
-157536 sherpa    wtaunupt200\\
-129160 pythia8    perf  jf17\\
-129160 pythia8    perf  jf17\\
-129170 pythia8    gammajet  dp17
-
-They should be read as such: Monte Carlo version, dataset number, generator, ? name.
-
-\subsection{Background to signals}
-The same as the above though now with the filter as indicated by their name. The second znunu sample has been generated with and center of mass energy at 8 TeV. 
-
-157539 sherpa    znunupt280\\
-157539 8tev  sherpa    znunupt280\\
-157536 sherpa    wtaunupt200\\
-157534 sherpa    wenupt200\\
-157535 sherpa    wmunupt200
+\section{Background processes}\label{1backpro}
+All datasets used are d4pd which is a data format used at \abbrCERN.
+\subsection{Validation}\label{valipro}
+For the validation the following datasets were used.
+\begin{table}[h]
+\renewcommand{\arraystretch}{1.5} %Change back
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\abbrATLAS dataset & Process & Generator & Boson $p_T$ cut [GeV] \\ \hline
+157539&  $Z \rightarrow \nu \nu $ & \sc{sherpa}& 450 \\
+157534& $W \rightarrow e \nu $ & \sc{sherpa} & 450\\
+157535& $W \rightarrow \tau \nu $ &\sc{sherpa}&450\\
+157536& $W \rightarrow \tau \nu $ &\sc{sherpa}&450\\
+129160& Jet sample &\sc{pythia8}&450\\
+129170& $\gamma + $ jet sample&\sc{pythia8}&450 \\ \hline
+\end{tabular}
+\caption{Validation samples used. Boson cut indicates a cut on lead jet and E$^{Miss}_T$.}
+\end{center}
+\renewcommand{\arraystretch}{1.0} %Change back
+\end{table}
+\newpage
+\subsection{Background for signals}\label{backpro}
+\renewcommand{\arraystretch}{1.5} %Change back
+\begin{table}[h]
+\begin{center}
+\scalebox{0.9}{
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\abbrATLAS dataset & Process & Generator & Boson $p_T$ cut [GeV] & Cross-section [pb] \\ \hline
+157539&  $Z \rightarrow \nu \nu $ & \sc{sherpa}& 280 & $5.67$\\
+157534& $W \rightarrow e \nu $ & \sc{sherpa} & 200 & $27.77$\\
+157535& $W \rightarrow \tau \nu $ &\sc{sherpa}&200 & $27.74$\\
+157536& $W \rightarrow \tau \nu $ &\sc{sherpa}&200 & $27.74$\\ \hline
+\end{tabular}
+}
+\caption{Background samples used. Boson cut indicates a cut on lead jet and E$^{Miss}_T$. The cross-sections are given at $\sqrt{s}=14$ TeV.} 
+\end{center}
+\end{table}
+\renewcommand{\arraystretch}{1.0} %Change back
 \section{Signals}
 \subsection{Qcut}
-Qcut means that the original data has been split into different parts depending on the value of the lead jet pt. 
-\subsection{D5 signal processes}
-188408 madgraphpythia    d5  dm50  ms10000  qcut200\\
-188409 madgraphpythia    d5  dm50  ms10000  qcut400\\
-188410 madgraphpythia    d5  dm50  ms10000  qcut600
-
-188411 madgraphpythia    d5  dm400  ms10000  qcut200\\
-188412 madgraphpythia    d5  dm400  ms10000  qcut400\\
-188413 madgraphpythia    d5  dm400  ms10000  qcut600
-
-\textbf{All signals should be read as such: Monte Carlo version, dataset number, generator, ?, name of operator,  dark matter mass, default mass suppression scale, qcut part.} As discussed in \textbf{reference} 
+Qcut means that the original data has been split into different intervals depending on the value of the lead jet pt. Each of the different contributions need to be summed to get the full signal.
+\subsection{D5 signal processes}\label{d5pro}
+\renewcommand{\arraystretch}{1.5} %Change back
+\begin{table}[h]
+\begin{center}
+\scalebox{0.8}{
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\abbrATLAS dataset & Generator & m$_{\chi}$ [GeV] & M* [GeV] & $Q_{cut}$ [GeV] & Cross-section [pb] \\ \hline
+188408 &\sc{Madgraph+phythia}&50&10000&  200 & $4.34 \cdot 10^{-5}$\\
+188409 &\sc{Madgraph+phythia}&50&10000&  400 & $1.09 \cdot 10^{-5}$\\
+188410 &\sc{Madgraph+phythia}&50&10000&  600 & $5.61 \cdot 10^{-6}$\\ \hline
+188411 &\sc{Madgraph+phythia}&400&10000&  200& $3.42 \cdot 10^{-5}$\\
+188412 &\sc{Madgraph+phythia}&400&10000&  400& $8.51 \cdot 10^{-6}$\\
+188413 &\sc{Madgraph+phythia}&400&10000&  600& $4.70 \cdot 10^{-6}$\\ \hline
+\end{tabular}
+}
+\caption{Datasets based on the D5-operator.}
+\label{tab:d5data}
+\end{center}
+\end{table}
+\renewcommand{\arraystretch}{1.0} %Change back
 \subsection{Light vector mediator processes}\label{livecmedpro}
-188414 madgraphpythia  dmv dm50 mm100 w3 qcut200\\ 188422 madgraphpythia  dmv dm50 mm100 w3 qcut400\\
-188430 madgraphpythia  dmv dm50 mm100 w3 qcut600
+\small
+\begin{landscape}
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{|l|l|l|l|l|l|l|}
+\begin{longtable}{|l|l|l|l|l|l|l|}
+\hline
+\abbrATLAS dataset & Generator & m$_{\chi}$ [GeV] & Mediator mass [GeV] & Width [GeV] & $Q_{cut}$ [GeV] & Cross-section [pb] \\ \hline
+
+188414 &\sc{Madgraph+phythia}&   50 &100 &M/3 &200& $33.80$\\ 
+188422 &\sc{Madgraph+phythia}&   50 &100 &M/3 &400&$2.86$\\
+188430 &\sc{Madgraph+phythia}&   50 &100 &M/3 &600& $0.70$\\
  
-188415 madgraphpythia  dmv dm50 mm300 w3 qcut200\\
-188423 madgraphpythia  dmv dm50 mm300 w3 qcut400\\
-188431 madgraphpythia  dmv dm50 mm300 w3 qcut600
+188415 &\sc{Madgraph+phythia}&   50 &300 &M/3 &200&$17.40$\\
+188423 &\sc{Madgraph+phythia}&   50 &300 &M/3 &400&$2.00$\\
+188431 &\sc{Madgraph+phythia}&   50 &300 &M/3 &600&$0.53$\\
 
-188416 madgraphpythia  dmv dm50 mm500 w3 qcut200\\
-188424 madgraphpythia  dmv dm50 mm500 w3 qcut400\\
-188432 madgraphpythia  dmv dm50 mm500 w3 qcut600
+188416 &\sc{Madgraph+phythia}&   50 &500 &M/3 &200&$8.09$\\
+188424 &\sc{Madgraph+phythia}&   50 &500 &M/3 &400&$0.95$\\
+188432 &\sc{Madgraph+phythia}&   50 &500 &M/3 &600&$0.30$\\
 
-188417 madgraphpythia  dmv dm50 mm1000 w3 qcut200\\
-188425 madgraphpythia  dmv dm50 mm1000 w3 qcut400\\
-188433 madgraphpythia  dmv dm50 mm1000 w3 qcut600
+188417 &\sc{Madgraph+phythia}&   50 &1000 &M/3 &200&$0.99$\\
+188425 &\sc{Madgraph+phythia}&   50 &1000 &M/3 &400&$0.20$\\
+188433 &\sc{Madgraph+phythia}&   50 &1000 &M/3 &600&$8.56 \cdot 10^{-2}$\\
 
-188418 madgraphpythia  dmv dm50 mm3000 w3 qcut200\\
-188426 madgraphpythia  dmv dm50 mm3000 w3 qcut400\\
-188434 madgraphpythia  dmv dm50 mm3000 w3 qcut600
+188418 &\sc{Madgraph+phythia}&   50 &3000 &M/3 &200&$1.30 \cdot 10^{-2}$\\
+188426 &\sc{Madgraph+phythia}&   50 &3000 &M/3 &400&$3.21 \cdot 10^{-3}$\\
+188434 &\sc{Madgraph+phythia}&   50 &3000 &M/3 &600&$1.85 \cdot 10^{-3}$\\
 
-188419 madgraphpythia  dmv dm50 mm6000 w3 qcut200\\
-188427 madgraphpythia  dmv dm50 mm6000 w3 qcut400\\
-188435 madgraphpythia  dmv dm50 mm6000 w3 qcut600
+188419 &\sc{Madgraph+phythia}&   50 &6000 &M/3 &200&$4.31 \cdot 10^{-4}$\\
+188427 &\sc{Madgraph+phythia}&   50 &6000 &M/3 &400&$1.01 \cdot 10^{-4}$\\
+188435 &\sc{Madgraph+phythia}&   50 &6000  &M/3 &600&$5.46 \cdot 10^{-5}$\\
 
-188420 madgraphpythia  dmv dm50 mm10000 w3 qcut200\\
-188428 madgraphpythia  dmv dm50 mm10000 w3 qcut400\\
-188436 madgraphpythia  dmv dm50 mm10000 w3 qcut600
+188420 &\sc{Madgraph+phythia}&   50 &10000 &M/3 &200&$4.82 \cdot 10^{-5}$\\
+188428 &\sc{Madgraph+phythia}&   50 &10000 &M/3 &400&$1.08 \cdot 10^{-5}$\\
+188436 &\sc{Madgraph+phythia}&   50 &10000 &M/3 &600&$5.55 \cdot 10^{-6}$\\
 
-188421 madgraphpythia  dmv dm50 mm15000 w3 qcut200\\
-188429 madgraphpythia  dmv dm50 mm15000 w3 qcut400\\
-188437 madgraphpythia  dmv dm50 mm15000 w3 qcut600
+188421 &\sc{Madgraph+phythia}&   50 &15000 &M/3 &200&$9.07 \cdot 10^{-6}$\\
+188429 &\sc{Madgraph+phythia}&   50 &15000 &M/3 &400&$2.02 \cdot 10^{-6}$\\
+188437 &\sc{Madgraph+phythia}&   50 &15000 &M/3 &600&$1.04 \cdot 10^{-6}$\\ \hline
 
-188438 madgraphpythia  dmv dm50 mm100 w8pi qcut200\\
-188446 madgraphpythia  dmv dm50 mm100 w8pi qcut400\\
-188454 madgraphpythia  dmv dm50 mm100 w8pi qcut600
+188438 &\sc{Madgraph+phythia}&   50 &100 &M/8pi &200&$115.55$\\
+188446 &\sc{Madgraph+phythia}&   50 &100 &M/8pi &400&$9.17$\\
+188454 &\sc{Madgraph+phythia}&   50 &100 &M/8pi &600&$2.23$\\
 
-188439 madgraphpythia  dmv dm50 mm300 w8pi qcut200\\
-188447 madgraphpythia  dmv dm50 mm300 w8pi qcut400\\
-188455 madgraphpythia  dmv dm50 mm300 w8pi qcut600
+188439 &\sc{Madgraph+phythia}&   50 &300 &M/8pi &200&$168.40$\\
+188447 &\sc{Madgraph+phythia}&   50 &300 &M/8pi &400&$18.46$\\
+188455 &\sc{Madgraph+phythia}&   50 &300 &M/8pi &600&$4.66$\\
 
-188440 madgraphpythia  dmv dm50 mm500 w8pi qcut200\\
-188448 madgraphpythia  dmv dm50 mm500 w8pi qcut400\\
-188456 madgraphpythia  dmv dm50 mm500 w8pi qcut600
+188440 &\sc{Madgraph+phythia}&   50 &500 &M/8pi &200&$64.12$\\
+188448 &\sc{Madgraph+phythia}&   50 &500 &M/8pi &400&$9.30$\\
+188456 &\sc{Madgraph+phythia}&   50 &500 &M/8pi &600&$2.84$\\
 
-188441 madgraphpythia  dmv dm50 mm1000 w8pi qcut200\\
-188449 madgraphpythia  dmv dm50 mm1000 w8pi qcut400\\
-188457 madgraphpythia  dmv dm50 mm1000 w8pi qcut600
+188441 &\sc{Madgraph+phythia}&   50 &1000 &M/8pi &200&$9.43$\\
+188449 &\sc{Madgraph+phythia}&   50 &1000 &M/8pi &400&$2.02$\\
+188457 &\sc{Madgraph+phythia}&   50 &1000 &M/8pi &600&$0.87$\\
 
-188442 madgraphpythia  dmv dm50 mm3000 w8pi qcut200\\
-188450 madgraphpythia  dmv dm50 mm3000 w8pi qcut400\\
-188458 madgraphpythia  dmv dm50 mm3000 w8pi qcut600
+188442 &\sc{Madgraph+phythia}&   50 &3000 &M/8pi &200&$8.21 \cdot 10^{-2}$\\
+188450 &\sc{Madgraph+phythia}&   50 &3000 &M/8pi &400&$2.25 \cdot 10^{-2}$\\
+188458 &\sc{Madgraph+phythia}&   50 &3000 &M/8pi &600&$1.41 \cdot 10^{-2}$\\
 
-188444 madgraphpythia  dmv dm50 mm10000 w8pi qcut200\\
-188452 madgraphpythia  dmv dm50 mm10000 w8pi qcut400\\
-188460 madgraphpythia  dmv dm50 mm10000 w8pi qcut600
+188444 &\sc{Madgraph+phythia}&   50 &10000 &M/8pi &200&$5.30 \cdot 10^{-5}$\\
+188452 &\sc{Madgraph+phythia}&   50 &10000 &M/8pi &400&$1.20 \cdot 10^{-5}$\\
+188460 &\sc{Madgraph+phythia}&   50 &10000 &M/8pi &600&$6.22 \cdot 10^{-6}$\\
 
-188445 madgraphpythia  dmv dm50 mm15000 w8pi qcut200\\
-188453 madgraphpythia  dmv dm50 mm15000 w8pi qcut400\\
-188461 madgraphpythia  dmv dm50 mm15000 w8pi qcut600
+188445 &\sc{Madgraph+phythia}&   50 &15000 &M/8pi &200&$1.01 \cdot 10^{-5}$\\
+188453 &\sc{Madgraph+phythia}&   50 &15000 &M/8pi &400&$2.24 \cdot 10^{-6}$\\
+188461 &\sc{Madgraph+phythia}&   50 &15000 &M/8pi &600&$1.16 \cdot 10^{-6}$\\ \hline
 
-188462 madgraphpythia  dmv dm400 mm500 w3 qcut200\\
-188468 madgraphpythia  dmv dm400 mm500 w3 qcut400\\
-188474 madgraphpythia  dmv dm400 mm500 w3 qcut600
+188462 &\sc{Madgraph+phythia}&   400 &500 &M/3 &200&$0.20$\\
+188468 &\sc{Madgraph+phythia}&   400 &500 &M/3 &400&$3.84 \cdot 10^{-2}$\\
+188474 &\sc{Madgraph+phythia}&   400 &500 &M/3 &600&$1.71 \cdot 10^{-2}$\\
 
-188463 madgraphpythia  dmv dm400 mm1000 w3 qcut200\\
-188469 madgraphpythia  dmv dm400 mm1000 w3 qcut400\\
-188475 madgraphpythia  dmv dm400 mm1000 w3 qcut600
+188463 &\sc{Madgraph+phythia}&   400 &1000 &M/3 &200&$0.59$\\
+188469 &\sc{Madgraph+phythia}&   400 &1000 &M/3 &400&$0.13$\\
+188475 &\sc{Madgraph+phythia}&   400 &1000 &M/3 &600&$5.80 \cdot 10^{-2}$\\
 
-188464 madgraphpythia  dmv dm400 mm3000 w3 qcut200\\
-188470 madgraphpythia  dmv dm400 mm3000 w3 qcut400\\
-188476 madgraphpythia  dmv dm400 mm3000 w3 qcut600
+188464 &\sc{Madgraph+phythia}&   400 &3000 &M/3 &200&$1.12 \cdot 10^{-2}$\\
+188470 &\sc{Madgraph+phythia}&   400 &3000 &M/3 &400&$2.92 \cdot 10^{-3}$\\
+188476 &\sc{Madgraph+phythia}&   400 &3000 &M/3 &600&$1.74 \cdot 10^{-3}$\\
 
-188465 madgraphpythia  dmv dm400 mm6000 w3 qcut200\\
-188471 madgraphpythia  dmv dm400 mm6000 w3 qcut400\\
-188477 madgraphpythia  dmv dm400 mm6000 w3 qcut600
+188465 &\sc{Madgraph+phythia}&   400 &6000 &M/3 &200&$3.29 \cdot 10^{-4}$\\
+188471 &\sc{Madgraph+phythia}&   400 &6000 &M/3 &400&$8.35 \cdot 10^{-5}$\\
+188477 &\sc{Madgraph+phythia}&   400 &6000 &M/3 &600&$5.81 \cdot 10^{-5}$\\
 
-188466 madgraphpythia  dmv dm400 mm10000 w3 qcut200\\
-188472 madgraphpythia  dmv dm400 mm10000 w3 qcut400\\
-188478 madgraphpythia  dmv dm400 mm10000 w3 qcut600
+188466 &\sc{Madgraph+phythia}&   400 &10000 &M/3 &200&$3.43 \cdot 10^{-5}$\\
+188472 &\sc{Madgraph+phythia}&   400 &10000 &M/3 &400&$8.50 \cdot 10^{-6}$\\
+188478 &\sc{Madgraph+phythia}&   400 &10000 &M/3 &600&$4.76 \cdot 10^{-6}$\\
 
-188467 madgraphpythia  dmv dm400 mm15000 w3 qcut200\\
-188473 madgraphpythia  dmv dm400 mm15000 w3 qcut400\\
-188479 madgraphpythia  dmv dm400 mm15000 w3 qcut600
+188467 &\sc{Madgraph+phythia}&   400 &15000 &M/3 &200&$6.41 \cdot 10^{-6}$\\
+188473 &\sc{Madgraph+phythia}&   400 &15000 &M/3 &400&$1.58 \cdot 10^{-6}$\\
+188479 &\sc{Madgraph+phythia}&   400 &15000 &M/3 &600&$8.80 \cdot 10^{-7}$\\ \hline
 
-188480 madgraphpythia  dmv dm400 mm500 w8pi qcut200\\
-188486 madgraphpythia  dmv dm400 mm500 w8pi qcut400\\
-188492 madgraphpythia  dmv dm400 mm500 w8pi qcut600
+188480 &\sc{Madgraph+phythia}&   400 &500 &M/8pi &200&$0.18$\\
+188486 &\sc{Madgraph+phythia}&   400 &500 &M/8pi &400&$3.87 \cdot 10^{-2}$\\
+188492 &\sc{Madgraph+phythia}&   400 &500 &M/8pi &600&$1.72 \cdot 10^{-2}$\\
 
-188481 madgraphpythia  dmv dm400 mm1000 w8pi qcut200\\
-188487 madgraphpythia  dmv dm400 mm1000 w8pi qcut400\\
-188493 madgraphpythia  dmv dm400 mm1000 w8pi qcut600
+188481 &\sc{Madgraph+phythia}&   400 &1000 &M/8pi &200&$7.23$\\
+188487 &\sc{Madgraph+phythia}&   400 &1000 &M/8pi &400&$1.54$\\
+188493 &\sc{Madgraph+phythia}&   400 &1000 &M/8pi &600&$0.67$\\
 
-188482 madgraphpythia  dmv dm400 mm3000 w8pi qcut200\\
-188488 madgraphpythia  dmv dm400 mm3000 w8pi qcut400\\
-188494 madgraphpythia  dmv dm400 mm3000 w8pi qcut600
+188482 &\sc{Madgraph+phythia}&   400 &3000 &M/8pi &200&$8.05 \cdot 10^{-2}$\\
+188488 &\sc{Madgraph+phythia}&   400 &3000 &M/8pi &400&$2.20 \cdot 10^{-2}$\\
+188494 &\sc{Madgraph+phythia}&   400 &3000 &M/8pi &600&$1.39 \cdot 10^{-2}$\\
 
-188483 madgraphpythia  dmv dm400 mm6000 w8pi qcut200\\
-188489 madgraphpythia  dmv dm400 mm6000 w8pi qcut400\\
-188495 madgraphpythia  dmv dm400 mm6000 w8pi qcut600
+188483 &\sc{Madgraph+phythia}&   400 &6000 &M/8pi &200&$5.48 \cdot 10^{-4}$\\
+188489 &\sc{Madgraph+phythia}&   400 &6000 &M/8pi &400&$1.44 \cdot 10^{-4}$\\
+188495 &\sc{Madgraph+phythia}&   400 &6000 &M/8pi &600&$8.68 \cdot 10^{-5}$\\
 
-188484 madgraphpythia  dmv dm400 mm10000 w8pi qcut200\\
-188490 madgraphpythia  dmv dm400 mm10000 w8pi qcut400\\
-188496 madgraphpythia  dmv dm400 mm10000 w8pi qcut600
+188484 &\sc{Madgraph+phythia}&   400 &10000 &M/8pi &200&$3.80 \cdot 10^{-5}$\\
+188490 &\sc{Madgraph+phythia}&   400 &10000 &M/8pi &400&$9.54 \cdot 10^{-6}$\\
+188496 &\sc{Madgraph+phythia}&   400 &10000 &M/8pi &600&$5.35 \cdot 10^{-6}$\\
 
-188485 madgraphpythia  dmv dm400 mm15000 w8pi qcut200\\
-188491 madgraphpythia  dmv dm400 mm15000 w8pi qcut400\\
-188497 madgraphpythia  dmv dm400 mm15000 w8pi qcut600
+188485 &\sc{Madgraph+phythia}&   400 &15000 &M/8pi &200&$7.17 \cdot 10^{-6}$\\
+188491 &\sc{Madgraph+phythia}&   400 &15000 &M/8pi &400&$1.78 \cdot 10^{-6}$\\
+188497 &\sc{Madgraph+phythia}&   400 &15000 &M/8pi &600&$9.78 \cdot 10^{-7}$\\ \hline
+
+%\end{tabular}
+\caption{Datasets based on the light vector mediator model.}
+\label{tab:vecmeddata}
+%\end{center}
+%\end{table}
+\end{longtable}
+
+\end{landscape}
