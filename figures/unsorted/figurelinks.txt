@@ -1,2 +1,0 @@
-SUSY-feynman diagram
-https://twiki.cern.ch/twiki/bin/view/AtlasProtected/SUSYFeynmanDiagrams
