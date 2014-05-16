@@ -1,7 +1,7 @@
 \chapter{Validation of smearing functions}\label{cha:vali}
-A full detector simulation of the \abbrATLAS detector based on the GEANT \citep{Geant4} program makes it possible to obtain the expected detector responses to electrons, muons, tau leptons, photons ($\gamma$) and jets of hadrons. However these simulations are extremely time-consuming and require a lot of computing power. Also at the present time only a limited set of these simulations exits for the \abbrATLAS phase II upgrade.
+A full detector simulation of the \abbrATLAS detector based on the GEANT \citep{Geant4} program makes it possible to obtain the expected detector responses to electrons, muons, tau leptons, photons ($\gamma$) and jets of hadrons. However these simulations are extremely time-consuming and require a lot of computing power. Also at the present time only a limited set of these simulations exits for the \abbrATLAS phase II upgrade. In this thesis a different strategy is used. 
 
-In this thesis a different strategy is used. Instead of performing a full detector simulation the observed particles from the event generator, which simulates the proton-proton collisions, have their energy and momenta values smeared up or down by using a probability distribution following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the reconstruction is affected by the increased luminosity and the pile-up which comes with this. 
+Instead of performing a full detector simulation the observed particles from the event generator, which simulates the proton-proton collisions, have their energy and momenta values smeared up or down by using a probability distribution following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the reconstruction is affected by the increased luminosity and the pile-up which comes with this. 
 
 The resolution functions or smearing functions are the official functions developed from previous studies \citep{ATLAS:LOI2, ATL-PHYS-PUB-2013-004} by the \abbrATLAS collaboration for the study of the \abbrATLAS phase II upgrade. The key result of those studies was that the direction of the momenta is unaffected and that only jets and $E^{Miss}_T$ are affected by pile-up. Since this was confirmed in previous studies it was not incorporated into the smearing functions as discussed more in \sectionref{sec:smear}.
 
@@ -11,9 +11,9 @@ Since part of this thesis work is to take the official \abbrATLAS smearing funct
 \section{Smearing functions}\label{sec:smear}
 In a simulation of a proton-proton collision all quantities such as energy, momentum and direction of all produced particles are perfectly known. In a real experiment it is only possible to get measured values from the detector. The detector energy and momentum resolutions given in the smearing functions relate the measured values to the true values on a statistical basis as:
 \begin{equation}\label{eq:smear}
-E' = E + \delta E \equiv E + \sigma
+E' = E + \Delta E \equiv E + \sigma
 \end{equation}
-where $E$ is the energy at a truth level and $E'$ is the smeared energy and $\delta E$ or $\sigma$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle.
+where $E$ is the energy at a truth level and $E'$ is the smeared energy and $\Delta E$ or $\sigma$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle.
 
 The smearing functions are designed so that they take into account the efficiency of the different detectors, how they are constructed as well as their dependence on pile-up. To emulate the measured energies and momenta, the true values are smeared using the known detector resolutions given in \tableref{tab:expected sigma} which is taken from \citep{ATL-PHYS-PUB-2013-004}. 
 
@@ -102,12 +102,12 @@ The electron and photon have the same smearing since both of their energies are 
 \subsection{Muon}
 The identification of muons relies on isolated tracks in the inner detector  being matched with information in the muon system. Since the muon system is the outer most detector seen from the collision point the effects of pile-up are negligible.  
 \subsection{Tau}\label{sec:smear:subsec:tau}
-Tau is detected similarly to electron and photon.
+Tau is detected similarly to the electron.
 In this thesis all tau processes are for simplicity assumed to be at 3 prong. Where prong refers to the number of tracks from which they were reconstructed. Such as tau decaying to 3 pions and a tau neutrion. $\tau ^{-} \rightarrow \pi ^{-} \pi ^{-} \pi ^{+} \nu _{\tau}$
 
 This in turn means that the effect of pile-up will be worse compared to an electron as a triplet must be found in an increased number of tracks.
 \subsection{Jets}\label{sec:smear:subsec:jets}
-Jets as described in \subsectionref{sec:tb:subsec:jets} as a cone of hadronic particles. 
+Jets as described in \subsectionref{sec:tb:subsec:jets} are a cones of hadronic particles. 
 
 The largest effect of pile-up is to add additional jets in the ATLAS detector. These additional jets contribute to additional energy deposited inside the existing jets and to $E^{Miss}_T$.
 \subsection{Missing Transverse Energy}
@@ -261,7 +261,7 @@ The smearing functions are divided into four different regions depending on the 
 \end{figure}
 In \figureref{fig:jet} the Gaussian fit (red) and the data (black) are given for the jet momenta. Where $\obs{\mu}$ is the average number of simultaneous proton-proton collisions as explained in \subsectionref{sec:eo:subsec:pile}.
 \subsection{Missing Transversal Energy}
-The figures in this subsection are, compared to the above, given as absolute smearing. The central x value of 0 it represents that the energy is unsmeared, compared to the others where the central x value value represents the unsmeared energy.
+The figures in this subsection are, compared to the above, given as absolute smearing. The central x value of 0 represents that the energy is unsmeared, compared to the others where the central x value value represents the unsmeared energy. The unsmeared energy used here is 750 GeV.
 
 Here the $E_T^{Miss}$ is projected down to the x- and y-axis, since these are the transverse axes, to be smeared. 
  \begin{figure}[H] %!ht
@@ -311,19 +311,19 @@ Tau& All $\eta$&60&$10.9 \pm 0.3$&10.3\\ \hline
 \label{tab:sigmaval}
 \end{table}
 \renewcommand{\arraystretch}{1.0} %Change back
-In \tableref{tab:sigmaval} all values are given as absolute, not relative and the large difference between calculated and expected $\sigma$ for Muons and $E_T^{Miss}$ is explained by to optimistically calculated errors in $\sigma$.
+In \tableref{tab:sigmaval} all values are given as absolute, not relative and the large difference between calculated and expected $\sigma$ for Muons and $E_T^{Miss}$ is explained by too optimistically calculated errors in $\sigma$.
 
 \newpage
 \section{Discussion}\label{chap:vali:sec:dis}
 \subsection{Dependence of smearing on pile-up}\label{chap:vali:sec:dis:subsec:smearindep}
-From the validation done it is interesting to note that the smearing functions were created from previous studies \citep{Electronperf:2011, ATLAS:LOI2} had shown that detector resolution for leptons and photons is unaffected by pile-up. This may seem unexpected however it becomes quite logical when one understands how the detectors work and the effect of pile-up.
+From the validation done it is interesting to note that the smearing functions were created from previous studies \citep{Electronperf:2011, ATLAS:LOI2} which show that detector resolution for leptons and photons is unaffected by pile-up. This may seem unexpected however it becomes quite logical when one understands how the detectors work and the effect of pile-up.
 
-The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which is consistent with these particles since there are more hits. However by restricting which deposits to consider it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they relay heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the the formulas in \tableref{tab:expected sigma} it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
+The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which are consistent with these particles, since there are more hits. However by restricting which deposits to consider it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they rely heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the the formulas in \tableref{tab:expected sigma} it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
 
 \subsection{Comparison to expected results}
-One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult, specifically by calculating optimistic errors. Also a large contribution to the difficulty of calculating the significance lay in this being a statistical property and thus there is a statistical fluctuation in the result. 
+One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult, specifically by calculating optimistic errors. A large contribution to the difficulty of calculating the significance lay in this being a statistical property and thus there is a statistical fluctuation in the result. 
 
 Another problem was to retrieve the correct resolution values from Ref. \citep{ATL-PHYS-PUB-2013-004}, since it was unclear if the resolution values given were absolute or scale dependent. This has now been corrected in a new version of the paper.
 
 \section{Conclusion}
-The smearing functions work as intended within 5.8 sigma, however when using a test box and averaging the sigmas one ends up with half of this for the extreme cases, muons and $E_T^{Miss}$. This indicates that the statistical fluctuation of these values and in the error calculations is considerable. Even with this statistical fluctuation the smearing functions work as intended.
+The smearing functions work as intended within 5.8 sigma, however when using a test box and averaging the sigmas one ends up with half of this for the extreme cases, muons and $E_T^{Miss}$. This indicates that the statistical fluctuation of these values and of the error calculations are considerable. Even with this statistical fluctuation the smearing functions work as intended.

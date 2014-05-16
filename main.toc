@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {1.2.4}Dark matter}{5}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {1.2.5}Signal models}{7}{subsection.1.2.5}
 \contentsline {subsection}{\numberline {1.2.6}Jets}{8}{subsection.1.2.6}
-\contentsline {subsection}{\numberline {1.2.7}Search for \textsc {wimps}\xspace }{8}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.7}Search for \textsc {wimps}\xspace }{9}{subsection.1.2.7}
 \contentsline {section}{\numberline {1.3}Experimental overview}{10}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}\textsc {lhc}\xspace }{10}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}\textsc {atlas}\xspace }{11}{subsection.1.3.2}
@@ -59,18 +59,18 @@
 \contentsline {subsection}{\numberline {3.1.8}Light vector mediator models}{34}{subsection.3.1.8}
 \contentsline {section}{\numberline {3.2}Signal regions}{35}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Signal region definitions}{35}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Verifying background data}{35}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Verifying background data}{36}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Results}{37}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Verifying background data}{37}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Signal and background events in signal regions}{37}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Project exclusion limits on M*}{39}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Projection exclusion limits on mediator mass}{41}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Projection exclusion limits on mediator mass models}{41}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}Discussion}{44}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Comparison to previous results}{44}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Effect of the high luminosity}{44}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Conclusion}{45}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Limit on M*}{45}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Limit on mediator mass}{45}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.2}Limit on mediator mass models}{45}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Effect of the high luminosity}{45}{subsection.3.5.3}
 \contentsline {chapter}{\numberline {4}Final remarks}{47}{chapter.4}
 \contentsline {chapter}{\numberline {A}Datasets}{51}{appendix.A}
