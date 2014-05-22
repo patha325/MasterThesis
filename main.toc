@@ -33,55 +33,55 @@
 \contentsline {subsection}{\numberline {2.1.2}Muon}{20}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Tau}{20}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Jets}{20}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Missing Transverse Energy}{20}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Validation}{21}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Method}{21}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Results}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Electron and photon}{23}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Muon}{24}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Tau}{24}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Jets}{25}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Missing Transversal Energy}{26}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Summary}{27}{subsection.2.3.6}
-\contentsline {section}{\numberline {2.4}Discussion}{28}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Dependence of smearing on pile-up}{28}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Comparison to expected results}{28}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Conclusion}{28}{section.2.5}
-\contentsline {chapter}{\numberline {3}Sensitivity to dark matter signals}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal over background}{30}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Signal Region}{30}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Cross section and luminosity weighting}{30}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Background processes}{31}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Verification of background normalisation}{31}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Errors in background}{32}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Figure of merit}{33}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}D5 operator models}{33}{subsection.3.1.7}
-\contentsline {subsection}{\numberline {3.1.8}Light vector mediator models}{34}{subsection.3.1.8}
-\contentsline {section}{\numberline {3.2}Signal regions}{35}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Signal region definitions}{35}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Verifying background data}{36}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Results}{37}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Verifying background data}{37}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Signal and background events in signal regions}{37}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Project exclusion limits on M*}{39}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Projection exclusion limits on mediator mass models}{41}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Discussion}{44}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Comparison to previous results}{44}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Effect of the high luminosity}{44}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Conclusion}{45}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Limit on M*}{45}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Limit on mediator mass models}{45}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Effect of the high luminosity}{45}{subsection.3.5.3}
-\contentsline {chapter}{\numberline {4}Final remarks}{47}{chapter.4}
-\contentsline {chapter}{\numberline {A}Datasets}{51}{appendix.A}
-\contentsline {section}{\numberline {A.1}Background processes}{51}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Validation}{51}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Background for signals}{52}{subsection.A.1.2}
-\contentsline {section}{\numberline {A.2}Signals}{52}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Qcut}{52}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}D5 signal processes}{52}{subsection.A.2.2}
-\contentsline {subsection}{\numberline {A.2.3}Light vector mediator processes}{52}{subsection.A.2.3}
-\contentsline {chapter}{Bibliography}{57}{appendix*.45}
+\contentsline {subsection}{\numberline {2.1.5}Missing Transverse Energy}{21}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Validation}{22}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Method}{22}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Results}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Electron and photon}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Muon}{25}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tau}{25}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Jets}{26}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Missing Transversal Energy}{27}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Summary}{28}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Discussion}{29}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Dependence of smearing on pile-up}{29}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Comparison to expected results}{29}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Conclusion}{29}{section.2.5}
+\contentsline {chapter}{\numberline {3}Sensitivity to dark matter signals}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal over background}{32}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Signal Region}{32}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Cross section and luminosity weighting}{32}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Background processes}{33}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Verification of background normalisation}{33}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Errors in background}{34}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Figure of merit}{35}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}D5 operator models}{35}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Light vector mediator models}{36}{subsection.3.1.8}
+\contentsline {section}{\numberline {3.2}Signal regions}{37}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Signal region definitions}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Verifying background data}{38}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Results}{39}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Verifying background data}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Signal and background events in signal regions}{39}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Project exclusion limits on M*}{41}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Projection exclusion limits on mediator mass models}{43}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Discussion}{46}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Comparison to previous results}{46}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Effect of the high luminosity}{46}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Conclusion}{47}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Limit on M*}{47}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Limit on mediator mass models}{47}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Effect of the high luminosity}{47}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {4}Final remarks}{49}{chapter.4}
+\contentsline {chapter}{\numberline {A}Datasets}{53}{appendix.A}
+\contentsline {section}{\numberline {A.1}Background processes}{53}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Validation}{53}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Background for signals}{54}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Signals}{54}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Q$_{cut}$}{54}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}D5 signal processes}{54}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Light vector mediator processes}{54}{subsection.A.2.3}
+\contentsline {chapter}{Bibliography}{59}{appendix*.45}
 \select@language {english}
 \select@language {english}
 \select@language {english}

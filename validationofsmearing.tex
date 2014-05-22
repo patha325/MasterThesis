@@ -1,7 +1,7 @@
 \chapter{Validation of smearing functions}\label{cha:vali}
-A full detector simulation of the \abbrATLAS detector based on the GEANT \citep{Geant4} program makes it possible to obtain the expected detector responses to electrons, muons, tau leptons, photons ($\gamma$) and jets of hadrons. However these simulations are extremely time-consuming and require a lot of computing power. Also at the present time only a limited set of these simulations exits for the \abbrATLAS phase II upgrade. In this thesis a different strategy is used. 
+A full detector simulation of the \abbrATLAS detector based on the GEANT \citep{Geant4} program makes it possible to obtain the expected detector responses to electrons, muons, tau leptons, photons ($\gamma$) and jets of hadrons. However these simulations are extremely time-consuming and require a lot of computing power. Also at the present time only a limited set of these simulations exists for the \abbrATLAS phase II upgrade. In this thesis a different strategy is used. 
 
-Instead of performing a full detector simulation the observed particles from the event generator, which simulates the proton-proton collisions, have their energy and momenta values smeared up or down by using a probability distribution following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the reconstruction is affected by the increased luminosity and the pile-up which comes with this. 
+Instead of performing a full detector simulation of the observed particles from the event generator, which simulates the proton-proton collisions, have their energy and momenta values smeared up or down by using a probability distribution following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the reconstruction are affected by the increased luminosity and the pile-up which comes with this. 
 
 The resolution functions or smearing functions are the official functions developed from previous studies \citep{ATLAS:LOI2, ATL-PHYS-PUB-2013-004} by the \abbrATLAS collaboration for the study of the \abbrATLAS phase II upgrade. The key result of those studies was that the direction of the momenta is unaffected and that only jets and $E^{Miss}_T$ are affected by pile-up. Since this was confirmed in previous studies it was not incorporated into the smearing functions as discussed more in \sectionref{sec:smear}.
 
@@ -13,7 +13,7 @@ In a simulation of a proton-proton collision all quantities such as energy, mome
 \begin{equation}\label{eq:smear}
 E' = E + \Delta E \equiv E + \sigma
 \end{equation}
-where $E$ is the energy at a truth level and $E'$ is the smeared energy and $\Delta E$ or $\sigma$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle.
+where $E$ is the energy at a truth level and $E'$ is the smeared energy and $\Delta E$ or $\sigma$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle, and will be denoted $\sigma$ and not cross-section as in \chapterref{cha:intro}.
 
 The smearing functions are designed so that they take into account the efficiency of the different detectors, how they are constructed as well as their dependence on pile-up. To emulate the measured energies and momenta, the true values are smeared using the known detector resolutions given in \tableref{tab:expected sigma} which is taken from \citep{ATL-PHYS-PUB-2013-004}. 
 
@@ -21,7 +21,7 @@ Some terminology which is used:
 \begin{itemize}
 \item Energy and momenta before smearing, simulated data, is denoted at a truth level or truth data. The truth data is energy and momenta for particles directly from a Monte Carlo simulation of an event with no detector effects at all.
 \item Data after smearing, which is comparable to what is measured is denoted as reconstructed data. Reconstruction is the procedure of taking electrical signals from the detectors and from these identifying particles with a specific energy and momenta. In this thesis however this is seen as equivalent to data after smearing.
-\item In this thesis $p_T$ denotes the transverse momenta, E the energy and $\mu$ the pile-up value.
+\item In this thesis $p_T$ denotes the transverse momenta, $E$ the energy and $\mu$ the pile-up value.
 \end{itemize}
 
 \newpage
@@ -43,7 +43,7 @@ $E_T^{Miss}$ & $\sigma = (0.4+0.09\sqrt{\mu})\sqrt{\sum E(GeV)+20\mu}$ \\ \hline
 \end{tabular}
 \end{center}
 \renewcommand{\arraystretch}{1.0} %Change back
-\caption{Expected absolute $\sigma$ where the parameters are given for muons in \tableref{tab:muonparam} and for jets in \tableref{tab:jetparam}. The subscripts id and ms for the muon momentum resolution denote the parametrisation of the inner detector and the muon spectrometer. Functions take from Ref. \citep{ATL-PHYS-PUB-2013-004}.}
+\caption{Expected absolute $\sigma$ where the parameters are given for muons in \tableref{tab:muonparam} and for jets in \tableref{tab:jetparam}. The subscripts id and ms for the muon momentum resolution denote the parametrisation of the inner detector and the muon spectrometer. The definition of 3 prong for tau can be found in \subsectionref{sec:smear:subsec:tau}. Functions take from Ref. \citep{ATL-PHYS-PUB-2013-004}.}
 \label{tab:expected sigma}
 \end{table}
 
@@ -100,22 +100,22 @@ Photons are detected similarly to the electron though with an absence of a track
 The electron and photon have the same smearing since both of their energies are measured in the electromagnetic calorimeter. 
 
 \subsection{Muon}
-The identification of muons relies on isolated tracks in the inner detector  being matched with information in the muon system. Since the muon system is the outer most detector seen from the collision point the effects of pile-up are negligible.  
+The identification of muons relies on isolated tracks in the inner detector  being matched with information in the muon system. Since the muon system is the outermost detector seen from the collision point the effects of pile-up are negligible.  
 \subsection{Tau}\label{sec:smear:subsec:tau}
 Tau is detected similarly to the electron.
-In this thesis all tau processes are for simplicity assumed to be at 3 prong. Where prong refers to the number of tracks from which they were reconstructed. Such as tau decaying to 3 pions and a tau neutrion. $\tau ^{-} \rightarrow \pi ^{-} \pi ^{-} \pi ^{+} \nu _{\tau}$
+In this thesis all tau processes are for simplicity assumed to be at 3 prong, where prong refers to the number of tracks from which they were reconstructed. Such as tau decaying to 3 pions and a tau neutrino. $\tau ^{-} \rightarrow \pi ^{-} \pi ^{-} \pi ^{+} \nu _{\tau}$
 
 This in turn means that the effect of pile-up will be worse compared to an electron as a triplet must be found in an increased number of tracks.
 \subsection{Jets}\label{sec:smear:subsec:jets}
-Jets as described in \subsectionref{sec:tb:subsec:jets} are a cones of hadronic particles. 
+Jets as described in \subsectionref{sec:tb:subsec:jets} are cones of hadronic particles. 
 
 The largest effect of pile-up is to add additional jets in the ATLAS detector. These additional jets contribute to additional energy deposited inside the existing jets and to $E^{Miss}_T$.
 \subsection{Missing Transverse Energy}
-$E_T^{Miss}$, the missing transverse energy, which was discussed in \subsectionref{sec:eo:subsec:mjet}, and defined in \eqref{eq:etmiss} is calculated by knowing that there should be momentum conservation in the collision. It should be affected by pile-up as described in \subsectionref{sec:smear:subsec:jets}.
+$E_T^{Miss}$, the missing transverse energy, which was discussed in \subsectionref{sec:eo:subsec:mjet}, and defined in \eqref{eq:etmiss}, is calculated by knowing that there should be momentum conservation in the collision. It should be affected by pile-up as described in \subsectionref{sec:smear:subsec:jets}.
 
 \newpage
 \section{Validation}\label{sec:vali}
-Validation is the procedure of comparing an expected resolution $\sigma$ with the resolution measured from the smeared Monte Carlo simulation. To measure the resolution on the smeared objects uses that E' and E is known which through \eqref{eq:smear} can statistically calculate $\sigma$. The comparison is done with Ref. \citep{ATL-PHYS-PUB-2013-004} where the resolution depending on energy, momenta and pile-up value is given in \tableref{tab:sigmaval}. The Monte Carlo simulated processes used are listed in \tableref{tab:backproc}. 
+Validation is the procedure of comparing an expected resolution $\sigma$ with the resolution measured from the smeared Monte Carlo simulation. Measuring the resolution on the smeared objects uses that $E'$ and $E$ is known which through \eqref{eq:smear} can be used to statistically calculate $\sigma$. The comparison is done with Ref. \citep{ATL-PHYS-PUB-2013-004} where the resolution depending on energy, momenta and pile-up value is given in \tableref{tab:sigmaval}. The Monte Carlo simulated processes used are listed in \tableref{tab:backproc}. 
 
 \begin{SCtable}[][ht]
 \begin{tabular}{|l|l|}
@@ -135,7 +135,7 @@ $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + jet sample \\ \hline
 \subsection{Method}
 The energy and momentum resolutions are obtained for each type of particle by comparing the values before and after smearing.
 
-By fitting a Gaussian curve of the smeared data from a given truth energy or momenta value will then result in the standard deviation which is used in the validation. The standard deviation is also known as the resolution of the data and will be denoted $\sigma$ and not cross-section as in \chapterref{cha:intro}
+Fitting a Gaussian curve of the smeared data from a given truth energy or momenta value will then result in the standard deviation which is used in the validation. The standard deviation is also known as the resolution of the data and will be denoted $\sigma$ and not cross-section as in \chapterref{cha:intro}.
 
 The standard deviation is then compared to previous results \citep{ATL-PHYS-PUB-2013-004}.
 
@@ -152,7 +152,7 @@ The method is presented step by step below:
 \section{Results}\label{cha:vali:sec:results}
 As discussed above, the method was to plot the data against its smeared counterpart and through this determine $\sigma$ to see if it conforms to the expected values.
 
-Only one energy or momenta value is shown for simplicity, though the comparison was done for different energy values. The energy is denoted E and in the figures momenta is denoted $P_T$ for transverse momenta.
+Only one energy or momenta value is shown for simplicity, though the comparison was done for different energy values. The energy is denoted $E$ and in the figures momenta is denoted $P_T$ for transverse momenta.
 
 The average number of pile-up, explained in \subsectionref{sec:eo:subsec:pile}, is fixed at 60 as a benchmark unless anything else is stated.
 
