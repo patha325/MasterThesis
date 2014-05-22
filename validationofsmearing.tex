@@ -160,7 +160,7 @@ As in the comparison, \figureref{fig:elph}, \figureref{fig:muon}, \figureref{fig
 \newpage
 \subsection{Electron and photon}\label{cha:vali:sec:res:subsec:elph}
 Since these are detected very similarly in the detector, their smearing functions are identical.
-The central x value represents at which value of unsmeared energy or momentum this smearing occurs. In \figureref{fig:elph} the Gaussian fit (red) and the data (black) are given for the electron energies.
+The peak value represents at which value of unsmeared energy or momentum this smearing occurs. In \figureref{fig:elph} the Gaussian fit (red) and the data (black) are given for the electron energies.
 %\begin{figure}[!htbp]
 %  \centering 
 %  \subfloat[eleta1. \label{fig:elph:1}]{\includegraphics[width=0.5\textwidth]{eleta1.pdf}}% 
@@ -217,16 +217,16 @@ Since muons detection is shielded from the effects of pile-up only efficiency an
     \label{fig:muon}
   \end{figure}
 \subsection{Tau}
-As described in \subsectionref{sec:smear:subsec:tau} tauons are detected similarly to electrons and photons. Thus the plots should look similarly to those in the previous subsection apart from the central x value being at 150 GeV. In \figureref{fig:tau:1} the Gaussian fit (red) and the data (black) are given for tau detected through 3 prong. In \figureref{fig:tau:2} truth energy is plotted against smeared energy. 
+As described in \subsectionref{sec:smear:subsec:tau} tauons are detected similarly to electrons and photons. Thus the plots should look similarly to those in the previous subsection apart from the peak value being at 150 GeV. In \figureref{fig:tau:1} the Gaussian fit (red) and the data (black) are given for tau detected through 3 prong. In \figureref{fig:tau:2} smeared energy is plotted against truth energy. 
  \begin{figure}[H] %!ht
     \subfloat[Tau energy after smearing. \label{fig:tau:1}]{%
      \includegraphics[width=0.5\textwidth]{tau.pdf}
     }
     \hfill
-    \subfloat[Tau energy vs smeared. \label{fig:tau:2}]{%
+    \subfloat[Tau smeared vs truth. \label{fig:tau:2}]{%
       \includegraphics[width=0.5\textwidth]{tau2.png}
     }
-    \caption{Tau energy after smearing and energy vs smearing.}
+    \caption{Tau energy after smearing and smeared vs truth.}
     \label{fig:tau}
   \end{figure}
   \newpage
@@ -261,19 +261,19 @@ The smearing functions are divided into four different regions depending on the 
 \end{figure}
 In \figureref{fig:jet} the Gaussian fit (red) and the data (black) are given for the jet momenta. Where $\obs{\mu}$ is the average number of simultaneous proton-proton collisions as explained in \subsectionref{sec:eo:subsec:pile}.
 \subsection{Missing Transversal Energy}
-The figures in this subsection are, compared to the above, given as absolute smearing. The central x value of 0 represents that the energy is unsmeared, compared to the others where the central x value value represents the unsmeared energy. The unsmeared energy used here is 750 GeV.
+The figures in this subsection are, compared to the above, given as absolute smearing. The peak value of 0 represents that the energy is unsmeared, compared to the others where the peak value represents the unsmeared energy. The unsmeared energy used here is 750 GeV.
 
-Here the $E_T^{Miss}$ is projected down to the x- and y-axis, since these are the transverse axes, to be smeared. 
+Here the $E_T^{Miss}$ is projected down to the $x$- and $y$-axis, since these are the transverse axes, to be smeared. 
  \begin{figure}[H] %!ht
-    \subfloat[$E_T^{Miss}$ smearing along the x-axis. \label{fig:MET:x}]{%
+    \subfloat[$E_T^{Miss}$ smearing along the $x$-axis. \label{fig:MET:x}]{%
      \includegraphics[width=0.5\textwidth]{METx.pdf}
     }
     \hfill
-    \subfloat[$E_T^{Miss}$ smearing along the y-axis.\label{fig:MET:y}]{%
+    \subfloat[$E_T^{Miss}$ smearing along the $y$-axis.\label{fig:MET:y}]{%
       \includegraphics[width=0.5\textwidth]{METy.pdf}
     }
         \hfill
-    \subfloat[$E_T^{Miss}$ smearing along the y-axis for $\obs{\mu}=140$.\label{fig:MET:140}]{%
+    \subfloat[$E_T^{Miss}$ smearing along the $y$-axis for $\obs{\mu}=140$.\label{fig:MET:140}]{%
       \includegraphics[width=0.5\textwidth]{mety140.pdf}
     }
    \caption{$E_T^{Miss}$ smearing plots.}
@@ -281,7 +281,7 @@ Here the $E_T^{Miss}$ is projected down to the x- and y-axis, since these are th
   \end{figure}
 \newpage
 \subsection{Summary}\label{sec:res:subsec:sum}
-Since the leptons and photons are all detected by fitting detector responses to different tracks, the effect of pile-up should be that there are more track to match, but it should not affect which ones are matched. The independence of pile-up for leptons and photons is backed up in previous research, for instance \citep{Electronperf:2011, ATLAS:LOI2}.
+Since the leptons and photons are all detected by fitting detector responses to different tracks, the effect of pile-up should be that there are more tracks to match, but it should not affect which ones are matched. The independence of pile-up for leptons and photons is backed up in previous research, for instance \citep{Electronperf:2011, ATLAS:LOI2}.
 
 To validate the smearing functions, comparisons are made with \citep{ATL-PHYS-PUB-2013-004} which gave \tableref{tab:expected sigma} for the expected resolution $\sigma$.
 \renewcommand{\arraystretch}{1.2} %Change back
@@ -311,16 +311,16 @@ Tau& All $\eta$&60&$10.9 \pm 0.3$&10.3\\ \hline
 \label{tab:sigmaval}
 \end{table}
 \renewcommand{\arraystretch}{1.0} %Change back
-In \tableref{tab:sigmaval} all values are given as absolute, not relative and the large difference between calculated and expected $\sigma$ for Muons and $E_T^{Miss}$ is explained by too optimistically calculated errors in $\sigma$.
+In \tableref{tab:sigmaval} all values are given as absolute, not relative and the large difference between calculated and expected $\sigma$ for Muons and $E_T^{Miss}$ is explained by too optimistically calculated errors in $\sigma$, as discussed in \subsectionref{sec:dis:subsec:comp}.
 
 \newpage
 \section{Discussion}\label{chap:vali:sec:dis}
 \subsection{Dependence of smearing on pile-up}\label{chap:vali:sec:dis:subsec:smearindep}
-From the validation done it is interesting to note that the smearing functions were created from previous studies \citep{Electronperf:2011, ATLAS:LOI2} which show that detector resolution for leptons and photons is unaffected by pile-up. This may seem unexpected however it becomes quite logical when one understands how the detectors work and the effect of pile-up.
+From the validation done it is interesting to note that the smearing functions were created from previous studies \citep{Electronperf:2011, ATLAS:LOI2} which show that detector resolution for leptons and photons is unaffected by pile-up. This may seem unexpected, however it becomes quite logical when one understands how the detectors work and the effect of pile-up.
 
-The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which are consistent with these particles, since there are more hits. However by restricting which deposits to consider it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they rely heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the the formulas in \tableref{tab:expected sigma} it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
+The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which are consistent with these particles, since there are more hits. However by restricting which deposits to consider it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they rely heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the formulas in \tableref{tab:expected sigma}, it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
 
-\subsection{Comparison to expected results}
+\subsection{Comparison to expected results}\label{sec:dis:subsec:comp}
 One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult, specifically by calculating optimistic errors. A large contribution to the difficulty of calculating the significance lay in this being a statistical property and thus there is a statistical fluctuation in the result. 
 
 Another problem was to retrieve the correct resolution values from Ref. \citep{ATL-PHYS-PUB-2013-004}, since it was unclear if the resolution values given were absolute or scale dependent. This has now been corrected in a new version of the paper.
