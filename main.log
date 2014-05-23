@@ -1,30 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.10)  23 MAY 2014 15:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  23 MAY 2014 15:09
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **main.tex
-(C:\Users\Patha\Desktop\Github\su\main.tex
+(./main.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-(C:\Users\Patha\Desktop\Github\su\rtthesis.cls
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./rtthesis.cls
 Document Class: rtthesis 2011/12/05 rtthesis Class v. 0.51
-(C:\Spel\MiKTeX\tex\latex\graphics\keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 \@removeenvinment=\box26
 \c@rt@toplevel=\count79
 
-(C:\Spel\MiKTeX\tex\latex\base\book.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(C:\Spel\MiKTeX\tex\latex\base\bk10.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -40,18 +33,18 @@ File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Spel\MiKTeX\tex\latex\geometry\geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(C:\Spel\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(C:\Spel\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(C:\Spel\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count89
@@ -66,59 +59,58 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-(C:\Spel\MiKTeX\tex\latex\geometry\geometry.cfg))
-(C:\Spel\MiKTeX\tex\latex\graphics\color.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(C:\Spel\MiKTeX\tex\latex\00miktex\color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(C:\Spel\MiKTeX\tex\latex\pdftex-def\pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Spel\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(C:\Spel\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count92
 ))
-(C:\Spel\MiKTeX\tex\latex\graphics\graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Spel\MiKTeX\tex\latex\graphics\graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Spel\MiKTeX\tex\latex\graphics\trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Spel\MiKTeX\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(C:\Spel\MiKTeX\tex\latex\ltxmisc\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Spel\MiKTeX\tex\latex\base\fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\Spel\MiKTeX\tex\latex\base\t1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(C:\Spel\MiKTeX\tex\latex\kpfonts\kpfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/kpfonts.sty
 Package: kpfonts  2010/08/20 v3.31
 
-(C:\Spel\MiKTeX\tex\latex\base\textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -134,7 +126,7 @@ Package textcomp Info: Sub-encoding information:
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 72.
 
-(C:\Spel\MiKTeX\tex\latex\base\ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -200,41 +192,41 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(C:\Spel\MiKTeX\tex\latex\ams\math\amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\Spel\MiKTeX\tex\latex\ams\math\amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(C:\Spel\MiKTeX\tex\latex\ams\math\amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen113
 ))
-(C:\Spel\MiKTeX\tex\latex\ams\math\amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen114
 )
-(C:\Spel\MiKTeX\tex\latex\ams\math\amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count94
 \leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count96
 \DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen115
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count98
 \c@MaxMatrixCols=\count99
 \dotsspace@=\muskip11
@@ -255,8 +247,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 \c@mv@rm=\count105
 \c@mv@boldrm=\count106
@@ -526,10 +518,10 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
 LaTeX Info: Redefining \not on input line 1580.
 )
-(C:\Spel\MiKTeX\tex\latex\slantsc\slantsc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/slantsc/slantsc.sty
 Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
 
-(C:\Spel\MiKTeX\tex\latex\base\ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 LaTeX Info: Redefining \upshape on input line 35.
@@ -537,13 +529,13 @@ LaTeX Info: Redefining \slshape on input line 45.
 LaTeX Info: Redefining \itshape on input line 55.
 LaTeX Info: Redefining \scshape on input line 65.
 )
-(C:\Spel\MiKTeX\tex\latex\psnfss\courier.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(C:\Spel\MiKTeX\tex\latex\psnfss\helvet.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(C:\Spel\MiKTeX\tex\latex\pdfcprot\pdfcprot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcprot/pdfcprot.sty
 Package: pdfcprot 2002/02/27 v1.5 character protruding using pdflatex (cs)
 \c@CPROT@family=\count109
 \c@CPROT@family@temp=\count110
@@ -555,13 +547,13 @@ Package: pdfcprot 2002/02/27 v1.5 character protruding using pdflatex (cs)
 \c@CPROT@size@temp=\count116
 \c@CPROT@temp@chars=\count117
 )
-(C:\Spel\MiKTeX\tex\latex\ltxmisc\parskip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 \rt@parskip=\skip46
 \rt@parindent=\skip47
 
-(C:\Spel\MiKTeX\tex\latex\float\float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count118
 \float@exts=\toks21
@@ -569,29 +561,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box30
 )
-(C:\Spel\MiKTeX\tex\latex\index\index.sty
+(/usr/share/texlive/texmf-dist/tex/latex/index/index.sty
 Package: index 2004/01/20 v4.2beta Improved index support (dmj)
 \@indexbox=\insert233
 \indexproofstyle=\toks23
 )
-(C:\Spel\MiKTeX\tex\latex\natbib\natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip48
 \bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count119
 )
-(C:\Spel\MiKTeX\tex\latex\natbib\bibentry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 \idxtitle@default=\toks24
 \tf@default=\write3
+\openout3 = `main.idx'.
+
 Package index Info: Writing index file main.idx on input line 610.
 
-(C:\Spel\MiKTeX\tex\latex\xcolor\xcolor.sty
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\Spel\MiKTeX\tex\latex\00miktex\color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -606,7 +600,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\Spel\MiKTeX\tex\latex\tools\calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count120
 \calc@Bcount=\count121
@@ -619,10 +613,10 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count122
 \calc@Cskip=\skip52
 )
-(C:\Spel\MiKTeX\tex\latex\caption\caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Spel\MiKTeX\tex\latex\caption\caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen124
@@ -636,16 +630,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count123
 Package caption Info: float package is loaded.
 )
-(C:\Spel\MiKTeX\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(C:\Spel\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(C:\Spel\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -674,7 +668,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -682,71 +676,75 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(C:\Spel\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
 \Hy@linkcounter=\count124
 \Hy@pagecounter=\count125
 
-(C:\Spel\MiKTeX\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count126
 
-(C:\Spel\MiKTeX\tex\latex\00miktex\hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 3941.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3941.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 3941
+Package hyperref Info: Option `colorlinks' set `false' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4319
 .
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 3941.
-Package hyperref Info: Option `plainpages' set `false' on input line 3941.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing ON on input line 4080.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 
-(C:\Spel\MiKTeX\tex\latex\hyperref\backref.sty
-Package: backref 2010/08/30 v1.36 Bibliographical back referencing
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 
-(C:\Spel\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
 \c@Hy@tempcnt=\count127
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen132
 \Fld@menulength=\count128
-\Field@Width=\dimen132
-\Fld@charsize=\dimen133
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing ON on input line 5786.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count129
 \c@Item=\count130
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(C:\Spel\MiKTeX\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count131
 \c@bookmark@seq@number=\count132
 \Hy@SectionHShift=\skip53
 )
-(C:\Spel\MiKTeX\tex\latex\tocloft\tocloft.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
 \cftparskip=\skip54
@@ -786,11 +784,11 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cfttabindent=\skip86
 \cfttabnumwidth=\skip87
 )
-(C:\Spel\MiKTeX\tex\latex\subfig\subfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count135
 \sf@farskip=\skip88
-\sf@captopadj=\dimen134
+\sf@captopadj=\dimen135
 \sf@capskip=\skip89
 \sf@nearskip=\skip90
 \c@subfigure=\count136
@@ -800,32 +798,32 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip91
 \sf@bottom=\skip92
 )
-(C:\Spel\MiKTeX\tex\latex\tocbibind\tocbibind.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (C:\Spel\MiKTeX\tex\latex\sectsty\sectsty.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
 LaTeX Info: Redefining \em on input line 806.
 
-(C:\Spel\MiKTeX\tex\latex\base\inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
 
-(C:\Spel\MiKTeX\tex\latex\base\utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(C:\Spel\MiKTeX\tex\latex\base\t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -975,7 +973,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(C:\Spel\MiKTeX\tex\latex\base\ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -1006,7 +1004,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(C:\Spel\MiKTeX\tex\latex\base\omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -1022,7 +1020,7 @@ Now handling font encoding U ...
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(C:\Spel\MiKTeX\tex\latex\base\ts1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1107,54 +1105,46 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Patha\Desktop\Github\su\rtthesis-utf8-ext.sty
+(./rtthesis-utf8-ext.sty
 Package: rtthesis-utf8-ext 2009/12/03 Additional UTF8 characters for the rtthes
 is class
    defining Unicode char U+C487 (decimal 50311)
    defining Unicode char U+C5A1 (decimal 50593)
 )
-(C:\Spel\MiKTeX\tex\generic\babel\babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Spel\MiKTeX\tex\latex\00miktex\bblopts.cfg
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-(C:\Spel\MiKTeX\tex\generic\babel\english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-(C:\Spel\MiKTeX\tex\generic\babel\babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count140
-\U@D=\dimen135
+\U@D=\dimen136
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\Patha\Desktop\Github\su\rtthesis-papers.sty
-(C:\Spel\MiKTeX\tex\latex\setspace\setspace.sty
+(./rtthesis-papers.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 \c@rtpapers@section=\count141
 \c@rtpapers@chapter=\count142
 )
-(C:\Users\Patha\Desktop\Github\su\rtthesis-captions.sty
+(./rtthesis-captions.sty
 Package: rtthesis-captions 2010/02/18 Basic captions for the rtthesis class
-
-(C:\Users\Patha\Desktop\Github\su\rtthesis-caption-defs-utf8.sty))
-(C:\Users\Patha\Desktop\Github\su\rtthesis-papers-captions.sty
+ (./rtthesis-caption-defs-utf8.sty))
+(./rtthesis-papers-captions.sty
 Package: rtthesis-papers-captions 2010/02/18 Additional paper captions for the 
 rtthesis class
-
-(C:\Users\Patha\Desktop\Github\su\rtthesis-papers-caption-defs-utf8.sty))
-(C:\Users\Patha\Desktop\Github\su\rtthesis-theorems.sty
+ (./rtthesis-papers-caption-defs-utf8.sty))
+(./rtthesis-theorems.sty
 Package: rtthesis-theorems 2010/02/18 Theorem-like environments for the rtthesi
 s class
 
-(C:\Spel\MiKTeX\tex\latex\ams\classes\amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -1170,11 +1160,11 @@ Package: amsthm 2004/08/06 v2.20
 \rt@definitionlinewidth=\skip97
 \c@theorem=\count143
 )
-(C:\Users\Patha\Desktop\Github\su\rtthesis-example.sty
+(./rtthesis-example.sty
 Package: rtthesis-example 2010/02/18 The example environment of the rtthesis cl
 ass
 
-(C:\Spel\MiKTeX\tex\latex\needspace\needspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \c@Example=\count144
@@ -1183,7 +1173,7 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \exampleTopBotOuterMargin=\skip100
 \rt@examplerulepos=\skip101
 )
-(C:\Spel\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip102
 \f@ncyO@elh=\skip103
 \f@ncyO@erh=\skip104
@@ -1194,58 +1184,58 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \f@ncyO@olf=\skip109
 \f@ncyO@orf=\skip110
 )
-(C:\Spel\MiKTeX\tex\latex\tools\array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen136
-\extrarowheight=\dimen137
+\col@sep=\dimen137
+\extrarowheight=\dimen138
 \NC@list=\toks33
 \extratabsurround=\skip111
 \backup@length=\skip112
 )
-(C:\Spel\MiKTeX\tex\latex\ctable\ctable.sty
-Package: ctable 2013/05/24 v1.25 Easy, key=value directed, option-rich, typeset
-ting of floats
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2013/12/19 v1.27 ctable package for \ flexible typesetting of t
+able and figure floats using key/value directives
 
-(C:\Spel\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-(C:\Spel\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 \XKV@depth=\count145
-File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-(C:\Spel\MiKTeX\tex\latex\tools\tabularx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen138
-\TX@old@table=\dimen139
-\TX@old@col=\dimen140
-\TX@target=\dimen141
-\TX@delta=\dimen142
+\TX@col@width=\dimen139
+\TX@old@table=\dimen140
+\TX@old@col=\dimen141
+\TX@target=\dimen142
+\TX@delta=\dimen143
 \TX@cols=\count146
 \TX@ftn=\toks36
 )
-(C:\Spel\MiKTeX\tex\latex\booktabs\booktabs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen143
-\lightrulewidth=\dimen144
-\cmidrulewidth=\dimen145
-\belowrulesep=\dimen146
-\belowbottomsep=\dimen147
-\aboverulesep=\dimen148
-\abovetopsep=\dimen149
-\cmidrulesep=\dimen150
-\cmidrulekern=\dimen151
-\defaultaddspace=\dimen152
+\heavyrulewidth=\dimen144
+\lightrulewidth=\dimen145
+\cmidrulewidth=\dimen146
+\belowrulesep=\dimen147
+\belowbottomsep=\dimen148
+\aboverulesep=\dimen149
+\abovetopsep=\dimen150
+\cmidrulesep=\dimen151
+\cmidrulekern=\dimen152
+\defaultaddspace=\dimen153
 \@cmidla=\count147
 \@cmidlb=\count148
-\@aboverulesep=\dimen153
-\@belowrulesep=\dimen154
+\@aboverulesep=\dimen154
+\@belowrulesep=\dimen155
 \@thisruleclass=\count149
 \@lastruleclass=\count150
-\@thisrulewidth=\dimen155
+\@thisrulewidth=\dimen156
 )
-(C:\Spel\MiKTeX\tex\latex\rotating\rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \c@r@tfl@t=\count151
 \rotFPtop=\skip113
@@ -1253,116 +1243,111 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box31
 \rot@mess@toks=\toks37
 )
-(C:\Spel\MiKTeX\tex\latex\oberdiek\transparent.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
 Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
 
-
-(C:\Spel\MiKTeX\tex\latex\oberdiek\auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-))
-\@ctblframesep=\dimen156
-\@defaultctblframesep=\dimen157
-\@ctblframerule=\dimen158
-\@defaultctblframerule=\dimen159
-\@ctblwidth=\dimen160
-\@defaultctblwidth=\dimen161
-\@ctblcaptionskip=\dimen162
-\@defaultctblcaptionskip=\dimen163
-\@ctblmaxwidth=\dimen164
-\@defaultctblmaxwidth=\dimen165
-\@ctblmincapwidth=\dimen166
-\@defaultctblmincapwidth=\dimen167
-\@ctblfooterwidth=\dimen168
-\@defaultctblfooterwidth=\dimen169
-\@ctblw=\dimen170
-\@ctblfloatwidth=\dimen171
-\@ctbloldsep=\dimen172
-\@ctbloldrule=\dimen173
-\ctbl@t=\box32
 )
-(C:\Spel\MiKTeX\tex\latex\appendix\appendix.sty
+\@ctblframesep=\dimen157
+\@defaultctblframesep=\dimen158
+\@ctblframerule=\dimen159
+\@defaultctblframerule=\dimen160
+\@ctblwidth=\dimen161
+\@defaultctblwidth=\dimen162
+\@ctblcaptionskip=\dimen163
+\@defaultctblcaptionskip=\dimen164
+\@ctblmaxwidth=\dimen165
+\@defaultctblmaxwidth=\dimen166
+\@ctblmincapwidth=\dimen167
+\@defaultctblmincapwidth=\dimen168
+\@ctblfooterwidth=\dimen169
+\@defaultctblfooterwidth=\dimen170
+\@ctblw=\dimen171
+\@ctblfloatwidth=\dimen172
+\@ctbloldsep=\dimen173
+\@ctbloldrule=\dimen174
+\ctbl@t=\box32
+\@ctblcurftwidth=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count152
 \c@@ppsavesec=\count153
 \c@@ppsaveapp=\count154
 )
-(C:\Spel\MiKTeX\tex\latex\titlesec\titlesec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box33
 \beforetitleunit=\skip115
 \aftertitleunit=\skip116
-\ttl@plus=\dimen174
-\ttl@minus=\dimen175
+\ttl@plus=\dimen176
+\ttl@minus=\dimen177
 \ttl@toksa=\toks38
-\titlewidth=\dimen176
-\titlewidthlast=\dimen177
-\titlewidthfirst=\dimen178
+\titlewidth=\dimen178
+\titlewidthlast=\dimen179
+\titlewidthfirst=\dimen180
 ))
-(C:\Users\Patha\Desktop\Github\su\mythesis.sty
-(C:\Users\Patha\Desktop\Github\su\rtmsc.sty
+(./mythesis.sty (./rtmsc.sty
 Package: rtmsc 2010/03/24 rtmsc Style v. 0.02a
-
-(C:\Users\Patha\Desktop\Github\su\rtmsc-defs-utf8.sty))
-(C:\Users\Patha\Desktop\Github\su\mynotation.sty
-(C:\Spel\MiKTeX\tex\latex\tools\xspace.sty
+ (./rtmsc-defs-utf8.sty)) (./mynotation.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )))
-(C:\Spel\MiKTeX\tex\latex\misc\hypernat.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hypernat/hypernat.sty
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
 )
-(C:\Spel\MiKTeX\tex\latex\sidecap\sidecap.sty
+(/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen179
-\SC@CAPWD=\dimen180
-\SC@tempdima=\dimen181
-\SC@tempdimb=\dimen182
+\SC@BOXWD=\dimen181
+\SC@CAPWD=\dimen182
+\SC@tempdima=\dimen183
+\SC@tempdimb=\dimen184
 \c@SC@C=\count155
 \SC@BOX=\box34
 )
-(C:\Spel\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
 LaTeX Font Info:    Redeclaring math alphabet \mathscr on input line 9.
 )
-(C:\Spel\MiKTeX\tex\latex\oberdiek\pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-(C:\Spel\MiKTeX\tex\latex\graphics\lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 \blackoutwidth=\skip117
 
-(C:\Spel\MiKTeX\tex\latex\lineno\lineno.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count156
 \output=\toks39
 \linenoprevgraf=\count157
-\linenumbersep=\dimen183
-\linenumberwidth=\dimen184
+\linenumbersep=\dimen185
+\linenumberwidth=\dimen186
 \c@linenumber=\count158
 \c@pagewiselinenumber=\count159
 \c@LN@truepage=\count160
 \c@internallinenumber=\count161
 \c@internallinenumbers=\count162
-\quotelinenumbersep=\dimen185
-\bframerule=\dimen186
-\bframesep=\dimen187
+\quotelinenumbersep=\dimen187
+\bframerule=\dimen188
+\bframesep=\dimen189
 \bframebox=\box35
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(C:\Spel\MiKTeX\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen188
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen190
 )
-(C:\Spel\MiKTeX\tex\latex\tools\longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip118
 \LTright=\skip119
 \LTpre=\skip120
 \LTpost=\skip121
 \LTchunksize=\count163
-\LTcapwidth=\dimen189
+\LTcapwidth=\dimen191
 \LT@head=\box36
 \LT@firsthead=\box37
 \LT@foot=\box38
@@ -1372,20 +1357,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count166
 \c@LT@chunks=\count167
 \LT@p@ftn=\toks40
-)
-(C:\Users\Patha\Desktop\Github\su\main.aux
-(C:\Users\Patha\Desktop\Github\su\tack.aux)
-(C:\Users\Patha\Desktop\Github\su\notation.aux)
-(C:\Users\Patha\Desktop\Github\su\introduction.aux)
-(C:\Users\Patha\Desktop\Github\su\validationofsmearing.aux)
-(C:\Users\Patha\Desktop\Github\su\darkmatter.aux)
-(C:\Users\Patha\Desktop\Github\su\resultsandconclusions.aux)
-(C:\Users\Patha\Desktop\Github\su\datasets.aux))
+) (./main.aux
+(./tack.aux) (./notation.aux) (./introduction.aux) (./validationofsmearing.aux)
+(./darkmatter.aux) (./resultsandconclusions.aux) (./datasets.aux))
+\openout1 = `main.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/jkpw/m/it on input line 51.
 LaTeX Font Info:    Try loading font information for OML+jkpw on input line 51.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\omljkpw.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkpw.fd
 File: omljkpw.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 51.
@@ -1397,14 +1378,14 @@ LaTeX Font Info:    Checking defaults for OMS/jkpw/m/n on input line 51.
 LaTeX Font Info:    Try loading font information for OMS+jkpw on input line 51.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\omsjkpw.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkpw.fd
 File: omsjkpw.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 51.
 LaTeX Font Info:    Try loading font information for OMX+jkp on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\omxjkp.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 51.
@@ -1412,14 +1393,14 @@ LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 51.
 LaTeX Font Info:    Try loading font information for U+jkpexa on input line 51.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ujkpexa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\base\ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 51.
@@ -1427,7 +1408,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Try loading font information for T1+jkpk on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\t1jkpk.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkpk.fd
 File: t1jkpk.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkpk.
 )
 *geometry* driver: auto-detecting
@@ -1467,38 +1448,53 @@ File: t1jkpk.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkpk.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Spel\MiKTeX\tex\context\base\supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count168
-\scratchdimen=\dimen190
+\scratchdimen=\dimen192
 \scratchbox=\box40
 \nofMPsegments=\count169
 \nofMParguments=\count170
 \everyMPshowfont=\toks41
 \MPscratchCnt=\count171
-\MPscratchDim=\dimen191
+\MPscratchDim=\dimen193
 \MPnumerator=\count172
 \makeMPintoPDFobject=\count173
 \everyMPtoPDFconversion=\toks42
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package pdfcprot Info: I didn't find jkpkbnT1.cpa.
 (pdfcprot)              As a fallback I will try pplmnT1.cpa. on input line 51.
 
- (C:\Spel\MiKTeX\tex\latex\pdfcprot\pplmnT1.cpa)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcprot/pplmnT1.cpa)
 Package pdfcprot Info: File pplmnT1.cpa{} used for the adjustment
 (pdfcprot)             of the char protruding. It seems that it isn't the one
 (pdfcprot)             you intended to use. on input line 51.
 LaTeX Font Info:    Try loading font information for TS1+jkpk on input line 51.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ts1jkpk.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkpk.fd
 File: ts1jkpk.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkpk.
 )
 Package pdfcprot Info: I didn't find jkpkbnTS1.cpa.
 (pdfcprot)              As a fallback I will try pplmnTS1.cpa. on input line 51
 .
 
-(C:\Spel\MiKTeX\tex\latex\pdfcprot\pplmnTS1.cpa)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcprot/pplmnTS1.cpa)
 Package pdfcprot Info: File pplmnTS1.cpa{} used for the adjustment
 (pdfcprot)             of the char protruding. It seems that it isn't the one
 (pdfcprot)             you intended to use. on input line 51.
@@ -1540,7 +1536,7 @@ Package pdfcprot Info: File pplmnTS1.cpa{} used for the adjustment
 (pdfcprot)             you intended to use. on input line 51.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\psnfss\t1phv.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1557,7 +1553,7 @@ Package pdfcprot Info: File pplmnT1.cpa{} used for the adjustment
 (pdfcprot)             you intended to use. on input line 51.
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\psnfss\ts1phv.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/b/n' will be
@@ -1900,14 +1896,13 @@ Package pdfcprot Info: I didn't find phvmslTS1.cpa.
 Package pdfcprot Info: File pplmnTS1.cpa{} used for the adjustment
 (pdfcprot)             of the char protruding. It seems that it isn't the one
 (pdfcprot)             you intended to use. on input line 51.
-
-(C:\Users\Patha\Desktop\Github\su\main.bbl)
+ (./main.bbl)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Spel\MiKTeX\tex\latex\caption\ltcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -1917,10 +1912,10 @@ Package caption Info: End \AtBeginDocument code.
 Package backref Info: ** backref set up for natbib ** on input line 51.
 Package hyperref Info: Link coloring OFF on input line 51.
 
-(C:\Spel\MiKTeX\tex\latex\hyperref\nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(C:\Spel\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count174
@@ -1929,14 +1924,15 @@ LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
 
-(C:\Users\Patha\Desktop\Github\su\main.out)
-(C:\Users\Patha\Desktop\Github\su\main.out)
+(./main.out) (./main.out)
 \@outlinefile=\write4
+\openout4 = `main.out'.
 
-(C:\Spel\MiKTeX\tex\latex\ms\ragged2e.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(C:\Spel\MiKTeX\tex\latex\ms\everysel.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -1959,39 +1955,39 @@ LaTeX Info: Redefining \selectfont on input line 126.
 )
 LaTeX Font Info:    Try loading font information for OT1+jkp on input line 53.
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Try loading font information for U+jkpmiaw on input line 53
 .
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ujkpmiaw.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmiaw.fd
 File: ujkpmiaw.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsya on input line 53.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsybw on input line 53
 .
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ujkpsybw.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsybw.fd
 File: ujkpsybw.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 53.
 
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 53.
 
-(C:\Spel\MiKTeX\tex\latex\jknappen\ursfs.fd
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<figures/default/LiTH_staende_eng_sv.pdf, id=327, 260.975pt x 190.7125pt>
+<figures/default/LiTH_staende_eng_sv.pdf, id=329, 260.975pt x 190.7125pt>
 File: figures/default/LiTH_staende_eng_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_staende_eng_sv.pdf>
@@ -2008,8 +2004,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 [1
 
 
-{C:/Users/Patha/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Pa
-tha/Desktop/Github/su/figures/default/LiTH_staende_eng_sv.pdf>] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/default/LiTH_sta
+ende_eng_sv.pdf>] [2
 
 ]
 Overfull \hbox (35.56596pt too wide) in paragraph at lines 55--55
@@ -2021,7 +2017,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 55--55
 
 ] [2
 
-] <figures/default/LiTH_sigill_sv.pdf, id=351, 124.465pt x 124.465pt>
+] <figures/default/LiTH_sigill_sv.pdf, id=353, 124.465pt x 124.465pt>
 File: figures/default/LiTH_sigill_sv.pdf Graphic file (type pdf)
 
 <use figures/default/LiTH_sigill_sv.pdf>
@@ -2030,20 +2026,19 @@ Package pdftex.def Info: figures/default/LiTH_sigill_sv.pdf used on input line
 (pdftex.def)             Requested size: 56.9055pt x 56.90704pt.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 56.
 
-(C:\Spel\MiKTeX\tex\latex\psnfss\t1pcr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(C:\Users\Patha\Desktop\Github\su\engelsk-sammanfattning.tex) [3
+(./engelsk-sammanfattning.tex) [3
 
- <C:/Users/Patha/Desktop/Github/su/figures/default/LiTH_sigill_sv.pdf>] [4
+ <./figures/default/LiTH_sigill_sv.pdf>]
+[4
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 62.
-
-(C:\Users\Patha\Desktop\Github\su\engelsk-sammanfattning.tex)pdfTeX warning (ex
-t4): destination with the same identifier (name{page.iii}) has been already use
-d, duplicate ignored
+ (./engelsk-sammanfattning.tex)pdfTeX warning (ext4): destination with the same
+ identifier (name{page.iii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.64 \end{abstract}
@@ -2056,7 +2051,10 @@ s been already used, duplicate ignored
 l.64 \end{abstract}
                     [4
 
-] (C:\Users\Patha\Desktop\Github\su\tack.tex
+]
+\openout2 = `tack.aux'.
+
+ (./tack.tex
 Overfull \hbox (2.47145pt too wide) in paragraph at lines 5--6
 []\T1/jkpk/m/n/10 A big thank you to my fam-ily, fi-ancée and friends who have 
 sup-ported me through-
@@ -2072,15 +2070,19 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 19.70294pt on input line 66.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 19.70294pt on input line 66.
- (C:\Users\Patha\Desktop\Github\su\main.toc [7
+ (./main.toc [7
 
 ])
 \tf@toc=\write5
+\openout5 = `main.toc'.
+
  [8]
-(C:\Users\Patha\Desktop\Github\su\notation.tex
+\openout2 = `notation.aux'.
+
+ (./notation.tex
 LaTeX Font Info:    Try loading font information for T1+jkp on input line 4.
 
-(C:\Spel\MiKTeX\tex\latex\kpfonts\t1jkp.fd
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) [9
 
@@ -2089,7 +2091,10 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ] [10
 
 ])
-(C:\Users\Patha\Desktop\Github\su\introduction.tex
+\openout2 = `introduction.aux'.
+
+
+(./introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 40.54503pt on input line 1.
@@ -2110,7 +2115,7 @@ l.9 \newpage
 <to be read again> 
                    \relax 
 l.23 \newpage
-              [2] <figures/myfeynman.pdf, id=496, 597.50829pt x 845.0471pt>
+              [2] <figures/myfeynman.pdf, id=499, 597.50829pt x 845.0471pt>
 File: figures/myfeynman.pdf Graphic file (type pdf)
 
 <use figures/myfeynman.pdf>
@@ -2131,8 +2136,8 @@ Underfull \hbox (badness 6592) in paragraph at lines 39--39
 \T1/jkpk/m/sl/9 electron-electron scat-ter-ing us-ing
  []
 
-[3 <C:/Users/Patha/Desktop/Github/su/figures/myfeynman.pdf>]
-<figures/Standard_Model_of_Elementary_Particles.png, id=545, 776.9025pt x 583.1
+[3 <./figures/myfeynman.pdf>]
+<figures/Standard_Model_of_Elementary_Particles.png, id=549, 776.9025pt x 583.1
 7876pt>
 File: figures/Standard_Model_of_Elementary_Particles.png Graphic file (type png
 )
@@ -2144,9 +2149,8 @@ d on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <C:/Users/Patha/Desktop/Github/su/figures/Standard_Model_of_Elementary_P
-articles.png>]
-<figures/created/solarsystemrotation2.jpg, id=575, 491.8375pt x 352.31625pt>
+[4] [5 <./figures/Standard_Model_of_Elementary_Particles.png>]
+<figures/created/solarsystemrotation2.jpg, id=579, 491.8375pt x 352.31625pt>
 File: figures/created/solarsystemrotation2.jpg Graphic file (type jpg)
 
 <use figures/created/solarsystemrotation2.jpg>
@@ -2154,7 +2158,7 @@ Package pdftex.def Info: figures/created/solarsystemrotation2.jpg used on input
  line 88.
 (pdftex.def)             Requested size: 177.82971pt x 127.3821pt.
 
-<figures/rotationNGC3198.png, id=578, 500.87125pt x 368.37625pt>
+<figures/rotationNGC3198.png, id=582, 500.87125pt x 368.37625pt>
 File: figures/rotationNGC3198.png Graphic file (type png)
 
 <use figures/rotationNGC3198.png>
@@ -2165,11 +2169,10 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 88--93
 [][] [][] 
  []
 
-[6 <C:/Users/Patha/Desktop/Github/su/figures/created/solarsystemrotation2.jpg> 
-<C:/Users/Patha/Desktop/Github/su/figures/rotationNGC3198.png>]
+[6 <./figures/created/solarsystemrotation2.jpg> <./figures/rotationNGC3198.png>
+]
 File: figures/myfeynman.pdf Graphic file (type pdf)
-
-<use figures/myfeynman.pdf>
+ <use figures/myfeynman.pdf>
 Package pdftex.def Info: figures/myfeynman.pdf used on input line 114.
 (pdftex.def)             Requested size: 177.82971pt x 131.60527pt.
 File: figures/myfeynman.pdf Graphic file (type pdf)
@@ -2181,7 +2184,7 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 114--119
 [][] [][] 
  []
 
-[7] <figures/created/effectiveD.pdf, id=625, 597.50829pt x 845.0471pt>
+[7] <figures/created/effectiveD.pdf, id=629, 597.50829pt x 845.0471pt>
 File: figures/created/effectiveD.pdf Graphic file (type pdf)
 
 <use figures/created/effectiveD.pdf>
@@ -2189,7 +2192,7 @@ Package pdftex.def Info: figures/created/effectiveD.pdf used on input line 129.
 
 (pdftex.def)             Requested size: 177.82971pt x 106.70209pt.
 
-<figures/created/vectorboson.pdf, id=627, 597.50829pt x 845.0471pt>
+<figures/created/vectorboson.pdf, id=631, 597.50829pt x 845.0471pt>
 File: figures/created/vectorboson.pdf Graphic file (type pdf)
 
 <use figures/created/vectorboson.pdf>
@@ -2206,31 +2209,31 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
- [8 <C:/Users/Patha/Desktop/Github/su/figures/created/effectiveD.pdf> <C:/Users
-/Patha/Desktop/Github/su/figures/created/vectorboson.pdf>] [9]
-<figures/lhc.jpeg, id=676, 781.92125pt x 563.10374pt>
+ [8 <./figures/created/effectiveD.pdf> <./figures/created/vectorboson.pdf>] [9]
+
+<figures/lhc.jpeg, id=681, 781.92125pt x 563.10374pt>
 File: figures/lhc.jpeg Graphic file (type jpg)
  <use figures/lhc.jpeg>
 Package pdftex.def Info: figures/lhc.jpeg used on input line 156.
 (pdftex.def)             Requested size: 355.65944pt x 256.12668pt.
 
-[10 <C:/Users/Patha/Desktop/Github/su/figures/lhc.jpeg>] [11]
-<figures/created/particle_collider.jpg, id=701, 998.73125pt x 538.01pt>
+[10 <./figures/lhc.jpeg>] [11]
+<figures/created/particle_collider.jpg, id=706, 998.73125pt x 538.01pt>
 File: figures/created/particle_collider.jpg Graphic file (type jpg)
 
 <use figures/created/particle_collider.jpg>
 Package pdftex.def Info: figures/created/particle_collider.jpg used on input li
 ne 197.
 (pdftex.def)             Requested size: 355.65944pt x 191.59006pt.
- [12 <C:/Users/Patha/Desktop/Github/su/figures/created/particle_collider.jpg>]
-<figures/monojetbig.png, id=713, 4818.0pt x 3212.0pt>
+ [12 <./figures/created/particle_collider.jpg>] <figures/monojetbig.png, id=718
+, 4818.0pt x 3212.0pt>
 File: figures/monojetbig.png Graphic file (type png)
 
 <use figures/monojetbig.png>
 Package pdftex.def Info: figures/monojetbig.png used on input line 210.
 (pdftex.def)             Requested size: 355.65944pt x 237.06674pt.
- [13 <C:/Users/Patha/Desktop/Github/su/figures/monojetbig.png (PNG copy)>]
-<figures/lumi-projection.png, id=726, 984.67876pt x 552.0625pt>
+ [13 <./figures/monojetbig.png (PNG copy)>]
+<figures/lumi-projection.png, id=731, 984.67876pt x 552.0625pt>
 File: figures/lumi-projection.png Graphic file (type png)
 
 <use figures/lumi-projection.png>
@@ -2239,7 +2242,7 @@ Package pdftex.def Info: figures/lumi-projection.png used on input line 227.
 
 Underfull \vbox (badness 4108) has occurred while \output is active []
 
- [14 <C:/Users/Patha/Desktop/Github/su/figures/lumi-projection.png>]
+ [14 <./figures/lumi-projection.png>]
 Overfull \hbox (2.33992pt too wide) in paragraph at lines 256--257
 []\T1/jkpk/m/n/10 Where it should be noted that the in-te-grated lu-mi-nos-ity 
 in-di-cates the to-tal amount
@@ -2251,7 +2254,10 @@ Overfull \hbox (6.71996pt too wide) in paragraph at lines 261--262
 -ates sim-u-lated events
  []
 
-) [15] (C:\Users\Patha\Desktop\Github\su\validationofsmearing.tex [16
+) [15]
+\openout2 = `validationofsmearing.aux'.
+
+ (./validationofsmearing.tex [16
 
 
 
@@ -2277,14 +2283,14 @@ Underfull \hbox (badness 3579) in paragraph at lines 133--133
 \T1/jkpk/m/sl/10 la-tion names can be found in
  []
 
-[21] [22] <figures/validation/eleta1.pdf, id=829, 569.12625pt x 384.43625pt>
+[21] [22] <figures/validation/eleta1.pdf, id=835, 569.12625pt x 384.43625pt>
 File: figures/validation/eleta1.pdf Graphic file (type pdf)
 
 <use figures/validation/eleta1.pdf>
 Package pdftex.def Info: figures/validation/eleta1.pdf used on input line 189.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/eleta2.pdf, id=830, 569.12625pt x 384.43625pt>
+<figures/validation/eleta2.pdf, id=836, 569.12625pt x 384.43625pt>
 File: figures/validation/eleta2.pdf Graphic file (type pdf)
 
 <use figures/validation/eleta2.pdf>
@@ -2295,14 +2301,14 @@ Underfull \hbox (badness 1997) in paragraph at lines 193--193
 []\T1/jkpk/b/sl/9 (b) |\T1/jkpk/m/sl/9 Elec-tron en-ergy af-ter smear-ing for
  []
 
-<figures/validation/pheta1.pdf, id=831, 569.12625pt x 384.43625pt>
+<figures/validation/pheta1.pdf, id=837, 569.12625pt x 384.43625pt>
 File: figures/validation/pheta1.pdf Graphic file (type pdf)
 
 <use figures/validation/pheta1.pdf>
 Package pdftex.def Info: figures/validation/pheta1.pdf used on input line 197.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/pheta2.pdf, id=832, 569.12625pt x 384.43625pt>
+<figures/validation/pheta2.pdf, id=838, 569.12625pt x 384.43625pt>
 File: figures/validation/pheta2.pdf Graphic file (type pdf)
 
 <use figures/validation/pheta2.pdf>
@@ -2318,19 +2324,18 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 189--202
 [][] [][] 
  []
 
-[23 <C:/Users/Patha/Desktop/Github/su/figures/validation/eleta1.pdf, page is ro
-tated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/validation/eleta2.p
-df, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/valid
-ation/pheta1.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su
-/figures/validation/pheta2.pdf, page is rotated 90 degrees>]
-<figures/validation/mueta1.pdf, id=1015, 569.12625pt x 384.43625pt>
+[23 <./figures/validation/eleta1.pdf, page is rotated 90 degrees> <./figures/va
+lidation/eleta2.pdf, page is rotated 90 degrees> <./figures/validation/pheta1.p
+df, page is rotated 90 degrees> <./figures/validation/pheta2.pdf, page is rotat
+ed 90 degrees>]
+<figures/validation/mueta1.pdf, id=1022, 569.12625pt x 384.43625pt>
 File: figures/validation/mueta1.pdf Graphic file (type pdf)
 
 <use figures/validation/mueta1.pdf>
 Package pdftex.def Info: figures/validation/mueta1.pdf used on input line 211.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/mueta2.pdf, id=1016, 569.12625pt x 384.43625pt>
+<figures/validation/mueta2.pdf, id=1023, 569.12625pt x 384.43625pt>
 File: figures/validation/mueta2.pdf Graphic file (type pdf)
 
 <use figures/validation/mueta2.pdf>
@@ -2346,14 +2351,14 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 211--216
 [][] [][] 
  []
 
-<figures/validation/tau.pdf, id=1020, 569.12625pt x 384.43625pt>
+<figures/validation/tau.pdf, id=1027, 569.12625pt x 384.43625pt>
 File: figures/validation/tau.pdf Graphic file (type pdf)
 
 <use figures/validation/tau.pdf>
 Package pdftex.def Info: figures/validation/tau.pdf used on input line 224.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/tau2.png, id=1021, 758.835pt x 513.92pt>
+<figures/validation/tau2.png, id=1028, 758.835pt x 513.92pt>
 File: figures/validation/tau2.png Graphic file (type png)
 
 <use figures/validation/tau2.png>
@@ -2364,12 +2369,10 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 224--229
 [][] [][] 
  []
 
-[24 <C:/Users/Patha/Desktop/Github/su/figures/validation/mueta1.pdf, page is ro
-tated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/validation/mueta2.p
-df, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/valid
-ation/tau.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/fi
-gures/validation/tau2.png>]
-<figures/validation/jeteta1.pdf, id=1160, 569.12625pt x 384.43625pt>
+[24 <./figures/validation/mueta1.pdf, page is rotated 90 degrees> <./figures/va
+lidation/mueta2.pdf, page is rotated 90 degrees> <./figures/validation/tau.pdf,
+ page is rotated 90 degrees> <./figures/validation/tau2.png>]
+<figures/validation/jeteta1.pdf, id=1168, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta1.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta1.pdf>
@@ -2377,7 +2380,7 @@ Package pdftex.def Info: figures/validation/jeteta1.pdf used on input line 238.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta2.pdf, id=1161, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta2.pdf, id=1169, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta2.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta2.pdf>
@@ -2385,7 +2388,7 @@ Package pdftex.def Info: figures/validation/jeteta2.pdf used on input line 242.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta3.pdf, id=1162, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta3.pdf, id=1170, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta3.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta3.pdf>
@@ -2393,7 +2396,7 @@ Package pdftex.def Info: figures/validation/jeteta3.pdf used on input line 246.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta4.pdf, id=1163, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta4.pdf, id=1171, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta4.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta4.pdf>
@@ -2401,7 +2404,7 @@ Package pdftex.def Info: figures/validation/jeteta4.pdf used on input line 250.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta1140.pdf, id=1164, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta1140.pdf, id=1172, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta1140.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta1140.pdf>
@@ -2409,7 +2412,7 @@ Package pdftex.def Info: figures/validation/jeteta1140.pdf used on input line 2
 54.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/jeteta2140.pdf, id=1165, 569.12625pt x 384.43625pt>
+<figures/validation/jeteta2140.pdf, id=1173, 569.12625pt x 384.43625pt>
 File: figures/validation/jeteta2140.pdf Graphic file (type pdf)
 
 <use figures/validation/jeteta2140.pdf>
@@ -2431,29 +2434,26 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 238--259
 [][] [][] 
  []
 
-[25 <C:/Users/Patha/Desktop/Github/su/figures/validation/jeteta1.pdf, page is r
-otated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/validation/jeteta2
-.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/val
-idation/jeteta3.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github
-/su/figures/validation/jeteta4.pdf, page is rotated 90 degrees> <C:/Users/Patha
-/Desktop/Github/su/figures/validation/jeteta1140.pdf, page is rotated 90 degree
-s> <C:/Users/Patha/Desktop/Github/su/figures/validation/jeteta2140.pdf, page is
- rotated 90 degrees>]
-<figures/validation/METx.pdf, id=1436, 569.12625pt x 384.43625pt>
+[25 <./figures/validation/jeteta1.pdf, page is rotated 90 degrees> <./figures/v
+alidation/jeteta2.pdf, page is rotated 90 degrees> <./figures/validation/jeteta
+3.pdf, page is rotated 90 degrees> <./figures/validation/jeteta4.pdf, page is r
+otated 90 degrees> <./figures/validation/jeteta1140.pdf, page is rotated 90 deg
+rees> <./figures/validation/jeteta2140.pdf, page is rotated 90 degrees>]
+<figures/validation/METx.pdf, id=1445, 569.12625pt x 384.43625pt>
 File: figures/validation/METx.pdf Graphic file (type pdf)
 
 <use figures/validation/METx.pdf>
 Package pdftex.def Info: figures/validation/METx.pdf used on input line 270.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/METy.pdf, id=1437, 569.12625pt x 384.43625pt>
+<figures/validation/METy.pdf, id=1446, 569.12625pt x 384.43625pt>
 File: figures/validation/METy.pdf Graphic file (type pdf)
 
 <use figures/validation/METy.pdf>
 Package pdftex.def Info: figures/validation/METy.pdf used on input line 274.
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/validation/mety140.pdf, id=1438, 569.12625pt x 384.43625pt>
+<figures/validation/mety140.pdf, id=1447, 569.12625pt x 384.43625pt>
 File: figures/validation/mety140.pdf Graphic file (type pdf)
 
 <use figures/validation/mety140.pdf>
@@ -2465,11 +2465,12 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 270--279
 [][] [][]
  []
 
-[26 <C:/Users/Patha/Desktop/Github/su/figures/validation/METx.pdf, page is rota
-ted 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/validation/METy.pdf, 
-page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/validatio
-n/mety140.pdf, page is rotated 90 degrees>] [27]) [28]
-(C:\Users\Patha\Desktop\Github\su\darkmatter.tex
+[26 <./figures/validation/METx.pdf, page is rotated 90 degrees> <./figures/vali
+dation/METy.pdf, page is rotated 90 degrees> <./figures/validation/mety140.pdf,
+ page is rotated 90 degrees>] [27]) [28]
+\openout2 = `darkmatter.aux'.
+
+ (./darkmatter.tex
 Chapter 3.
 [29
 
@@ -2478,7 +2479,7 @@ Chapter 3.
 ] [30] [31] [32] [33] [34] [35] [36] [37] [38
 
 ]
-<figures/signal/m/pvald5002truth2.pdf, id=1708, 569.12625pt x 357.335pt>
+<figures/signal/m/pvald5002truth2.pdf, id=1719, 569.12625pt x 357.335pt>
 File: figures/signal/m/pvald5002truth2.pdf Graphic file (type pdf)
 
 <use figures/signal/m/pvald5002truth2.pdf>
@@ -2486,7 +2487,7 @@ Package pdftex.def Info: figures/signal/m/pvald5002truth2.pdf used on input lin
 e 297.
 (pdftex.def)             Requested size: 177.82971pt x 111.656pt.
 
-<figures/signal/m/pvald5002truth.pdf, id=1709, 569.12625pt x 357.335pt>
+<figures/signal/m/pvald5002truth.pdf, id=1720, 569.12625pt x 357.335pt>
 File: figures/signal/m/pvald5002truth.pdf Graphic file (type pdf)
 
 <use figures/signal/m/pvald5002truth.pdf>
@@ -2500,10 +2501,9 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 297--302
 
 [39
 
- <C:/Users/Patha/Desktop/Github/su/figures/signal/m/pvald5002truth2.pdf, page i
-s rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/signal/m/pvald5
-002truth.pdf, page is rotated 90 degrees>]
-<figures/signal/m/pvald5008truth2.pdf, id=1804, 569.12625pt x 357.335pt>
+ <./figures/signal/m/pvald5002truth2.pdf, page is rotated 90 degrees> <./figure
+s/signal/m/pvald5002truth.pdf, page is rotated 90 degrees>]
+<figures/signal/m/pvald5008truth2.pdf, id=1815, 569.12625pt x 357.335pt>
 File: figures/signal/m/pvald5008truth2.pdf Graphic file (type pdf)
 
 <use figures/signal/m/pvald5008truth2.pdf>
@@ -2511,7 +2511,7 @@ Package pdftex.def Info: figures/signal/m/pvald5008truth2.pdf used on input lin
 e 309.
 (pdftex.def)             Requested size: 177.82971pt x 111.656pt.
 
-<figures/signal/m/pvald5008truth.pdf, id=1805, 569.12625pt x 357.335pt>
+<figures/signal/m/pvald5008truth.pdf, id=1816, 569.12625pt x 357.335pt>
 File: figures/signal/m/pvald5008truth.pdf Graphic file (type pdf)
 
 <use figures/signal/m/pvald5008truth.pdf>
@@ -2523,10 +2523,9 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 309--314
 [][] [][] 
  []
 
-[40 <C:/Users/Patha/Desktop/Github/su/figures/signal/m/pvald5008truth2.pdf, pag
-e is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/signal/m/pva
-ld5008truth.pdf, page is rotated 90 degrees>]
-<figures/signal/m/mediator2.pdf, id=1909, 569.12625pt x 384.43625pt>
+[40 <./figures/signal/m/pvald5008truth2.pdf, page is rotated 90 degrees> <./fig
+ures/signal/m/pvald5008truth.pdf, page is rotated 90 degrees>]
+<figures/signal/m/mediator2.pdf, id=1921, 569.12625pt x 384.43625pt>
 File: figures/signal/m/mediator2.pdf Graphic file (type pdf)
 
 <use figures/signal/m/mediator2.pdf>
@@ -2534,7 +2533,7 @@ Package pdftex.def Info: figures/signal/m/mediator2.pdf used on input line 407.
 
 (pdftex.def)             Requested size: 177.82971pt x 120.1243pt.
 
-<figures/signal/m/mediator6.pdf, id=1910, 569.12625pt x 384.43625pt>
+<figures/signal/m/mediator6.pdf, id=1922, 569.12625pt x 384.43625pt>
 File: figures/signal/m/mediator6.pdf Graphic file (type pdf)
 
 <use figures/signal/m/mediator6.pdf>
@@ -2546,14 +2545,14 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 407--412
 [][] [][] 
  []
 
-[41] <figures/signal/m/reco3002.pdf, id=1921, 569.12625pt x 389.455pt>
+[41] <figures/signal/m/reco3002.pdf, id=1933, 569.12625pt x 389.455pt>
 File: figures/signal/m/reco3002.pdf Graphic file (type pdf)
 
 <use figures/signal/m/reco3002.pdf>
 Package pdftex.def Info: figures/signal/m/reco3002.pdf used on input line 421.
 (pdftex.def)             Requested size: 177.82971pt x 121.69249pt.
 
-<figures/signal/m/reco8002.pdf, id=1922, 569.12625pt x 388.45125pt>
+<figures/signal/m/reco8002.pdf, id=1934, 569.12625pt x 388.45125pt>
 File: figures/signal/m/reco8002.pdf Graphic file (type pdf)
 
 <use figures/signal/m/reco8002.pdf>
@@ -2564,12 +2563,13 @@ Overfull \hbox (5.09996pt too wide) in paragraph at lines 421--426
 [][] [][] 
  []
 
-[42 <C:/Users/Patha/Desktop/Github/su/figures/signal/m/mediator2.pdf, page is r
-otated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/signal/m/mediator6
-.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/su/figures/sig
-nal/m/reco3002.pdf, page is rotated 90 degrees> <C:/Users/Patha/Desktop/Github/
-su/figures/signal/m/reco8002.pdf, page is rotated 90 degrees>] [43] [44])
-[45] (C:\Users\Patha\Desktop\Github\su\resultsandconclusions.tex [46
+[42 <./figures/signal/m/mediator2.pdf, page is rotated 90 degrees> <./figures/s
+ignal/m/mediator6.pdf, page is rotated 90 degrees> <./figures/signal/m/reco3002
+.pdf, page is rotated 90 degrees> <./figures/signal/m/reco8002.pdf, page is rot
+ated 90 degrees>] [43] [44]) [45]
+\openout2 = `resultsandconclusions.aux'.
+
+ (./resultsandconclusions.tex [46
 
 
 
@@ -2581,7 +2581,10 @@ Chapter 4.
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 84.
- [49] [50] (C:\Users\Patha\Desktop\Github\su\datasets.tex
+ [49] [50]
+\openout2 = `datasets.aux'.
+
+ (./datasets.tex
 Appendix A.
 [51
 
@@ -2601,13 +2604,14 @@ Underfull \vbox (badness 10000) detected at line 101
 
 
 
-] (C:\Users\Patha\Desktop\Github\su\main.bbl
-(C:\Users\Patha\Desktop\Github\su\main.brf)
+] (./main.bbl (./main.brf)
 \tf@brf=\write6
+\openout6 = `main.brf'.
+
 
 Underfull \hbox (badness 1248) in paragraph at lines 69--69
-$\T1/pcr/m/n/9 File : Standard _ Model _ of _ Elementary _ Particles . svg$[]\T
-1/jkpk/m/n/9 , 2014.  Ac-cessed:
+\T1/pcr/m/n/9 File : Standard _ Model _ of _ Elementary _ Particles . svg$[]\T1
+/jkpk/m/n/9 , 2014.  Ac-cessed:
  []
 
 [57
@@ -2632,20 +2636,20 @@ eV in
 
 [58]
 Underfull \hbox (badness 1688) in paragraph at lines 197--197
-$\T1/jkpk/m/n/9 / / dx . doi . org / 10 . 1016 / j . cpc . 2008 . 01 . 036$.  U
-RL []$\T1/pcr/m/n/9 http : / / www . sciencedirect .$
+\T1/jkpk/m/n/9 / / dx . doi . org / 10 . 1016 / j . cpc . 2008 . 01 . 036$.  UR
+L []$\T1/pcr/m/n/9 http : / / www . sciencedirect .
  []
 
 
 Underfull \hbox (badness 1394) in paragraph at lines 214--214
-$\T1/pcr/m/n/9 sciencedirect . com / science / article / pii / S016890020301368
-8$[]\T1/jkpk/m/n/9 .  Cited
+\T1/pcr/m/n/9 sciencedirect . com / science / article / pii / S0168900203013688
+$[]\T1/jkpk/m/n/9 .  Cited
  []
 
-) (C:\Users\Patha\Desktop\Github\su\main.ind) [59] [60
+) (./main.ind) [59] [60
 
 ]
-<figures/default/LinkUniv_staende_pms.pdf, id=2297, 260.975pt x 172.645pt>
+<figures/default/LinkUniv_staende_pms.pdf, id=2312, 260.975pt x 172.645pt>
 File: figures/default/LinkUniv_staende_pms.pdf Graphic file (type pdf)
 
 <use figures/default/LinkUniv_staende_pms.pdf>
@@ -2658,62 +2662,65 @@ Overfull \hbox (0.16193pt too wide) in paragraph at lines 99--99
 doc-u-ment in-tegrity, please
  []
 
-[61 <C:/Users/Patha/Desktop/Github/su/figures/default/LinkUniv_staende_pms.pdf>
-]
+[61 <./figures/default/LinkUniv_staende_pms.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
- (C:\Users\Patha\Desktop\Github\su\main.aux
-(C:\Users\Patha\Desktop\Github\su\tack.aux)
-(C:\Users\Patha\Desktop\Github\su\notation.aux)
-(C:\Users\Patha\Desktop\Github\su\introduction.aux)
-(C:\Users\Patha\Desktop\Github\su\validationofsmearing.aux)
-(C:\Users\Patha\Desktop\Github\su\darkmatter.aux)
-(C:\Users\Patha\Desktop\Github\su\resultsandconclusions.aux)
-(C:\Users\Patha\Desktop\Github\su\datasets.aux))
+ (./main.aux (./tack.aux)
+(./notation.aux) (./introduction.aux) (./validationofsmearing.aux)
+(./darkmatter.aux) (./resultsandconclusions.aux) (./datasets.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 136098543D6E5DC1525C68F3EB0199FF;5960.
+(rerunfilecheck)             Checksum: 4A419F7364976BC3231C20B4E7F8AD27;5879.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: A6976902914E73EC940A500ADA2D52A8;4020.
+(rerunfilecheck)             Checksum: 58912C25C3437132AA64E17C9FBBA580;3949.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 14792 strings out of 494045
- 214815 string characters out of 3153626
- 360909 words of memory out of 3000000
- 17246 multiletter control sequences out of 15000+200000
- 315644 words of font info for 258 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 47i,13n,87p,1109b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Spel/MiKTeX/fonts/enc/dv
-ips/fontname/8r.enc}{C:/Spel/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
-{C:/Spel/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-large-sc.enc}<C:/Spel/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Spel/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Spel/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
-Spel/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Spel/MiKTeX/fonts/type1/
-public/kpfonts/jkpbn8a.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpbsc8a.
-pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Spel/MiKTeX/fonts/
-type1/public/kpfonts/jkpkmsc.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkp
-kmsc.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Spel/MiKTeX/f
-onts/type1/public/kpfonts/jkpmia.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts
-/jkpmit8a.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Spel/M
-iKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Spel/MiKTeX/fonts/type1/public
-/kpfonts/jkpmne.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/S
-pel/MiKTeX/fonts/type1/public/kpfonts/jkpmsc8a.pfb><C:/Spel/MiKTeX/fonts/type1/
-public/kpfonts/jkpsy.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb>
-<C:/Spel/MiKTeX/fonts/type1/hoekwater/rsfs/rsfs10.pfb><C:/Spel/MiKTeX/fonts/typ
-e1/urw/courier/ucrr8a.pfb><C:/Spel/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><
-C:/Spel/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (75 pages, 3837828 bytes).
+ 15180 strings out of 493304
+ 222593 string characters out of 6139871
+ 363698 words of memory out of 5000000
+ 17787 multiletter control sequences out of 15000+600000
+ 315644 words of font info for 258 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 47i,13n,87p,1109b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/k
+pfonts/kpfonts-expert.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfont
+s/kpfonts-large-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/kpfonts/jkpkmsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kp
+fonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmi
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/kpfonts/jkpmsc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/kpfonts/jkpsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/j
+kpsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (75 pages, 3633992 bytes).
 PDF statistics:
- 2436 PDF objects out of 2487 (max. 8388607)
+ 2454 PDF objects out of 2487 (max. 8388607)
+ 1667 compressed objects within 17 object streams
  274 named destinations out of 1000 (max. 500000)
  19301 words of extra memory for PDF output out of 20736 (max. 10000000)
 
