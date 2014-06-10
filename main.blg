@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: tack.aux
 A level-1 auxiliary file: notation.aux
@@ -15,45 +13,4 @@ Warning--empty journal in Herr:2006
 Warning--empty journal in HL:2013
 Warning--empty journal in ATL-PHYS-PUB-2013-004
 Warning--empty journal in ATLAS-CONF-2012-147
-You've used 33 entries,
-            2481 wiz_defined-function locations,
-            798 strings with 10465 characters,
-and the built_in function-call counts, 11242 in all, are:
-= -- 976
-> -- 460
-< -- 23
-+ -- 202
-- -- 134
-* -- 807
-:= -- 1821
-add.period$ -- 129
-call.type$ -- 33
-change.case$ -- 67
-chr.to.int$ -- 31
-cite$ -- 39
-duplicate$ -- 582
-empty$ -- 1093
-format.name$ -- 173
-if$ -- 2400
-int.to.chr$ -- 3
-int.to.str$ -- 34
-missing$ -- 29
-newline$ -- 203
-num.names$ -- 96
-pop$ -- 277
-preamble$ -- 1
-purify$ -- 33
-quote$ -- 0
-skip$ -- 329
-stack$ -- 0
-substring$ -- 406
-swap$ -- 79
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 219
-warning$ -- 5
-while$ -- 79
-width$ -- 0
-write$ -- 479
 (There were 5 warnings)
