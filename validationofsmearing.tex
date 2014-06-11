@@ -1,7 +1,7 @@
 \chapter{Validation of smearing functions}\label{cha:vali}
 A full detector simulation of the \abbrATLAS detector based on the GEANT \citep{Geant4} program makes it possible to obtain the expected detector responses to electrons, muons, tau leptons, photons ($\gamma$) and jets of hadrons. However these simulations are extremely time-consuming and require a lot of computing power. Also at the present time only a limited set of these simulations exists for the \abbrATLAS phase II upgrade. In this thesis a different strategy is used. 
 
-Instead of performing a full detector simulation of the observed particles from the event generator, which simulates the proton-proton collisions, have their energy and momenta values smeared up or down by using a probability distribution following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the reconstruction are affected by the increased luminosity and the pile-up which comes with this. 
+Instead of performing a full detector simulation, which simulates the proton-proton collisions, the observed particles from the event generator have their energy and momenta values smeared up or down by using a probability distribution, following resolution functions specific for each type of particle. The resolution functions emulate how the detector and the so called reconstruction, defined in \sectionref{sec:smear}, are affected by the increased luminosity and the pile-up which comes with this. 
 
 The resolution functions or smearing functions are the official functions developed from previous studies \citep{ATLAS:LOI2, ATL-PHYS-PUB-2013-004} by the \abbrATLAS collaboration for the study of the \abbrATLAS phase II upgrade. The key result of those studies was that the direction of the momenta is unaffected and that only jets and $E^{Miss}_T$ are affected by pile-up. Since this was confirmed in previous studies it was not incorporated into the smearing functions as discussed more in \sectionref{sec:smear}.
 
@@ -11,9 +11,9 @@ Since part of this thesis work is to take the official \abbrATLAS smearing funct
 \section{Smearing functions}\label{sec:smear}
 In a simulation of a proton-proton collision all quantities such as energy, momentum and direction of all produced particles are perfectly known. In a real experiment it is only possible to get measured values from the detector. The detector energy and momentum resolutions given in the smearing functions relate the measured values to the true values on a statistical basis as:
 \begin{equation}\label{eq:smear}
-E' = E + \Delta E \equiv E + \sigma
+E' = E + \Delta E 
 \end{equation}
-where $E$ is the energy at a truth level, $E'$ is the smeared energy and $\Delta E$ or $\sigma$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle, and will be denoted $\sigma$ and not cross-section as in \chapterref{cha:intro}.
+where $E$ is the energy at a truth level defined below, $E'$ is the smeared energy and $\Delta E$ is a random number obtained by sampling a Gaussian distribution with mean value 0 and a standard deviation equal to the resolution for that particle, and will be denoted $\sigma$. The letter  $\sigma$ will thus not denote cross-section as in \chapterref{cha:intro}.
 
 The smearing functions are designed so that they take into account the efficiency of the different detectors, how they are constructed as well as their dependence on pile-up. To emulate the measured energies and momenta, the true values are smeared using the known detector resolutions given in \tableref{tab:expected sigma} which is taken from \citep{ATL-PHYS-PUB-2013-004}. 
 
@@ -115,7 +115,7 @@ $E_T^{Miss}$, the missing transverse energy, which was discussed in \subsectionr
 
 \newpage
 \section{Validation}\label{sec:vali}
-Validation is the procedure of comparing an expected resolution $\sigma$ with the resolution measured from the smeared Monte Carlo simulation. Measuring the resolution on the smeared objects uses that $E'$ and $E$ is known which through \eqref{eq:smear} can be used to statistically calculate $\sigma$. The comparison is done with Ref. \citep{ATL-PHYS-PUB-2013-004} where the resolution depending on energy, momenta and pile-up value is given in \tableref{tab:sigmaval}. The Monte Carlo simulated processes used are listed in \tableref{tab:backproc}. 
+Validation is the procedure of comparing an expected resolution $\sigma$ with the resolution measured from the smeared Monte Carlo simulation. Measuring the resolution on the smeared objects uses that $E'$ and $E$ are known, which through \eqref{eq:smear} can be used to statistically calculate $\sigma$. The comparison is done with Ref. \citep{ATL-PHYS-PUB-2013-004} where the resolution depending on energy, momenta and pile-up value is given in \tableref{tab:sigmaval}. The Monte Carlo simulated processes used are listed in \tableref{tab:backproc}. 
 
 \begin{SCtable}[][ht]
 \begin{tabular}{|l|l|}
@@ -128,22 +128,22 @@ $\gamma$ & $\gamma$ + jet sample \\
 Jets & jet sample \\
 $E_T^{Miss}$ & Z$\rightarrow \nu \nu$ + jet sample \\ \hline
 \end{tabular}
-\caption{Different processes from where data has been taken. Each sample is a simulation of a physical process, the simulation names can be found in \appendixref{1backpro}.}
+\caption{Different processes from where data has been taken. Each sample is a simulation of a physical process, the simulation names can be found in \appendixref{valipro}.}
 \label{tab:backproc}
 \end{SCtable}
 
 \subsection{Method}
 The energy and momentum resolutions are obtained for each type of particle by comparing the values before and after smearing.
 
-Fitting a Gaussian curve of the smeared data from a given truth energy or momenta value will then result in the standard deviation which is used in the validation. The standard deviation is also known as the resolution of the data and will be denoted $\sigma$ and not cross-section as in \chapterref{cha:intro}.
+Fitting a Gaussian curve of the smeared data from a given truth energy or momenta value will then result in the standard deviation which is used in the validation. The letter  $\sigma$ will denote the standard deviation also known as the resolution of the data and not cross-section as in \chapterref{cha:intro}.
 
 The standard deviation is then compared to previous results \citep{ATL-PHYS-PUB-2013-004}.
 
 The method is presented step by step below:
 \begin{itemize}
-\item Take a MC sample with a given particle, i.e electrons.
-\item Choose electrons which have a truth energy of 75 GeV.
-\item Plot the smeared electron energy for this value of truth energy. These plots are given for electrons and photons in \figureref{fig:elph}.
+\item Take a MC sample with a given particle, e.g. electrons.
+\item Choose e.g. electrons which have a truth energy of 75 GeV.
+\item Plot the smeared energy for this value of truth energy. These plots are given for e.g. electrons and photons in \figureref{fig:elph}.
 \item Fit a gauss function to the distribution of smeared energy and from this retrieve the sigma value of the fit.
 \item Compare the measured sigma to the expected resolution given from the smearing functions.
 \end{itemize}
@@ -318,10 +318,12 @@ In \tableref{tab:sigmaval} all values are given as absolute, not relative and th
 \subsection{Dependence of smearing on pile-up}\label{chap:vali:sec:dis:subsec:smearindep}
 From the validation done it is interesting to note that the smearing functions were created from previous studies \citep{Electronperf:2011, ATLAS:LOI2} which show that detector resolution for leptons and photons is unaffected by pile-up. This may seem unexpected, however it becomes quite logical when one understands how the detectors work and the effect of pile-up.
 
-The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which are consistent with these particles, since there are more hits. However by restricting which deposits to consider it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they rely heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the formulas in \tableref{tab:expected sigma}, it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
+The effect of pile-up is that extra jets are introduced to the events. These jets will not reach the muon-system and thus will not affect the identification of muons. Electron, tauons and photons are affected by it being harder to detect energy deposits in the calorimeter which are consistent with these particles, since there are more hits. However, by restricting which deposits to consider, it is possible to keep the resolution unaffected by pile-up. Jets and $E_T^{Miss}$ will be the most affected since they rely heavily on measurements in the calorimeter and are combined of several parts, either hadronic particles or by all the transverse missing energy. Through the formulas in \tableref{tab:expected sigma}, it is seen that the effect diminishes with an increasing energy which is consistent with the description given, and that for the high energies which are of interest in this thesis the effect of pile-up is minimal. 
 
 \subsection{Comparison to expected results}\label{sec:dis:subsec:comp}
-One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult, specifically by calculating optimistic errors. A large contribution to the difficulty of calculating the significance lay in this being a statistical property and thus there is a statistical fluctuation in the result. 
+One of the major problems in the comparison was to get the significance of the Gaussian fit to be calculated correctly. The tool ROOT has a lot of different features which made this task somewhat difficult, specifically by calculating optimistic errors and not always fitting Gaussian correctly. In \figureref{fig:MET:140} the Gaussian is fitted incorrectly to what is expected. However in \figureref{fig:muon} the fit is perfect to the data, yet the significance lower than the expected value.
+
+A large contribution to the difficulty of calculating the significance lay in this being a statistical property and thus there is a statistical fluctuation in the result. 
 
 Another problem was to retrieve the correct resolution values from Ref. \citep{ATL-PHYS-PUB-2013-004}, since it was unclear if the resolution values given were absolute or scale dependent. This has now been corrected in a new version of the paper.
 

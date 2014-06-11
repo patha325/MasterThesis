@@ -8,7 +8,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Notation}{ix}{section*.3}
+\contentsline {chapter}{Notation}{xi}{section*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Research goals}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Theoretical Background}{3}{section.1.2}
@@ -81,7 +81,8 @@
 \contentsline {subsection}{\numberline {A.2.1}Qcut}{52}{subsection.A.2.1}
 \contentsline {subsection}{\numberline {A.2.2}D5 signal processes}{52}{subsection.A.2.2}
 \contentsline {subsection}{\numberline {A.2.3}Light vector mediator processes}{52}{subsection.A.2.3}
-\contentsline {chapter}{Bibliography}{57}{appendix*.45}
+\contentsline {chapter}{\numberline {B}Flowchart}{57}{appendix.B}
+\contentsline {chapter}{Bibliography}{59}{appendix*.46}
 \select@language {english}
 \select@language {english}
 \select@language {english}

@@ -82,6 +82,13 @@ V.~Trimble.
 \newblock \doi{10.1146/annurev.aa.25.090187.002233}.
 \newblock URL \url{http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}.
 
+\bibitem[{van Albada} et~al.(1985){van Albada}, {Bahcall}, {Begeman}, and
+  {Sancisi}]{Albada:1985}
+T.~S. {van Albada}, J.~N. {Bahcall}, K.~{Begeman}, and R.~{Sancisi}.
+\newblock {Distribution of dark matter in the spiral galaxy NGC 3198}.
+\newblock \emph{Astrophysical Journal}, 295:\penalty0 305--313, August 1985.
+\newblock \doi{10.1086/163375}.
+
 \bibitem[{Zwicky}(1933)]{1933AcHPh}
 F.~{Zwicky}.
 \newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
@@ -93,13 +100,6 @@ NASA.
   characteristics}.
 \newblock \url{https://solarsystem.nasa.gov/planets/charchart.cfm}, 2014.
 \newblock Accessed: 2014-03-21.
-
-\bibitem[{van Albada} et~al.(1985){van Albada}, {Bahcall}, {Begeman}, and
-  {Sancisi}]{Albada:1985}
-T.~S. {van Albada}, J.~N. {Bahcall}, K.~{Begeman}, and R.~{Sancisi}.
-\newblock {Distribution of dark matter in the spiral galaxy NGC 3198}.
-\newblock \emph{Astrophysical Journal}, 295:\penalty0 305--313, August 1985.
-\newblock \doi{10.1086/163375}.
 
 \bibitem[Gondolo(2005)]{Gondolo:2003}
 P.~Gondolo.
