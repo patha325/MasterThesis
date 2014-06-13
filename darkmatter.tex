@@ -8,7 +8,7 @@ This thesis focuses on using a luminosity of 1000 fb$^{-1}$ and a center of mass
 
 The signal models are given in \appendixref{sec:appsignals} along with the background models. The two classes of models were introduced in \subsectionref{sec:tb:subsec:eft} and will be discussed in more detail in this chapter. 
 
-A flowchart of how the programme used to evaluate the models can be found in \appendixref{cha:flowchart}.
+A flowchart of the programme used to evaluate the models can be found in \appendixref{cha:flowchart}.
 
 Each signal model has been evaluated in different signal regions and the detectability has been evaluated using a statistical $p$-value. 
 
@@ -59,7 +59,7 @@ W$\rightarrow \tau \nu$ \\ \hline
 \end{table}
 
 \subsection{Verification of background normalisation}\label{sec:sig:subsec:veri} 	
-To verify that the background samples are correctly normalised, they are compared with measured data from experiments given in Ref. \citep{ATLAS-CONF-2012-147}; in which the center of mass energy is 8 TeV and the luminosity is 10 fb$^{-1}$. 
+To verify that the background samples are correctly normalised, they are compared with measured data from experiments given in Ref. \citep{ATLAS-CONF-2012-147}, in which the center of mass energy is 8 TeV and the luminosity is 10 fb$^{-1}$. 
 
 The cross sections at 8 TeV are about 4 times lower than cross sections at 14 TeV.
 These cross-sections are calculated with MadGraph\citep{madgraph} for the signal samples and Sherpa \citep{sherpa} for the background samples, as given in \appendixref{cha:datasets}. 
@@ -124,7 +124,7 @@ Numerically the total error being used is 0.08 or 0.02.
 \subsection{Figure of merit}\label{subsec:figmer}
 To be able to evaluate different signal regions and different signal models, a figure of merit $p$ is used. The value $p$ is the probability for the observed background to fluctuate to the value of the signal plus background. Thus if the $p$-value is small, it is improbable that the observed background could result in the same value as if there is a signal and background. This means that for a sufficiently small $p$-value the signal is detectable. The limiting value in this thesis is taken as $p=0.05$, everything below is considered detectable. 
 
-Assume that the expected number of background events are $B \pm \sigma_B$ where $\sigma_B$ is the quadratic sum of the errors as explained in \subsectionref{subsec:errdata} and that the expected number of signal events is $S$, not to be confused with the variable $S$ in \sectionref{sec:smear}, assumed without fluctuation. 
+Assume that the expected number of background events are $B \pm \sigma_B$ where $\sigma_B$ is the quadratic sum of the errors as explained in \subsectionref{subsec:errdata}. Also assume that the expected number of signal events are $S$, not to be confused with the variable $S$ in \sectionref{sec:smear}, assumed without fluctuation. 
 
 If no uncertainty in $B$ or $S$ is assumed, then the probability that the background will fluctuate up to the signal and background should follow a Poisson distribution as such:
 \begin{equation}
@@ -150,7 +150,7 @@ p = \int\limits_{-\infty}^{\infty} \text{P($O$$ \geq$$S$+$B$|$N_B$)G($N_B$|$B$,$
 \subsection{D5 operator models}\label{sec:signal:subsec:d5}
 As described in \subsectionref{sec:tb:subsec:eft}, one of the signals is modelled using the D5 operator. In this thesis two different scenarios are used, one at a dark matter mass of 50 GeV and one at 400 GeV. The different datasets for the signals are presented in \tableref{tab:d5data} in \appendixref{d5pro}.
 
-Each of these models is modelled with a mass suppression scale, denoted $M$* and related to the nonrenormalizable of the effective theory \citep{Goodman:2010}, at 10000 GeV which is connected to the cross-section as shown in \eqref{eq:sigmas}. To study another $M$* the cross section has to be altered by using:
+Each of these models is modelled with a mass suppression scale, denoted $M$* and related to the non-renormalizability of the effective theory \citep{Goodman:2010}, at 10000 GeV which is connected to the cross-section as shown in \eqref{eq:sigmas}. To study another $M$* the cross section has to be altered by using:
 \begin{equation}\label{eq:sigmas}
 \sigma \text{($M$*)} = \frac{\sigma_{reference}}{\text{$M$*}} 
 \end{equation}
@@ -204,7 +204,7 @@ minimum E$^{Miss}_T$ (GeV) & 600 & 800 & 1000 \\ \hline
 Here, symmetric and asymmetric denote if criteria are the same or different for $p_T$  and  $E^{Miss}_T$.
 These regions are constructed to be similar to previous studies and by looking at the distribution of leading jet $p_T$  and  $E^{Miss}_T$ for the signal and background samples. 
 \subsection{Verifying background data}
-The choice of a new electron and muon veto require the comparison from \subsectionref{sec:sig:subsec:veri} to be redone. As seen in \tableref{tab:newcomp} the events for Z$\rightarrow\nu\nu$ and W$\rightarrow \mu\nu$ corresponded quite nicely to the values from the paper and are somewhat better than the previous comparison which can be seen in \subsectionref{Verifying background data}.
+The choice of a new electron and muon veto require the comparison from \subsectionref{sec:sig:subsec:veri} to be redone. As seen in \tableref{tab:newcomp} the events for Z$\rightarrow\nu\nu$  corresponded quite nicely to the values from the paper. These events and the events from W$\rightarrow \mu\nu$ are somewhat better than the previous comparison which can be seen in \subsectionref{Verifying background data}.
 
 \newpage
 \section{Results}\label{chap:sig:sec:res}
