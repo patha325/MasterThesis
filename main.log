@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.10)  13 JUN 2014 10:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.10)  1 JUL 2014 10:35
 entering extended mode
 **main.tex
 (C:\Users\Patha\Desktop\Github\su\main.tex
@@ -2680,11 +2680,11 @@ LaTeX Font Warning: Size substitutions with differences
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  )
-(\end occurred when \ifx on line 22 was incomplete) 
+(\end occurred when \ifx on line 23 was incomplete) 
 Here is how much of TeX's memory you used:
  14611 strings out of 494045
  212350 string characters out of 3153626
- 359606 words of memory out of 3000000
+ 359608 words of memory out of 3000000
  17056 multiletter control sequences out of 15000+200000
  312754 words of font info for 256 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -2707,7 +2707,7 @@ pel/MiKTeX/fonts/type1/public/kpfonts/jkpmsc8a.pfb><C:/Spel/MiKTeX/fonts/type1/
 public/kpfonts/jkpsy.pfb><C:/Spel/MiKTeX/fonts/type1/public/kpfonts/jkpsya.pfb>
 <C:/Spel/MiKTeX/fonts/type1/hoekwater/rsfs/rsfs10.pfb><C:/Spel/MiKTeX/fonts/typ
 e1/urw/courier/ucrr8a.pfb><C:/Spel/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (79 pages, 3867039 bytes).
+Output written on main.pdf (79 pages, 3866862 bytes).
 PDF statistics:
  2457 PDF objects out of 2487 (max. 8388607)
  280 named destinations out of 1000 (max. 500000)
